@@ -2248,3 +2248,5 @@ alaska.gov,"State of Alaska",200,"https://alaska.gov/robots.txt",true,"null",tru
 alabama.gov,"State of Alabama",200,"https://www.alabama.gov/robots.txt",true,"null",true,robots.txt
 slc.gov,"Salt Lake City, UT",200,"https://www.slc.gov/robots.txt",true,"https://www.slc.gov/wp-sitemap.xml",true,robots.txt
 ed.gov,"Department of Education",404,"https://www.ed.gov/sites/ed/files/robots.txt",false,"null",false,false
+piedmont.ca.gov,"City of Piedmont, CA",200,"https://piedmont.ca.gov/robots.txt/Default.aspx",true,"null",true,false
+solanocounty.gov,"County of Solano, CA",200,"https://solanocounty.gov/robots.txt",true,"null",true,robots.txt

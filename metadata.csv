@@ -2248,3 +2248,5 @@ alaska.gov,"https://alaska.gov/","State of Alaska",200,true,true,true,false,fals
 alabama.gov,"https://www.alabama.gov/","State of Alabama",200,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 slc.gov,"https://www.slc.gov/","Salt Lake City, UT",200,true,true,false,true,false,true,true,false,true,true,false,true,false,true,false,false,false,false,false,false,false,false
 ed.gov,"https://www.ed.gov/","Department of Education",200,true,false,false,false,false,true,true,false,true,false,true,true,true,true,false,false,false,false,true,true,true,false
+piedmont.ca.gov,"https://piedmont.ca.gov/","City of Piedmont, CA",200,true,false,false,false,false,true,true,false,false,false,true,false,true,false,false,false,false,false,false,false,false,false
+solanocounty.gov,"https://solanocounty.gov/","County of Solano, CA",200,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
