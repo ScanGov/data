@@ -274,7 +274,7 @@ const urlHistory = existsSync('url.json') ? JSON.parse(readFileSync('url.json'))
     metadataHistory = existsSync('metadata.json') ? JSON.parse(readFileSync('metadata.json')) : [],
     securityHistory = existsSync('security.json') ? JSON.parse(readFileSync('security.json')) : [];
 
-const domainsCsv = readFileSync('data/domains.csv', 'utf8');
+const domainsCsv = readFileSync('domains.csv', 'utf8');
 let domains = domainsCsv.split('\n').slice(1).filter(d => d.includes(','));
 // domains = domains.slice(0, 50);
 domains = domains.reverse();
