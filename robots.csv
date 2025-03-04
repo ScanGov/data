@@ -2253,3 +2253,9 @@ alaska.gov,"State of Alaska",200,"https://alaska.gov/robots.txt",true,"null",tru
 alabama.gov,"State of Alabama",200,"https://www.alabama.gov/robots.txt",true,"null",true,robots.txt
 slc.gov,"Salt Lake City, UT",200,"https://www.slc.gov/robots.txt",true,"https://www.slc.gov/wp-sitemap.xml",true,robots.txt
 waste.gov,"Executive Office of the President",200,"https://waste.gov/robots.txt",true,"null",true,robots.txt
+missouricitytx.gov,"City of Missouri, TX",200,"https://missouricitytx.gov/robots.txt",true,"https://missouricitytx.gov/sitemap.xml",true,robots.txt
+laportetx.gov,"City of LaPorte, TX",200,"https://laportetx.gov/robots.txt",true,"https://laportetx.gov/sitemap.xml",true,robots.txt
+ci.friendswood.tx.us,"City of Friendswood, TX",200,"https://ci.friendswood.tx.us/robots.txt",true,"https://ci.friendswood.tx.us/sitemap.xml",true,robots.txt
+harriscountytx.gov,"City of Harris County, TX",200,"https://www.harriscountytx.gov/robots.txt",true,"null",true,robots.txt
+deerparktx.gov,"City of Deer Park, TX",200,"https://deerparktx.gov/robots.txt",true,"https://deerparktx.gov/sitemap.xml",true,robots.txt
+baytown.org,"City of Baytown, TX",200,"https://baytown.org/robots.txt",true,"https://baytown.org/sitemap.xml",true,robots.txt
