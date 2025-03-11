@@ -9,7 +9,13 @@
         "tag": "<meta property=\"og:site_name\">",
         "description": "The name which should be displayed for the overall site",
         "docs": "https://docs.scangov.org/open-graph",
-        "impact" : 1
+        "impact" : 1,
+        "standards": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
       },
       {
         "key": "ogType",
@@ -17,7 +23,13 @@
         "tag": "<meta property=\"og:type\">",
         "description": "The type of the object",
         "docs": "https://docs.scangov.org/open-graph",
-        "impact" : 1
+        "impact" : 1,
+        "standards": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
       },
       {
         "key": "ogTitle",
@@ -25,7 +37,13 @@
         "tag": "<meta property=\"og:title\">",
         "description": "The title of the object as it should appear within the graph",
         "docs": "https://docs.scangov.org/open-graph",
-        "impact" : 1
+        "impact" : 1,
+        "standards": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
       },
       {
         "key": "ogDescription",
@@ -33,7 +51,13 @@
         "tag": "<meta property=\"og:description\">",
         "description": "A one to two sentence description of the object",
         "docs": "https://docs.scangov.org/open-graph",
-        "impact" : 1
+        "impact" : 1,
+        "standards": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
       },
       {
         "key": "ogUrl",
@@ -41,7 +65,13 @@
         "tag": "<meta property=\"og:url\">",
         "description": "The canonical URL of the object that will be used as its permanent ID in the graph",
         "docs": "https://docs.scangov.org/open-graph",
-        "impact" : 1
+        "impact" : 1,
+        "standards": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
       },
       {
         "key": "ogImage",
@@ -49,7 +79,13 @@
         "tag": "<meta property=\"og:image\">",
         "description": "An image URL which should represent the object within the graph",
         "docs": "https://docs.scangov.org/open-graph",
-        "impact" : 1
+        "impact" : 1,
+        "standards": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
       },
       {
         "key": "ogImageAlt",
@@ -57,7 +93,13 @@
         "tag": "<meta property=\"og:image:alt\">",
         "description": "A description of what is in the image",
         "docs": "https://docs.scangov.org/open-graph",
-        "impact" : 1
+        "impact" : 1,
+        "standards": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
       }
     ]
   },
@@ -88,7 +130,8 @@
         "description": "Gives hints about the size of the initial size of the viewport",
         "docs": "https://docs.scangov.org/metadata",
         "impact" : 10
-      }    ]
+      }    
+    ]
   },
   "url": {
     "displayName": "URL",
