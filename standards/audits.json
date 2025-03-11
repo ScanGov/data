@@ -318,7 +318,13 @@
         "tag": "a11y-color-contrast",
         "description": "Opportunities to improve legibility by ensuring sufficient background, foreground color contrast and that links are discernible without relying on color.",
         "docs": "https://docs.scangov.org/a11y-color-contrast",
-        "impact" : 3
+        "impact" : 3,
+        "standards": [
+          {
+            "displayName": "Web content accessibility guidelines (WCAG)",
+            "url": "https://docs.scangov.org/wcag"
+          }
+        ]
       },
       {
         "key": "a11y-best-practices",
@@ -326,7 +332,13 @@
         "tag": "a11y-best-practices",
         "description": "Improve accessibility by providing sufficient area on touch elements and allowing the viewport sizing to be controlled by the visitor.",
         "docs": "https://docs.scangov.org/a11y-best-practices",
-        "impact" : 3
+        "impact" : 3,
+        "standards": [
+          {
+            "displayName": "Web content accessibility guidelines (WCAG)",
+            "url": "https://docs.scangov.org/wcag"
+          }
+        ]
       },
       {
         "key": "a11y-names-labels",
@@ -334,7 +346,13 @@
         "tag": "a11y-names-labels",
         "description": "Provide the expected tags and attributes so each document can be easily used with a screen reader.",
         "docs": "https://docs.scangov.org/a11y-names-labels",
-        "impact" : 3
+        "impact" : 3,
+        "standards": [
+          {
+            "displayName": "Web content accessibility guidelines (WCAG)",
+            "url": "https://docs.scangov.org/wcag"
+          }
+        ]
       },
       {
         "key": "a11y-navigation",
@@ -342,7 +360,13 @@
         "tag": "a11y-navigation",
         "description": "These are opportunities to improve keyboard navigation in your application.",
         "docs": "https://docs.scangov.org/a11y-navigation",
-        "impact" : 3
+        "impact" : 3,
+        "standards": [
+          {
+            "displayName": "Web content accessibility guidelines (WCAG)",
+            "url": "https://docs.scangov.org/wcag"
+          }
+        ]
       },
       {
         "key": "a11y-aria",
@@ -350,7 +374,13 @@
         "tag": "a11y-aria",
         "description": "These are opportunities to improve the usage of ARIA in your application which may enhance the experience for users of assistive technology, like a screen reader.",
         "docs": "https://docs.scangov.org/a11y-aria",
-        "impact" : 3
+        "impact" : 3,
+        "standards": [
+          {
+            "displayName": "Web content accessibility guidelines (WCAG)",
+            "url": "https://docs.scangov.org/wcag"
+          }
+        ]
       },
       {
         "key": "a11y-language",
@@ -358,7 +388,13 @@
         "tag": "a11y-language",
         "description": "Follow these recommendations to improve the experience for visitors who may take advantage of translations.",
         "docs": "https://docs.scangov.org/a11y-language",
-        "impact" : 3
+        "impact" : 3,
+        "standards": [
+          {
+            "displayName": "Web content accessibility guidelines (WCAG)",
+            "url": "https://docs.scangov.org/wcag"
+          }
+        ]
       },
       {
         "key": "a11y-audio-video",
@@ -366,7 +402,13 @@
         "tag": "a11y-audio-video",
         "description": "These are opportunities to provide alternative content for audio and video. This may improve the experience for users with hearing or vision impairments.",
         "docs": "https://docs.scangov.org/a11y-audio-video",
-        "impact" : 3
+        "impact" : 3,
+        "standards": [
+          {
+            "displayName": "Web content accessibility guidelines (WCAG)",
+            "url": "https://docs.scangov.org/wcag"
+          }
+        ]
       },
       {
         "key": "a11y-tables-lists",
@@ -374,7 +416,13 @@
         "tag": "a11y-tables-lists",
         "description": "These are opportunities to improve the experience of reading tabular or list data using assistive technology, like a screen reader.",
         "docs": "https://docs.scangov.org/a11y-tables-lists",
-        "impact" : 3
+        "impact" : 3,
+        "standards": [
+          {
+            "displayName": "Web content accessibility guidelines (WCAG)",
+            "url": "https://docs.scangov.org/wcag"
+          }
+        ]
       },
       {
         "key": "hidden",
@@ -382,7 +430,13 @@
         "tag": "hidden",
         "description": "Follow these recommendations to avoid hiding content from visitors using assistive technology.",
         "docs": "https://docs.scangov.org/hidden",
-        "impact" : 3
+        "impact" : 3,
+        "standards": [
+          {
+            "displayName": "Web content accessibility guidelines (WCAG)",
+            "url": "https://docs.scangov.org/wcag"
+          }
+        ]
       }
     ]
   },
