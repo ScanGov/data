@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Government digital experience data">
@@ -27,26 +27,37 @@
             }
         });
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container text-center mt-5">
-        <h1>ScanGov Data</h1>
-        <p class="lead">Government digital experience data</p>
-
-        <div class="table-responsive mt-4">
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>File Name</th>
-                    </tr>
-                </thead>
-                <tbody id="file-list">
-                    <tr>
-                        <td>Loading...</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+      <h1>ScanGov Data</h1>
+      <p class="lead">Government digital experience data</p>
+      <div class="table-responsive mt-4">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>File Name</th>
+            </tr>
+          </thead>
+          <tbody id="file-list">
+            <tr>
+              <td>Loading...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-</body>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      defer
+      src="https://www.googletagmanager.com/gtag/js?id=G-3KBWH728KR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-3KBWH728KR');
+    </script>
+  </body>
 </html>
