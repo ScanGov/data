@@ -1,0 +1,102 @@
+{
+  "opengraph": {
+    "displayName": "Open Graph",
+    "description": "Improves how social media content shows.",
+    "docs": "https://docs.scangov.org/open-graph",
+    "topics": [
+      "social"
+    ],
+    "standards": [
+      {
+        "displayName": "Open Graph site name",
+        "url": "https://docs.scangov.org/og-site-name",
+        "description": "Improve social media content display by defining site name"
+      },
+      {
+        "displayName": "Open Graph type",
+        "url": "https://docs.scangov.org/og-type",
+        "description": "Improve social media content display by defining type of object being linked"
+      },
+      {
+        "displayName": "Open Graph title",
+        "url": "https://docs.scangov.org/og-title",
+        "description": "Improve social media content display by defining title of linked page"
+      },
+      {
+        "displayName": "Open Graph description",
+        "url": "https://docs.scangov.org/og-description",
+        "description": "Improve social media content display by defining page description"
+      },
+      {
+        "displayName": "Open Graph url",
+        "url": "https://docs.scangov.org/og-url",
+        "description": "Improve social media content display by defining canonical url to link to"
+      },
+      {
+        "displayName": "Open Graph image",
+        "url": "https://docs.scangov.org/og-image",
+        "description": "Improve social media content display by defining image to use"
+      },
+      {
+        "displayName": "Open Graph image alt",
+        "url": "https://docs.scangov.org/og-image-alt",
+        "description": "Improve social media content display by defining alt text for the image to use"
+      }
+    ]
+  },
+  "wcag": {
+    "displayName": "WCAG",
+    "description": "Rules for making websites accessible.",
+    "docs": "https://docs.scangov.org/wcag",
+    "topics": [
+      "accessibility"
+    ],
+    "standards": [
+      {
+        "displayName": "WCAG color contrast",
+        "url": "https://docs.scangov.org/a11y-color-contrast",
+        "description": "Opportunities to improve legibility by ensuring sufficient background, foreground color contrast and that links are discernible without relying on color."
+      },
+      {
+        "displayName": "WCAG mobile affordances",
+        "url": "https://docs.scangov.org/a11y-best-practices",
+        "description": "Improve accessibility by providing sufficient area on touch elements and allowing the viewport sizing to be controlled by the visitor."
+      },
+      {
+        "displayName": "WCAG names and labels",
+        "url": "https://docs.scangov.org/a11y-names-labels",
+        "description": "Provide the expected tags and attributes so each document can be easily used with a screen reader."
+      },
+      {
+        "displayName": "WCAG navigation",
+        "url": "https://docs.scangov.org/a11y-navigation",
+        "description": "These are opportunities to improve keyboard navigation in your application."
+      },
+      {
+        "displayName": "WCAG ARIA attributes",
+        "url": "https://docs.scangov.org/a11y-aria",
+        "description": "These are opportunities to improve the usage of ARIA in your application which may enhance the experience for users of assistive technology, like a screen reader."
+      },
+      {
+        "displayName": "WCAG internationalization",
+        "url": "https://docs.scangov.org/a11y-language",
+        "description": "Follow these recommendations to improve the experience for visitors who may take advantage of translations."
+      },
+      {
+        "displayName": "WCAG audio and video",
+        "url": "https://docs.scangov.org/a11y-audio-video",
+        "description": "These are opportunities to provide alternative content for audio and video. This may improve the experience for users with hearing or vision impairments."
+      },
+      {
+        "displayName": "WCAG tables and lists",
+        "url": "https://docs.scangov.org/a11y-tables-lists",
+        "description": "These are opportunities to improve the experience of reading tabular or list data using assistive technology, like a screen reader."
+      },
+      {
+        "displayName": "WCAG hidden content",
+        "url": "https://docs.scangov.org/hidden",
+        "description": "Follow these recommendations to avoid hiding content from visitors using assistive technology."
+      }
+    ]
+  }
+}
