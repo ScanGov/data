@@ -1,5 +1,34 @@
 domain,agency,status,hsts,max_age,expire_time,csp,x_content_type_options,security_txt
+westutx.gov,"City of West University Place, TX",200,false,-1,-1,true,true,false
+cityofwebster.com,"City of Webster, TX",200,false,-1,-1,true,true,false
+wallertexas.gov,"City of Waller, TX",301,false,-1,-1,false,true,false
+taylorlakevillage.us,"City of Taylor Lake Village, TX",500,false,-1,-1,false,true,false
+staffordtx.gov,"City of Stafford, TX",200,false,-1,-1,true,true,false
+springvalleytx.com,"City of Spring Valley Village, TX",200,false,-1,-1,true,true,false
+southhoustontx.gov,"City of South Houston, TX",200,false,-1,-1,true,true,false
+shoreacrestx.us,"City of Shoreacres, TX",301,false,-1,-1,false,false,false
+seabrooktx.gov,"City of Seabrook, TX",200,false,-1,-1,true,true,false
+cityofpineypoint.com,"City of Piney Point Village, TX",302,true,31536000,1741347457060,true,true,false
+nassaubay.com,"City of Nassau Bay, TX",200,false,-1,-1,true,true,false
+morganspoint-tx.com,"City of Morgan’s Point, TX",301,true,31536000,1741347457060,true,true,false
+cityofkaty.com,"City of Katy, TX",301,false,-1,-1,false,true,false
+jerseyvillagetx.com,"City of Jersey Village, TX",302,false,-1,-1,false,false,false
+jacintocity-tx.gov,"City of Jacinto City, TX",301,false,-1,-1,true,false,false
+cityofhunterscreek.com,"City of Hunters Creek Village, TX",200,false,-1,-1,false,false,false
+hilshirevillagetexas.com,"City of Hilshire Village, TX",302,true,31536000,1741347457060,true,true,false
+thecityofhedwigvillage.com,"City of Hedwig Village, TX",500,false,-1,-1,false,false,false
+cityofgalenapark-tx.gov,"City of Galena Park, TX",200,false,-1,-1,true,true,false
+ellago-tx.gov,"City of El Lago, TX",200,false,-1,-1,false,true,false
+cityofhumbletx.gov,"City of Humble, TX",301,false,-1,-1,false,false,false
+bellairetx.gov,"City of Bellaire, TX",200,false,-1,-1,true,true,false
+waste.gov,"Executive Office of the President",200,false,-1,-1,false,false,false
 dei.gov,"Executive Office of the President",301,false,-1,-1,false,false,false
+missouricitytx.gov,"City of Missouri, TX",200,false,-1,-1,true,true,false
+laportetx.gov,"City of LaPorte, TX",200,false,-1,-1,true,true,false
+ci.friendswood.tx.us,"City of Friendswood, TX",200,false,-1,-1,true,true,false
+deerparktx.gov,"City of Deer Park, TX",200,false,-1,-1,true,true,false
+baytown.org,"City of Baytown, TX",200,false,-1,-1,true,true,false
+harriscountytx.gov,"City of Harris County, TX",302,false,-1,-1,false,false,false
 doge.gov,"Department of Government Efficiency",200,false,-1,-1,false,false,false
 solanocounty.gov,"County of Solano, CA",200,false,-1,-1,false,false,false
 piedmont.ca.gov,"City of Piedmont, CA",200,false,-1,-1,false,false,false
@@ -56,7 +85,6 @@ srcity.org,"City of Santa Rosa, CA",301,false,-1,-1,true,true,false
 santafenm.gov,"City of Santa Fe, NM",200,true,31536000,1740993248144,false,true,false
 santaclarita.gov,"City of Santa Clarita, CA",200,false,-1,-1,false,false,false
 santaclaraca.gov,"City of Santa Clara, CA",301,false,-1,-1,false,true,false
-santa-ana.org,"City of Santa Ana, CA",302,true,15724800,1740977436944,false,false,true
 sanjoseca.gov,"City of San Jose, CA",301,false,-1,-1,true,true,false
 sandyspringsga.gov,"City of Sandy Springs, GA",301,true,31536000,1740993248144,false,false,false
 sandiego.gov,"City of San Diego, CA",301,false,-1,-1,true,true,false
@@ -2252,32 +2280,4 @@ az.gov,"State of Arizona",200,true,300,1740961712444,false,true,false
 alaska.gov,"State of Alaska",200,true,31536000,1740993248144,true,true,false
 alabama.gov,"State of Alabama",301,false,-1,-1,false,true,false
 slc.gov,"Salt Lake City, UT",302,false,-1,-1,false,false,false
-waste.gov,"Executive Office of the President",200,false,-1,-1,false,false,false
-missouricitytx.gov,"City of Missouri, TX",200,false,-1,-1,true,true,false
-laportetx.gov,"City of LaPorte, TX",200,false,-1,-1,true,true,false
-ci.friendswood.tx.us,"City of Friendswood, TX",200,false,-1,-1,true,true,false
-harriscountytx.gov,"City of Harris County, TX",302,false,-1,-1,false,false,false
-deerparktx.gov,"City of Deer Park, TX",200,false,-1,-1,true,true,false
-baytown.org,"City of Baytown, TX",200,false,-1,-1,true,true,false
-wallertexas.gov,"City of Waller, TX",301,false,-1,-1,false,true,false
-cityofwebster.com,"City of Webster, TX",200,false,-1,-1,true,true,false
-westutx.gov,"City of West University Place, TX",200,false,-1,-1,true,true,false
-taylorlakevillage.us,"City of Taylor Lake Village, TX",500,false,-1,-1,false,true,false
-staffordtx.gov,"City of Stafford, TX",200,false,-1,-1,true,true,false
-springvalleytx.com,"City of Spring Valley Village, TX",200,false,-1,-1,true,true,false
-southhoustontx.gov,"City of South Houston, TX",200,false,-1,-1,true,true,false
-shoreacrestx.us,"City of Shoreacres, TX",301,false,-1,-1,false,false,false
-cityofpineypoint.com,"City of Piney Point Village, TX",302,true,31536000,1741347457060,true,true,false
-seabrooktx.gov,"City of Seabrook, TX",200,false,-1,-1,true,true,false
-nassaubay.com,"City of Nassau Bay, TX",200,false,-1,-1,true,true,false
-morganspoint-tx.com,"City of Morgan’s Point, TX",301,true,31536000,1741347457060,true,true,false
-jerseyvillagetx.com,"City of Jersey Village, TX",302,false,-1,-1,false,false,false
-jacintocity-tx.gov,"City of Jacinto City, TX",301,false,-1,-1,true,false,false
-hilshirevillagetexas.com,"City of Hilshire Village, TX",302,true,31536000,1741347457060,true,true,false
-thecityofhedwigvillage.com,"City of Hedwig Village, TX",500,false,-1,-1,false,false,false
-cityofgalenapark-tx.gov,"City of Galena Park, TX",200,false,-1,-1,true,true,false
-cityofhunterscreek.com,"City of Hunters Creek Village, TX",200,false,-1,-1,false,false,false
-ellago-tx.gov,"City of El Lago, TX",200,false,-1,-1,false,true,false
-bellairetx.gov,"City of Bellaire, TX",200,false,-1,-1,true,true,false
-cityofhumbletx.gov,"City of Humble, TX",301,false,-1,-1,false,false,false
-cityofkaty.com,"City of Katy, TX",301,false,-1,-1,false,true,false
+santa-ana.org,"City of Santa Ana, CA",302,true,15724800,1741840777364,false,false,true

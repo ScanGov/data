@@ -1,5 +1,34 @@
 domain,agency,status,redirect,https,dot_gov,www
+westutx.gov,"City of West University Place, TX",200,"https://westutx.gov/",true,true,false
+cityofwebster.com,"City of Webster, TX",200,"https://cityofwebster.com/",true,false,false
+wallertexas.gov,"City of Waller, TX",200,"https://www.wallertexas.gov/",true,true,true
+taylorlakevillage.us,"City of Taylor Lake Village, TX",200,"http://www.taylorlakevillage.us/",false,false,false
+staffordtx.gov,"City of Stafford, TX",200,"https://staffordtx.gov/",true,true,false
+springvalleytx.com,"City of Spring Valley Village, TX",200,"https://springvalleytx.com/",true,false,false
+southhoustontx.gov,"City of South Houston, TX",200,"https://southhoustontx.gov/",true,true,false
+shoreacrestx.us,"City of Shoreacres, TX",200,"https://www.shoreacrestx.us/",true,false,true
+seabrooktx.gov,"City of Seabrook, TX",200,"https://seabrooktx.gov/",true,true,false
+cityofpineypoint.com,"City of Piney Point Village, TX",200,"https://www.cityofpineypoint.com/",true,false,true
+nassaubay.com,"City of Nassau Bay, TX",200,"https://nassaubay.com/",true,false,false
+morganspoint-tx.com,"City of Morgan’s Point, TX",200,"https://www.morganspoint-tx.com/",true,false,true
+cityofkaty.com,"City of Katy, TX",200,"https://www.cityofkaty.com/",true,false,true
+jerseyvillagetx.com,"City of Jersey Village, TX",200,"https://www.jerseyvillagetx.com/",true,false,true
+jacintocity-tx.gov,"City of Jacinto City, TX",200,"https://www.jacintocity-tx.gov/",true,true,true
+cityofhunterscreek.com,"City of Hunters Creek Village, TX",200,"https://cityofhunterscreek.com/",true,false,false
+hilshirevillagetexas.com,"City of Hilshire Village, TX",200,"https://www.hilshirevillagetexas.com/",true,false,true
+thecityofhedwigvillage.com,"City of Hedwig Village, TX",200,"https://www.thecityofhedwigvillage.com/",true,false,false
+cityofgalenapark-tx.gov,"City of Galena Park, TX",200,"https://cityofgalenapark-tx.gov/",true,true,false
+ellago-tx.gov,"City of El Lago, TX",200,"https://ellago-tx.gov/",true,true,true
+cityofhumbletx.gov,"City of Humble, TX",200,"https://www.cityofhumbletx.gov/",true,true,true
+bellairetx.gov,"City of Bellaire, TX",200,"https://bellairetx.gov/",true,true,false
+waste.gov,"Executive Office of the President",200,"https://waste.gov/",true,true,true
 dei.gov,"Executive Office of the President",200,"https://waste.gov/",true,true,true
+missouricitytx.gov,"City of Missouri, TX",200,"https://missouricitytx.gov/",true,true,false
+laportetx.gov,"City of LaPorte, TX",200,"https://laportetx.gov/",true,true,false
+ci.friendswood.tx.us,"City of Friendswood, TX",200,"https://ci.friendswood.tx.us/",true,false,false
+deerparktx.gov,"City of Deer Park, TX",200,"https://deerparktx.gov/",true,true,false
+baytown.org,"City of Baytown, TX",200,"https://baytown.org/",true,false,false
+harriscountytx.gov,"City of Harris County, TX",200,"https://www.harriscountytx.gov/",true,true,true
 doge.gov,"Department of Government Efficiency",200,"https://doge.gov/",true,true,false
 solanocounty.gov,"County of Solano, CA",500,"http://www.solanocounty.gov/",false,true,false
 piedmont.ca.gov,"City of Piedmont, CA",200,"https://piedmont.ca.gov/",true,true,false
@@ -56,7 +85,6 @@ srcity.org,"City of Santa Rosa, CA",200,"https://www.srcity.org/",true,false,tru
 santafenm.gov,"City of Santa Fe, NM",200,"https://santafenm.gov/",true,true,true
 santaclarita.gov,"City of Santa Clarita, CA",200,"https://santaclarita.gov/",true,true,true
 santaclaraca.gov,"City of Santa Clara, CA",200,"https://www.santaclaraca.gov/",true,true,true
-santa-ana.org,"City of Santa Ana, CA",200,"https://www.santa-ana.org/",true,false,true
 sanjoseca.gov,"City of San Jose, CA",200,"https://www.sanjoseca.gov/",true,true,true
 sandyspringsga.gov,"City of Sandy Springs, GA",200,"https://www.sandyspringsga.gov/",true,true,true
 sandiego.gov,"City of San Diego, CA",200,"https://www.sandiego.gov/",true,true,true
@@ -2252,32 +2280,4 @@ az.gov,"State of Arizona",200,"https://az.gov/",true,true,true
 alaska.gov,"State of Alaska",200,"https://alaska.gov/",true,true,false
 alabama.gov,"State of Alabama",200,"https://www.alabama.gov/",true,true,true
 slc.gov,"Salt Lake City, UT",200,"https://www.slc.gov/",true,true,true
-waste.gov,"Executive Office of the President",200,"https://waste.gov/",true,true,true
-laportetx.gov,"City of LaPorte, TX",200,"https://laportetx.gov/",true,true,false
-missouricitytx.gov,"City of Missouri, TX",200,"https://missouricitytx.gov/",true,true,false
-ci.friendswood.tx.us,"City of Friendswood, TX",200,"https://ci.friendswood.tx.us/",true,false,false
-harriscountytx.gov,"City of Harris County, TX",200,"https://www.harriscountytx.gov/",true,true,true
-deerparktx.gov,"City of Deer Park, TX",200,"https://deerparktx.gov/",true,true,false
-baytown.org,"City of Baytown, TX",200,"https://baytown.org/",true,false,false
-wallertexas.gov,"City of Waller, TX",200,"https://www.wallertexas.gov/",true,true,true
-cityofwebster.com,"City of Webster, TX",200,"https://cityofwebster.com/",true,false,false
-westutx.gov,"City of West University Place, TX",200,"https://westutx.gov/",true,true,false
-taylorlakevillage.us,"City of Taylor Lake Village, TX",200,"http://www.taylorlakevillage.us/",false,false,false
-staffordtx.gov,"City of Stafford, TX",200,"https://staffordtx.gov/",true,true,false
-springvalleytx.com,"City of Spring Valley Village, TX",200,"https://springvalleytx.com/",true,false,false
-shoreacrestx.us,"City of Shoreacres, TX",200,"https://www.shoreacrestx.us/",true,false,true
-southhoustontx.gov,"City of South Houston, TX",200,"https://southhoustontx.gov/",true,true,false
-seabrooktx.gov,"City of Seabrook, TX",200,"https://seabrooktx.gov/",true,true,false
-cityofpineypoint.com,"City of Piney Point Village, TX",200,"https://www.cityofpineypoint.com/",true,false,true
-cityofkaty.com,"City of Katy, TX",200,"https://www.cityofkaty.com/",true,false,true
-nassaubay.com,"City of Nassau Bay, TX",200,"https://nassaubay.com/",true,false,false
-morganspoint-tx.com,"City of Morgan’s Point, TX",200,"https://www.morganspoint-tx.com/",true,false,true
-jerseyvillagetx.com,"City of Jersey Village, TX",200,"https://www.jerseyvillagetx.com/",true,false,true
-jacintocity-tx.gov,"City of Jacinto City, TX",200,"https://www.jacintocity-tx.gov/",true,true,true
-hilshirevillagetexas.com,"City of Hilshire Village, TX",200,"https://www.hilshirevillagetexas.com/",true,false,true
-cityofhunterscreek.com,"City of Hunters Creek Village, TX",200,"https://cityofhunterscreek.com/",true,false,false
-thecityofhedwigvillage.com,"City of Hedwig Village, TX",200,"https://www.thecityofhedwigvillage.com/",true,false,false
-cityofgalenapark-tx.gov,"City of Galena Park, TX",200,"https://cityofgalenapark-tx.gov/",true,true,false
-ellago-tx.gov,"City of El Lago, TX",200,"https://ellago-tx.gov/",true,true,true
-cityofhumbletx.gov,"City of Humble, TX",200,"https://www.cityofhumbletx.gov/",true,true,true
-bellairetx.gov,"City of Bellaire, TX",200,"https://bellairetx.gov/",true,true,false
+santa-ana.org,"City of Santa Ana, CA",200,"https://www.santa-ana.org/",true,false,true
