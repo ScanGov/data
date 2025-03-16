@@ -392,6 +392,10 @@ for (let i = 0; i < 3 && i < domains.length; i++)
             // The response used to score HTTPS and TLD
             const res = base.statusCode < 300 ? base : www;
 
+            if (debug)
+                console.log(`\tStatus\tProtocol\tHost\tPathname
+base\t${base.statusCode}\t${base.req.protocol}\t${base.req.host}\t${base.req.pathname}
+www\t${www.statusCode}\t${www.req.protocol}\t${www.req.host}\t${www.req.pathname}`);
             const validWww = !!(base.req && www.req) && base.statusCode < 300 && www.statusCode < 300 && base.req.protocol === www.req.protocol && base.req.host === www.req.host && base.req.pathname === www.req.pathname;
             const useWww = www.statusCode < 300 && (validWww || base.statusCode >= 300) && res.req.host.startsWith('www');
 
