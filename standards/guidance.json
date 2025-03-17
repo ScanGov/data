@@ -64,6 +64,29 @@
       }
     ]
   },
+  "federal-website-standards": {
+    "displayName": "U.S. federal website standards",
+    "description": "Improves accessibility, consistency and user experience.",
+    "docs": "https://docs.scangov.org/federal-website-standards",
+    "topics": [
+      "accessibility",
+      "content",
+      "seo",
+      "social"
+    ],
+    "standards": [
+      {
+        "displayName": "Page title",
+        "url": "https://docs.scangov.org/page-title",
+        "description": "Describes webpage content in a few words."
+      },
+      {
+        "displayName": "Page description",
+        "url": "https://docs.scangov.org/page-description",
+        "description": "Defines webpage content for search engines."
+      }
+    ]
+  },
   "rfc9116": {
     "displayName": "RFC 9116",
     "description": "A file format to aid in security vulnerability disclosure.",
@@ -99,7 +122,7 @@
     "description": "Guidelines for controlling search engine crawling.",
     "docs": "https://docs.scangov.org/robots-txt-org",
     "topics": [
-      "ai",
+      "aifriendly",
       "seo"
     ],
     "standards": [
@@ -115,7 +138,7 @@
     "description": "Website sitemap standards.",
     "docs": "https://docs.scangov.org/sitemaps-org",
     "topics": [
-      "ai",
+      "aifriendly",
       "content",
       "seo"
     ],
