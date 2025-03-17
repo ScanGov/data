@@ -179,7 +179,7 @@
   },
   "seo": {
     "displayName": "SEO",
-    "icon": "robot",
+    "icon": "magnifying-glass",
     "attributes": [
       {
         "key": "status",
@@ -278,7 +278,7 @@
   },
   "performance": {
     "displayName": "Performance",
-    "icon": "gauge-simple-high",
+    "icon": "gauge",
     "attributes": [
       {
         "key": "ttfb",
