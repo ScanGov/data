@@ -67,7 +67,7 @@
   "rfc9116": {
     "displayName": "RFC 9116",
     "description": "A file format to aid in security vulnerability disclosure.",
-    "docs": "https://www.rfc-editor.org/rfc/rfc9116",
+    "docs": "https://docs.scangov.org/rfc9116",
     "topics": [
       "security"
     ],
