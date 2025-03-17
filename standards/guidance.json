@@ -44,8 +44,76 @@
       }
     ]
   },
+  "cpg": {
+    "displayName": "Cybersecurity Performance Goals",
+    "description": "Voluntary, high-impact security practices.",
+    "docs": "https://docs.scangov.org/cybersecurity-performance-goals",
+    "topics": [
+      "security"
+    ],
+    "standards": [
+      {
+        "displayName": "security.txt",
+        "url": "https://docs.scangov.org/security-txt",
+        "description": "Contact file for reporting security issues."
+      },
+      {
+        "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
+        "url": "https://docs.scangov.org/https",
+        "description": "Privacy and integrity protection."
+      }
+    ]
+  },
+  "security.txt": {
+    "displayName": "security.txt",
+    "description": "Contact file for reporting security issues.",
+    "docs": "https://docs.scangov.org/security-txt",
+    "topics": [
+      "security"
+    ],
+    "standards": [
+      {
+        "displayName": "security.txt",
+        "url": "https://docs.scangov.org/security-txt",
+        "description": "Contact file for reporting security issues."
+      }
+    ]
+  },
+  "robots": {
+    "displayName": "The Web Robots Pages",
+    "description": "Guidelines for controlling search engine crawling.",
+    "docs": "https://docs.scangov.org/robots-txt-org",
+    "topics": [
+      "ai",
+      "seo"
+    ],
+    "standards": [
+      {
+        "displayName": "robots.txt",
+        "url": "https://docs.scangov.org/robots-txt",
+        "description": "Tells search engines what to access."
+      }
+    ]
+  },
+  "sitemaps": {
+    "displayName": "sitemaps.org",
+    "description": "Website sitemap standards.",
+    "docs": "https://docs.scangov.org/sitemaps-org",
+    "topics": [
+      "ai",
+      "content",
+      "seo"
+    ],
+    "standards": [
+      {
+        "displayName": "sitemap.xml",
+        "url": "https://docs.scangov.org/sitemaps",
+        "description": "Lists website's important pages."
+      }
+    ]
+  },
   "wcag": {
-    "displayName": "WCAG",
+    "displayName": "Web Content Accessibility Guidelines",
     "description": "Rules for making websites accessible.",
     "docs": "https://docs.scangov.org/wcag",
     "topics": [

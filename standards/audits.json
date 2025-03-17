@@ -10,7 +10,7 @@
         "description": "The name which should be displayed for the overall site",
         "docs": "https://docs.scangov.org/open-graph",
         "guidance": "Open Graph",
-        "impact" : 1,
+        "impact": 1,
         "standards": [
           {
             "displayName": "Open Graph site name",
@@ -26,7 +26,7 @@
         "description": "The type of the object",
         "docs": "https://docs.scangov.org/open-graph",
         "guidance": "Open Graph",
-        "impact" : 1,
+        "impact": 1,
         "standards": [
           {
             "displayName": "Open Graph type",
@@ -42,7 +42,7 @@
         "description": "The title of the object as it should appear within the graph",
         "docs": "https://docs.scangov.org/open-graph",
         "guidance": "Open Graph",
-        "impact" : 1,
+        "impact": 1,
         "standards": [
           {
             "displayName": "Open Graph title",
@@ -58,7 +58,7 @@
         "description": "A one to two sentence description of the object",
         "docs": "https://docs.scangov.org/open-graph",
         "guidance": "Open Graph",
-        "impact" : 1,
+        "impact": 1,
         "standards": [
           {
             "displayName": "Open Graph description",
@@ -74,7 +74,7 @@
         "description": "The canonical URL of the object that will be used as its permanent ID in the graph",
         "docs": "https://docs.scangov.org/open-graph",
         "guidance": "Open Graph",
-        "impact" : 1,
+        "impact": 1,
         "standards": [
           {
             "displayName": "Open Graph url",
@@ -90,7 +90,7 @@
         "description": "An image URL which should represent the object within the graph",
         "docs": "https://docs.scangov.org/open-graph",
         "guidance": "Open Graph",
-        "impact" : 1,
+        "impact": 1,
         "standards": [
           {
             "displayName": "Open Graph image",
@@ -106,7 +106,7 @@
         "description": "A description of what is in the image",
         "docs": "https://docs.scangov.org/open-graph",
         "guidance": "Open Graph",
-        "impact" : 1,
+        "impact": 1,
         "standards": [
           {
             "displayName": "Open Graph image alt",
@@ -127,7 +127,7 @@
         "tag": "<title>",
         "description": "Defines the document's title that is shown in a browser's title bar or a page's tab",
         "docs": "https://docs.scangov.org/metadata",
-        "impact" : 10
+        "impact": 10
       },
       {
         "key": "description",
@@ -135,7 +135,7 @@
         "tag": "<meta name=\"description\">",
         "description": "A short and accurate summary of the content of the page",
         "docs": "https://docs.scangov.org/metadata",
-        "impact" : 8
+        "impact": 8
       },
       {
         "key": "viewport",
@@ -143,8 +143,8 @@
         "tag": "<meta name=\"viewport\">",
         "description": "Gives hints about the size of the initial size of the viewport",
         "docs": "https://docs.scangov.org/metadata",
-        "impact" : 10
-      }    
+        "impact": 10
+      }
     ]
   },
   "url": {
@@ -157,7 +157,7 @@
         "tag": "HTTPS",
         "description": "Privacy and integrity protection.",
         "docs": "https://docs.scangov.org/https",
-        "impact" : 10
+        "impact": 10
       },
       {
         "key": "dotgov",
@@ -165,7 +165,7 @@
         "tag": "sTLD",
         "description": "Sponsored top-level domain (.gov / .edu / .mil). ",
         "docs": "https://docs.scangov.org/stld",
-        "impact" : 7
+        "impact": 7
       },
       {
         "key": "www",
@@ -173,7 +173,7 @@
         "tag": "www",
         "description": "A single canonical domain is reachable with www and non-www input. ",
         "docs": "https://docs.scangov.org/canonicalization",
-        "impact" : 5
+        "impact": 5
       }
     ]
   },
@@ -187,7 +187,7 @@
         "tag": "Status",
         "description": "The HTTP status of /sitemap.xml is OK.",
         "docs": "https://docs.scangov.org/sitemaps",
-        "impact" : 3
+        "impact": 3
       },
       {
         "key": "xml",
@@ -195,7 +195,7 @@
         "tag": "XML",
         "description": "The sitemap file type is XML.",
         "docs": "https://docs.scangov.org/sitemaps",
-        "impact" : 3
+        "impact": 3
       },
       {
         "key": "completion",
@@ -203,7 +203,7 @@
         "tag": "Complete",
         "description": "Every link on the home page is in the sitemap.",
         "docs": "https://docs.scangov.org/sitemaps",
-        "impact" : 1
+        "impact": 1
       },
       {
         "key": "valid",
@@ -211,7 +211,7 @@
         "tag": "Valid",
         "description": "The site has a valid robots policy.",
         "docs": "https://docs.scangov.org/robots-txt",
-        "impact" : 3
+        "impact": 3
       },
       {
         "key": "allowed",
@@ -226,7 +226,7 @@
         "tag": "Sitemap",
         "description": "The robots.txt file points to a sitemap file.",
         "docs": "https://docs.scangov.org/sitemaps",
-        "impact" : 5
+        "impact": 5
       },
       {
         "key": "canonical",
@@ -234,7 +234,7 @@
         "tag": "<link rel=\"canonical\">",
         "description": "Indicates that another page is representative of the content on the page",
         "docs": "https://docs.scangov.org/metadata",
-        "impact" : 3
+        "impact": 3
       }
     ]
   },
@@ -248,7 +248,7 @@
         "tag": "HSTS",
         "description": "The site automatically upgrades from HTTP to HTTPS and instructs browsers to use HTTPS going forward.",
         "docs": "https://docs.scangov.org/hsts",
-        "impact" : 10
+        "impact": 10
       },
       {
         "key": "csp",
@@ -256,7 +256,7 @@
         "tag": "CSP",
         "description": "The site restricts what can be loaded.",
         "docs": "https://docs.scangov.org/content-security-policy",
-        "impact" : 3
+        "impact": 3
       },
       {
         "key": "xContentTypeOptions",
@@ -264,7 +264,7 @@
         "tag": "X-Content-Type-Options",
         "description": "The site prevents mime type sniffing.",
         "docs": "https://docs.scangov.org/x-content-type-options",
-        "impact" : 3
+        "impact": 3
       },
       {
         "key": "securityTxt",
@@ -272,7 +272,7 @@
         "tag": "security.txt",
         "description": "The site has a security.txt file.",
         "docs": "https://docs.scangov.org/security-txt",
-        "impact" : 1
+        "impact": 1
       }
     ]
   },
@@ -286,7 +286,7 @@
         "tag": "TTFB",
         "description": "The application code is received within 0.8 seconds.",
         "docs": "https://docs.scangov.org/time-to-first-byte",
-        "impact" : 8
+        "impact": 8
       },
       {
         "key": "fcp",
@@ -294,7 +294,7 @@
         "tag": "FCP",
         "description": "The page begins to display within 1.8 seconds.",
         "docs": "https://docs.scangov.org/first-contentful-paint",
-        "impact" : 8
+        "impact": 8
       },
       {
         "key": "lcp",
@@ -302,7 +302,7 @@
         "tag": "LCP",
         "description": "A large part of the application has been displayed within 2.5 seconds.",
         "docs": "https://docs.scangov.org/largest-contentful-paint",
-        "impact" : 8
+        "impact": 8
       },
       {
         "key": "cls",
@@ -310,7 +310,7 @@
         "tag": "CLS",
         "description": "The page does not move visible elements around during initial display for more than 0.1 seconds at a time.",
         "docs": "https://docs.scangov.org/cumulative-layout-shift",
-        "impact" : 5
+        "impact": 5
       },
       {
         "key": "inp",
@@ -318,7 +318,7 @@
         "tag": "INP",
         "description": "It takes the application less than 0.2 seconds to respond to a user interaction.",
         "docs": "https://docs.scangov.org/interaction-to-next-paint",
-        "impact" : 9
+        "impact": 9
       }
     ]
   },
@@ -333,7 +333,7 @@
         "description": "Opportunities to improve legibility by ensuring sufficient background, foreground color contrast and that links are discernible without relying on color.",
         "docs": "https://docs.scangov.org/wcag",
         "guidance": "WCAG",
-        "impact" : 3,
+        "impact": 3,
         "standards": [
           {
             "displayName": "WCAG color contrast",
@@ -349,7 +349,7 @@
         "description": "Improve accessibility by providing sufficient area on touch elements and allowing the viewport sizing to be controlled by the visitor.",
         "docs": "https://docs.scangov.org/wcag",
         "guidance": "WCAG",
-        "impact" : 3,
+        "impact": 3,
         "standards": [
           {
             "displayName": "WCAG mobile affordances",
@@ -365,7 +365,7 @@
         "description": "Provide the expected tags and attributes so each document can be easily used with a screen reader.",
         "docs": "https://docs.scangov.org/wcag",
         "guidance": "WCAG",
-        "impact" : 3,
+        "impact": 3,
         "standards": [
           {
             "displayName": "WCAG names and labels",
@@ -381,7 +381,7 @@
         "description": "These are opportunities to improve keyboard navigation in your application.",
         "docs": "https://docs.scangov.org/wcag",
         "guidance": "WCAG",
-        "impact" : 3,
+        "impact": 3,
         "standards": [
           {
             "displayName": "WCAG navigation",
@@ -397,7 +397,7 @@
         "description": "These are opportunities to improve the usage of ARIA in your application which may enhance the experience for users of assistive technology, like a screen reader.",
         "docs": "https://docs.scangov.org/wcag",
         "guidance": "WCAG",
-        "impact" : 3,
+        "impact": 3,
         "standards": [
           {
             "displayName": "WCAG ARIA attributes",
@@ -413,7 +413,7 @@
         "description": "Follow these recommendations to improve the experience for visitors who may take advantage of translations.",
         "docs": "https://docs.scangov.org/wcag",
         "guidance": "WCAG",
-        "impact" : 3,
+        "impact": 3,
         "standards": [
           {
             "displayName": "WCAG internationalization",
@@ -429,7 +429,7 @@
         "description": "These are opportunities to provide alternative content for audio and video. This may improve the experience for users with hearing or vision impairments.",
         "docs": "https://docs.scangov.org/wcag",
         "guidance": "WCAG",
-        "impact" : 3,
+        "impact": 3,
         "standards": [
           {
             "displayName": "WCAG audio and video",
@@ -445,7 +445,7 @@
         "description": "These are opportunities to improve the experience of reading tabular or list data using assistive technology, like a screen reader.",
         "docs": "https://docs.scangov.org/wcag",
         "guidance": "WCAG",
-        "impact" : 3,
+        "impact": 3,
         "standards": [
           {
             "displayName": "WCAG tables and lists",
@@ -461,7 +461,7 @@
         "description": "Follow these recommendations to avoid hiding content from visitors using assistive technology.",
         "docs": "https://docs.scangov.org/wcag",
         "guidance": "WCAG",
-        "impact" : 3,
+        "impact": 3,
         "standards": [
           {
             "displayName": "WCAG hidden content",
@@ -482,7 +482,7 @@
         "tag": "crawlable",
         "description": "Site is available for crawling and indexing by well behaved agents.",
         "docs": "https://docs.scangov.org/crawlable",
-        "impact" : 4
+        "impact": 4
       },
       {
         "key": "text-content",
@@ -490,7 +490,7 @@
         "tag": "text-content",
         "description": "The main content of each page is available in the initial document. It does not require a lot of client side script execution in order to render. If pagse usually require a lot of client side script execution to render main content the content may be made available to bots in an alternate text version of the site.",
         "docs": "https://docs.scangov.org/text-content",
-        "impact" : 2
+        "impact": 2
       }
     ]
   }
