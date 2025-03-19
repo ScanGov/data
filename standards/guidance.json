@@ -102,6 +102,30 @@
       }
     ]
   },
+  "21stcenturyidea": {
+    "displayName": "21st Century Integrated Digital Experience Act",
+    "description": "Modernizes government websites and digital services.",
+    "docs": "https://docs.scangov.org/21st-century-idea",
+    "topics": [
+      "accessibility",
+      "content",
+      "performance",
+      "seo",
+      "security"
+    ],
+    "standards": [
+      {
+        "displayName": "HTTPS",
+        "url": "https://docs.scangov.org/https",
+        "description": "Privacy and integrity protection."
+      },
+      {
+        "displayName": "HSTS",
+        "url": "https://docs.scangov.org/hsts",
+        "description": "Privacy and integrity protection."
+      }
+    ]
+  },
   "security.txt": {
     "displayName": "security.txt",
     "description": "Contact file for reporting security issues.",
