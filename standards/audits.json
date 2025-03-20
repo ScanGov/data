@@ -5,7 +5,7 @@
     "attributes": [
       {
         "key": "ogSiteName",
-        "displayName": "og:site_name",
+        "displayName": "Open Graph site name",
         "tag": "<meta property=\"og:site_name\">",
         "description": "The name which should be displayed for the overall site",
         "docs": "https://docs.scangov.org/open-graph",
@@ -21,7 +21,7 @@
       },
       {
         "key": "ogType",
-        "displayName": "og:type",
+        "displayName": "Open Graph type",
         "tag": "<meta property=\"og:type\">",
         "description": "The type of the object",
         "docs": "https://docs.scangov.org/open-graph",
@@ -37,7 +37,7 @@
       },
       {
         "key": "ogTitle",
-        "displayName": "og:title",
+        "displayName": "Open Graph title",
         "tag": "<meta property=\"og:title\">",
         "description": "The title of the object as it should appear within the graph",
         "docs": "https://docs.scangov.org/open-graph",
@@ -53,7 +53,7 @@
       },
       {
         "key": "ogDescription",
-        "displayName": "og:description",
+        "displayName": "Open Graph description",
         "tag": "<meta property=\"og:description\">",
         "description": "A one to two sentence description of the object",
         "docs": "https://docs.scangov.org/open-graph",
@@ -69,7 +69,7 @@
       },
       {
         "key": "ogUrl",
-        "displayName": "og:url",
+        "displayName": "Open Graph url",
         "tag": "<meta property=\"og:url\">",
         "description": "The canonical URL of the object that will be used as its permanent ID in the graph",
         "docs": "https://docs.scangov.org/open-graph",
@@ -85,7 +85,7 @@
       },
       {
         "key": "ogImage",
-        "displayName": "og:image",
+        "displayName": "Open Graph image",
         "tag": "<meta property=\"og:image\">",
         "description": "An image URL which should represent the object within the graph",
         "docs": "https://docs.scangov.org/open-graph",
@@ -101,7 +101,7 @@
       },
       {
         "key": "ogImageAlt",
-        "displayName": "og:image:alt",
+        "displayName": "Open Graph image alt",
         "tag": "<meta property=\"og:image:alt\">",
         "description": "A description of what is in the image",
         "docs": "https://docs.scangov.org/open-graph",
@@ -285,7 +285,7 @@
         "displayName": "Time to first byte",
         "tag": "TTFB",
         "description": "The application code is received within 0.8 seconds.",
-        "docs": "https://docs.scangov.org/time-to-first-byte",
+        "docs": "https://developer.mozilla.org/en-US/docs/Glossary/Time_to_first_byte",
         "impact": 8
       },
       {
@@ -293,7 +293,7 @@
         "displayName": "First contentful paint",
         "tag": "FCP",
         "description": "The page begins to display within 1.8 seconds.",
-        "docs": "https://docs.scangov.org/first-contentful-paint",
+        "docs": "https://developer.mozilla.org/en-US/docs/Glossary/First_contentful_paint",
         "impact": 8
       },
       {
@@ -301,7 +301,7 @@
         "displayName": "Largest contentful paint",
         "tag": "LCP",
         "description": "A large part of the application has been displayed within 2.5 seconds.",
-        "docs": "https://docs.scangov.org/largest-contentful-paint",
+        "docs": "https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint",
         "impact": 8
       },
       {
@@ -309,7 +309,7 @@
         "displayName": "Cumulative layout shift",
         "tag": "CLS",
         "description": "The page does not move visible elements around during initial display for more than 0.1 seconds at a time.",
-        "docs": "https://docs.scangov.org/cumulative-layout-shift",
+        "docs": "https://developer.mozilla.org/en-US/docs/Glossary/CLS",
         "impact": 5
       },
       {
@@ -317,7 +317,7 @@
         "displayName": "Interaction to next paint",
         "tag": "INP",
         "description": "It takes the application less than 0.2 seconds to respond to a user interaction.",
-        "docs": "https://docs.scangov.org/interaction-to-next-paint",
+        "docs": "https://developer.mozilla.org/en-US/docs/Glossary/Interaction_to_next_paint",
         "impact": 9
       }
     ]

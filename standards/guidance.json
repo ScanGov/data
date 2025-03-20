@@ -4,43 +4,38 @@
     "description": "Improves how social media content shows.",
     "docs": "https://docs.scangov.org/open-graph",
     "topics": [
+      "content",
+      "seo",
       "social"
     ],
     "standards": [
       {
         "displayName": "Open Graph site name",
-        "url": "https://docs.scangov.org/og-site-name",
-        "description": "Improve social media content display by defining site name"
+        "url": "https://docs.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph type",
-        "url": "https://docs.scangov.org/og-type",
-        "description": "Improve social media content display by defining type of object being linked"
+        "url": "https://docs.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph title",
-        "url": "https://docs.scangov.org/og-title",
-        "description": "Improve social media content display by defining title of linked page"
+        "url": "https://docs.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph description",
-        "url": "https://docs.scangov.org/og-description",
-        "description": "Improve social media content display by defining page description"
+        "url": "https://docs.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph url",
-        "url": "https://docs.scangov.org/og-url",
-        "description": "Improve social media content display by defining canonical url to link to"
+        "url": "https://docs.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph image",
-        "url": "https://docs.scangov.org/og-image",
-        "description": "Improve social media content display by defining image to use"
+        "url": "https://docs.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph image alt",
-        "url": "https://docs.scangov.org/og-image-alt",
-        "description": "Improve social media content display by defining alt text for the image to use"
+        "url": "https://docs.scangov.org/metadata"
       }
     ]
   },
@@ -54,13 +49,15 @@
     "standards": [
       {
         "displayName": "security.txt",
-        "url": "https://docs.scangov.org/security-txt",
-        "description": "Contact file for reporting security issues."
+        "url": "https://docs.scangov.org/security-txt"
       },
       {
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
-        "url": "https://docs.scangov.org/https",
-        "description": "Privacy and integrity protection."
+        "url": "https://docs.scangov.org/https"
+      },
+      {
+        "displayName": "HTTP Strict Transport Security (HSTS)",
+        "url": "https://docs.scangov.org/hsts"
       }
     ]
   },
@@ -77,13 +74,11 @@
     "standards": [
       {
         "displayName": "Page title",
-        "url": "https://docs.scangov.org/page-title",
-        "description": "Describes webpage content in a few words."
+        "url": "https://docs.scangov.org/page-title"
       },
       {
         "displayName": "Page description",
-        "url": "https://docs.scangov.org/page-description",
-        "description": "Defines webpage content in more detail."
+        "url": "https://docs.scangov.org/page-description"
       }
     ]
   },
@@ -97,13 +92,12 @@
     "standards": [
       {
         "displayName": "security.txt",
-        "url": "https://docs.scangov.org/security-txt",
-        "description": "Contact file for reporting security issues."
+        "url": "https://docs.scangov.org/security-txt"
       }
     ]
   },
   "21stcenturyidea": {
-    "displayName": "21st Century Integrated Digital Experience Act",
+    "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
     "description": "Modernizes government websites and digital services.",
     "docs": "https://docs.scangov.org/21st-century-idea",
     "topics": [
@@ -115,14 +109,34 @@
     ],
     "standards": [
       {
-        "displayName": "HTTPS",
-        "url": "https://docs.scangov.org/https",
-        "description": "Privacy and integrity protection."
+        "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
+        "url": "https://docs.scangov.org/https"
       },
       {
-        "displayName": "HSTS",
-        "url": "https://docs.scangov.org/hsts",
-        "description": "Privacy and integrity protection."
+        "displayName": "HTTP Strict Transport Security (HSTS)",
+        "url": "https://docs.scangov.org/hsts"
+      }
+    ]
+  },
+  "m2322": {
+    "displayName": "Executive Order M-23-22",
+    "description": "Delivering a digital-first public experience.",
+    "docs": "https://docs.scangov.org/executive-order-m-23-22",
+    "topics": [
+      "accessibility",
+      "content",
+      "performance",
+      "seo",
+      "security"
+    ],
+    "standards": [
+      {
+        "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
+        "url": "https://docs.scangov.org/https"
+      },
+      {
+        "displayName": "HTTP Strict Transport Security (HSTS)",
+        "url": "https://docs.scangov.org/hsts"
       }
     ]
   },
@@ -136,8 +150,7 @@
     "standards": [
       {
         "displayName": "security.txt",
-        "url": "https://docs.scangov.org/security-txt",
-        "description": "Contact file for reporting security issues."
+        "url": "https://docs.scangov.org/security-txt"
       }
     ]
   },
@@ -152,8 +165,7 @@
     "standards": [
       {
         "displayName": "robots.txt",
-        "url": "https://docs.scangov.org/robots-txt",
-        "description": "Tells search engines what to access."
+        "url": "https://docs.scangov.org/robots-txt"
       }
     ]
   },
@@ -169,63 +181,55 @@
     "standards": [
       {
         "displayName": "sitemap.xml",
-        "url": "https://docs.scangov.org/sitemaps",
-        "description": "Lists website's important pages."
+        "url": "https://docs.scangov.org/sitemaps"
       }
     ]
   },
   "wcag": {
-    "displayName": "Web Content Accessibility Guidelines",
+    "displayName": "Web Content Accessibility Guidelines (WCAG)",
     "description": "Rules for making websites accessible.",
     "docs": "https://docs.scangov.org/wcag",
     "topics": [
-      "accessibility"
+      "accessibility",
+      "content",
+      "seo"
     ],
     "standards": [
       {
         "displayName": "WCAG color contrast",
-        "url": "https://docs.scangov.org/a11y-color-contrast",
-        "description": "Opportunities to improve legibility by ensuring sufficient background, foreground color contrast and that links are discernible without relying on color."
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable/Color_contrast"
       },
       {
         "displayName": "WCAG mobile affordances",
-        "url": "https://docs.scangov.org/a11y-best-practices",
-        "description": "Improve accessibility by providing sufficient area on touch elements and allowing the viewport sizing to be controlled by the visitor."
+        "url": "https://www.w3.org/WAI/standards-guidelines/mobile/"
       },
       {
         "displayName": "WCAG names and labels",
-        "url": "https://docs.scangov.org/a11y-names-labels",
-        "description": "Provide the expected tags and attributes so each document can be easily used with a screen reader."
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Text_labels_and_names"
       },
       {
         "displayName": "WCAG navigation",
-        "url": "https://docs.scangov.org/a11y-navigation",
-        "description": "These are opportunities to improve keyboard navigation in your application."
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Operable"
       },
       {
         "displayName": "WCAG ARIA attributes",
-        "url": "https://docs.scangov.org/a11y-aria",
-        "description": "These are opportunities to improve the usage of ARIA in your application which may enhance the experience for users of assistive technology, like a screen reader."
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes"
       },
       {
         "displayName": "WCAG internationalization",
-        "url": "https://docs.scangov.org/a11y-language",
-        "description": "Follow these recommendations to improve the experience for visitors who may take advantage of translations."
+        "url": "https://www.w3.org/WAI/standards-guidelines/wcag/translations/"
       },
       {
         "displayName": "WCAG audio and video",
-        "url": "https://docs.scangov.org/a11y-audio-video",
-        "description": "These are opportunities to provide alternative content for audio and video. This may improve the experience for users with hearing or vision impairments."
+        "url": "https://www.w3.org/WAI/media/av/"
       },
       {
         "displayName": "WCAG tables and lists",
-        "url": "https://docs.scangov.org/a11y-tables-lists",
-        "description": "These are opportunities to improve the experience of reading tabular or list data using assistive technology, like a screen reader."
+        "url": "https://www.w3.org/WAI/tutorials/tables/"
       },
       {
         "displayName": "WCAG hidden content",
-        "url": "https://docs.scangov.org/hidden",
-        "description": "Follow these recommendations to avoid hiding content from visitors using assistive technology."
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Text_labels_and_names"
       }
     ]
   }
