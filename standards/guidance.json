@@ -119,9 +119,9 @@
     ]
   },
   "m2322": {
-    "displayName": "Executive Order M-23-22",
+    "displayName": "Memorandum (M-23-22)",
     "description": "Delivering a digital-first public experience.",
-    "docs": "https://docs.scangov.org/executive-order-m-23-22",
+    "docs": "https://docs.scangov.org/memorandum-m-23-22",
     "topics": [
       "accessibility",
       "content",
@@ -130,6 +130,28 @@
       "security"
     ],
     "standards": [
+      {
+        "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
+        "url": "https://docs.scangov.org/https"
+      },
+      {
+        "displayName": "HTTP Strict Transport Security (HSTS)",
+        "url": "https://docs.scangov.org/hsts"
+      }
+    ]
+  },
+  "websitesecurity-cisa": {
+    "displayName": "Website Security (CISA)",
+    "description": "Contact file for reporting security issues.",
+    "docs": "https://docs.scangov.org/security-txt",
+    "topics": [
+      "security"
+    ],
+    "standards": [
+      {
+        "displayName": "Content security policy (CSP))",
+        "url": "https://docs.scangov.org/content-security-policy"
+      },
       {
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
         "url": "https://docs.scangov.org/https"
@@ -183,6 +205,38 @@
         "displayName": "sitemap.xml",
         "url": "https://docs.scangov.org/sitemaps"
       }
+    ]
+  },
+  "webvitals": {
+    "displayName": "Web Vitals / Core Web Vitals",
+    "description": "Google's speed, interaction, and stability metrics.",
+    "docs": "https://docs.scangov.org/web-vitals-core-web-vitals",
+    "topics": [
+      "content",
+      "performance",
+      "seo"
+    ],
+    "standards": [
+      {
+        "displayName": "Cumulative Layout Shift (CLS)",
+        "url": "https://docs.scangov.org/cumulative-layout-shift"
+      },
+      {
+        "displayName": "First Contentful Paint (FCP)",
+        "url": "https://docs.scangov.org/first-contentful-paint"
+      },
+      {
+        "displayName": "Interaction to Next Paint (INP)",
+        "url": "https://docs.scangov.org/interaction-to-next-paint"
+      },
+      {
+        "displayName": "Largest Contentful Paint (LCP)",
+        "url": "https://docs.scangov.org/largest-contentful-paint"
+      },
+      {
+        "displayName": "Time to First Byte (TTFB)",
+        "url": "https://docs.scangov.org/time-to-first-byte"
+      },
     ]
   },
   "wcag": {
