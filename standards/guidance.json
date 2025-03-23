@@ -236,7 +236,7 @@
       {
         "displayName": "Time to First Byte (TTFB)",
         "url": "https://docs.scangov.org/time-to-first-byte"
-      },
+      }
     ]
   },
   "wcag": {
