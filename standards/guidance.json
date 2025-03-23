@@ -1,41 +1,23 @@
 {
-  "opengraph": {
-    "displayName": "Open Graph",
-    "description": "Improves how social media content shows.",
-    "docs": "https://docs.scangov.org/open-graph",
+  "21stcenturyidea": {
+    "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
+    "description": "Modernizes government websites and digital services.",
+    "docs": "https://docs.scangov.org/21st-century-idea",
     "topics": [
+      "accessibility",
       "content",
+      "performance",
       "seo",
-      "social"
+      "security"
     ],
     "standards": [
       {
-        "displayName": "Open Graph site name",
-        "url": "https://docs.scangov.org/metadata"
+        "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
+        "url": "https://docs.scangov.org/https"
       },
       {
-        "displayName": "Open Graph type",
-        "url": "https://docs.scangov.org/metadata"
-      },
-      {
-        "displayName": "Open Graph title",
-        "url": "https://docs.scangov.org/metadata"
-      },
-      {
-        "displayName": "Open Graph description",
-        "url": "https://docs.scangov.org/metadata"
-      },
-      {
-        "displayName": "Open Graph url",
-        "url": "https://docs.scangov.org/metadata"
-      },
-      {
-        "displayName": "Open Graph image",
-        "url": "https://docs.scangov.org/metadata"
-      },
-      {
-        "displayName": "Open Graph image alt",
-        "url": "https://docs.scangov.org/metadata"
+        "displayName": "HTTP Strict Transport Security (HSTS)",
+        "url": "https://docs.scangov.org/hsts"
       }
     ]
   },
@@ -82,42 +64,6 @@
       }
     ]
   },
-  "rfc9116": {
-    "displayName": "RFC 9116",
-    "description": "A file format to aid in security vulnerability disclosure.",
-    "docs": "https://docs.scangov.org/rfc9116",
-    "topics": [
-      "security"
-    ],
-    "standards": [
-      {
-        "displayName": "security.txt",
-        "url": "https://docs.scangov.org/security-txt"
-      }
-    ]
-  },
-  "21stcenturyidea": {
-    "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
-    "description": "Modernizes government websites and digital services.",
-    "docs": "https://docs.scangov.org/21st-century-idea",
-    "topics": [
-      "accessibility",
-      "content",
-      "performance",
-      "seo",
-      "security"
-    ],
-    "standards": [
-      {
-        "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
-        "url": "https://docs.scangov.org/https"
-      },
-      {
-        "displayName": "HTTP Strict Transport Security (HSTS)",
-        "url": "https://docs.scangov.org/hsts"
-      }
-    ]
-  },
   "m2322": {
     "displayName": "Memorandum (M-23-22)",
     "description": "Delivering a digital-first public experience.",
@@ -140,25 +86,57 @@
       }
     ]
   },
-  "websitesecurity-cisa": {
-    "displayName": "Website Security (CISA)",
-    "description": "Contact file for reporting security issues.",
-    "docs": "https://docs.scangov.org/security-txt",
+  "opengraph": {
+    "displayName": "Open Graph",
+    "description": "Improves how social media content shows.",
+    "docs": "https://docs.scangov.org/open-graph",
+    "topics": [
+      "content",
+      "seo",
+      "social"
+    ],
+    "standards": [
+      {
+        "displayName": "Open Graph site name",
+        "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "Open Graph type",
+        "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "Open Graph title",
+        "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "Open Graph description",
+        "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "Open Graph url",
+        "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "Open Graph image",
+        "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "Open Graph image alt",
+        "url": "https://docs.scangov.org/metadata"
+      }
+    ]
+  },
+  "rfc9116": {
+    "displayName": "RFC 9116",
+    "description": "A file format to aid in security vulnerability disclosure.",
+    "docs": "https://docs.scangov.org/rfc9116",
     "topics": [
       "security"
     ],
     "standards": [
       {
-        "displayName": "Content security policy (CSP))",
-        "url": "https://docs.scangov.org/content-security-policy"
-      },
-      {
-        "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
-        "url": "https://docs.scangov.org/https"
-      },
-      {
-        "displayName": "HTTP Strict Transport Security (HSTS)",
-        "url": "https://docs.scangov.org/hsts"
+        "displayName": "security.txt",
+        "url": "https://docs.scangov.org/security-txt"
       }
     ]
   },
@@ -176,21 +154,6 @@
       }
     ]
   },
-  "robots": {
-    "displayName": "The Web Robots Pages",
-    "description": "Guidelines for controlling search engine crawling.",
-    "docs": "https://docs.scangov.org/robots-txt-org",
-    "topics": [
-      "aifriendly",
-      "seo"
-    ],
-    "standards": [
-      {
-        "displayName": "robots.txt",
-        "url": "https://docs.scangov.org/robots-txt"
-      }
-    ]
-  },
   "sitemaps": {
     "displayName": "sitemaps.org",
     "description": "Website sitemap standards.",
@@ -204,38 +167,6 @@
       {
         "displayName": "sitemap.xml",
         "url": "https://docs.scangov.org/sitemaps"
-      }
-    ]
-  },
-  "webvitals": {
-    "displayName": "Web Vitals / Core Web Vitals",
-    "description": "Google's speed, interaction, and stability metrics.",
-    "docs": "https://docs.scangov.org/web-vitals-core-web-vitals",
-    "topics": [
-      "content",
-      "performance",
-      "seo"
-    ],
-    "standards": [
-      {
-        "displayName": "Cumulative Layout Shift (CLS)",
-        "url": "https://docs.scangov.org/cumulative-layout-shift"
-      },
-      {
-        "displayName": "First Contentful Paint (FCP)",
-        "url": "https://docs.scangov.org/first-contentful-paint"
-      },
-      {
-        "displayName": "Interaction to Next Paint (INP)",
-        "url": "https://docs.scangov.org/interaction-to-next-paint"
-      },
-      {
-        "displayName": "Largest Contentful Paint (LCP)",
-        "url": "https://docs.scangov.org/largest-contentful-paint"
-      },
-      {
-        "displayName": "Time to First Byte (TTFB)",
-        "url": "https://docs.scangov.org/time-to-first-byte"
       }
     ]
   },
@@ -284,6 +215,75 @@
       {
         "displayName": "WCAG hidden content",
         "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Text_labels_and_names"
+      }
+    ]
+  },
+  "robots": {
+    "displayName": "The Web Robots Pages",
+    "description": "Guidelines for controlling search engine crawling.",
+    "docs": "https://docs.scangov.org/robots-txt-org",
+    "topics": [
+      "aifriendly",
+      "seo"
+    ],
+    "standards": [
+      {
+        "displayName": "robots.txt",
+        "url": "https://docs.scangov.org/robots-txt"
+      }
+    ]
+  },
+  "websitesecurity-cisa": {
+    "displayName": "Website Security (CISA)",
+    "description": "Protect websites from cyber threats.",
+    "docs": "https://docs.scangov.org/web-security-cisa",
+    "topics": [
+      "security"
+    ],
+    "standards": [
+      {
+        "displayName": "Content security policy (CSP))",
+        "url": "https://docs.scangov.org/content-security-policy"
+      },
+      {
+        "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
+        "url": "https://docs.scangov.org/https"
+      },
+      {
+        "displayName": "HTTP Strict Transport Security (HSTS)",
+        "url": "https://docs.scangov.org/hsts"
+      }
+    ]
+  },
+  "webvitals": {
+    "displayName": "Web Vitals / Core Web Vitals",
+    "description": "Google's speed, interaction, and stability metrics.",
+    "docs": "https://docs.scangov.org/web-vitals-core-web-vitals",
+    "topics": [
+      "content",
+      "performance",
+      "seo"
+    ],
+    "standards": [
+      {
+        "displayName": "Cumulative Layout Shift (CLS)",
+        "url": "https://docs.scangov.org/cumulative-layout-shift"
+      },
+      {
+        "displayName": "First Contentful Paint (FCP)",
+        "url": "https://docs.scangov.org/first-contentful-paint"
+      },
+      {
+        "displayName": "Interaction to Next Paint (INP)",
+        "url": "https://docs.scangov.org/interaction-to-next-paint"
+      },
+      {
+        "displayName": "Largest Contentful Paint (LCP)",
+        "url": "https://docs.scangov.org/largest-contentful-paint"
+      },
+      {
+        "displayName": "Time to First Byte (TTFB)",
+        "url": "https://docs.scangov.org/time-to-first-byte"
       }
     ]
   }
