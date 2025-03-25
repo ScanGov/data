@@ -18,11 +18,38 @@
       {
         "displayName": "HTTP Strict Transport Security (HSTS)",
         "url": "https://docs.scangov.org/hsts"
+      },
+      {
+        "displayName": "Viewport meta tag",
+        "url": "https://docs.scangov.org/viewport-meta-tag"
+      }
+    ]
+  },
+  "28-cfr-part-35": {
+    "displayName": "28 CFR Part 35",
+    "description": "State and local government web accessibility requirements.",
+    "docs": "https://docs.scangov.org/28-cfr-part-35",
+    "topics": [
+      "accessibility",
+      "content"
+    ],
+    "standards": [
+      {
+        "displayName": "Page title",
+        "url": "https://docs.scangov.org/page-title"
+      },
+      {
+        "displayName": "Page description",
+        "url": "https://docs.scangov.org/page-description"
+      },
+      {
+        "displayName": "Viewport meta tag",
+        "url": "https://docs.scangov.org/viewport-meta-tag"
       }
     ]
   },
   "cpg": {
-    "displayName": "Cybersecurity Performance Goals",
+    "displayName": "CISA Cybersecurity Performance Goals",
     "description": "Voluntary, high-impact security practices.",
     "docs": "https://docs.scangov.org/cybersecurity-performance-goals",
     "topics": [
@@ -44,7 +71,7 @@
     ]
   },
   "federal-website-standards": {
-    "displayName": "U.S. federal website standards",
+    "displayName": "Federal website standards",
     "description": "Improves accessibility, consistency and user experience.",
     "docs": "https://docs.scangov.org/federal-website-standards",
     "topics": [
@@ -61,6 +88,86 @@
       {
         "displayName": "Page description",
         "url": "https://docs.scangov.org/page-description"
+      }
+    ]
+  },
+  "gsa-site-scanning": {
+    "displayName": "GSA Site Scanning",
+    "description": "Checks and tracks federal .gov websites.",
+    "docs": "https://docs.scangov.org/gsa-site-scanning",
+    "topics": [
+      "aifriendly",
+      "accessibility",
+      "content",
+      "performance",
+      "seo",
+      "security",
+      "social"
+    ],
+    "standards": [
+      {
+        "displayName": "Canonicalization",
+        "url": "https://docs.scangov.org/canonicalization"
+      },
+      {
+        "displayName": "Cumulative Layout Shift (CLS)",
+        "url": "https://docs.scangov.org/cumulative-layout-shift"
+      },
+      {
+        "displayName": "Largest Contentful Paint (LCP)",
+        "url": "https://docs.scangov.org/largest-contentful-paint"
+      },
+      {
+        "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
+        "url": "https://docs.scangov.org/https"
+      },
+      {
+        "displayName": "HTTP Strict Transport Security (HSTS)",
+        "url": "https://docs.scangov.org/hsts"
+      },
+      {
+        "displayName": "Open Graph site name",
+        "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "Open Graph type",
+        "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "Open Graph title",
+        "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "Open Graph description",
+        "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "Open Graph url",
+        "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "Open Graph image",
+        "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "Open Graph image alt",
+        "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "Page title",
+        "url": "https://docs.scangov.org/page-title"
+      },
+      {
+        "displayName": "Page description",
+        "url": "https://docs.scangov.org/page-description"
+      },
+      {
+        "displayName": "sitemap.xml",
+        "url": "https://docs.scangov.org/sitemaps"
+      },
+      {
+        "displayName": "Viewport meta tag",
+        "url": "https://docs.scangov.org/viewport-meta-tag"
       }
     ]
   },
@@ -83,6 +190,10 @@
       {
         "displayName": "HTTP Strict Transport Security (HSTS)",
         "url": "https://docs.scangov.org/hsts"
+      },
+      {
+        "displayName": "Viewport meta tag",
+        "url": "https://docs.scangov.org/viewport-meta-tag"
       }
     ]
   },
@@ -123,6 +234,10 @@
       {
         "displayName": "Open Graph image alt",
         "url": "https://docs.scangov.org/metadata"
+      },
+      {
+        "displayName": "robots.txt",
+        "url": "https://docs.scangov.org/robots-txt"
       }
     ]
   },
@@ -234,15 +349,15 @@
     ]
   },
   "websitesecurity-cisa": {
-    "displayName": "Website Security (CISA)",
+    "displayName": "CISA Website Security",
     "description": "Protect websites from cyber threats.",
-    "docs": "https://docs.scangov.org/web-security-cisa",
+    "docs": "https://docs.scangov.org/cisa-web-security",
     "topics": [
       "security"
     ],
     "standards": [
       {
-        "displayName": "Content security policy (CSP))",
+        "displayName": "Content security policy (CSP)",
         "url": "https://docs.scangov.org/content-security-policy"
       },
       {
