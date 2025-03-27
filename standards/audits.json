@@ -147,8 +147,8 @@
       }
     ]
   },
-  "url": {
-    "displayName": "URL",
+  "domain": {
+    "displayName": "Domain",
     "icon": "link",
     "attributes": [
       {
