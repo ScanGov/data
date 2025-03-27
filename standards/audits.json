@@ -1,117 +1,167 @@
 {
-  "social": {
-    "displayName": "Social",
-    "icon": "share-nodes",
+  "aifriendly": {
+    "displayName": "AI friendly",
+    "icon": "robot",
+    "url": "https://docs.scangov.org/topics/ai",
     "attributes": [
       {
-        "key": "ogSiteName",
-        "displayName": "Open Graph site name",
-        "tag": "<meta property=\"og:site_name\">",
-        "description": "The name which should be displayed for the overall site",
-        "docs": "https://docs.scangov.org/open-graph",
-        "guidance": "Open Graph",
-        "impact": 1,
-        "standards": [
+        "key": "crawlable",
+        "displayName": "Crawlable",
+        "tag": "crawlable",
+        "description": "Site is available for indexing by well-behaved agents.",
+        "docs": "https://docs.scangov.org/crawlable",
+        "impact": 4,
+        "guidance": [
           {
-            "displayName": "Open Graph site name",
-            "url": "https://docs.scangov.org/og-site-name",
-            "description": "Improve social media content display by defining site name"
+            "displayName": "The Web Robots Pages",
+            "url": "https://docs.scangov.org/robots-txt-org"
           }
         ]
       },
       {
-        "key": "ogType",
-        "displayName": "Open Graph type",
-        "tag": "<meta property=\"og:type\">",
-        "description": "The type of the object",
-        "docs": "https://docs.scangov.org/open-graph",
-        "guidance": "Open Graph",
-        "impact": 1,
-        "standards": [
+        "key": "text-content",
+        "displayName": "Content available in document",
+        "tag": "text-content",
+        "description": "Page main content is available in initial document.",
+        "docs": "https://docs.scangov.org/text-content",
+        "impact": 2,
+        "guidance": [
           {
-            "displayName": "Open Graph type",
-            "url": "https://docs.scangov.org/og-type",
-            "description": "Improve social media content display by defining type of object being linked"
+            "displayName": "The Web Robots Pages",
+            "url": "https://docs.scangov.org/robots-txt-org"
+          }
+        ]
+      }
+    ]
+  },
+  "accessibility": {
+    "displayName": "Accessibility",
+    "icon": "universal-access",
+    "url": "https://docs.scangov.org/topics/accessibility",
+    "attributes": [
+      {
+        "key": "a11y-best-practices",
+        "displayName": "Accessibility best practices",
+        "tag": "a11y-best-practices",
+        "description": "Common accessibility best practices.",
+        "docs": "https://docs.scangov.org/accessibility-best-practices",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines",
+            "url": "https://docs.scangov.org/wcag"
           }
         ]
       },
       {
-        "key": "ogTitle",
-        "displayName": "Open Graph title",
-        "tag": "<meta property=\"og:title\">",
-        "description": "The title of the object as it should appear within the graph",
-        "docs": "https://docs.scangov.org/open-graph",
-        "guidance": "Open Graph",
-        "impact": 1,
-        "standards": [
+        "key": "a11y-aria",
+        "displayName": "ARIA attributes",
+        "tag": "a11y-aria",
+        "description": "Accessibility properties for screen readers.",
+        "docs": "https://docs.scangov.org/aria",
+        "impact": 3,
+        "guidance": [
           {
-            "displayName": "Open Graph title",
-            "url": "https://docs.scangov.org/og-title",
-            "description": "Improve social media content display by defining title of linked page"
+            "displayName": "Web Content Accessibility Guidelines",
+            "url": "https://docs.scangov.org/wcag"
           }
         ]
       },
       {
-        "key": "ogDescription",
-        "displayName": "Open Graph description",
-        "tag": "<meta property=\"og:description\">",
-        "description": "A one to two sentence description of the object",
-        "docs": "https://docs.scangov.org/open-graph",
-        "guidance": "Open Graph",
-        "impact": 1,
-        "standards": [
+        "key": "a11y-audio-video",
+        "displayName": "Audio and video",
+        "tag": "a11y-audio-video",
+        "description": "Alternative text, captions, and transcripts.",
+        "docs": "https://docs.scangov.org/audio-video",
+        "impact": 3,
+        "guidance": [
           {
-            "displayName": "Open Graph description",
-            "url": "https://docs.scangov.org/og-description",
-            "description": "Improve social media content display by defining page description"
+            "displayName": "Web Content Accessibility Guidelines",
+            "url": "https://docs.scangov.org/wcag"
           }
         ]
       },
       {
-        "key": "ogUrl",
-        "displayName": "Open Graph url",
-        "tag": "<meta property=\"og:url\">",
-        "description": "The canonical URL of the object that will be used as its permanent ID in the graph",
-        "docs": "https://docs.scangov.org/open-graph",
-        "guidance": "Open Graph",
-        "impact": 1,
-        "standards": [
+        "key": "a11y-color-contrast",
+        "displayName": "Color contrast",
+        "tag": "a11y-color-contrast",
+        "description": "Difference between text and background colors.",
+        "docs": "https://docs.scangov.org/color-contrast",
+        "impact": 3,
+        "guidance": [
           {
-            "displayName": "Open Graph url",
-            "url": "https://docs.scangov.org/og-url",
-            "description": "Improve social media content display by defining canonical url to link to"
+            "displayName": "Web Content Accessibility Guidelines",
+            "url": "https://docs.scangov.org/wcag"
           }
         ]
       },
       {
-        "key": "ogImage",
-        "displayName": "Open Graph image",
-        "tag": "<meta property=\"og:image\">",
-        "description": "An image URL which should represent the object within the graph",
-        "docs": "https://docs.scangov.org/open-graph",
-        "guidance": "Open Graph",
-        "impact": 1,
-        "standards": [
+        "key": "hidden",
+        "displayName": "Hidden elements",
+        "tag": "hidden",
+        "description": "Ensure hidden elements are accessible.",
+        "docs": "https://docs.scangov.org/hidden",
+        "impact": 3,
+        "guidance": [
           {
-            "displayName": "Open Graph image",
-            "url": "https://docs.scangov.org/og-image",
-            "description": "Improve social media content display by defining image to use"
+            "displayName": "Web Content Accessibility Guidelines",
+            "url": "https://docs.scangov.org/wcag"
           }
         ]
       },
       {
-        "key": "ogImageAlt",
-        "displayName": "Open Graph image alt",
-        "tag": "<meta property=\"og:image:alt\">",
-        "description": "A description of what is in the image",
-        "docs": "https://docs.scangov.org/open-graph",
-        "guidance": "Open Graph",
-        "impact": 1,
-        "standards": [
+        "key": "a11y-language",
+        "displayName": "Language",
+        "tag": "a11y-language",
+        "description": "Use correct language attributes for accessibility.",
+        "docs": "https://docs.scangov.org/language",
+        "impact": 3,
+        "guidance": [
           {
-            "displayName": "Open Graph image alt",
-            "url": "https://docs.scangov.org/og-image-alt",
-            "description": "Improve social media content display by defining alt text for the image to use"
+            "displayName": "Web Content Accessibility Guidelines",
+            "url": "https://docs.scangov.org/wcag"
+          }
+        ]
+      },
+      {
+        "key": "a11y-names-labels",
+        "displayName": "Names and labels",
+        "tag": "a11y-names-labels",
+        "description": "Descriptive identifiers for elements.",
+        "docs": "https://docs.scangov.org/names-labels",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines",
+            "url": "https://docs.scangov.org/wcag"
+          }
+        ]
+      },
+      {
+        "key": "a11y-navigation",
+        "displayName": "Navigation",
+        "tag": "a11y-navigation",
+        "description": "Application keyboard navigation.",
+        "docs": "https://docs.scangov.org/navigation",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines",
+            "url": "https://docs.scangov.org/wcag"
+          }
+        ]
+      },
+      {
+        "key": "a11y-tables-lists",
+        "displayName": "Tables and lists",
+        "tag": "a11y-tables-lists",
+        "description": "Ensure tables and lists are accessible.",
+        "docs": "https://docs.scangov.org/tables-lists",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines",
+            "url": "https://docs.scangov.org/wcag"
           }
         ]
       }
@@ -120,105 +170,256 @@
   "content": {
     "displayName": "Content",
     "icon": "file-lines",
+    "url": "https://docs.scangov.org/topics/content",
     "attributes": [
       {
         "key": "title",
-        "displayName": "title",
+        "displayName": "Page title",
         "tag": "<title>",
-        "description": "Defines the document's title that is shown in a browser's title bar or a page's tab",
-        "docs": "https://docs.scangov.org/metadata",
-        "impact": 10
+        "description": "Describes webpage content in a few words.",
+        "docs": "https://docs.scangov.org/page-title",
+        "impact": 10,
+        "guidance": [
+          {
+            "displayName": "Federal website standards",
+            "url": "https://docs.scangov.org/federal-website-standards"
+          }
+        ]
       },
       {
         "key": "description",
-        "displayName": "description",
+        "displayName": "Page description",
         "tag": "<meta name=\"description\">",
-        "description": "A short and accurate summary of the content of the page",
-        "docs": "https://docs.scangov.org/metadata",
-        "impact": 8
+        "description": "Describes webpage content in a few words.",
+        "docs": "https://docs.scangov.org/page-description",
+        "impact": 8,
+        "guidance": [
+          {
+            "displayName": "Federal website standards",
+            "url": "https://docs.scangov.org/federal-website-standards"
+          }
+        ]
       },
       {
         "key": "viewport",
-        "displayName": "viewport",
+        "displayName": "Viewport meta tag",
         "tag": "<meta name=\"viewport\">",
-        "description": "Gives hints about the size of the initial size of the viewport",
-        "docs": "https://docs.scangov.org/metadata",
-        "impact": 10
+        "description": "Makes websites fit all screen sizes.",
+        "docs": "https://docs.scangov.org/viewport-meta-tag",
+        "impact": 10,
+        "guidance": [
+          {
+            "displayName": "21st Century Integrated Digital Experience Act",
+            "url": "https://docs.scangov.org/21st-century-idea"
+          }
+        ]
       }
     ]
   },
   "domain": {
     "displayName": "Domain",
     "icon": "link",
+    "url": "https://docs.scangov.org/topics/domain",
     "attributes": [
       {
         "key": "https",
-        "displayName": "HTTPS",
+        "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
         "tag": "HTTPS",
         "description": "Privacy and integrity protection.",
         "docs": "https://docs.scangov.org/https",
-        "impact": 10
+        "impact": 10,
+        "guidance": [
+          {
+            "displayName": "Federal website standards",
+            "url": "https://docs.scangov.org/federal-website-standards"
+          }
+        ]
+      },
+      {
+        "key": "www",
+        "displayName": "www resolution",
+        "tag": "www",
+        "description": "One domain works with www and non-www.",
+        "docs": "https://docs.scangov.org/www-resolution",
+        "impact": 5,
+        "guidance": [
+          {
+            "displayName": "Federal website standards",
+            "url": "https://docs.scangov.org/federal-website-standards"
+          },
+          {
+            "displayName": "Google Search Central",
+            "url": "https://docs.scangov.org/google-search-central"
+          }
+        ]
       },
       {
         "key": "dotgov",
         "displayName": "sTLD",
         "tag": "sTLD",
-        "description": "Sponsored top-level domain (.gov / .edu / .mil). ",
+        "description": "Sponsored top-level domain (.gov / .edu / .mil).",
         "docs": "https://docs.scangov.org/stld",
-        "impact": 7
+        "impact": 7,
+        "guidance": [
+          {
+            "displayName": "Federal website standards",
+            "url": "https://docs.scangov.org/federal-website-standards"
+          }
+        ]
+      }
+    ]
+  },
+  "performance": {
+    "displayName": "Performance",
+    "icon": "gauge",
+    "url": "https://docs.scangov.org/topics/performance",
+    "attributes": [
+      {
+        "key": "cls",
+        "displayName": "Cumulative Layout Shift (CLS)",
+        "tag": "CLS",
+        "description": "Measures unexpected webpage content shifts.",
+        "docs": "https://docs.scangov.org/cumulative-layout-shift",
+        "impact": 5,
+        "guidance": [
+          {
+            "displayName": "Web Vitals / Core Web Vitals",
+            "url": "https://docs.scangov.org/web-vitals-core-web-vitals"
+          }
+        ]
       },
       {
-        "key": "www",
-        "displayName": "WWW",
-        "tag": "www",
-        "description": "A single canonical domain is reachable with www and non-www input. ",
-        "docs": "https://docs.scangov.org/canonicalization",
-        "impact": 5
+        "key": "fcp",
+        "displayName": "First Contentful Paint (FCP)",
+        "tag": "FCP",
+        "description": "The page begins to display within 1.8 seconds.",
+        "docs": "https://docs.scangov.org/first-contentful-paint",
+        "impact": 8,
+        "guidance": [
+          {
+            "displayName": "Web Vitals / Core Web Vitals",
+            "url": "https://docs.scangov.org/web-vitals-core-web-vitals"
+          }
+        ]
+      },
+      {
+        "key": "inp",
+        "displayName": "Interaction to Next Paint (INP)",
+        "tag": "INP",
+        "description": "Page responds in under 0.2 seconds.",
+        "docs": "https://docs.scangov.org/interaction-to-next-paint",
+        "impact": 9,
+        "guidance": [
+          {
+            "displayName": "Web Vitals / Core Web Vitals",
+            "url": "https://docs.scangov.org/web-vitals-core-web-vitals"
+          }
+        ]
+      },
+      {
+        "key": "lcp",
+        "displayName": "Largest Contentful Paint (LCP)",
+        "tag": "LCP",
+        "description": "Major content loads in 2.5 seconds.",
+        "docs": "https://docs.scangov.org/largest-contentful-paint",
+        "impact": 8,
+        "guidance": [
+          {
+            "displayName": "Web Vitals / Core Web Vitals",
+            "url": "https://docs.scangov.org/web-vitals-core-web-vitals"
+          }
+        ]
+      },
+      {
+        "key": "ttfb",
+        "displayName": "Time to First Byte (TTFB)",
+        "tag": "TTFB",
+        "description": "Code received in 0.8 seconds.",
+        "docs": "https://docs.scangov.org/time-to-first-byte",
+        "impact": 8,
+        "guidance": [
+          {
+            "displayName": "Web Vitals / Core Web Vitals",
+            "url": "https://docs.scangov.org/web-vitals-core-web-vitals"
+          }
+        ]
       }
     ]
   },
   "seo": {
     "displayName": "SEO",
     "icon": "magnifying-glass",
+    "url": "https://docs.scangov.org/topics/search-engine-optimization",
     "attributes": [
       {
         "key": "status",
-        "displayName": "Status",
+        "displayName": "Sitemap status",
         "tag": "Status",
         "description": "The HTTP status of /sitemap.xml is OK.",
         "docs": "https://docs.scangov.org/sitemaps",
-        "impact": 3
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "sitemaps.org",
+            "url": "https://docs.scangov.org/sitemaps-org"
+          }
+        ]
       },
       {
         "key": "xml",
-        "displayName": "XML",
+        "displayName": "Sitemap XML",
         "tag": "XML",
         "description": "The sitemap file type is XML.",
         "docs": "https://docs.scangov.org/sitemaps",
-        "impact": 3
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "sitemaps.org",
+            "url": "https://docs.scangov.org/sitemaps-org"
+          }
+        ]
       },
       {
         "key": "completion",
-        "displayName": "Complete",
+        "displayName": "Sitemap complete",
         "tag": "Complete",
         "description": "Every link on the home page is in the sitemap.",
         "docs": "https://docs.scangov.org/sitemaps",
-        "impact": 1
+        "impact": 1,
+        "guidance": [
+          {
+            "displayName": "sitemaps.org",
+            "url": "https://docs.scangov.org/sitemaps-org"
+          }
+        ]
       },
       {
         "key": "valid",
-        "displayName": "Valid",
+        "displayName": "Robots valid",
         "tag": "Valid",
         "description": "The site has a valid robots policy.",
         "docs": "https://docs.scangov.org/robots-txt",
-        "impact": 3
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "The Web Robots Pages",
+            "url": "https://docs.scangov.org/robots-txt-org"
+          }
+        ]
       },
       {
         "key": "allowed",
-        "displayName": "Allowed",
+        "displayName": "Robots allowed",
         "tag": "Allowed",
         "description": "The robots policy allows access to browsers and scrapers.",
-        "docs": "https://docs.scangov.org/robots-txt"
+        "docs": "https://docs.scangov.org/robots-txt",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "The Web Robots Pages",
+            "url": "https://docs.scangov.org/robots-txt-org"
+          }
+        ]
       },
       {
         "key": "sitemap",
@@ -226,45 +427,74 @@
         "tag": "Sitemap",
         "description": "The robots.txt file points to a sitemap file.",
         "docs": "https://docs.scangov.org/sitemaps",
-        "impact": 5
+        "impact": 5,
+        "guidance": [
+          {
+            "displayName": "Google Search Central",
+            "url": "https://docs.scangov.org/google-search-central"
+          }
+        ]
       },
       {
         "key": "canonical",
-        "displayName": "canonical",
+        "displayName": "Canonical",
         "tag": "<link rel=\"canonical\">",
-        "description": "Indicates that another page is representative of the content on the page",
-        "docs": "https://docs.scangov.org/metadata",
-        "impact": 3
+        "description": "Use preferred page URLs to avoid duplication.",
+        "docs": "https://docs.scangov.org/canonicalization",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "The Web Robots Pages",
+            "url": "https://docs.scangov.org/robots-txt-org"
+          },
+          {
+            "displayName": "Google Search Central",
+            "url": "https://docs.scangov.org/google-search-central"
+          }
+        ]
       }
     ]
   },
   "security": {
     "displayName": "Security",
     "icon": "lock",
+    "url": "https://docs.scangov.org/topics/security",
     "attributes": [
       {
-        "key": "hsts",
-        "displayName": "HSTS",
-        "tag": "HSTS",
-        "description": "The site automatically upgrades from HTTP to HTTPS and instructs browsers to use HTTPS going forward.",
-        "docs": "https://docs.scangov.org/hsts",
-        "impact": 10
-      },
-      {
         "key": "csp",
-        "displayName": "CSP",
+        "displayName": "Content security policy (CSP)",
         "tag": "CSP",
         "description": "The site restricts what can be loaded.",
         "docs": "https://docs.scangov.org/content-security-policy",
-        "impact": 3
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "CISA Website Security",
+            "url": "https://docs.scangov.org/cisa-web-security"
+          }
+        ]
       },
       {
-        "key": "xContentTypeOptions",
-        "displayName": "X-Content-Type-Options",
-        "tag": "X-Content-Type-Options",
-        "description": "The site prevents mime type sniffing.",
-        "docs": "https://docs.scangov.org/x-content-type-options",
-        "impact": 3
+        "key": "hsts",
+        "displayName": "HTTP Strict Transport Security (HSTS)",
+        "tag": "HSTS",
+        "description": "Site upgrades to a secure connection.",
+        "docs": "https://docs.scangov.org/hsts",
+        "impact": 10,
+        "guidance": [
+          {
+            "displayName": "21st Century Integrated Digital Experience Act",
+            "url": "https://docs.scangov.org/21st-century-idea"
+          },
+          {
+            "displayName": "CISA Website Security",
+            "url": "https://docs.scangov.org/cisa-web-security"
+          },
+          {
+            "displayName": "CISA Cybersecurity Performance Goals",
+            "url": "https://docs.scangov.org/cybersecurity-performance-goals"
+          }
+        ]
       },
       {
         "key": "securityTxt",
@@ -272,225 +502,140 @@
         "tag": "security.txt",
         "description": "The site has a security.txt file.",
         "docs": "https://docs.scangov.org/security-txt",
-        "impact": 1
-      }
-    ]
-  },
-  "performance": {
-    "displayName": "Performance",
-    "icon": "gauge",
-    "attributes": [
-      {
-        "key": "ttfb",
-        "displayName": "Time to first byte",
-        "tag": "TTFB",
-        "description": "The application code is received within 0.8 seconds.",
-        "docs": "https://developer.mozilla.org/en-US/docs/Glossary/Time_to_first_byte",
-        "impact": 8
-      },
-      {
-        "key": "fcp",
-        "displayName": "First contentful paint",
-        "tag": "FCP",
-        "description": "The page begins to display within 1.8 seconds.",
-        "docs": "https://developer.mozilla.org/en-US/docs/Glossary/First_contentful_paint",
-        "impact": 8
-      },
-      {
-        "key": "lcp",
-        "displayName": "Largest contentful paint",
-        "tag": "LCP",
-        "description": "A large part of the application has been displayed within 2.5 seconds.",
-        "docs": "https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint",
-        "impact": 8
-      },
-      {
-        "key": "cls",
-        "displayName": "Cumulative layout shift",
-        "tag": "CLS",
-        "description": "The page does not move visible elements around during initial display for more than 0.1 seconds at a time.",
-        "docs": "https://developer.mozilla.org/en-US/docs/Glossary/CLS",
-        "impact": 5
-      },
-      {
-        "key": "inp",
-        "displayName": "Interaction to next paint",
-        "tag": "INP",
-        "description": "It takes the application less than 0.2 seconds to respond to a user interaction.",
-        "docs": "https://developer.mozilla.org/en-US/docs/Glossary/Interaction_to_next_paint",
-        "impact": 9
-      }
-    ]
-  },
-  "accessibility": {
-    "displayName": "Accessibility",
-    "icon": "universal-access",
-    "attributes": [
-      {
-        "key": "a11y-color-contrast",
-        "displayName": "Color contrast",
-        "tag": "a11y-color-contrast",
-        "description": "Opportunities to improve legibility by ensuring sufficient background, foreground color contrast and that links are discernible without relying on color.",
-        "docs": "https://docs.scangov.org/wcag",
-        "guidance": "WCAG",
-        "impact": 3,
-        "standards": [
+        "impact": 1,
+        "guidance": [
           {
-            "displayName": "WCAG color contrast",
-            "url": "https://docs.scangov.org/a11y-color-contrast",
-            "description": "Opportunities to improve legibility by ensuring sufficient background, foreground color contrast and that links are discernible without relying on color."
+            "displayName": "CISA Cybersecurity Performance Goals",
+            "url": "https://docs.scangov.org/cybersecurity-performance-goals"
+          },
+          {
+            "displayName": "RFC 9116",
+            "url": "https://docs.scangov.org/rfc9116"
+          },
+          {
+            "displayName": "security.txt",
+            "url": "https://docs.scangov.org/security-txt"
           }
         ]
       },
       {
-        "key": "a11y-best-practices",
-        "displayName": "Accessibility best practices",
-        "tag": "a11y-best-practices",
-        "description": "Improve accessibility by providing sufficient area on touch elements and allowing the viewport sizing to be controlled by the visitor.",
-        "docs": "https://docs.scangov.org/wcag",
-        "guidance": "WCAG",
+        "key": "xContentTypeOptions",
+        "displayName": "X-Content-Type-Options",
+        "tag": "X-Content-Type-Options",
+        "description": "The site prevents mime type sniffing.",
+        "docs": "https://docs.scangov.org/x-content-type-options",
         "impact": 3,
-        "standards": [
+        "guidance": [
           {
-            "displayName": "WCAG mobile affordances",
-            "url": "https://docs.scangov.org/a11y-best-practices",
-            "description": "Improve accessibility by providing sufficient area on touch elements and allowing the viewport sizing to be controlled by the visitor."
-          }
-        ]
-      },
-      {
-        "key": "a11y-names-labels",
-        "displayName": "Names and labels",
-        "tag": "a11y-names-labels",
-        "description": "Provide the expected tags and attributes so each document can be easily used with a screen reader.",
-        "docs": "https://docs.scangov.org/wcag",
-        "guidance": "WCAG",
-        "impact": 3,
-        "standards": [
-          {
-            "displayName": "WCAG names and labels",
-            "url": "https://docs.scangov.org/a11y-names-labels",
-            "description": "Provide the expected tags and attributes so each document can be easily used with a screen reader."
-          }
-        ]
-      },
-      {
-        "key": "a11y-navigation",
-        "displayName": "Navigation",
-        "tag": "a11y-navigation",
-        "description": "These are opportunities to improve keyboard navigation in your application.",
-        "docs": "https://docs.scangov.org/wcag",
-        "guidance": "WCAG",
-        "impact": 3,
-        "standards": [
-          {
-            "displayName": "WCAG navigation",
-            "url": "https://docs.scangov.org/a11y-navigation",
-            "description": "These are opportunities to improve keyboard navigation in your application."
-          }
-        ]
-      },
-      {
-        "key": "a11y-aria",
-        "displayName": "ARIA attributes",
-        "tag": "a11y-aria",
-        "description": "These are opportunities to improve the usage of ARIA in your application which may enhance the experience for users of assistive technology, like a screen reader.",
-        "docs": "https://docs.scangov.org/wcag",
-        "guidance": "WCAG",
-        "impact": 3,
-        "standards": [
-          {
-            "displayName": "WCAG ARIA attributes",
-            "url": "https://docs.scangov.org/a11y-aria",
-            "description": "These are opportunities to improve the usage of ARIA in your application which may enhance the experience for users of assistive technology, like a screen reader."
-          }
-        ]
-      },
-      {
-        "key": "a11y-language",
-        "displayName": "Internationalization and localization",
-        "tag": "a11y-language",
-        "description": "Follow these recommendations to improve the experience for visitors who may take advantage of translations.",
-        "docs": "https://docs.scangov.org/wcag",
-        "guidance": "WCAG",
-        "impact": 3,
-        "standards": [
-          {
-            "displayName": "WCAG internationalization",
-            "url": "https://docs.scangov.org/a11y-language",
-            "description": "Follow these recommendations to improve the experience for visitors who may take advantage of translations."
-          }
-        ]
-      },
-      {
-        "key": "a11y-audio-video",
-        "displayName": "Audio and video",
-        "tag": "a11y-audio-video",
-        "description": "These are opportunities to provide alternative content for audio and video. This may improve the experience for users with hearing or vision impairments.",
-        "docs": "https://docs.scangov.org/wcag",
-        "guidance": "WCAG",
-        "impact": 3,
-        "standards": [
-          {
-            "displayName": "WCAG audio and video",
-            "url": "https://docs.scangov.org/a11y-audio-video",
-            "description": "These are opportunities to provide alternative content for audio and video. This may improve the experience for users with hearing or vision impairments."
-          }
-        ]
-      },
-      {
-        "key": "a11y-tables-lists",
-        "displayName": "Tables and lists",
-        "tag": "a11y-tables-lists",
-        "description": "These are opportunities to improve the experience of reading tabular or list data using assistive technology, like a screen reader.",
-        "docs": "https://docs.scangov.org/wcag",
-        "guidance": "WCAG",
-        "impact": 3,
-        "standards": [
-          {
-            "displayName": "WCAG tables and lists",
-            "url": "https://docs.scangov.org/a11y-tables-lists",
-            "description": "These are opportunities to improve the experience of reading tabular or list data using assistive technology, like a screen reader."
-          }
-        ]
-      },
-      {
-        "key": "hidden",
-        "displayName": "Hidden content",
-        "tag": "hidden",
-        "description": "Follow these recommendations to avoid hiding content from visitors using assistive technology.",
-        "docs": "https://docs.scangov.org/wcag",
-        "guidance": "WCAG",
-        "impact": 3,
-        "standards": [
-          {
-            "displayName": "WCAG hidden content",
-            "url": "https://docs.scangov.org/hidden",
-            "description": "Follow these recommendations to avoid hiding content from visitors using assistive technology."
+            "displayName": "OWASP Top 10",
+            "url": "https://docs.scangov.org/owasp-top-10"
           }
         ]
       }
     ]
   },
-  "aifriendly": {
-    "displayName": "AI friendly",
-    "icon": "robot",
+  "social": {
+    "displayName": "Social",
+    "icon": "share-nodes",
+    "url": "https://docs.scangov.org/topics/social-media",
     "attributes": [
       {
-        "key": "crawlable",
-        "displayName": "Crawlable",
-        "tag": "crawlable",
-        "description": "Site is available for crawling and indexing by well behaved agents.",
-        "docs": "https://docs.scangov.org/crawlable",
-        "impact": 4
+        "key": "ogSiteName",
+        "displayName": "Open Graph site name",
+        "tag": "<meta property=\"og:site_name\">",
+        "description": "Website title for social sharing.",
+        "docs": "https://docs.scangov.org/metadata",
+        "impact": 1,
+        "guidance": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
       },
       {
-        "key": "text-content",
-        "displayName": "Content available in document",
-        "tag": "text-content",
-        "description": "The main content of each page is available in the initial document. It does not require a lot of client side script execution in order to render. If pagse usually require a lot of client side script execution to render main content the content may be made available to bots in an alternate text version of the site.",
-        "docs": "https://docs.scangov.org/text-content",
-        "impact": 2
+        "key": "ogType",
+        "displayName": "Open Graph type",
+        "tag": "<meta property=\"og:type\">",
+        "description": "Content category for social media.",
+        "docs": "https://docs.scangov.org/metadata",
+        "impact": 1,
+        "guidance": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
+      },
+      {
+        "key": "ogTitle",
+        "displayName": "Open Graph title",
+        "tag": "<meta property=\"og:title\">",
+        "description": "Page title for social sharing.",
+        "docs": "https://docs.scangov.org/metadata",
+        "impact": 1,
+        "guidance": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
+      },
+      {
+        "key": "ogDescription",
+        "displayName": "Open Graph description",
+        "tag": "<meta property=\"og:description\">",
+        "description": "Short description of your webpage content.",
+        "docs": "https://docs.scangov.org/open-graph",
+        "impact": 1,
+        "guidance": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
+      },
+      {
+        "key": "ogUrl",
+        "displayName": "Open Graph URL",
+        "tag": "<meta property=\"og:url\">",
+        "description": "Canonical link for social sharing.",
+        "docs": "https://docs.scangov.org/open-graph",
+        "impact": 1,
+        "guidance": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
+      },
+      {
+        "key": "ogImage",
+        "displayName": "Open Graph image",
+        "tag": "<meta property=\"og:image\">",
+        "description": "Preview image for social sharing.",
+        "docs": "https://docs.scangov.org/open-graph",
+        "impact": 1,
+        "guidance": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
+      },
+      {
+        "key": "ogImageAlt",
+        "displayName": "Open Graph image alt",
+        "tag": "<meta property=\"og:image:alt\">",
+        "description": "Image description for accessibility",
+        "docs": "https://docs.scangov.org/open-graph",
+        "impact": 1,
+        "guidance": [
+          {
+            "displayName": "Open Graph",
+            "url": "https://docs.scangov.org/open-graph"
+          }
+        ]
       }
     ]
   }

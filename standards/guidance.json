@@ -20,6 +20,14 @@
         "url": "https://docs.scangov.org/hsts"
       },
       {
+        "displayName": "Page title",
+        "url": "https://docs.scangov.org/page-title"
+      },
+      {
+        "displayName": "Page description",
+        "url": "https://docs.scangov.org/page-description"
+      },
+      {
         "displayName": "Viewport meta tag",
         "url": "https://docs.scangov.org/viewport-meta-tag"
       }
@@ -71,7 +79,7 @@
     ]
   },
   "federal-website-standards": {
-    "displayName": "Federal website standards",
+    "displayName": "U.S. Federal Website Standards",
     "description": "Improves accessibility, consistency and user experience.",
     "docs": "https://docs.scangov.org/federal-website-standards",
     "topics": [
@@ -88,6 +96,25 @@
       {
         "displayName": "Page description",
         "url": "https://docs.scangov.org/page-description"
+      }
+    ]
+  },
+  "google-search-central": {
+    "displayName": "Google Search Central",
+    "description": "Resources to improve site search rankings.",
+    "docs": "https://docs.scangov.org/google-search-central",
+    "topics": [
+      "content",
+      "seo"
+    ],
+    "standards": [
+      {
+        "displayName": "Canonicalization",
+        "url": "https://docs.scangov.org/canonicalization"
+      },
+      {
+        "displayName": "www resolution",
+        "url": "https://docs.scangov.org/www-resolution"
       }
     ]
   },
@@ -142,7 +169,7 @@
         "url": "https://docs.scangov.org/metadata"
       },
       {
-        "displayName": "Open Graph url",
+        "displayName": "Open Graph URL",
         "url": "https://docs.scangov.org/metadata"
       },
       {
@@ -192,6 +219,14 @@
         "url": "https://docs.scangov.org/hsts"
       },
       {
+        "displayName": "Page title",
+        "url": "https://docs.scangov.org/page-title"
+      },
+      {
+        "displayName": "Page description",
+        "url": "https://docs.scangov.org/page-description"
+      },
+      {
         "displayName": "Viewport meta tag",
         "url": "https://docs.scangov.org/viewport-meta-tag"
       }
@@ -224,7 +259,7 @@
         "url": "https://docs.scangov.org/metadata"
       },
       {
-        "displayName": "Open Graph url",
+        "displayName": "Open Graph URL",
         "url": "https://docs.scangov.org/metadata"
       },
       {
@@ -234,10 +269,20 @@
       {
         "displayName": "Open Graph image alt",
         "url": "https://docs.scangov.org/metadata"
-      },
+      }
+    ]
+  },
+  "owasp10": {
+    "displayName": "OWASP Top 10",
+    "description": "Helps make websites and apps safer.",
+    "docs": "https://docs.scangov.org/owasp-top-10",
+    "topics": [
+      "security"
+    ],
+    "standards": [
       {
-        "displayName": "robots.txt",
-        "url": "https://docs.scangov.org/robots-txt"
+        "displayName": "X-Content-Type-Options",
+        "url": "https://docs.scangov.org/x-content-type-options"
       }
     ]
   },
@@ -296,40 +341,44 @@
     ],
     "standards": [
       {
-        "displayName": "WCAG color contrast",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable/Color_contrast"
+        "displayName": "Accessibility best practices",
+        "url": "https://docs.scangov.org/accessibility-best-practices"
       },
       {
-        "displayName": "WCAG mobile affordances",
-        "url": "https://www.w3.org/WAI/standards-guidelines/mobile/"
+        "displayName": "ARIA attributes",
+        "url": "https://docs.scangov.org/aria"
       },
       {
-        "displayName": "WCAG names and labels",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Text_labels_and_names"
+        "displayName": "Audio and video",
+        "url": "https://docs.scangov.org/audio-video"
       },
       {
-        "displayName": "WCAG navigation",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Operable"
+        "displayName": "Color contrast",
+        "url": "https://docs.scangov.org/color-contrast"
       },
       {
-        "displayName": "WCAG ARIA attributes",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes"
+        "displayName": "Hidden elements",
+        "url": "https://docs.scangov.org/hidden"
       },
       {
-        "displayName": "WCAG internationalization",
-        "url": "https://www.w3.org/WAI/standards-guidelines/wcag/translations/"
+        "displayName": "Language",
+        "url": "https://docs.scangov.org/language"
       },
       {
-        "displayName": "WCAG audio and video",
-        "url": "https://www.w3.org/WAI/media/av/"
+        "displayName": "Names and labels",
+        "url": "https://docs.scangov.org/names-labels"
       },
       {
-        "displayName": "WCAG tables and lists",
-        "url": "https://www.w3.org/WAI/tutorials/tables/"
+        "displayName": "Mobile affordances",
+        "url": "https://docs.scangov.org/"
       },
       {
-        "displayName": "WCAG hidden content",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Text_labels_and_names"
+        "displayName": "Navigation",
+        "url": "https://docs.scangov.org/navigation"
+      },
+      {
+        "displayName": "Tables and lists",
+        "url": "https://docs.scangov.org/tables-lists"
       }
     ]
   },
@@ -367,6 +416,10 @@
       {
         "displayName": "HTTP Strict Transport Security (HSTS)",
         "url": "https://docs.scangov.org/hsts"
+      },
+      {
+        "displayName": "security.txt",
+        "url": "https://docs.scangov.org/security-txt"
       }
     ]
   },
