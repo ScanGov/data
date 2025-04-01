@@ -8,4 +8,5 @@ To update the accessibility json file:
 
 ```
 node update-accessibility.js
+node update-performance.js
 ```

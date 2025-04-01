@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import { parse } from 'csv-parse/sync';
 
-let existingAccessibility = JSON.parse(fs.readFileSync(`../accessibility.json`));
+let existingPerformance = JSON.parse(fs.readFileSync(`../performance.json`));
 let allDomainsCsv = fs.readFileSync(`../domains.csv`);
 
 let allDomainsMap = new Map();
@@ -14,7 +14,11 @@ allDomainsArr.forEach(d => {
 })
 
 let existingMap = new Map();
-existingAccessibility.forEach(e => {
+existingPerformance.forEach(e => {
+  if(e && e.url) {
+  } else {
+    console.log(e)
+  }
   existingMap.set(e.url,e);
 })
 
@@ -34,32 +38,33 @@ try {
 
 dbData.records.Items.forEach(r => {
   let find = existingMap.get(r.primaryKeyDomain);
-  let accessibilityInfo = JSON.parse(r.auditData).accessibility;
-  if(accessibilityInfo) {
+  let performanceInfo = JSON.parse(r.auditData).performance;
+  if(performanceInfo) {
     if(find) {
       let historyObj = {};
       historyObj.time = 1742022000000;
       historyObj.status = 200;
-      for(var a in accessibilityInfo.attributes) {
+      for(var a in performanceInfo.attributes) {
         historyObj[a] = find[a];
-        find[a] = accessibilityInfo.attributes[a];
+        find[a] = performanceInfo.attributes[a];
       }
       find.history.push(historyObj);
       find.time = r.auditedTime;
       delete find.datafile;
-      delete find.remediation;
       existingMap.set(r.primaryKeyDomain,find);
     } else {
       let newObj = {};
       newObj.url = r.primaryKeyDomain;
-      for(var a in accessibilityInfo.attributes) {
-        newObj[a] = accessibilityInfo.attributes[a];
+      newObj.origin = r.url;
+      for(var a in performanceInfo.attributes) {
+        newObj[a] = performanceInfo.attributes[a];
       }
       newObj.name = allDomainsMap.get(r.primaryKeyDomain);
       newObj.history = [];
       newObj.status = 200;
       if(newObj.name) {
         existingMap.set(r.primaryKeyDomain,newObj);
+        // don't add anything not in domains.csv or it breaks scangov build
       }
     }
   } else {
@@ -71,4 +76,4 @@ let output = [];
 existingMap.forEach(item => {
   output.push(item);
 })
-fs.writeFileSync('../accessibility.json',JSON.stringify(output),'utf8');
+fs.writeFileSync('./performance.json',JSON.stringify(output),'utf8');
