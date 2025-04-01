@@ -80,7 +80,7 @@ dbData.records.Items.forEach(r => {
       newObj.history = [];
       newObj.status = 200;
       if(newObj.name) {
-        existingMap.set(r.primaryKeyDomain,find);
+        existingMap.set(r.primaryKeyDomain,newObj);
       }
     }
   } else {
