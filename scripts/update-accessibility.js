@@ -74,9 +74,6 @@ dbData.records.Items.forEach(r => {
         newObj[a] = accessibilityInfo.attributes[a];
       }
       newObj.name = allDomainsMap.get(r.primaryKeyDomain);
-      if(!allDomainsMap.get(r.primaryKeyDomain)) {
-        newObj.name = additionalDomains[r.primaryKeyDomain];
-      }
       newObj.history = [];
       newObj.status = 200;
       if(newObj.name) {
