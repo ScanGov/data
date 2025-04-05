@@ -1184,7 +1184,7 @@ igorville.gov,"Non-Federal Agency",500,"http://www.igorville.gov/",false,"null",
 itrd.gov,"Networking Information Technology Research and Development",500,"http://www.itrd.gov/",false,"null",false,undefined
 ntsb.gov,"National Transportation Safety Board",200,"https://www.ntsb.gov/robots.txt",true,"null",true,robots.txt
 nscai.gov,"National Security Commission on Artificial Intelligence",404,"http://www.nscai.gov/",false,"null",false,undefined
-oshrc.gov,"Occupational Safety & Health Review Commission",200,"https://www.oshrc.gov/robots.txt",true,"https://www.oshrc.gov/sitemap_index.xml",true,robots.txt
+oshrc.gov,"Occupational Safety and Health Review Commission",200,"https://www.oshrc.gov/robots.txt",true,"https://www.oshrc.gov/sitemap_index.xml",true,robots.txt
 usap.gov,"National Science Foundation",200,"https://www.usap.gov/robots.txt",true,"null",true,robots.txt
 sac.gov,"National Science Foundation",200,"https://www.sac.gov/robots.txt",true,"null",true,robots.txt
 nitrd.gov,"Networking Information Technology Research and Development",200,"https://www.nitrd.gov/robots.txt",true,"https://www.nitrd.gov/sitemap_index.xml",true,robots.txt
@@ -2168,23 +2168,23 @@ dra.gov,"Delta Regional Authority",200,"https://dra.gov/robots.txt",true,"https:
 pandemicoversight.gov,"Council of Inspectors General on Integrity and Efficiency",200,"https://pandemicoversight.gov/robots.txt",true,"https://pandemicoversight.gov/sitemap.xml",true,robots.txt
 ignet.gov,"Council of Inspectors General on Integrity and Efficiency",200,"https://www.ignet.gov/robots.txt",true,"null",true,robots.txt
 cigie.gov,"Council of Inspectors General on Integrity and Efficiency",500,"http://www.cigie.gov/",false,"null",false,undefined
-volunteeringinamerica.gov,"Corporation for National & Community Service",500,"https://volunteeringinamerica.gov/",false,"null",false,undefined
-vistacampus.gov,"Corporation for National & Community Service",500,"https://vistacampus.gov/",false,"null",false,undefined
+volunteeringinamerica.gov,"Corporation for National and Community Service",500,"https://volunteeringinamerica.gov/",false,"null",false,undefined
+vistacampus.gov,"Corporation for National and Community Service",500,"https://vistacampus.gov/",false,"null",false,undefined
 csosa.gov,"Court Services and Offender Supervision",200,"https://www.csosa.gov/robots.txt",true,"https://www.csosa.gov/wp-sitemap.xml",true,robots.txt
-serve.gov,"Corporation for National & Community Service",500,"https://serve.gov/",false,"null",false,undefined
-nationalservice.gov,"Corporation for National & Community Service",500,"https://nationalservice.gov/",false,"null",false,undefined
-presidentialserviceawards.gov,"Corporation for National & Community Service",200,"https://d302laedhb14lz.cloudfront.net/f75e0a14-4aba-47e2-a5d8-18d1e84b491b/robots.txt",true,"null",true,robots.txt
-mlkday.gov,"Corporation for National & Community Service",500,"https://mlkday.gov/",false,"null",false,undefined
-mentor.gov,"Corporation for National & Community Service",500,"https://mentor.gov/",false,"null",false,undefined
-cns.gov,"Corporation for National & Community Service",500,"http://www.cns.gov/",false,"null",false,undefined
-joinamericorps.gov,"Corporation for National & Community Service",500,"https://joinamericorps.gov/",false,"null",false,undefined
-cncs.gov,"Corporation for National & Community Service",500,"http://www.cncs.gov/",false,"null",false,undefined
-ccc.gov,"Corporation for National & Community Service",500,"http://www.ccc.gov/",false,"null",false,undefined
-cncsoig.gov,"Corporation for National & Community Service",404,"http://www.cncsoig.gov/",false,"null",false,undefined
-americorps.gov,"Corporation for National & Community Service",200,"https://americorps.gov/robots.txt",true,"null",true,robots.txt
-americanclimatecorps.gov,"Corporation for National & Community Service",500,"http://www.americanclimatecorps.gov/",false,"null",false,undefined
-acc.gov,"Corporation for National & Community Service",500,"http://www.acc.gov/",false,"null",false,undefined
-americorpsoig.gov,"Corporation for National & Community Service",200,"https://www.americorpsoig.gov/robots.txt",true,"null",true,robots.txt
+serve.gov,"Corporation for National and Community Service",500,"https://serve.gov/",false,"null",false,undefined
+nationalservice.gov,"Corporation for National and Community Service",500,"https://nationalservice.gov/",false,"null",false,undefined
+presidentialserviceawards.gov,"Corporation for National and Community Service",200,"https://d302laedhb14lz.cloudfront.net/f75e0a14-4aba-47e2-a5d8-18d1e84b491b/robots.txt",true,"null",true,robots.txt
+mlkday.gov,"Corporation for National and Community Service",500,"https://mlkday.gov/",false,"null",false,undefined
+mentor.gov,"Corporation for National and Community Service",500,"https://mentor.gov/",false,"null",false,undefined
+cns.gov,"Corporation for National and Community Service",500,"http://www.cns.gov/",false,"null",false,undefined
+joinamericorps.gov,"Corporation for National and Community Service",500,"https://joinamericorps.gov/",false,"null",false,undefined
+cncs.gov,"Corporation for National and Community Service",500,"http://www.cncs.gov/",false,"null",false,undefined
+ccc.gov,"Corporation for National and Community Service",500,"http://www.ccc.gov/",false,"null",false,undefined
+cncsoig.gov,"Corporation for National and Community Service",404,"http://www.cncsoig.gov/",false,"null",false,undefined
+americorps.gov,"Corporation for National and Community Service",200,"https://americorps.gov/robots.txt",true,"null",true,robots.txt
+americanclimatecorps.gov,"Corporation for National and Community Service",500,"http://www.americanclimatecorps.gov/",false,"null",false,undefined
+acc.gov,"Corporation for National and Community Service",500,"http://www.acc.gov/",false,"null",false,undefined
+americorpsoig.gov,"Corporation for National and Community Service",200,"https://www.americorpsoig.gov/robots.txt",true,"null",true,robots.txt
 oversight.gov,"Council of Inspectors General on Integrity and Efficiency",200,"https://www.oversight.gov/robots.txt",true,"null",true,robots.txt
 seguridadconsumidor.gov,"Consumer Product Safety Commission",200,"https://www.cpsc.gov/es",false,"null",false,false
 recalls.gov,"Consumer Product Safety Commission",200,"https://www.recalls.gov/robots.txt",true,"null",true,robots.txt

@@ -1184,7 +1184,7 @@ igorville.gov,"Non-Federal Agency",500,false,-1,-1,false,false,false
 itrd.gov,"Networking Information Technology Research and Development",500,false,-1,-1,false,false,false
 ntsb.gov,"National Transportation Safety Board",302,true,15552000,1743838437549,true,true,false
 nscai.gov,"National Security Commission on Artificial Intelligence",301,false,-1,-1,false,false,false
-oshrc.gov,"Occupational Safety & Health Review Commission",301,true,3156000,1743826041549,false,true,false
+oshrc.gov,"Occupational Safety and Health Review Commission",301,true,3156000,1743826041549,false,true,false
 usap.gov,"National Science Foundation",301,true,31536000,1743854421549,true,true,false
 sac.gov,"National Science Foundation",301,true,31536000,1743854421549,false,true,false
 nitrd.gov,"Networking Information Technology Research and Development",301,true,31536000,1743854421549,true,true,false
@@ -2168,23 +2168,23 @@ dra.gov,"Delta Regional Authority",200,true,31536000,1743854421549,false,true,fa
 pandemicoversight.gov,"Council of Inspectors General on Integrity and Efficiency",200,true,31536000,1743854421549,false,true,false
 ignet.gov,"Council of Inspectors General on Integrity and Efficiency",301,true,31536000,1743854421549,true,false,false
 cigie.gov,"Council of Inspectors General on Integrity and Efficiency",500,false,-1,-1,false,false,false
-volunteeringinamerica.gov,"Corporation for National & Community Service",500,false,-1,-1,false,false,false
-vistacampus.gov,"Corporation for National & Community Service",500,false,-1,-1,false,false,false
+volunteeringinamerica.gov,"Corporation for National and Community Service",500,false,-1,-1,false,false,false
+vistacampus.gov,"Corporation for National and Community Service",500,false,-1,-1,false,false,false
 csosa.gov,"Court Services and Offender Supervision",301,true,31536000,1743854421549,true,false,false
-serve.gov,"Corporation for National & Community Service",500,false,-1,-1,false,false,false
-nationalservice.gov,"Corporation for National & Community Service",500,false,-1,-1,false,false,false
-presidentialserviceawards.gov,"Corporation for National & Community Service",200,true,63072000,1743885957549,false,true,false
-mlkday.gov,"Corporation for National & Community Service",500,false,-1,-1,false,false,false
-mentor.gov,"Corporation for National & Community Service",500,false,-1,-1,false,false,false
-cns.gov,"Corporation for National & Community Service",500,false,-1,-1,false,false,false
-joinamericorps.gov,"Corporation for National & Community Service",500,false,-1,-1,false,false,false
-cncs.gov,"Corporation for National & Community Service",500,false,-1,-1,false,false,false
-ccc.gov,"Corporation for National & Community Service",500,false,-1,-1,false,false,false
-cncsoig.gov,"Corporation for National & Community Service",500,false,-1,-1,false,false,false
-americorps.gov,"Corporation for National & Community Service",200,false,-1,-1,true,true,false
-americanclimatecorps.gov,"Corporation for National & Community Service",301,true,31536000,1743854421549,false,false,false
-acc.gov,"Corporation for National & Community Service",301,true,31536000,1743854421549,false,false,false
-americorpsoig.gov,"Corporation for National & Community Service",301,true,31536000,1743854421549,true,false,false
+serve.gov,"Corporation for National and Community Service",500,false,-1,-1,false,false,false
+nationalservice.gov,"Corporation for National and Community Service",500,false,-1,-1,false,false,false
+presidentialserviceawards.gov,"Corporation for National and Community Service",200,true,63072000,1743885957549,false,true,false
+mlkday.gov,"Corporation for National and Community Service",500,false,-1,-1,false,false,false
+mentor.gov,"Corporation for National and Community Service",500,false,-1,-1,false,false,false
+cns.gov,"Corporation for National and Community Service",500,false,-1,-1,false,false,false
+joinamericorps.gov,"Corporation for National and Community Service",500,false,-1,-1,false,false,false
+cncs.gov,"Corporation for National and Community Service",500,false,-1,-1,false,false,false
+ccc.gov,"Corporation for National and Community Service",500,false,-1,-1,false,false,false
+cncsoig.gov,"Corporation for National and Community Service",500,false,-1,-1,false,false,false
+americorps.gov,"Corporation for National and Community Service",200,false,-1,-1,true,true,false
+americanclimatecorps.gov,"Corporation for National and Community Service",301,true,31536000,1743854421549,false,false,false
+acc.gov,"Corporation for National and Community Service",301,true,31536000,1743854421549,false,false,false
+americorpsoig.gov,"Corporation for National and Community Service",301,true,31536000,1743854421549,true,false,false
 oversight.gov,"Council of Inspectors General on Integrity and Efficiency",301,true,31536000,1743854421549,true,false,false
 seguridadconsumidor.gov,"Consumer Product Safety Commission",302,false,-1,-1,true,true,false
 recalls.gov,"Consumer Product Safety Commission",301,true,31536000,1743854421549,true,false,false

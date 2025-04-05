@@ -1175,7 +1175,7 @@ employeeexpress.gov,"Office of Personnel Management",200,"https://www.employeeex
 applicationmanager.gov,"Office of Personnel Management",500,"http://www.applicationmanager.gov/",false,true,false
 chcoc.gov,"Office of Personnel Management",200,"https://beta.chcoc.gov/",true,true,true
 integrity.gov,"Office of Government Ethics",200,"https://integrity.gov/",true,true,false
-oshrc.gov,"Occupational Safety & Health Review Commission",200,"https://www.oshrc.gov/",true,true,true
+oshrc.gov,"Occupational Safety and Health Review Commission",200,"https://www.oshrc.gov/",true,true,true
 e-qip.gov,"Office of Personnel Management",500,"http://www.e-qip.gov/",false,true,false
 nrc.gov,"Nuclear Regulatory Commission",200,"https://www.nrc.gov/",true,true,true
 nrc-gateway.gov,"Nuclear Regulatory Commission",200,"https://mapx.nrc-gateway.gov/",true,true,true
@@ -2170,22 +2170,22 @@ csosa.gov,"Court Services and Offender Supervision",200,"https://www.csosa.gov/"
 oversight.gov,"Council of Inspectors General on Integrity and Efficiency",200,"https://www.oversight.gov/",true,true,true
 ignet.gov,"Council of Inspectors General on Integrity and Efficiency",200,"https://www.ignet.gov/",true,true,true
 cigie.gov,"Council of Inspectors General on Integrity and Efficiency",500,"http://www.cigie.gov/",false,true,false
-volunteeringinamerica.gov,"Corporation for National & Community Service",500,"https://volunteeringinamerica.gov/",true,true,false
-vistacampus.gov,"Corporation for National & Community Service",500,"https://vistacampus.gov/",true,true,false
-serve.gov,"Corporation for National & Community Service",500,"https://serve.gov/",true,true,false
-presidentialserviceawards.gov,"Corporation for National & Community Service",200,"https://presidentialserviceawards.gov/",true,true,false
-nationalservice.gov,"Corporation for National & Community Service",500,"https://nationalservice.gov/",true,true,false
-mlkday.gov,"Corporation for National & Community Service",500,"https://mlkday.gov/",true,true,false
-mentor.gov,"Corporation for National & Community Service",500,"https://mentor.gov/",true,true,false
-cns.gov,"Corporation for National & Community Service",500,"http://www.cns.gov/",false,true,false
-joinamericorps.gov,"Corporation for National & Community Service",500,"https://joinamericorps.gov/",true,true,false
-cncs.gov,"Corporation for National & Community Service",500,"http://www.cncs.gov/",false,true,false
-ccc.gov,"Corporation for National & Community Service",500,"http://www.ccc.gov/",false,true,false
-cncsoig.gov,"Corporation for National & Community Service",404,"http://www.cncsoig.gov/",false,true,false
-americorps.gov,"Corporation for National & Community Service",200,"https://americorps.gov/",true,true,false
-americorpsoig.gov,"Corporation for National & Community Service",200,"https://www.americorpsoig.gov/",true,true,true
-americanclimatecorps.gov,"Corporation for National & Community Service",500,"http://www.americanclimatecorps.gov/",false,true,false
-acc.gov,"Corporation for National & Community Service",500,"http://www.acc.gov/",false,true,false
+volunteeringinamerica.gov,"Corporation for National and Community Service",500,"https://volunteeringinamerica.gov/",true,true,false
+vistacampus.gov,"Corporation for National and Community Service",500,"https://vistacampus.gov/",true,true,false
+serve.gov,"Corporation for National and Community Service",500,"https://serve.gov/",true,true,false
+presidentialserviceawards.gov,"Corporation for National and Community Service",200,"https://presidentialserviceawards.gov/",true,true,false
+nationalservice.gov,"Corporation for National and Community Service",500,"https://nationalservice.gov/",true,true,false
+mlkday.gov,"Corporation for National and Community Service",500,"https://mlkday.gov/",true,true,false
+mentor.gov,"Corporation for National and Community Service",500,"https://mentor.gov/",true,true,false
+cns.gov,"Corporation for National and Community Service",500,"http://www.cns.gov/",false,true,false
+joinamericorps.gov,"Corporation for National and Community Service",500,"https://joinamericorps.gov/",true,true,false
+cncs.gov,"Corporation for National and Community Service",500,"http://www.cncs.gov/",false,true,false
+ccc.gov,"Corporation for National and Community Service",500,"http://www.ccc.gov/",false,true,false
+cncsoig.gov,"Corporation for National and Community Service",404,"http://www.cncsoig.gov/",false,true,false
+americorps.gov,"Corporation for National and Community Service",200,"https://americorps.gov/",true,true,false
+americorpsoig.gov,"Corporation for National and Community Service",200,"https://www.americorpsoig.gov/",true,true,true
+americanclimatecorps.gov,"Corporation for National and Community Service",500,"http://www.americanclimatecorps.gov/",false,true,false
+acc.gov,"Corporation for National and Community Service",500,"http://www.acc.gov/",false,true,false
 seguridadconsumidor.gov,"Consumer Product Safety Commission",200,"https://www.cpsc.gov/es",true,true,true
 saferproducts.gov,"Consumer Product Safety Commission",200,"https://www.saferproducts.gov/",true,true,true
 saferproduct.gov,"Consumer Product Safety Commission",200,"https://www.saferproducts.gov/",true,true,true
