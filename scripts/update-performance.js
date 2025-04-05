@@ -76,4 +76,4 @@ let output = [];
 existingMap.forEach(item => {
   output.push(item);
 })
-fs.writeFileSync('./performance.json',JSON.stringify(output),'utf8');
+fs.writeFileSync('../performance.json',JSON.stringify(output),'utf8');
