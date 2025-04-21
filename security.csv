@@ -1,4 +1,6 @@
 domain,agency,status,hsts,max_age,expire_time,csp,x_content_type_options,security_txt
+myflorida.gov,"State of Florida",500,false,-1,-1,false,false,false
+dc.gov,"District of Columbia",200,false,-1,-1,false,false,false
 westutx.gov,"City of West University Place, TX",200,false,-1,-1,true,true,false
 cityofwebster.com,"City of Webster, TX",200,false,-1,-1,true,true,false
 wallertexas.gov,"City of Waller, TX",301,false,-1,-1,false,true,false
@@ -2260,7 +2262,6 @@ mississippi.gov,"State of Mississippi",302,true,31536000,1743854421549,false,tru
 mn.gov,"State of Minnesota",500,false,-1,-1,false,false,false
 michigan.gov,"State of Michigan",302,false,-1,-1,true,false,false
 mass.gov,"State of Massachusetts",301,false,-1,-1,false,true,false
-maryland.gov,"State of Maryland",301,false,-1,-1,false,false,false
 maine.gov,"State of Maine",302,false,-1,-1,true,false,false
 louisiana.gov,"State of Louisiana",301,false,-1,-1,false,false,false
 kentucky.gov,"State of Kentucky",301,true,31536000,1743854421549,true,true,false
@@ -2281,4 +2282,4 @@ az.gov,"State of Arizona",200,true,300,1743822885849,false,true,false
 alaska.gov,"State of Alaska",200,true,31536000,1743854421549,true,true,false
 alabama.gov,"State of Alabama",301,false,-1,-1,false,true,false
 slc.gov,"Salt Lake City, UT",302,false,-1,-1,false,false,false
-dc.gov,"District of Columbia",200,false,-1,-1,false,false,false
+maryland.gov,"State of Maryland",301,false,-1,-1,true,true,false

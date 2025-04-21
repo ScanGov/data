@@ -1,114 +1,46 @@
 [
   {
-    "domain": "dc.gov",
-    "scriptSrc": "https://cse.google.com/cse.js?cx=012222452693656877933:sul8glk5y2y"
+    "domain": "maryland.gov",
+    "scriptSrc": "/_layouts/15/16.0.10407.20000/1033/initstrings.js"
   },
   {
-    "domain": "dc.gov",
-    "scriptSrc": "https://www.googletagmanager.com/gtag/js?id=G-XLLLT5975Z"
+    "domain": "maryland.gov",
+    "scriptSrc": "/_layouts/15/16.0.10407.20000/init.js"
   },
   {
-    "domain": "dc.gov",
-    "scriptSrc": "//cdn1.readspeaker.com/script/6295/webReader/webReader.js?pids=wr"
+    "domain": "maryland.gov",
+    "scriptSrc": "/ScriptResource.axd?d=geAARSRQq_hQfEBy6qPf56M1jnFL-ZK27S2CfW36u_LOrGgAujzJ0essxi4AnM-EVeI26l5rzS5z-AVqF5aYkeS4w5iaFWG6-GrVZEp3gxIrquin2XYJZSjZUxhsFORN6gqIq-Uq91kTWiP4tO9f4Qd4jOxOLx_7aEqxGZo5SQzPG0zxPUTKK5xfIIacUNOb0&t=2a9d95e3"
   },
   {
-    "domain": "dc.gov",
-    "scriptSrc": "/sites/all/themes/dc_home_omega/templates/twitterfeed/twitterfeed.js"
+    "domain": "maryland.gov",
+    "scriptSrc": "/_layouts/15/16.0.10407.20000/blank.js"
   },
   {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.3"
+    "domain": "maryland.gov",
+    "scriptSrc": "https://egov.maryland.gov/common/nate/v3/js/lib/modernizr.js"
   },
   {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/misc/jquery-extend-3.4.0.js?v=1.8.3"
+    "domain": "maryland.gov",
+    "scriptSrc": "https://cdn.govshare.site/332764c512a160cc598311295321d52196c562c3/lib/jquery/jquery-3.6.0.min.js"
   },
   {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.8.3"
+    "domain": "maryland.gov",
+    "scriptSrc": "https://cdn.govshare.site/332764c512a160cc598311295321d52196c562c3/lib/bootstrap/bootstrap.min.js"
   },
   {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/misc/jquery.once.js?v=1.2"
+    "domain": "maryland.gov",
+    "scriptSrc": "/DependencyHandler.axd/9462b300eeafd07aa8a4832a98a99a3e/121/js"
   },
   {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/misc/drupal.js?ry5nk4"
+    "domain": "maryland.gov",
+    "scriptSrc": "/_layouts/15/16.0.10407.20000/blank.js"
   },
   {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/modules/contrib/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"
+    "domain": "maryland.gov",
+    "scriptSrc": "https://egov.maryland.gov/doit/ewf/ewf.js"
   },
   {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/modules/contrib/jquery_update/replace/misc/jquery.form.min.js?v=2.69"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/misc/ajax.js?v=7.82"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/modules/contrib/jquery_update/js/jquery_update.js?v=0.0.1"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/misc/progress.js?ry5nk4"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "/sites/all/modules/contrib/seckit/js/seckit.document_write.js"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/modules/text_resize/jquery.cookie.js?ry5nk4"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/modules/text_resize/text_resize.js?ry5nk4"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/modules/extlink/extlink.js?ry5nk4"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/modules/views/js/base.js?ry5nk4"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/modules/views/js/ajax_view.js?ry5nk4"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/modules/quicktabs/js/quicktabs.js?ry5nk4"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/modules/google_analytics/googleanalytics.js?ry5nk4"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/themes/dc_home_omega/js/bxslider/jquery.bxslider.js?ry5nk4"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/themes/dc_home_omega/js/dcHome.js?ry5nk4"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/themes/dc_home_omega/js/voc.js?ry5nk4"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/themes/omega/omega/js/jquery.formalize.js?ry5nk4"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://dc.gov/sites/all/themes/omega/omega/js/omega-mediaqueries.js?ry5nk4"
-  },
-  {
-    "domain": "dc.gov",
-    "scriptSrc": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+    "domain": "maryland.gov",
+    "scriptSrc": "https://egov.maryland.gov/common/nate/v3/dist/core/js/nate.min.js"
   }
 ]
