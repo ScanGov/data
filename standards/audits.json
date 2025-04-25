@@ -15,6 +15,10 @@
         "impact": 4,
         "guidance": [
           {
+            "displayName": "21st Century Integrated Digital Experience Act",
+            "url": "https://docs.scangov.org/21st-century-idea"
+          },
+          {
             "displayName": "The Web Robots Pages",
             "url": "https://docs.scangov.org/robots-txt-org"
           }
