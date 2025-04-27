@@ -1,0 +1,7182 @@
+[
+  {
+    "url": "dc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "westutx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofwebster.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wallertexas.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "staffordtx.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "springvalleytx.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "southhoustontx.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "shoreacrestx.us",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "seabrooktx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nassaubay.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "morganspoint-tx.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofkaty.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "jerseyvillagetx.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "jacintocity-tx.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "cityofhunterscreek.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hilshirevillagetexas.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "thecityofhedwigvillage.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "cityofgalenapark-tx.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "ellago-tx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bellairetx.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "waste.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dei.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "missouricitytx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ci.friendswood.tx.us",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "deerparktx.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "baytown.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "harriscountytx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "solanocounty.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "piedmont.ca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "eugene-or.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "chicago.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "yumaaz.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wilmingtonnc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wichita.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wichitafallstx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "warrenmi.gov",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "walkermi.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "waco-texas.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "visalia.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "virginiabeach.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "victorvilleca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofvancouver.us",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "vallejo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "tuscaloosa-al.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "tucsonaz.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "topeka.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "toledo.oh.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "toaks.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "thorntonco.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "tempe.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "temeculaca.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "tampa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "tacoma.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "syr.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sugarlandtx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "stpaul.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "stocktonca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "stlouis-mo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "stgeorgela.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sterlingheights.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "stamfordct.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "springfieldmo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "springfield-ma.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "spokanevalleywa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "spokane.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "sparksnv.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "southsideplacetx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "southbendin.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "siouxfalls.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "simivalley.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "shreveportla.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sgcityutah.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "scottsdaleaz.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "savannahga.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "srcity.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "santafenm.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "santaclarita.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "santaclaraca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "santa-ana.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sanjoseca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sandyspringsga.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sandiego.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sanbernardino.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "cityofsalinas.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "sa.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "rva.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rrnm.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "roundrocktexas.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rockfordil.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rochestermn.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "richmondca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rialtoca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rentonwa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "reno.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofrc.us",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "raleighnc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "quincyma.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "providenceri.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "portland.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "pompanobeachfl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pomonaca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "plano.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pittsburghpa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "peoriagov.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pearlandtx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "patersonnj.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pasadenatx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pasadena.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "palmbayflorida.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "opkansas.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "orlando.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityoforange.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ontarioca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "olympiawa.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "olatheks.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "odessa-tx.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "oaklandca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "northcharleston.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "normanok.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "norfolk.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nnva.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "newhavenct.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "newbraunfels.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "newarknj.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofnampa.us",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "murrietaca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "murfreesborotn.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "moval.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "montgomeryal.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "modestogov.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "miramarfl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "miramarfl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "minneapolismn.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "midlandtexas.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "miami.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "miamigardens-fl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mesquitetx.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "memphistn.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "manchesternh.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofmadison.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "lynnma.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "lowellma.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "longbeach.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "leaguecitytx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "lasvegasnevada.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "lascruces.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityoflaredo.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "lansingmi.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "lakewood.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "lacity.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "knoxvilletnpolice.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "knoxvilletn.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "killeentexas.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "kentwa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "kcmo.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "kannapolisnc.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "joliet.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "jerseycitynj.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "jeffersoncitymo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "jcmo.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "jacksonville.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "jacksonms.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "irvingtx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "indianhill.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "huntsvilleal.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "huntingtonbeachca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hillsboro-oregon.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "highpointnc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hialeahfl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofhenderson.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "helenamt.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hampton.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "greshamoregon.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "greensboro-nc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "greenbaywi.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "greeleygov.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "grandrapidsmi.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "goodyearaz.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "glendaleca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "garlandtx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ggcity.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gainesvillefl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityoffullerton.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "friscotexas.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fresno.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fremontpolice.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "fremont.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fortworthtexas.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fcgov.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fontanaca.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "flpd.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fishersin.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "seattle.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fayettevillenc.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "fayetteville-ar.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fargond.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "everettwa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "escondido.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "elmonteca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "elginil.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "elcajon.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "eastgrmi.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "durhamnc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "detroitmi.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "detroitmi.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofdenton.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dearborn.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "daytonohio.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cstx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "costamesaca.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "corpuschristitx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "coronaca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cor.net",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "coralsprings.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "concordnh.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "concordnc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "columbus.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "columbiasc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "coloradosprings.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofclovis.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "clevelandohio.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityoftulsa.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofsanmateo.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofsacramento.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "phoenix.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofpalmdaleca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofnormandy.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "cityoflancasterca.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofirvine.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hayward-ca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofconroe.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cincinnati-oh.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "chulavistaca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "chicoca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofchesapeake.net",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "chattanooga.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "charlottenc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "charlestonwv.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "charleston-sc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "chandlerazpd.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "chandleraz.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cityofcarrollton.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "carlsbadca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "capecoral.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "capecoral.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cambridgema.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bunkerhilltx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "buffalony.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "buckeyeaz.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "brownsvilletx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "brokenarrowok.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "brla.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bridgeportct.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "bouldercolorado.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "boston.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bismarcknd.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "birminghamal.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "billingsmt.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "berkeleyca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bendoregon.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bellevuewa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "beaumonttexas.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bakersfieldcity.us",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "austintexas.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "augustamaine.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "augustaga.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "arlingtontx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "antiochca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "annapolis.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "anaheim.net",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "amarillo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "allentx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "allentownpa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "alexandriava.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cabq.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "albanyny.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "akronohio.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "abilenetx.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "apps.nationalmap.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "water.usgs.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "volcanoes.usgs.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "ngmdb.usgs.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "store.usgs.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "dashboard.waterdata.usgs.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "waterdata.usgs.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "earthquake.usgs.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "cityofmonongahela-pa.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "altoonawater.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "jocogov.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usarmyband.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "shopvcs.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "otianywhere.net",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "smithsoniancraftshow.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "smithsoniancraft2wear.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "smithsonianchambermusic.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "searchablemuseum.com",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "paleoglot.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "museumonmainstreet.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "mughalgardens.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "ellajenkins.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "ecosystemsontheedge.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "discoverytheater.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "artcollectorsprogram.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "pbgc.us",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "pbgc.net",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "pbgc.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "pbgc.biz",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "fedroom.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rfj.tips",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "whatcanyoudocampaign.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "useuosh.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "peatworks.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "onetcenter.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mynextmove.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "euusosh.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "epolicyworks.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "capeyouth.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bonds4jobs.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "worklife4you.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "uspreventiveservicestaskforce.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "thehearttruth.net",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ssbgportal.net",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sisterstudy.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "racwarehouse.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "qualitynet.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pccds-ln.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "oahpmdata.net",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nih.com",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "ncats.io",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "ncands.net",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "namrs.net",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mepstech.com",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "mepsdocs.org",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "medicalbillrights.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "howrightnow.org",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "hearttruth.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hearttruth.net",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hcgov.us",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gem-measures.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "fatherhoodgov.info",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "detroitself.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ctsu.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "csscoperations.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "coronaviruspreventionnetwork.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "ccwdata.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ahrqdev.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "americanmadechallenges.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "dcsafesurrender.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dcsafesurrender.net",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dcsafesurrender.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "csosa.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "csosa.mobi",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "csosa.me",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "csosa.info",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "csosa.co",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "csosa.biz",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "yesprograms.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "yes-abroad.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "ycq2.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wibeaches.us",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "waterqualitydata.us",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "voanews.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "veteranscrisisline.net",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usuhs.edu",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ustraveldocs.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usps.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usmma.edu",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usmcu.edu",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usmc-mccs.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usdirectexpress.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usda.mannlib.cornell.edu",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "uscgnews.com",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "uscgboating.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "uscgalaska.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "uscga.edu",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usarmymars.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usafa.edu",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "us-mission.ch",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "tvars.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "trumanlibrary.org",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "todaysmilitary.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "thecommunityguide.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "suicidepreventionlifeline.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "stripes.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "spaceappschallenge.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "smokeybear.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "smithsonianstore.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "smithsonianmag.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "smithsonianeducation.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "smithsonianchannel.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "smithsonian.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "smithsonian.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "si.edu",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "scportal.us",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "richmondfed.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rferl.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rfa.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rewardsforjustice.net",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "reirs.com",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "radiosawa.com",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "psoppc.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "philadelphiafed.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pbgc.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "pantex.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pancanal.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ownyourlimits.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "opengovplatform.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "onetonline.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nsopw.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nps.edu",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "northernlightscfc.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "noradsanta.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "newyorkfed.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ndu.edu",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "navy.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nationalguard.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nagb.org",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "myskillsmyfuture.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "mymcx.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "myfuture.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "myedaccount.com",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "moneyfactory.com",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "minneapolisfed.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "micanaldepanama.com",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "miamivalleycfc.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "martinoticias.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "marines.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "manufacturingusa.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "leopold.wilderness.net",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "lbjlibrary.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "kcp.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "jlab.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "jamrs.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "intermountaincfc.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "insidevoa.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "igs.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "hudnsphelp.info",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hudhomestore.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "heartlandcfc.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gocoastguard.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gocivilairpatrol.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "goarmy.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "goang.com",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "getsmartaboutdrugs.com",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "genomereference.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "freefilefillableforms.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "freddiemac.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "frbsf.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "frbatlanta.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fmjfee.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "firelab.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "fhlbtopeka.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fhlbsf.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fhlbny.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fhlbi.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fhlbcin.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fhlbc.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fhlbboston.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "fhlbatl.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fhlbanks.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "fhlb.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fhlb-pgh.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fhlb-of.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "federalreserveeducation.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "federallabs.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fd.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "farmermac.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "farmcreditbank.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fanniemae.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "epaosc.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "elcivicsonline.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "efts.scportal.us",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dvidshub.net",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dodstarbase.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "dodsbir.net",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dodea.edu",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "digitalvaults.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "deamuseum.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "dallasfed.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "d11nuscgaux.info",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cybercemetery.unt.edu",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "cooperhewitt.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cooperativepatentclassification.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "cobank.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "clu-in.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "clevelandfed.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cldcentral.usalearning.net",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "cipm.info",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "cidi.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "chicagofed.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "chemcatbio.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cge.concursolutions.com",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "cgaux.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cfcvp.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "cfcnca.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "cfcgive.org",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "cdse.edu",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cbacfc.org",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "capmembers.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "bobber.info",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "bie.edu",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "benefeds.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "aww.aww-sp.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "askjan.org",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "armedforcessports.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "amver.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "amtrak.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "alhurra.com",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "airforce.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "airdefenseartillery.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "agribank.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "agfirst.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "afthunderbirds.com",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "afreserve.com",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "afneurope.net",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "aal.army",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "18f.us",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "data.medicaid.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "openpaymentsdata.cms.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "whdpc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "senate.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sen.gov",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "uscc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "america250.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "uscp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "speaker.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "republicanwhip.gov",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "republicanleader.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "minoritywhip.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "majoritywhip.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "majorityleader.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "housecommunications.gov",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "house.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gopwhip.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "gopleader.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "gop.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "dems.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "democraticwhip.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "democraticleader.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "csce.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "cecc.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "stennis.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "openworld.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "ocwr.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "compliance.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "medpac.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "macpac.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "womenshistorymonth.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "read.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "nativeamericanheritagemonth.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "loc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "jewishheritagemonth.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "hispanicheritagemonth.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "crb.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "copyright.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "ccb.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "africanamericanhistorymonth.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "usgovernmentmanual.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "ofr.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "gpo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "govinfo.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "fdlp.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "gaoinnovations.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "gao.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fasab.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "solarium.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cbonews.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cbo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "visitthecapitol.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "usbg.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "aoc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ustaxcourt.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usprobation.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "uscourts.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "uscavc.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "usbankruptcy.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pacer.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "judicialconference.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fjc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "federalrules.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "federalprobation.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "federalcourts.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bankruptcy.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "supremecourtus.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "supremecourt.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ustda.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "uspsoig.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usps.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "uspis.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usitc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usidfc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usdfc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "idfc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dfc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usich.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usip.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ipcc-wg3.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "voa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usagm.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ibb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bbg.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usadf.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "access-board.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "abilityone.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "osc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nwtrb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wildfire.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usda.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "symbols.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rural.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "recreation.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rec.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nwcg.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nutrition.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "myplate.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "lcacommons.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "itap.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "invasivespeciesinfo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "forestsandrangelands.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "farmers.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "farmerfairness.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "execsec.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dietaryguidelines.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "connect.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "choosemyplate.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bosque.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "biopreferred.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ars-grin.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "aff.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "uscirf.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usccr.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cfa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "heritageabroad.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "workwithusaid.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usaid.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "prosperafrica.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pmi.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "neglecteddiseases.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "foreignassistance.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dfafacts.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "childreninadversity.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "tvaoig.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "stb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sji.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sbrc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "scrc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ssab.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ssa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "socialsecurity.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "segurosocial.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "itis.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sbir.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sba.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nwbc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sss.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sec.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "investor.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rrb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pclob.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "presidiotunneltops.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "presidiotrust.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "presidio.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "prc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pbgc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usastaffing.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usalearning.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usajobs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "unlocktalent.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "telework.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pmf.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "opm.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "governmentjobs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fegli.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fedshirevets.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fedjobs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "federaljobs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "employeeexpress.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cybercareers.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "chcoc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "integrity.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "oshrc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nrc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nrc-gateway.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nbrc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nitrd.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ntsb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usap.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sac.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "research.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "arctic.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nmb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nlrb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nigc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nga.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "neh.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "humanities.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nea.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "arts.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ncua.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mycreditunion.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ncd.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ncpc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "webharvest.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wartimecontracting.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "trumpwhitehouse.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "trumplibrary.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "trumanlibrary.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "recordsmanagement.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "reaganlibrary.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ourdocuments.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "obamawhitehouse.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "obamalibrary.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nixonlibrary.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nara.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "lbjlibrary.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "jimmycarterlibrary.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "jfklibrary.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "history.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "georgewbushlibrary.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "frc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fordlibrarymuseum.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fcic.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "emergency-federal-register.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "eisenhowerlibrary.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dd214.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "clintonlibrary.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bush41library.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "archives.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "911commission.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "9-11commission.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "scijinks.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nasa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "globe.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "earth.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "udall.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ecr.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mcc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mspb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mmc.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "lsc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "jamesmadison.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "imls.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "truman.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "restorethegulf.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "vote.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ussm.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usagov.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usability.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "us.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "statspolicy.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sftool.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "section508.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "search.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sbst.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sam.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rocis.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "regulations.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "reginfo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "realpropertyprofile.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "realestatesales.gov",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "presidentialinnovationfellows.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ppms.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "plainlanguage.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pif.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pic.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "performance.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "paymentaccuracy.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "notify.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "madeinamerica.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "login.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "kids.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "itdashboard.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "innovation.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "info.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "idmanagement.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gsaig.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gsafleet.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gsaauctions.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gsaadvantage.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gsa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gobiernousa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fsrs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fsd.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fpds.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fpc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "forms.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fmi.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "firstgov.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fedrooms.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fedramp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fedidcard.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fdms.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fcsm.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fbf.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fapiis.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fai.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "facadatabase.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "faca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fac.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "evaluation.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "esrs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ecpic.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "digitalgov.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "digital.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "data.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cpars.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "contractdirectory.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "consumeraction.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "computersforlearning.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "code.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cloud.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "citizenscience.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cio.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "challenge.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cfo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cdo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "buyamerican.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "buyaccessible.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "businessusa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "afadvantage.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "acquisitiongateway.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "acquisition.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "accessibility.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sentinel.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "robodeidentidad.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "onguardonline.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "militaryconsumer.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "idtheft.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "identitytheft.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hsr.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ftc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "econsumer.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dontserveteens.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "donotcall.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "consumidor.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "consumersentinel.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "consumer.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "alertaenlinea.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "frtib.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "uscurrency.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fedpartnership.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "federalreserveconsumerhelp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "federalreserve.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "billetes.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fmshrc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fmc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "flra.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mortgagetranslations.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fhfaoig.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fhfa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ferc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fec.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ofia.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fdicoig.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fdic.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "getinternet.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fcc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "broadbandmap.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "accedeainternet.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fcsic.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "exim.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "whitehouse.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wh.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ustr.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usds.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usdigitalservice.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "quantum.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ostp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ondcp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "omb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nepa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nano.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "max.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "eop.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "earmarks.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ai.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "eeoc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "urbanwaters.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sustainability.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "relocatefeds.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "frtr.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fedcenter.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "epaoig.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "epa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "energystar.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "airnow.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "votebymail.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "helpamericavote.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "eac.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "odni.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nctc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ncsc.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "intel.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "iarpa.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "dni.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wizard.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ustreas.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usdebitcard.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usaspending.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ttbonline.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ttb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "treasuryscams.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "treasuryhunt.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "treasurydirect.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "treasuryauctions.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "treasury.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "treaslockbox.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "treas.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "tigta.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "taaps.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "slgs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sigpr.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "savingsbondwizard.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "savingsbonds.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "savingsbond.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pay.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "occhelps.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nationalbankhelp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mymoney.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "moneyfactory.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mha.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "makinghomeaffordable.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "its.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "irssales.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "irsauctions.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "irs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ipp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "helpwithmymortgagebank.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "helpwithmymortgage.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "helpwithmycreditcardbank.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "helpwithmycreditcard.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "helpwithmycheckingaccount.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "godirect.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fsoc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "financialstability.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "financialresearch.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ffb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fedinvest.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "eyenote.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "eftps.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "directoasucuenta.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "comptrollerofthecurrency.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cdfifund.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ccac.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bondpro.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bep.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bankhelp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bankcustomerassistance.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bankcustomer.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bankanswers.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ayudaconmibanco.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "asap.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wlci.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "volcano.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "utahfireinfo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usgs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sierrawild.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sciencebase.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "salmonrecovery.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "safecom.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rivers.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "osmre.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "onrr.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "onhir.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nps.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nifc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nemi.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "jem.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "invasivespecies.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "interior.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "indianaffairs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "iat.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "geoplatform.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gcmrc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fws.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "firescience.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "firenet.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ficor.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "evergladesrestoration.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "earthquake.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "doioig.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "doi.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "criticalminerals.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "coralreef.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "conservation.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "btfa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bsee.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "boem.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "blm.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bia.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "vets.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "vaoig.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "va.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "reach.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "transportation.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "trafficsafetymarketing.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sharetheroadsafely.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "safertruck.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "safercar.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "safeocs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "protectyourmove.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nhtsa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "faasafety.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "faa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "esc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ems.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dot.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "distracteddriving.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bts.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "911.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usmission.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usembassy.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "state.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pepfar.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "osac.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fsgb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fan.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "america.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "youthrules.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wrp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "workcenter.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "whistleblowers.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "veterans.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "unionreports.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "unemployment.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ui.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "trainingproviderresults.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "trabajadormigrante.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "osha.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mshastanddown.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "msha.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "migrantworker.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "jobcorps.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hirevets.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "govloans.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "doleta.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dol.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bls.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "benefits.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "apprenticeships.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "apprenticeship.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "vehiclehistory.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "vcf.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usmarshals.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "userra.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usdoj.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "tsc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "tribaljusticeandsafety.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "smart.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "servicemembers.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "scra.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rcfl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "psob.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "projectsafeneighborhoods.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "projectsafechildhood.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ovcttac.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ovc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ojp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ojjdp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nsopw.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nmvtis.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nij.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nicsezcheckfbi.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nicic.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ncjrs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ncirc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nationalgangcenter.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "namus.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "medalofvalor.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "lep.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "learndoj.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "learnatf.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "juvenilecouncil.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "justthinktwice.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "justice.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "iprcenter.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "interpol.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ic3.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "getsmartaboutdrugs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "foia.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "firstfreedom.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fbi.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "epic.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "elderjustice.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dsac.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "deaecom.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dea.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cybercrime.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "crimevictims.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "crimesolutions.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cjis.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "campusdrugprevention.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bop.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bjs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bats.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "atf.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "amberalert.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ada.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "opportunityzones.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nls.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nhl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nationalhousinglocator.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nationalhousing.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "huduser.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hudoig.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hudhomestore.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hud.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ginniemae.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fha.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "disasterhousing.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usss.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "uscis.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "us-cert.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "tsa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "together.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "stopransomware.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "secretservice.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "schoolsafety.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "safetyact.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "readybusiness.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ready.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "preventionresourcefinder.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "niem.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "listo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "juntos.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ice.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "homelandsecurity.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "globalentry.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "get.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "floodsmart.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fletc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fleta.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "firstrespondertraining.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fema.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "evus.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "everify.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "e-verify.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dotgov.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "disasterassistance.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dhs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cybersecurity.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cyber.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cisa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cbp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "biometrics.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "womenshealth.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "whitehouseconferenceonaging.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "vacunas.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "vacuna.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "vacines.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "vacine.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "vaccines.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "vaccine.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usphs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "tox21.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "thisfreelife.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "therealcost.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "surgeongeneral.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "stopbullying.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "stopalcoholabuse.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "smokefree.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "simplereport.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "selectagents.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "reproductivehealthservices.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "recoverymonth.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pubmed.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "psc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pandemicflu.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "organdonor.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "opioids.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nnlm.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nlm.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nih.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mymedicare.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mesh.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mentalhealth.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "medlineplus.gov",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "medicare.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "medicalcountermeasures.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "medicaid.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "longtermcare.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "insurekidsnow.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ihs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hrsa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hiv.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hhs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hearttruth.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "healthypeople.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "healthit.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "healthfinder.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "healthdata.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "healthcare.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "health.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "grantsolutions.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "grants.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gmta.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "globalhealth.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "girlshealth.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "genome.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fitness.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "findtreatment.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "findsupport.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fda.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "familyplanning.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "everytrycounts.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "encuentraapoyo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "eldercare.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "drugabuse.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "docline.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dhhs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cuidadodesalud.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "covidtests.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "covidtest.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "covid.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "coronavirus.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "collegedrinkingprevention.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cms.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "clinicaltrials.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "childwelfare.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "childcare.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cdc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cancer.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "birthcontrol.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "arpah.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "arpa-h.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "aids.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "aging.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "acf.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "988.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "wapa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "srs.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "srnl.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "sns.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "smartgrid.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "science.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "scidac.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sandia.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "rideelectric.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "pppl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pnnl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pnl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "osti.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ornl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "orau.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nrel.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nnss.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "neup.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nersc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ncrc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "llnl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "lbl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "lanl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "isotopes.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "inl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hydrogen.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fueleconomy.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fnal.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "energysavers.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "energysaver.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "energycommunities.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "energycodes.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "energy.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "eia.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "driveelectric.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "doe.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cendi.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "casl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bnl.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "biomassboard.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "arm.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ameslab.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "studentloans.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "studentaid.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nationsreportcard.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nagb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "g5.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fafsa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ed.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "collegenavigator.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "childstats.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nsa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nro.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nrd.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nbib.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nationalresourcedirectory.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "intelligencecareers.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hive.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fvap.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fehrm.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "defense.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cttso.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cmts.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "capnhq.gov",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "adlnet.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "xd.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wwtg.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "weather.gov",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "uspto.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "usicecenter.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "tsunami.gov",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "trade.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "time.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "techhubs.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "tasefiling.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "standards.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "spectrum.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "spd15revision.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "spaceweather.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "semiconductors.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "selectusa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sdr.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pscr.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "papahanaumokuakea.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ntis.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ntia.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nist.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nehrp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mgi.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mbda.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "marinecadastre.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "manufacturing.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "internetforall.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "internet4all.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "iedison.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "icams-portal.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hurricanes.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "gps.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "goes-r.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "fishwatch.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "firstnet.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "edison.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "eda.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "drought.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "doc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cwc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "commerce.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "climate.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "chips.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "census.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "buyusa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bis.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bea.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "aviationweather.gov",
+    "spf": false,
+    "dmarc": true
+  },
+  {
+    "url": "ap.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "denali.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dra.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "dnfsb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "psa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pretrialservices.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "csosa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pandemicoversight.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "oversight.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ignet.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "presidentialserviceawards.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "americorpsoig.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "americorps.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "seguridadconsumidor.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "saferproducts.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "saferproduct.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "recalls.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "poolsafety.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "poolsafely.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "drywallresponse.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cpsc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "atvsafety.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "anchorit.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mimm.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "consumerprotectionbureau.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "consumerprotection.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "consumerfinancialprotectionbureau.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "consumerfinancialbureau.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "consumerfinancial.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "consumerfinance.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "consumerbureau.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cfpb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cfpa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "bcfp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "whistleblower.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "coldcaserecords.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "safetyvideos.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "csb.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "cia.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "arc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "abmc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "achp.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "amtrakoig.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wyo.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "wisconsin.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wv.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "wa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "virginia.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "vermont.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "utah.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "texas.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "sd.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "sc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ri.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "pa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "oregon.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "oklahoma.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "nd.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ny.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "nm.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nj.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nh.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nv.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "nebraska.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mt.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mo.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mississippi.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "mn.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "michigan.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "mass.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "maine.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "louisiana.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "kentucky.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "kansas.gov",
+    "spf": false,
+    "dmarc": false
+  },
+  {
+    "url": "iowa.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "in.gov",
+    "spf": true,
+    "dmarc": false
+  },
+  {
+    "url": "illinois.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "idaho.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "hawaii.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "georgia.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "myflorida.com",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ct.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "colorado.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "ca.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "arkansas.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "az.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "alaska.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "alabama.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "slc.gov",
+    "spf": true,
+    "dmarc": true
+  },
+  {
+    "url": "maryland.gov",
+    "spf": true,
+    "dmarc": true
+  }
+]
