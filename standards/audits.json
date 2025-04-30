@@ -8,10 +8,10 @@
         "key": "crawlable",
         "displayName": "Crawlable",
         "tag": "crawlable",
+        "docs": "https://standards.scangov.org/crawlable",
         "description": "Site is available for indexing by well-behaved agents.",
         "why": "Crawlability ensures that search engines can index the content, making it discoverable by users.",
         "error": "Site is not accessible to well-behaved agents.",
-        "docs": "https://docs.scangov.org/crawlable",
         "impact": 4,
         "guidance": [
           {
@@ -28,10 +28,10 @@
         "key": "text-content",
         "displayName": "Content available in document",
         "tag": "text-content",
+        "docs": "https://standards.scangov.org/text-content",
         "description": "Page main content is available in initial document.",
         "why": "Having main content directly available ensures that search engines can quickly access and rank the page accurately.",
         "error": "Main content not available in the initial document.",
-        "docs": "https://docs.scangov.org/text-content",
         "impact": 2,
         "guidance": [
           {
@@ -51,10 +51,10 @@
         "key": "a11y-best-practices",
         "displayName": "Accessibility best practices",
         "tag": "a11y-best-practices",
+        "docs": "https://standards.scangov.org/a11y-best-practices",
         "description": "Common accessibility best practices.",
         "why": "Following accessibility best practices ensures that the content is usable by all users, including those with disabilities.",
         "error": "Basic accessibility best practices not met.",
-        "docs": "https://docs.scangov.org/accessibility-best-practices",
         "impact": 3,
         "guidance": [
           {
@@ -67,10 +67,10 @@
         "key": "a11y-aria",
         "displayName": "ARIA attributes",
         "tag": "a11y-aria",
+        "docs": "https://standards.scangov.org/a11y-aria",
         "description": "Accessibility properties for screen readers.",
         "why": "ARIA properties make content accessible to users relying on screen readers, enhancing their experience.",
         "error": "Missing ARIA attributes for screen readers.",
-        "docs": "https://docs.scangov.org/aria",
         "impact": 3,
         "guidance": [
           {
@@ -83,10 +83,10 @@
         "key": "a11y-audio-video",
         "displayName": "Audio and video",
         "tag": "a11y-audio-video",
+        "docs": "https://standards.scangov.org/a11y-audio-video",
         "description": "Alternative text, captions, and transcripts.",
         "why": "Providing alternative content for audio and video ensures that multimedia is accessible to all users, including those with auditory or visual impairments.",
         "error": "No captions or transcripts provided.",
-        "docs": "https://docs.scangov.org/audio-video",
         "impact": 3,
         "guidance": [
           {
@@ -99,10 +99,10 @@
         "key": "a11y-color-contrast",
         "displayName": "Color contrast",
         "tag": "a11y-color-contrast",
+        "docs": "https://standards.scangov.org/a11y-color-contrast",
         "description": "Difference between text and background colors.",
         "why": "Proper contrast ensures that text is readable by people with visual impairments, improving accessibility.",
         "error": "Insufficient color contrast detected.",
-        "docs": "https://docs.scangov.org/color-contrast",
         "impact": 3,
         "guidance": [
           {
@@ -115,10 +115,10 @@
         "key": "hidden",
         "displayName": "Hidden elements",
         "tag": "hidden",
+        "docs": "https://standards.scangov.org/hidden",
         "description": "Ensure hidden elements are accessible.",
         "why": "Hidden elements must be accessible for screen readers to ensure that all content is navigable and understandable for users with disabilities.",
         "error": "Hidden elements are inaccessible.",
-        "docs": "https://docs.scangov.org/hidden",
         "impact": 3,
         "guidance": [
           {
@@ -131,10 +131,10 @@
         "key": "a11y-language",
         "displayName": "Language",
         "tag": "a11y-language",
+        "docs": "https://standards.scangov.org/a11y-language",
         "description": "Use correct language attributes for accessibility.",
         "why": "Using the correct language attributes enables screen readers to pronounce text correctly and improves accessibility for non-native speakers.",
         "error": "Language attribute is missing or incorrect.",
-        "docs": "https://docs.scangov.org/language",
         "impact": 3,
         "guidance": [
           {
@@ -147,10 +147,10 @@
         "key": "a11y-names-labels",
         "displayName": "Names and labels",
         "tag": "a11y-names-labels",
+        "docs": "https://standards.scangov.org/a11y-names-labels",
         "description": "Descriptive identifiers for elements.",
         "why": "Descriptive labels make it easier for users with disabilities to navigate and interact with the website's elements.",
         "error": "Elements lack descriptive labels.",
-        "docs": "https://docs.scangov.org/names-labels",
         "impact": 3,
         "guidance": [
           {
@@ -163,10 +163,10 @@
         "key": "a11y-navigation",
         "displayName": "Navigation",
         "tag": "a11y-navigation",
+        "docs": "https://standards.scangov.org/a11y-navigation",
         "description": "Application keyboard navigation.",
         "why": "Ensuring that users can navigate a site using a keyboard is critical for accessibility, especially for users with motor disabilities.",
         "error": "Keyboard navigation is not functional.",
-        "docs": "https://docs.scangov.org/navigation",
         "impact": 3,
         "guidance": [
           {
@@ -179,10 +179,10 @@
         "key": "a11y-tables-lists",
         "displayName": "Tables and lists",
         "tag": "a11y-tables-lists",
+        "docs": "https://standards.scangov.org/a11y-tables-lists",
         "description": "Ensure tables and lists are accessible.",
         "why": "Properly structured tables and lists are easier to navigate for users with disabilities, making content more accessible.",
         "error": "Tables or lists are not accessible.",
-        "docs": "https://docs.scangov.org/tables-lists",
         "impact": 3,
         "guidance": [
           {
@@ -202,10 +202,10 @@
         "key": "title",
         "displayName": "Page title",
         "tag": "<title>",
+        "docs": "https://standards.scangov.org/title",
         "description": "Describes webpage content in a few words.",
         "why": "A descriptive title ensures that users and search engines can easily understand the content of the page.",
         "error": "Page title is missing or unclear.",
-        "docs": "https://docs.scangov.org/page-title",
         "impact": 10,
         "guidance": [
           {
@@ -218,10 +218,10 @@
         "key": "description",
         "displayName": "Page description",
         "tag": "<meta name=\"description\">",
+        "docs": "https://standards.scangov.org/description",
         "description": "Describes webpage content in a few words.",
         "why": "A concise description improves click-through rates by making the content more appealing in search results.",
         "error": "Page description is missing or unclear.",
-        "docs": "https://docs.scangov.org/page-description",
         "impact": 8,
         "guidance": [
           {
@@ -234,10 +234,10 @@
         "key": "viewport",
         "displayName": "Viewport meta tag",
         "tag": "<meta name=\"viewport\">",
+        "docs": "https://standards.scangov.org/viewport",
         "description": "Makes websites fit all screen sizes.",
         "why": "Using the viewport meta tag ensures that websites are mobile-friendly and responsive, improving the user experience across all devices.",
         "error": "Viewport meta tag is missing.",
-        "docs": "https://docs.scangov.org/viewport-meta-tag",
         "impact": 10,
         "guidance": [
           {
@@ -257,10 +257,10 @@
         "key": "https",
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
         "tag": "HTTPS",
+        "docs": "https://standards.scangov.org/https",
         "description": "Privacy and integrity protection.",
         "why": "Using HTTPS ensures secure communication between the user and the website, protecting privacy and preventing data tampering.",
         "error": "Site is not served over HTTPS.",
-        "docs": "https://docs.scangov.org/https",
         "impact": 10,
         "guidance": [
           {
@@ -273,10 +273,10 @@
         "key": "www",
         "displayName": "www resolution",
         "tag": "www",
+        "docs": "https://standards.scangov.org/www",
         "description": "One domain works with www and non-www.",
         "why": "Having a consistent domain setup prevents SEO issues related to duplicate content and improves site accessibility.",
         "error": "www and non-www versions are inconsistent.",
-        "docs": "https://docs.scangov.org/www-resolution",
         "impact": 5,
         "guidance": [
           {
@@ -293,10 +293,10 @@
         "key": "dotgov",
         "displayName": "sTLD",
         "tag": "sTLD",
+        "docs": "https://standards.scangov.org/dotgov",
         "description": "Sponsored top-level domain (.gov / .edu / .mil).",
         "why": "A .gov domain increases trustworthiness and credibility, as it's typically reserved for governmental organizations.",
         "error": "Domain is not an official sTLD.",
-        "docs": "https://docs.scangov.org/stld",
         "impact": 7,
         "guidance": [
           {
@@ -316,10 +316,10 @@
         "key": "cls",
         "displayName": "Cumulative Layout Shift (CLS)",
         "tag": "CLS",
+        "docs": "https://standards.scangov.org/cls",
         "description": "Measures unexpected webpage content shifts.",
         "why": "Minimizing content shifts improves user experience and helps avoid frustrating page layout issues.",
         "error": "Unexpected layout shifts detected.",
-        "docs": "https://docs.scangov.org/cumulative-layout-shift",
         "impact": 5,
         "guidance": [
           {
@@ -332,10 +332,10 @@
         "key": "fcp",
         "displayName": "First Contentful Paint (FCP)",
         "tag": "FCP",
+        "docs": "https://standards.scangov.org/fcp",
         "description": "The page begins to display within 1.8 seconds.",
         "why": "Faster loading pages enhance user experience and are more likely to retain visitors.",
         "error": "Page didn't display within 1.8 seconds.",
-        "docs": "https://docs.scangov.org/first-contentful-paint",
         "impact": 8,
         "guidance": [
           {
@@ -348,10 +348,10 @@
         "key": "inp",
         "displayName": "Interaction to Next Paint (INP)",
         "tag": "INP",
+        "docs": "https://standards.scangov.org/inp",
         "description": "Page responds in under 0.2 seconds.",
         "why": "A fast response time increases interactivity and user satisfaction, leading to a more engaging experience.",
         "error": "Page response exceeded 0.2 seconds.",
-        "docs": "https://docs.scangov.org/interaction-to-next-paint",
         "impact": 9,
         "guidance": [
           {
@@ -364,10 +364,10 @@
         "key": "lcp",
         "displayName": "Largest Contentful Paint (LCP)",
         "tag": "LCP",
+        "docs": "https://standards.scangov.org/lcp",
         "description": "Major content loads in 2.5 seconds.",
         "why": "Ensuring that the most important content loads quickly improves the perceived performance and user experience.",
         "error": "Main content didn't load in 2.5 seconds.",
-        "docs": "https://docs.scangov.org/largest-contentful-paint",
         "impact": 8,
         "guidance": [
           {
@@ -380,10 +380,10 @@
         "key": "ttfb",
         "displayName": "Time to First Byte (TTFB)",
         "tag": "TTFB",
+        "docs": "https://standards.scangov.org/ttfb",
         "description": "Code received in 0.8 seconds.",
         "why": "Quickly receiving code ensures faster load times and better user interaction with the site.",
         "error": "Server response took over 0.8 seconds.",
-        "docs": "https://docs.scangov.org/time-to-first-byte",
         "impact": 8,
         "guidance": [
           {
@@ -403,10 +403,10 @@
         "key": "status",
         "displayName": "Sitemap status",
         "tag": "Status",
+        "docs": "https://standards.scangov.org/status",
         "description": "The HTTP status of /sitemap.xml is OK.",
         "why": "A properly functioning sitemap ensures that search engines can crawl the site effectively and index it properly.",
         "error": "Sitemap.xml is missing or inaccessible.",
-        "docs": "https://docs.scangov.org/sitemaps",
         "impact": 3,
         "guidance": [
           {
@@ -419,10 +419,10 @@
         "key": "xml",
         "displayName": "Sitemap XML",
         "tag": "XML",
+        "docs": "https://standards.scangov.org/xml",
         "description": "The sitemap file type is XML.",
         "why": "XML is the most widely supported and recommended format for sitemaps, as it allows search engines to easily parse and understand the content structure, helping with better indexing and crawling of the site.",
         "error": "Sitemap is not in XML format.",
-        "docs": "https://docs.scangov.org/sitemaps",
         "impact": 3,
         "guidance": [
           {
@@ -435,10 +435,10 @@
         "key": "completion",
         "displayName": "Sitemap complete",
         "tag": "Complete",
+        "docs": "https://standards.scangov.org/completion",
         "description": "Every link on the home page is in the sitemap.",
         "why": "XML is the most widely supported and recommended format for sitemaps, as it allows search engines to easily parse and understand the content structure, helping with better indexing and crawling of the site.",
         "error": "Home page links missing from sitemap.",
-        "docs": "https://docs.scangov.org/sitemaps",
         "impact": 1,
         "guidance": [
           {
@@ -451,10 +451,10 @@
         "key": "valid",
         "displayName": "Robots valid",
         "tag": "Valid",
+        "docs": "https://standards.scangov.org/valid",
         "description": "The site has a valid robots policy.",
         "why": "A valid robots.txt file helps search engines understand which pages or sections of the website should not be crawled, preventing the waste of crawl budget and avoiding indexing of sensitive or unnecessary content.",
         "error": "Robots.txt is missing or invalid.",
-        "docs": "https://docs.scangov.org/robots-txt",
         "impact": 3,
         "guidance": [
           {
@@ -467,10 +467,10 @@
         "key": "allowed",
         "displayName": "Robots allowed",
         "tag": "Allowed",
+        "docs": "https://standards.scangov.org/allowed",
         "description": "The robots policy allows access to browsers and scrapers.",
         "why": "Allowing access to browsers and scrapers ensures that search engines can crawl the site effectively and index relevant content. This promotes better SEO, as search engines can gather and display up-to-date information from the site.",
         "error": "Robots policy blocks browsers or scrapers.",
-        "docs": "https://docs.scangov.org/robots-txt",
         "impact": 3,
         "guidance": [
           {
@@ -483,10 +483,10 @@
         "key": "sitemap",
         "displayName": "Sitemap",
         "tag": "Sitemap",
+        "docs": "https://standards.scangov.org/sitemap",
         "description": "The robots.txt file points to a sitemap file.",
         "why": "Pointing to a sitemap file in the robots.txt file helps search engines discover the sitemap easily, improving crawl efficiency. This ensures that all important URLs are included in the search engine’s index and enhances visibility in search results.",
         "error": "robots.txt missing sitemap reference.",
-        "docs": "https://docs.scangov.org/sitemaps",
         "impact": 5,
         "guidance": [
           {
@@ -499,10 +499,10 @@
         "key": "canonical",
         "displayName": "Canonical",
         "tag": "<link rel=\"canonical\">",
+        "docs": "https://standards.scangov.org/canonical",
         "description": "Use preferred page URLs to avoid duplication.",
         "why": "Using preferred page URLs (canonical URLs) helps to consolidate multiple versions of the same content under a single preferred version. This reduces the risk of duplicate content penalties and ensures that search engines index the correct page, improving SEO and page ranking.",
         "error": "Duplicate page URLs detected.",
-        "docs": "https://docs.scangov.org/canonicalization",
         "impact": 3,
         "guidance": [
           {
@@ -526,10 +526,10 @@
         "key": "csp",
         "displayName": "Content security policy (CSP)",
         "tag": "CSP",
+        "docs": "https://standards.scangov.org/csp",
         "description": "The site restricts what can be loaded.",
         "why": "A missing or overly permissive Content Security Policy (CSP) can expose a website to security vulnerabilities such as cross-site scripting (XSS) and data injection attacks. By implementing a restrictive CSP, you can define which sources are trusted for loading content, helping to protect your site from malicious activity and improving overall security.",
         "error": "Content Security Policy is missing or too permissive.",
-        "docs": "https://docs.scangov.org/content-security-policy",
         "impact": 3,
         "guidance": [
           {
@@ -542,10 +542,10 @@
         "key": "hsts",
         "displayName": "HTTP Strict Transport Security (HSTS)",
         "tag": "HSTS",
+        "docs": "https://standards.scangov.org/hsts",
         "description": "Site upgrades to a secure connection.",
         "why": "HSTS is a security feature that ensures a website is only accessible over HTTPS. It helps to prevent man-in-the-middle attacks, such as protocol downgrade attacks, by enforcing that browsers always communicate with the server over a secure connection. Without HSTS, an attacker could intercept traffic on a non-secure connection and compromise user data.",
         "error": "Secure connection upgrade not enforced.",
-        "docs": "https://docs.scangov.org/hsts",
         "impact": 10,
         "guidance": [
           {
@@ -566,10 +566,10 @@
         "key": "securityTxt",
         "displayName": "security.txt",
         "tag": "security.txt",
+        "docs": "https://standards.scangov.org/securityTxt",
         "description": "The site has a security.txt file.",
         "why": "A security.txt file is a standard for websites to provide contact information and guidelines for reporting security vulnerabilities. It helps security researchers and good actors to report potential issues with the site to the responsible parties. Without a security.txt file, it may be harder for researchers to reach out to the website's administrators, potentially delaying the response to security threats.",
         "error": "No available security.txt file.",
-        "docs": "https://docs.scangov.org/security-txt",
         "impact": 1,
         "guidance": [
           {
@@ -590,10 +590,10 @@
         "key": "xContentTypeOptions",
         "displayName": "X-Content-Type-Options",
         "tag": "X-Content-Type-Options",
+        "docs": "https://standards.scangov.org/xContentTypeOptions",
         "description": "The site prevents mime type sniffing.",
         "why": "The X-Content-Type-Options header helps prevent browsers from interpreting files as a different MIME type than what is specified. This is a security measure that prevents certain types of attacks, such as MIME sniffing. Without this header, there is a risk that malicious content might be executed if a browser misinterprets the type of content being served.",
         "error": "Mime type sniffing is not prevented.",
-        "docs": "https://docs.scangov.org/x-content-type-options",
         "impact": 3,
         "guidance": [
           {
@@ -613,10 +613,10 @@
         "key": "ogSiteName",
         "displayName": "Open Graph site name",
         "tag": "<meta property=\"og:site_name\">",
+        "docs": "https://standards.scangov.org/ogSiteName",
         "description": "Website title for social sharing.",
         "why": "The Open Graph site name tag helps define the name of the website when content is shared on social media platforms. This tag is important for consistency in branding across social media and ensures that the website is properly identified when users share content. Without it, the default title might be used, which can lead to incorrect or incomplete branding.",
         "error": "Open Graph site name is missing.",
-        "docs": "https://docs.scangov.org/metadata",
         "impact": 1,
         "guidance": [
           {
@@ -629,10 +629,10 @@
         "key": "ogType",
         "displayName": "Open Graph type",
         "tag": "<meta property=\"og:type\">",
+        "docs": "https://standards.scangov.org/ogType",
         "description": "Content category for social media.",
         "why": "The Open Graph type tag specifies the type of content being shared (e.g., website, article, video, etc.) and helps social media platforms understand how to render the content. It allows for better control over how the shared content is presented, ensuring that the correct type of preview is displayed, which enhances user engagement. Without this tag, the content may not display optimally on social platforms.",
         "error": "Open Graph type is missing.",
-        "docs": "https://docs.scangov.org/metadata",
         "impact": 1,
         "guidance": [
           {
@@ -645,10 +645,10 @@
         "key": "ogTitle",
         "displayName": "Open Graph title",
         "tag": "<meta property=\"og:title\">",
+        "docs": "https://standards.scangov.org/ogTitle",
         "description": "Page title for social sharing.",
         "why": "The Open Graph title tag defines the title of the page when it is shared on social media platforms. It ensures that the title appears clearly and accurately on platforms like Facebook, Twitter, and LinkedIn. Without a well-defined Open Graph title, social media platforms may default to the page's title or pick a less relevant part of the page content, leading to poor user engagement and a less polished appearance on social media.",
         "error": "Open Graph title is missing.",
-        "docs": "https://docs.scangov.org/metadata",
         "impact": 1,
         "guidance": [
           {
@@ -661,10 +661,10 @@
         "key": "ogDescription",
         "displayName": "Open Graph description",
         "tag": "<meta property=\"og:description\">",
+        "docs": "https://standards.scangov.org/ogDescription",
         "description": "Short description of your webpage content.",
         "why": "The Open Graph description tag specifies the description that will be shown when the page is shared on social media platforms. It plays a crucial role in providing a concise and engaging summary of the page's content. Without a well-defined Open Graph description, social platforms may default to content from the page itself, which could lead to inaccurate or unappealing descriptions, potentially reducing click-through rates and user engagement on social media.",
         "error": "Open Graph description is missing.",
-        "docs": "https://docs.scangov.org/open-graph",
         "impact": 1,
         "guidance": [
           {
@@ -677,10 +677,10 @@
         "key": "ogUrl",
         "displayName": "Open Graph URL",
         "tag": "<meta property=\"og:url\">",
+        "docs": "https://standards.scangov.org/ogUrl",
         "description": "Canonical link for social sharing.",
         "why": "The Open Graph URL tag provides the canonical URL for the content, which is essential for social media platforms to know which page to link to when shared. If the URL is missing or incorrect, social media platforms may not correctly associate the content with the intended page, potentially causing issues like broken links or the sharing of the wrong page, which could affect user engagement and SEO performance.",
         "error": "Canonical link missing.",
-        "docs": "https://docs.scangov.org/open-graph",
         "impact": 1,
         "guidance": [
           {
@@ -693,10 +693,10 @@
         "key": "ogImage",
         "displayName": "Open Graph image",
         "tag": "<meta property=\"og:image\">",
+        "docs": "https://standards.scangov.org/ogImage",
         "description": "Preview image for social sharing.",
         "why": "The Open Graph image tag is used to specify a preview image that appears when a page is shared on social media. Without this tag, social media platforms may not display any image, or they might display an irrelevant image, which could negatively affect user engagement and click-through rates. Including a proper Open Graph image ensures that the page looks attractive and engaging when shared on platforms like Facebook, X, and LinkedIn.",
         "error": "Open Graph image is missing.",
-        "docs": "https://docs.scangov.org/open-graph",
         "impact": 1,
         "guidance": [
           {
@@ -709,10 +709,10 @@
         "key": "ogImageAlt",
         "displayName": "Open Graph image alt",
         "tag": "<meta property=\"og:image:alt\">",
+        "docs": "https://standards.scangov.org/ogImageAlt",
         "description": "Image description for accessibility",
         "why": "The Open Graph image alt tag provides alternative text for the image specified in the Open Graph protocol. This helps improve accessibility for users with visual impairments, as screen readers can describe the image content. Additionally, providing alt text ensures that the content of the image is still conveyed in cases where the image cannot be loaded or viewed, contributing to a better user experience and broader reach.",
         "error": "Open Graph image alt is missing.",
-        "docs": "https://docs.scangov.org/open-graph",
         "impact": 1,
         "guidance": [
           {
