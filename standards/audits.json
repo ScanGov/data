@@ -2,7 +2,7 @@
   "aifriendly": {
     "displayName": "AI friendly",
     "icon": "robot",
-    "url": "https://docs.scangov.org/topics/ai",
+    "url": "https://standards.scangov.org/guidance/aifriendly",
     "attributes": [
       {
         "key": "crawlable",
@@ -45,7 +45,7 @@
   "accessibility": {
     "displayName": "Accessibility",
     "icon": "universal-access",
-    "url": "https://docs.scangov.org/topics/accessibility",
+    "url": "https://standards.scangov.org/guidance/accessibility",
     "attributes": [
       {
         "key": "a11y-best-practices",
@@ -196,7 +196,7 @@
   "content": {
     "displayName": "Content",
     "icon": "file-lines",
-    "url": "https://docs.scangov.org/topics/content",
+    "url": "https://standards.scangov.org/guidance/content",
     "attributes": [
       {
         "key": "title",
@@ -251,7 +251,7 @@
   "domain": {
     "displayName": "Domain",
     "icon": "link",
-    "url": "https://docs.scangov.org/topics/domain",
+    "url": "https://standards.scangov.org/guidance/domain",
     "attributes": [
       {
         "key": "https",
@@ -310,7 +310,7 @@
   "performance": {
     "displayName": "Performance",
     "icon": "gauge",
-    "url": "https://docs.scangov.org/topics/performance",
+    "url": "https://standards.scangov.org/guidance/performance",
     "attributes": [
       {
         "key": "cls",
@@ -397,7 +397,7 @@
   "seo": {
     "displayName": "SEO",
     "icon": "magnifying-glass",
-    "url": "https://docs.scangov.org/topics/search-engine-optimization",
+    "url": "https://standards.scangov.org/guidance/seo",
     "attributes": [
       {
         "key": "status",
@@ -520,7 +520,7 @@
   "security": {
     "displayName": "Security",
     "icon": "lock",
-    "url": "https://docs.scangov.org/topics/security",
+    "url": "https://standards.scangov.org/guidance/security",
     "attributes": [
       {
         "key": "csp",
@@ -607,7 +607,7 @@
   "social": {
     "displayName": "Social",
     "icon": "share-nodes",
-    "url": "https://docs.scangov.org/topics/social-media",
+    "url": "https://standards.scangov.org/guidance/social",
     "attributes": [
       {
         "key": "ogSiteName",
