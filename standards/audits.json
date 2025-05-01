@@ -16,11 +16,11 @@
         "guidance": [
           {
             "displayName": "21st Century Integrated Digital Experience Act",
-            "url": "https://standards.scangov.org/21st-century-idea"
+            "url": "https://standards.scangov.org/21stcenturyidea"
           },
           {
             "displayName": "The Web Robots Pages",
-            "url": "https://standards.scangov.org/robots-txt-org"
+            "url": "https://standards.scangov.org/robots"
           }
         ]
       },
@@ -36,7 +36,7 @@
         "guidance": [
           {
             "displayName": "The Web Robots Pages",
-            "url": "https://standards.scangov.org/robots-txt-org"
+            "url": "https://standards.scangov.org/robots"
           }
         ]
       }
@@ -242,7 +242,7 @@
         "guidance": [
           {
             "displayName": "21st Century Integrated Digital Experience Act",
-            "url": "https://standards.scangov.org/21st-century-idea"
+            "url": "https://standards.scangov.org/21stcenturyidea"
           }
         ]
       }
@@ -459,7 +459,7 @@
         "guidance": [
           {
             "displayName": "The Web Robots Pages",
-            "url": "https://standards.scangov.org/robots-txt-org"
+            "url": "https://standards.scangov.org/robots"
           }
         ]
       },
@@ -475,7 +475,7 @@
         "guidance": [
           {
             "displayName": "The Web Robots Pages",
-            "url": "https://standards.scangov.org/robots-txt-org"
+            "url": "https://standards.scangov.org/robots"
           }
         ]
       },
@@ -507,7 +507,7 @@
         "guidance": [
           {
             "displayName": "The Web Robots Pages",
-            "url": "https://standards.scangov.org/robots-txt-org"
+            "url": "https://standards.scangov.org/robots"
           },
           {
             "displayName": "Google Search Central",
@@ -550,7 +550,7 @@
         "guidance": [
           {
             "displayName": "21st Century Integrated Digital Experience Act",
-            "url": "https://standards.scangov.org/21st-century-idea"
+            "url": "https://standards.scangov.org/21stcenturyidea"
           },
           {
             "displayName": "CISA Website Security",
