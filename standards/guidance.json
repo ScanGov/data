@@ -21,15 +21,15 @@
       },
       {
         "displayName": "Page title",
-        "url": "https://standards.scangov.org/page-title"
+        "url": "https://standards.scangov.org/title"
       },
       {
         "displayName": "Page description",
-        "url": "https://standards.scangov.org/page-description"
+        "url": "https://standards.scangov.org/description"
       },
       {
         "displayName": "Viewport meta tag",
-        "url": "https://standards.scangov.org/viewport-meta-tag"
+        "url": "https://standards.scangov.org/viewport"
       }
     ]
   },
@@ -44,15 +44,15 @@
     "standards": [
       {
         "displayName": "Page title",
-        "url": "https://standards.scangov.org/page-title"
+        "url": "https://standards.scangov.org/title"
       },
       {
         "displayName": "Page description",
-        "url": "https://standards.scangov.org/page-description"
+        "url": "https://standards.scangov.org/description"
       },
       {
         "displayName": "Viewport meta tag",
-        "url": "https://standards.scangov.org/viewport-meta-tag"
+        "url": "https://standards.scangov.org/viewport"
       }
     ]
   },
@@ -66,7 +66,7 @@
     "standards": [
       {
         "displayName": "security.txt",
-        "url": "https://standards.scangov.org/security-txt"
+        "url": "https://standards.scangov.org/securitytxt"
       },
       {
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
@@ -91,11 +91,11 @@
     "standards": [
       {
         "displayName": "Page title",
-        "url": "https://standards.scangov.org/page-title"
+        "url": "https://standards.scangov.org/title"
       },
       {
         "displayName": "Page description",
-        "url": "https://standards.scangov.org/page-description"
+        "url": "https://standards.scangov.org/description"
       }
     ]
   },
@@ -110,11 +110,11 @@
     "standards": [
       {
         "displayName": "Canonicalization",
-        "url": "https://standards.scangov.org/canonicalization"
+        "url": "https://standards.scangov.org/canonical"
       },
       {
         "displayName": "www resolution",
-        "url": "https://standards.scangov.org/www-resolution"
+        "url": "https://standards.scangov.org/www"
       }
     ]
   },
@@ -134,15 +134,15 @@
     "standards": [
       {
         "displayName": "Canonicalization",
-        "url": "https://standards.scangov.org/canonicalization"
+        "url": "https://standards.scangov.org/canonical"
       },
       {
         "displayName": "Cumulative Layout Shift (CLS)",
-        "url": "https://standards.scangov.org/cumulative-layout-shift"
+        "url": "https://standards.scangov.org/cls"
       },
       {
         "displayName": "Largest Contentful Paint (LCP)",
-        "url": "https://standards.scangov.org/largest-contentful-paint"
+        "url": "https://standards.scangov.org/lcp"
       },
       {
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
@@ -154,47 +154,47 @@
       },
       {
         "displayName": "Open Graph site name",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogsitename"
       },
       {
         "displayName": "Open Graph type",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogtype"
       },
       {
         "displayName": "Open Graph title",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogtitle"
       },
       {
         "displayName": "Open Graph description",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogdescription"
       },
       {
         "displayName": "Open Graph URL",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogurl"
       },
       {
         "displayName": "Open Graph image",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogimage"
       },
       {
         "displayName": "Open Graph image alt",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogimagealt"
       },
       {
         "displayName": "Page title",
-        "url": "https://standards.scangov.org/page-title"
+        "url": "https://standards.scangov.org/title"
       },
       {
         "displayName": "Page description",
-        "url": "https://standards.scangov.org/page-description"
+        "url": "https://standards.scangov.org/description"
       },
       {
         "displayName": "sitemap.xml",
-        "url": "https://standards.scangov.org/sitemaps"
+        "url": "https://standards.scangov.org/sitemap"
       },
       {
         "displayName": "Viewport meta tag",
-        "url": "https://standards.scangov.org/viewport-meta-tag"
+        "url": "https://standards.scangov.org/viewport"
       }
     ]
   },
@@ -220,15 +220,15 @@
       },
       {
         "displayName": "Page title",
-        "url": "https://standards.scangov.org/page-title"
+        "url": "https://standards.scangov.org/title"
       },
       {
         "displayName": "Page description",
-        "url": "https://standards.scangov.org/page-description"
+        "url": "https://standards.scangov.org/description"
       },
       {
         "displayName": "Viewport meta tag",
-        "url": "https://standards.scangov.org/viewport-meta-tag"
+        "url": "https://standards.scangov.org/viewport"
       }
     ]
   },
@@ -244,31 +244,31 @@
     "standards": [
       {
         "displayName": "Open Graph site name",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogsitename"
       },
       {
         "displayName": "Open Graph type",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogtype"
       },
       {
         "displayName": "Open Graph title",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogtitle"
       },
       {
         "displayName": "Open Graph description",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogdescription"
       },
       {
         "displayName": "Open Graph URL",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogurl"
       },
       {
         "displayName": "Open Graph image",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogimage"
       },
       {
         "displayName": "Open Graph image alt",
-        "url": "https://standards.scangov.org/metadata"
+        "url": "https://standards.scangov.org/ogimagealt"
       }
     ]
   },
@@ -282,7 +282,7 @@
     "standards": [
       {
         "displayName": "X-Content-Type-Options",
-        "url": "https://standards.scangov.org/x-content-type-options"
+        "url": "https://standards.scangov.org/xcontenttypeoptions"
       }
     ]
   },
@@ -296,7 +296,7 @@
     "standards": [
       {
         "displayName": "security.txt",
-        "url": "https://standards.scangov.org/security-txt"
+        "url": "https://standards.scangov.org/securitytxt"
       }
     ]
   },
@@ -310,7 +310,7 @@
     "standards": [
       {
         "displayName": "security.txt",
-        "url": "https://standards.scangov.org/security-txt"
+        "url": "https://standards.scangov.org/securitytxt"
       }
     ]
   },
@@ -326,7 +326,7 @@
     "standards": [
       {
         "displayName": "sitemap.xml",
-        "url": "https://standards.scangov.org/sitemaps"
+        "url": "https://standards.scangov.org/sitemap"
       }
     ]
   },
@@ -342,19 +342,19 @@
     "standards": [
       {
         "displayName": "Accessibility best practices",
-        "url": "https://standards.scangov.org/accessibility-best-practices"
+        "url": "https://standards.scangov.org/a11y-best-practices"
       },
       {
         "displayName": "ARIA attributes",
-        "url": "https://standards.scangov.org/aria"
+        "url": "https://standards.scangov.org/a11y-aria"
       },
       {
         "displayName": "Audio and video",
-        "url": "https://standards.scangov.org/audio-video"
+        "url": "https://standards.scangov.org/a11y-audio-video"
       },
       {
         "displayName": "Color contrast",
-        "url": "https://standards.scangov.org/color-contrast"
+        "url": "https://standards.scangov.org/a11y-color-contrast"
       },
       {
         "displayName": "Hidden elements",
@@ -362,23 +362,19 @@
       },
       {
         "displayName": "Language",
-        "url": "https://standards.scangov.org/language"
+        "url": "https://standards.scangov.org/a11y-language"
       },
       {
         "displayName": "Names and labels",
-        "url": "https://standards.scangov.org/names-labels"
-      },
-      {
-        "displayName": "Mobile affordances",
-        "url": "https://standards.scangov.org/"
+        "url": "https://standards.scangov.org/a11y-names-labels"
       },
       {
         "displayName": "Navigation",
-        "url": "https://standards.scangov.org/navigation"
+        "url": "https://standards.scangov.org/a11y-navigation"
       },
       {
         "displayName": "Tables and lists",
-        "url": "https://standards.scangov.org/tables-lists"
+        "url": "https://standards.scangov.org/a11y-tables-lists"
       }
     ]
   },
@@ -393,7 +389,7 @@
     "standards": [
       {
         "displayName": "robots.txt",
-        "url": "https://standards.scangov.org/robots-txt"
+        "url": "https://standards.scangov.org/valid"
       }
     ]
   },
@@ -407,7 +403,7 @@
     "standards": [
       {
         "displayName": "Content security policy (CSP)",
-        "url": "https://standards.scangov.org/content-security-policy"
+        "url": "https://standards.scangov.org/csp"
       },
       {
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
@@ -419,7 +415,7 @@
       },
       {
         "displayName": "security.txt",
-        "url": "https://standards.scangov.org/security-txt"
+        "url": "https://standards.scangov.org/securitytxt"
       }
     ]
   },
@@ -435,23 +431,23 @@
     "standards": [
       {
         "displayName": "Cumulative Layout Shift (CLS)",
-        "url": "https://standards.scangov.org/cumulative-layout-shift"
+        "url": "https://standards.scangov.org/cls"
       },
       {
         "displayName": "First Contentful Paint (FCP)",
-        "url": "https://standards.scangov.org/first-contentful-paint"
+        "url": "https://standards.scangov.org/fcp"
       },
       {
         "displayName": "Interaction to Next Paint (INP)",
-        "url": "https://standards.scangov.org/interaction-to-next-paint"
+        "url": "https://standards.scangov.org/inp"
       },
       {
         "displayName": "Largest Contentful Paint (LCP)",
-        "url": "https://standards.scangov.org/largest-contentful-paint"
+        "url": "https://standards.scangov.org/lcp"
       },
       {
         "displayName": "Time to First Byte (TTFB)",
-        "url": "https://standards.scangov.org/time-to-first-byte"
+        "url": "https://standards.scangov.org/ttfb"
       }
     ]
   }
