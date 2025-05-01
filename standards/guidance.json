@@ -381,7 +381,7 @@
   "robots": {
     "displayName": "The Web Robots Pages",
     "description": "Guidelines for controlling search engine crawling.",
-    "docs": "https://standards.scangov.org/robots-txt-org",
+    "docs": "https://standards.scangov.org/robots",
     "topics": [
       "aifriendly",
       "seo"
