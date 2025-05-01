@@ -2,7 +2,7 @@
   "21stcenturyidea": {
     "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
     "description": "Modernizes government websites and digital services.",
-    "docs": "https://docs.scangov.org/21st-century-idea",
+    "docs": "https://standards.scangov.org/21st-century-idea",
     "topics": [
       "accessibility",
       "content",
@@ -13,30 +13,30 @@
     "standards": [
       {
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
-        "url": "https://docs.scangov.org/https"
+        "url": "https://standards.scangov.org/https"
       },
       {
         "displayName": "HTTP Strict Transport Security (HSTS)",
-        "url": "https://docs.scangov.org/hsts"
+        "url": "https://standards.scangov.org/hsts"
       },
       {
         "displayName": "Page title",
-        "url": "https://docs.scangov.org/page-title"
+        "url": "https://standards.scangov.org/page-title"
       },
       {
         "displayName": "Page description",
-        "url": "https://docs.scangov.org/page-description"
+        "url": "https://standards.scangov.org/page-description"
       },
       {
         "displayName": "Viewport meta tag",
-        "url": "https://docs.scangov.org/viewport-meta-tag"
+        "url": "https://standards.scangov.org/viewport-meta-tag"
       }
     ]
   },
   "28-cfr-part-35": {
     "displayName": "28 CFR Part 35",
     "description": "State and local government web accessibility requirements.",
-    "docs": "https://docs.scangov.org/28-cfr-part-35",
+    "docs": "https://standards.scangov.org/28-cfr-part-35",
     "topics": [
       "accessibility",
       "content"
@@ -44,44 +44,44 @@
     "standards": [
       {
         "displayName": "Page title",
-        "url": "https://docs.scangov.org/page-title"
+        "url": "https://standards.scangov.org/page-title"
       },
       {
         "displayName": "Page description",
-        "url": "https://docs.scangov.org/page-description"
+        "url": "https://standards.scangov.org/page-description"
       },
       {
         "displayName": "Viewport meta tag",
-        "url": "https://docs.scangov.org/viewport-meta-tag"
+        "url": "https://standards.scangov.org/viewport-meta-tag"
       }
     ]
   },
   "cpg": {
     "displayName": "CISA Cybersecurity Performance Goals",
     "description": "Voluntary, high-impact security practices.",
-    "docs": "https://docs.scangov.org/cybersecurity-performance-goals",
+    "docs": "https://standards.scangov.org/cybersecurity-performance-goals",
     "topics": [
       "security"
     ],
     "standards": [
       {
         "displayName": "security.txt",
-        "url": "https://docs.scangov.org/security-txt"
+        "url": "https://standards.scangov.org/security-txt"
       },
       {
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
-        "url": "https://docs.scangov.org/https"
+        "url": "https://standards.scangov.org/https"
       },
       {
         "displayName": "HTTP Strict Transport Security (HSTS)",
-        "url": "https://docs.scangov.org/hsts"
+        "url": "https://standards.scangov.org/hsts"
       }
     ]
   },
   "federal-website-standards": {
     "displayName": "U.S. Federal Website Standards",
     "description": "Improves accessibility, consistency and user experience.",
-    "docs": "https://docs.scangov.org/federal-website-standards",
+    "docs": "https://standards.scangov.org/federal-website-standards",
     "topics": [
       "accessibility",
       "content",
@@ -91,18 +91,18 @@
     "standards": [
       {
         "displayName": "Page title",
-        "url": "https://docs.scangov.org/page-title"
+        "url": "https://standards.scangov.org/page-title"
       },
       {
         "displayName": "Page description",
-        "url": "https://docs.scangov.org/page-description"
+        "url": "https://standards.scangov.org/page-description"
       }
     ]
   },
   "google-search-central": {
     "displayName": "Google Search Central",
     "description": "Resources to improve site search rankings.",
-    "docs": "https://docs.scangov.org/google-search-central",
+    "docs": "https://standards.scangov.org/google-search-central",
     "topics": [
       "content",
       "seo"
@@ -110,18 +110,18 @@
     "standards": [
       {
         "displayName": "Canonicalization",
-        "url": "https://docs.scangov.org/canonicalization"
+        "url": "https://standards.scangov.org/canonicalization"
       },
       {
         "displayName": "www resolution",
-        "url": "https://docs.scangov.org/www-resolution"
+        "url": "https://standards.scangov.org/www-resolution"
       }
     ]
   },
   "gsa-site-scanning": {
     "displayName": "GSA Site Scanning",
     "description": "Checks and tracks federal .gov websites.",
-    "docs": "https://docs.scangov.org/gsa-site-scanning",
+    "docs": "https://standards.scangov.org/gsa-site-scanning",
     "topics": [
       "aifriendly",
       "accessibility",
@@ -134,74 +134,74 @@
     "standards": [
       {
         "displayName": "Canonicalization",
-        "url": "https://docs.scangov.org/canonicalization"
+        "url": "https://standards.scangov.org/canonicalization"
       },
       {
         "displayName": "Cumulative Layout Shift (CLS)",
-        "url": "https://docs.scangov.org/cumulative-layout-shift"
+        "url": "https://standards.scangov.org/cumulative-layout-shift"
       },
       {
         "displayName": "Largest Contentful Paint (LCP)",
-        "url": "https://docs.scangov.org/largest-contentful-paint"
+        "url": "https://standards.scangov.org/largest-contentful-paint"
       },
       {
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
-        "url": "https://docs.scangov.org/https"
+        "url": "https://standards.scangov.org/https"
       },
       {
         "displayName": "HTTP Strict Transport Security (HSTS)",
-        "url": "https://docs.scangov.org/hsts"
+        "url": "https://standards.scangov.org/hsts"
       },
       {
         "displayName": "Open Graph site name",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph type",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph title",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph description",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph URL",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph image",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph image alt",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       },
       {
         "displayName": "Page title",
-        "url": "https://docs.scangov.org/page-title"
+        "url": "https://standards.scangov.org/page-title"
       },
       {
         "displayName": "Page description",
-        "url": "https://docs.scangov.org/page-description"
+        "url": "https://standards.scangov.org/page-description"
       },
       {
         "displayName": "sitemap.xml",
-        "url": "https://docs.scangov.org/sitemaps"
+        "url": "https://standards.scangov.org/sitemaps"
       },
       {
         "displayName": "Viewport meta tag",
-        "url": "https://docs.scangov.org/viewport-meta-tag"
+        "url": "https://standards.scangov.org/viewport-meta-tag"
       }
     ]
   },
   "m2322": {
     "displayName": "Memorandum (M-23-22)",
     "description": "Delivering a digital-first public experience.",
-    "docs": "https://docs.scangov.org/memorandum-m-23-22",
+    "docs": "https://standards.scangov.org/memorandum-m-23-22",
     "topics": [
       "accessibility",
       "content",
@@ -212,30 +212,30 @@
     "standards": [
       {
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
-        "url": "https://docs.scangov.org/https"
+        "url": "https://standards.scangov.org/https"
       },
       {
         "displayName": "HTTP Strict Transport Security (HSTS)",
-        "url": "https://docs.scangov.org/hsts"
+        "url": "https://standards.scangov.org/hsts"
       },
       {
         "displayName": "Page title",
-        "url": "https://docs.scangov.org/page-title"
+        "url": "https://standards.scangov.org/page-title"
       },
       {
         "displayName": "Page description",
-        "url": "https://docs.scangov.org/page-description"
+        "url": "https://standards.scangov.org/page-description"
       },
       {
         "displayName": "Viewport meta tag",
-        "url": "https://docs.scangov.org/viewport-meta-tag"
+        "url": "https://standards.scangov.org/viewport-meta-tag"
       }
     ]
   },
   "opengraph": {
     "displayName": "Open Graph",
     "description": "Improves how social media content shows.",
-    "docs": "https://docs.scangov.org/open-graph",
+    "docs": "https://standards.scangov.org/open-graph",
     "topics": [
       "content",
       "seo",
@@ -244,80 +244,80 @@
     "standards": [
       {
         "displayName": "Open Graph site name",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph type",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph title",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph description",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph URL",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph image",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       },
       {
         "displayName": "Open Graph image alt",
-        "url": "https://docs.scangov.org/metadata"
+        "url": "https://standards.scangov.org/metadata"
       }
     ]
   },
   "owasp10": {
     "displayName": "OWASP Top 10",
     "description": "Helps make websites and apps safer.",
-    "docs": "https://docs.scangov.org/owasp-top-10",
+    "docs": "https://standards.scangov.org/owasp-top-10",
     "topics": [
       "security"
     ],
     "standards": [
       {
         "displayName": "X-Content-Type-Options",
-        "url": "https://docs.scangov.org/x-content-type-options"
+        "url": "https://standards.scangov.org/x-content-type-options"
       }
     ]
   },
   "rfc9116": {
     "displayName": "RFC 9116",
     "description": "A file format to aid in security vulnerability disclosure.",
-    "docs": "https://docs.scangov.org/rfc9116",
+    "docs": "https://standards.scangov.org/rfc9116",
     "topics": [
       "security"
     ],
     "standards": [
       {
         "displayName": "security.txt",
-        "url": "https://docs.scangov.org/security-txt"
+        "url": "https://standards.scangov.org/security-txt"
       }
     ]
   },
   "security.txt": {
     "displayName": "security.txt",
     "description": "Contact file for reporting security issues.",
-    "docs": "https://docs.scangov.org/security-txt",
+    "docs": "https://standards.scangov.org/security-txt",
     "topics": [
       "security"
     ],
     "standards": [
       {
         "displayName": "security.txt",
-        "url": "https://docs.scangov.org/security-txt"
+        "url": "https://standards.scangov.org/security-txt"
       }
     ]
   },
   "sitemaps": {
     "displayName": "sitemaps.org",
     "description": "Website sitemap standards.",
-    "docs": "https://docs.scangov.org/sitemaps-org",
+    "docs": "https://standards.scangov.org/sitemaps-org",
     "topics": [
       "aifriendly",
       "content",
@@ -326,14 +326,14 @@
     "standards": [
       {
         "displayName": "sitemap.xml",
-        "url": "https://docs.scangov.org/sitemaps"
+        "url": "https://standards.scangov.org/sitemaps"
       }
     ]
   },
   "wcag": {
     "displayName": "Web Content Accessibility Guidelines (WCAG)",
     "description": "Rules for making websites accessible.",
-    "docs": "https://docs.scangov.org/wcag",
+    "docs": "https://standards.scangov.org/wcag",
     "topics": [
       "accessibility",
       "content",
@@ -342,50 +342,50 @@
     "standards": [
       {
         "displayName": "Accessibility best practices",
-        "url": "https://docs.scangov.org/accessibility-best-practices"
+        "url": "https://standards.scangov.org/accessibility-best-practices"
       },
       {
         "displayName": "ARIA attributes",
-        "url": "https://docs.scangov.org/aria"
+        "url": "https://standards.scangov.org/aria"
       },
       {
         "displayName": "Audio and video",
-        "url": "https://docs.scangov.org/audio-video"
+        "url": "https://standards.scangov.org/audio-video"
       },
       {
         "displayName": "Color contrast",
-        "url": "https://docs.scangov.org/color-contrast"
+        "url": "https://standards.scangov.org/color-contrast"
       },
       {
         "displayName": "Hidden elements",
-        "url": "https://docs.scangov.org/hidden"
+        "url": "https://standards.scangov.org/hidden"
       },
       {
         "displayName": "Language",
-        "url": "https://docs.scangov.org/language"
+        "url": "https://standards.scangov.org/language"
       },
       {
         "displayName": "Names and labels",
-        "url": "https://docs.scangov.org/names-labels"
+        "url": "https://standards.scangov.org/names-labels"
       },
       {
         "displayName": "Mobile affordances",
-        "url": "https://docs.scangov.org/"
+        "url": "https://standards.scangov.org/"
       },
       {
         "displayName": "Navigation",
-        "url": "https://docs.scangov.org/navigation"
+        "url": "https://standards.scangov.org/navigation"
       },
       {
         "displayName": "Tables and lists",
-        "url": "https://docs.scangov.org/tables-lists"
+        "url": "https://standards.scangov.org/tables-lists"
       }
     ]
   },
   "robots": {
     "displayName": "The Web Robots Pages",
     "description": "Guidelines for controlling search engine crawling.",
-    "docs": "https://docs.scangov.org/robots-txt-org",
+    "docs": "https://standards.scangov.org/robots-txt-org",
     "topics": [
       "aifriendly",
       "seo"
@@ -393,40 +393,40 @@
     "standards": [
       {
         "displayName": "robots.txt",
-        "url": "https://docs.scangov.org/robots-txt"
+        "url": "https://standards.scangov.org/robots-txt"
       }
     ]
   },
   "websitesecurity-cisa": {
     "displayName": "CISA Website Security",
     "description": "Protect websites from cyber threats.",
-    "docs": "https://docs.scangov.org/cisa-web-security",
+    "docs": "https://standards.scangov.org/cisa-web-security",
     "topics": [
       "security"
     ],
     "standards": [
       {
         "displayName": "Content security policy (CSP)",
-        "url": "https://docs.scangov.org/content-security-policy"
+        "url": "https://standards.scangov.org/content-security-policy"
       },
       {
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
-        "url": "https://docs.scangov.org/https"
+        "url": "https://standards.scangov.org/https"
       },
       {
         "displayName": "HTTP Strict Transport Security (HSTS)",
-        "url": "https://docs.scangov.org/hsts"
+        "url": "https://standards.scangov.org/hsts"
       },
       {
         "displayName": "security.txt",
-        "url": "https://docs.scangov.org/security-txt"
+        "url": "https://standards.scangov.org/security-txt"
       }
     ]
   },
   "webvitals": {
     "displayName": "Web Vitals / Core Web Vitals",
     "description": "Google's speed, interaction, and stability metrics.",
-    "docs": "https://docs.scangov.org/web-vitals-core-web-vitals",
+    "docs": "https://standards.scangov.org/web-vitals-core-web-vitals",
     "topics": [
       "content",
       "performance",
@@ -435,23 +435,23 @@
     "standards": [
       {
         "displayName": "Cumulative Layout Shift (CLS)",
-        "url": "https://docs.scangov.org/cumulative-layout-shift"
+        "url": "https://standards.scangov.org/cumulative-layout-shift"
       },
       {
         "displayName": "First Contentful Paint (FCP)",
-        "url": "https://docs.scangov.org/first-contentful-paint"
+        "url": "https://standards.scangov.org/first-contentful-paint"
       },
       {
         "displayName": "Interaction to Next Paint (INP)",
-        "url": "https://docs.scangov.org/interaction-to-next-paint"
+        "url": "https://standards.scangov.org/interaction-to-next-paint"
       },
       {
         "displayName": "Largest Contentful Paint (LCP)",
-        "url": "https://docs.scangov.org/largest-contentful-paint"
+        "url": "https://standards.scangov.org/largest-contentful-paint"
       },
       {
         "displayName": "Time to First Byte (TTFB)",
-        "url": "https://docs.scangov.org/time-to-first-byte"
+        "url": "https://standards.scangov.org/time-to-first-byte"
       }
     ]
   }
