@@ -1,6 +1,6 @@
 {
   "aifriendly": {
-    "displayName": "AI friendly",
+    "displayName": "AI-friendly",
     "icon": "robot",
     "url": "https://standards.scangov.org/guidance/aifriendly",
     "attributes": [
@@ -17,6 +17,10 @@
           {
             "displayName": "21st Century Integrated Digital Experience Act",
             "url": "https://standards.scangov.org/21stcenturyidea"
+          },
+          {
+            "displayName": "Memorandum (M-23-22)",
+            "url": "https://standards.scangov.org/memorandum-m-23-22"
           },
           {
             "displayName": "The Web Robots Pages",
@@ -209,8 +213,16 @@
         "impact": 10,
         "guidance": [
           {
+            "displayName": "21st Century Integrated Digital Experience Act",
+            "url": "https://standards.scangov.org/21stcenturyidea"
+          },
+          {
             "displayName": "Federal website standards",
             "url": "https://standards.scangov.org/federal-website-standards"
+          },
+          {
+            "displayName": "Memorandum (M-23-22)",
+            "url": "https://standards.scangov.org/memorandum-m-23-22"
           }
         ]
       },
@@ -225,8 +237,16 @@
         "impact": 8,
         "guidance": [
           {
+            "displayName": "21st Century Integrated Digital Experience Act",
+            "url": "https://standards.scangov.org/21stcenturyidea"
+          },
+          {
             "displayName": "Federal website standards",
             "url": "https://standards.scangov.org/federal-website-standards"
+          },
+          {
+            "displayName": "Memorandum (M-23-22)",
+            "url": "https://standards.scangov.org/memorandum-m-23-22"
           }
         ]
       },
@@ -243,6 +263,10 @@
           {
             "displayName": "21st Century Integrated Digital Experience Act",
             "url": "https://standards.scangov.org/21stcenturyidea"
+          },
+          {
+            "displayName": "Memorandum (M-23-22)",
+            "url": "https://standards.scangov.org/memorandum-m-23-22"
           }
         ]
       }
@@ -266,6 +290,10 @@
           {
             "displayName": "Federal website standards",
             "url": "https://standards.scangov.org/federal-website-standards"
+          },
+          {
+            "displayName": "Memorandum (M-23-22)",
+            "url": "https://standards.scangov.org/memorandum-m-23-22"
           }
         ]
       },
@@ -291,11 +319,11 @@
       },
       {
         "key": "dotgov",
-        "displayName": "sTLD",
+        "displayName": "Sponsored top-level domain sTLD",
         "tag": "sTLD",
         "docs": "https://standards.scangov.org/dotgov",
         "description": "Sponsored top-level domain (.gov / .edu / .mil).",
-        "why": "A .gov domain increases trustworthiness and credibility, as it's typically reserved for governmental organizations.",
+        "why": "An official domain (.gov / .edu / .mil) increases trustworthiness and credibility, as it's typically reserved for governmental organizations.",
         "error": "Domain is not an official sTLD.",
         "impact": 7,
         "guidance": [
@@ -436,8 +464,7 @@
         "displayName": "Sitemap complete",
         "tag": "Complete",
         "docs": "https://standards.scangov.org/completion",
-        "description": "Every link on the home page is in the sitemap.",
-        "why": "XML is the most widely supported and recommended format for sitemaps, as it allows search engines to easily parse and understand the content structure, helping with better indexing and crawling of the site.",
+        "description": "A sitemap with complete links helps search engines like Google find every page on your website. This makes it easier for people to discover your content in search results. It also helps search engines understand your site’s structure, which can improve how well your site ranks and gets noticed online.",
         "error": "Home page links missing from sitemap.",
         "impact": 1,
         "guidance": [
@@ -559,6 +586,10 @@
           {
             "displayName": "CISA Cybersecurity Performance Goals",
             "url": "https://standards.scangov.org/cybersecurity-performance-goals"
+          },
+          {
+            "displayName": "Memorandum (M-23-22)",
+            "url": "https://standards.scangov.org/memorandum-m-23-22"
           }
         ]
       },
