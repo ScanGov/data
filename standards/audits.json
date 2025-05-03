@@ -319,7 +319,7 @@
       },
       {
         "key": "dotgov",
-        "displayName": "Sponsored top-level domain sTLD",
+        "displayName": "Sponsored top-level domain (sTLD)",
         "tag": "sTLD",
         "docs": "https://standards.scangov.org/dotgov",
         "description": "Sponsored top-level domain (.gov / .edu / .mil).",
