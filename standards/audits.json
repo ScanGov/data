@@ -464,7 +464,8 @@
         "displayName": "Sitemap complete",
         "tag": "Complete",
         "docs": "https://standards.scangov.org/completion",
-        "description": "A sitemap with complete links helps search engines like Google find every page on your website. This makes it easier for people to discover your content in search results. It also helps search engines understand your site’s structure, which can improve how well your site ranks and gets noticed online.",
+        "description": "Sitemap has all pages on website designated.",
+        "why": "A sitemap with complete links helps search engines like Google find every page on your website. This makes it easier for people to discover your content in search results. It also helps search engines understand your site’s structure, which can improve how well your site ranks and gets noticed online.",
         "error": "Home page links missing from sitemap.",
         "impact": 1,
         "guidance": [
