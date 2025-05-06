@@ -2,6 +2,7 @@
   "aifriendly": {
     "displayName": "AI-friendly",
     "icon": "robot",
+    "color": "#e6e6e6",
     "url": "https://standards.scangov.org/guidance/aifriendly",
     "attributes": [
       {
@@ -49,6 +50,7 @@
   "accessibility": {
     "displayName": "Accessibility",
     "icon": "universal-access",
+    "color": "#a8f2ff",
     "url": "https://standards.scangov.org/guidance/accessibility",
     "attributes": [
       {
@@ -200,6 +202,7 @@
   "content": {
     "displayName": "Content",
     "icon": "file-lines",
+    "color": "#d5bfff",
     "url": "https://standards.scangov.org/guidance/content",
     "attributes": [
       {
@@ -275,6 +278,7 @@
   "domain": {
     "displayName": "Domain",
     "icon": "link",
+    "color": "#7efbe1",
     "url": "https://standards.scangov.org/guidance/domain",
     "attributes": [
       {
@@ -338,6 +342,7 @@
   "performance": {
     "displayName": "Performance",
     "icon": "gauge",
+    "color": "#ffbc78",
     "url": "https://standards.scangov.org/guidance/performance",
     "attributes": [
       {
@@ -425,6 +430,7 @@
   "seo": {
     "displayName": "SEO",
     "icon": "magnifying-glass",
+    "color": "#ffe396",
     "url": "https://standards.scangov.org/guidance/seo",
     "attributes": [
       {
@@ -548,6 +554,7 @@
   "security": {
     "displayName": "Security",
     "icon": "lock",
+    "color": "#ff8d7b",
     "url": "https://standards.scangov.org/guidance/security",
     "attributes": [
       {
@@ -639,6 +646,7 @@
   "social": {
     "displayName": "Social",
     "icon": "share-nodes",
+    "color": "#e7f434",
     "url": "https://standards.scangov.org/guidance/social",
     "attributes": [
       {
