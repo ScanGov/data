@@ -1,5 +1,6 @@
-{
-  "21stcenturyidea": {
+[
+  {
+    "key": "21stcenturyidea",
     "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
     "description": "Modernizes government websites and digital services.",
     "docs": "https://standards.scangov.org/21stcenturyidea",
@@ -50,7 +51,8 @@
     ],
     "audio": "https://docs.scangov.org/assets/audio/21st-century-idea.mp3"
   },
-  "28-cfr-part-35": {
+  {
+    "key": "28-cfr-part-35",
     "displayName": "28 CFR Part 35",
     "description": "State and local government web accessibility requirements.",
     "docs": "https://standards.scangov.org/28-cfr-part-35",
@@ -90,7 +92,8 @@
     ],
     "audio": "https://docs.scangov.org/assets/audio/28-cfr-part-35.mp3"
   },
-  "cpg": {
+  {
+    "key": "cpg",
     "displayName": "CISA Cybersecurity Performance Goals",
     "description": "Voluntary, high-impact security practices.",
     "docs": "https://standards.scangov.org/cybersecurity-performance-goals",
@@ -112,7 +115,8 @@
       }
     ]
   },
-  "federal-website-standards": {
+  {
+    "key": "federal-website-standards",
     "displayName": "U.S. Federal Website Standards",
     "description": "Improves accessibility, consistency and user experience.",
     "docs": "https://standards.scangov.org/federal-website-standards",
@@ -149,7 +153,8 @@
       }
     ]
   },
-  "google-search-central": {
+  {
+    "key": "google-search-central",
     "displayName": "Google Search Central",
     "description": "Resources to improve site search rankings.",
     "docs": "https://standards.scangov.org/google-search-central",
@@ -184,7 +189,8 @@
       }
     ]
   },
-  "gsa-site-scanning": {
+  {
+    "key": "gsa-site-scanning",
     "displayName": "GSA Site Scanning",
     "description": "Checks and tracks federal .gov websites.",
     "docs": "https://standards.scangov.org/gsa-site-scanning",
@@ -264,7 +270,8 @@
       }
     ]
   },
-  "m2322": {
+  {
+    "key": "m2322",
     "displayName": "Memorandum (M-23-22)",
     "description": "Delivering a digital-first public experience.",
     "docs": "https://standards.scangov.org/memorandum-m-23-22",
@@ -298,7 +305,8 @@
       }
     ]
   },
-  "opengraph": {
+  {
+    "key": "opengraph",
     "displayName": "Open Graph",
     "description": "Improves how social media content shows.",
     "docs": "https://standards.scangov.org/open-graph",
@@ -338,7 +346,8 @@
       }
     ]
   },
-  "owasp10": {
+  {
+    "key": "owasp10",
     "displayName": "OWASP Top 10",
     "description": "Helps make websites and apps safer.",
     "docs": "https://standards.scangov.org/owasp-top-10",
@@ -352,7 +361,8 @@
       }
     ]
   },
-  "rfc9116": {
+  {
+    "key": "rfc9116",
     "displayName": "RFC 9116",
     "description": "A file format to aid in security vulnerability disclosure.",
     "docs": "https://standards.scangov.org/rfc9116",
@@ -379,7 +389,8 @@
     ],
     "audio": "https://docs.scangov.org/assets/audio/security-txt.mp3"
   },
-  "security.txt": {
+  {
+    "key": "security.txt",
     "displayName": "security.txt",
     "description": "Contact file for reporting security issues.",
     "docs": "https://standards.scangov.org/security-txt",
@@ -393,7 +404,8 @@
       }
     ]
   },
-  "sitemaps": {
+  {
+    "key": "sitemaps",
     "displayName": "sitemaps.org",
     "description": "Website sitemap standards.",
     "docs": "https://standards.scangov.org/sitemaps-org",
@@ -409,7 +421,8 @@
       }
     ]
   },
-  "wcag": {
+  {
+    "key": "wcag",
     "displayName": "Web Content Accessibility Guidelines (WCAG)",
     "description": "Rules for making websites accessible.",
     "docs": "https://standards.scangov.org/wcag",
@@ -478,7 +491,8 @@
     ],
     "audio": "https://docs.scangov.org/assets/audio/wcag.mp3"
   },
-  "robots": {
+  {
+    "key": "robots",
     "displayName": "The Web Robots Pages",
     "description": "Guidelines for controlling search engine crawling.",
     "docs": "https://standards.scangov.org/robots",
@@ -505,7 +519,8 @@
       }
     ]
   },
-  "websitesecurity-cisa": {
+  {
+    "key": "websitesecurity-cisa",
     "displayName": "CISA Website Security",
     "description": "Protect websites from cyber threats.",
     "docs": "https://standards.scangov.org/cisa-web-security",
@@ -531,7 +546,8 @@
       }
     ]
   },
-  "webvitals": {
+  {
+    "key": "webvitals",
     "displayName": "Web Vitals / Core Web Vitals",
     "description": "Google's speed, interaction, and stability metrics.",
     "docs": "https://standards.scangov.org/web-vitals-core-web-vitals",
@@ -563,4 +579,4 @@
       }
     ]
   }
-}
+]
