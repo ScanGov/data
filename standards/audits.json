@@ -1375,29 +1375,6 @@
         "relatedLinks": {}
       },
       {
-        "key": "inspector-issues",
-        "displayName": "Issues flagged in inspector DevTools",
-        "tag": "inspector-issues",
-        "docs": "https://standards.scangov.org/inspector-issues",
-        "description": "Issues were logged in the `Issues` panel in Chrome Devtools",
-        "why": "Issues logged to the `Issues` panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue.",
-        "error": "Review and resolve issues logged in DevTools",
-        "impact": 1,
-        "guidance": [
-        ],
-        "sections": [
-          {
-            "title": "About",
-            "content": "<p>The DevTools issues panel surfaces problems detected in a page. These errors include items like mixed content or blocked resource requests. Mixed content is caused by most elements on the page being loaded via https but some of the resources still being loaded insecurely. Blocked resources are items that were requested and a blocked response was returned from the server.</p>"
-          },
-          {
-            "title": "Links",
-            "content": "<ul><li><a href=\"https://www.youtube.com/watch?v=1TbkSxQb4bI\">Chrome DevTools Issues panel tutorial</a></li></ul>"
-          }
-        ],
-        "relatedLinks": {}
-      },
-      {
         "key": "clickjacking-mitigation",
         "displayName": "Clickjacking mitigation",
         "tag": "clickjacking-mitigation",
