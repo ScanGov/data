@@ -426,6 +426,125 @@
           }
         ],
         "relatedLinks": {}
+      },
+      {
+        "key": "image-aspect-ratio",
+        "displayName": "Image aspect ratio",
+        "tag": "image-aspect-ratio",
+        "docs": "https://standards.scangov.org/image-aspect-ratio",
+        "description": "Displays images with incorrect aspect ratio",
+        "why": "Image display dimensions should match natural aspect ratio.",
+        "error": "Images are displayed at an aspect ratio significantly different from source.",
+        "impact": 1,
+        "guidance": [
+        ],
+        "sections": [
+          {
+            "title": "About",
+            "content": "<p>If a rendered image has an aspect ratio that's significantly different to the aspect ratio in its source file (the natural aspect ratio), the rendered image may look distorted, possibly creating an unpleasant user experience.</p>"
+          },
+          {
+            "title": "Links",
+            "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio/\">Learn more about image aspect ratio</a></li></ul>"
+          }
+        ],
+        "relatedLinks": {}
+      },
+      {
+        "key": "html-lang-valid",
+        "displayName": "Valid language code in the HTML tag",
+        "tag": "html-lang-valid",
+        "docs": "https://standards.scangov.org/html-lang-valid",
+        "description": "`<html>` element has a valid value for its `[lang]` attribute",
+        "why": "Clearly specifying the language of the page in the html tag helps screen readers and browsers.",
+        "error": "Page language is not defined in html.",
+        "impact": 1,
+        "guidance": [
+        ],
+        "sections": [
+          {
+            "title": "About",
+            "content": "<p>Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly.</p>"
+          },
+          {
+            "title": "Links",
+            "content": "<ul><li><a href=\"https://dequeuniversity.com/rules/axe/4.10/html-lang-valid\">Learn how to use the `lang` attribute</a></li></ul>"
+          }
+        ],
+        "relatedLinks": {}
+      },
+      {
+        "key": "meta-viewport",
+        "displayName": "Allow user scaling in viewport meta tag",
+        "tag": "meta-viewport",
+        "docs": "https://standards.scangov.org/meta-viewport",
+        "description": "user-scalable=no is not used in the meta name=viewport element and the maximum-scale attribute is not less than 5.",
+        "why": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page.",
+        "error": "User scaling is prevented in the viewport meta tag.",
+        "impact": 1,
+        "guidance": [
+        ],
+        "sections": [
+          {
+            "title": "About",
+            "content": "<p>The viewport meta tag is used for making a web page mobile friendly. It is possible for site developers to limit the ability for site visitors to zoom in and out by setting the user scalable attribute of the viewport meta tag to strict values. Significantly restricting the ability to zoom in and out can make things difficult for some visitors and should be avoided.</p>"
+          },
+          {
+            "title": "Links",
+            "content": "<ul><li><a href=\"https://dequeuniversity.com/rules/axe/4.10/meta-viewport\">Learn more about the viewport meta tag</a></li></ul>"
+          }
+        ],
+        "relatedLinks": {}
+      },
+      {
+        "key": "doctype",
+        "displayName": "Valid doctype",
+        "tag": "doctype",
+        "docs": "https://standards.scangov.org/doctype",
+        "description": "Page has the HTML doctype",
+        "why": "Specifying a doctype prevents the browser from switching to quirks-mode.",
+        "error": "Page lacks the HTML doctype, thus triggering quirks mode",
+        "impact": 1,
+        "guidance": [
+        ],
+        "sections": [
+          {
+            "title": "About",
+            "content": "<p>The doctype declaration is usually the start of an html document. Specifying a doctype prevents the browser from switching to quirks mode, which can cause your page to render in unexpected ways.</p>"
+          },
+          {
+            "title": "Code",
+            "content": "<p>Example sitemap code:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"cp\">&lt;!doctype html&gt;</span>\n</code></pre></div></div>"
+          },
+          {
+            "title": "Links",
+            "content": "<ul><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/doctype\">Learn more about the doctype declaration</a> (MDN)</li></ul>"
+          }
+        ],
+        "relatedLinks": {}
+      },
+      {
+        "key": "charset",
+        "displayName": "charset",
+        "tag": "charset",
+        "docs": "https://standards.scangov.org/charset",
+        "description": "Properly defines charset",
+        "why": "A character encoding declaration is required. It can be done with a `<meta>` tag in the first 1024 bytes of the HTML or in the Content-Type HTTP response header.",
+        "error": "Charset declaration is missing or occurs too late in the HTML",
+        "impact": 1,
+        "guidance": [
+        ],
+        "sections": [
+          {
+            "title": "About",
+            "content": "<p>If the server doesn't specify which character encoding format it's using when it sends an HTML file, the browser won't know what character each byte represents. The character encoding declaration specification solves this problem.</p>"
+          },
+          {
+            "title": "Links",
+            "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/best-practices/charset/\">Learn more about declaring the character encoding</a></li></ul>"
+          }
+        ],
+        "relatedLinks": {}
       }
     ]
   },
@@ -888,7 +1007,53 @@
           }
         ],
         "relatedLinks": {}
-      }
+      },
+      {
+        "key": "link-text",
+        "displayName": "Link text",
+        "tag": "link-text",
+        "docs": "https://standards.scangov.org/link-text",
+        "description": "Links have descriptive text",
+        "why": "Descriptive link text helps search engines understand your content.",
+        "error": "",
+        "impact": 1,
+        "guidance": [
+        ],
+        "sections": [
+          {
+            "title": "About",
+            "content": "<p>Link text is the clickable word or phrase in a hyperlink. When link text clearly conveys a hyperlink's target, both users and search engines can more easily understand your content and how it relates to other pages.</p>"
+          },
+          {
+            "title": "Links",
+            "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/seo/link-text/\">Links do not have descriptive text</a></li>\n</ul>"
+          }
+        ],
+        "relatedLinks": {}
+      },
+      {
+        "key": "hreflang",
+        "displayName": "hreflang",
+        "tag": "hreflang",
+        "docs": "https://standards.scangov.org/hreflang",
+        "description": "Document has a valid `hreflang`",
+        "why": "hreflang links tell search engines what version of a page they should list in search results for a given language or region.",
+        "error": "The pages has a missing or invalid hreflang attribute.",
+        "impact": 1,
+        "guidance": [
+        ],
+        "sections": [
+          {
+            "title": "About",
+            "content": "<p>Many sites provide different versions of a page based on a user's language or region. hreflang links tell search engines the URLs for all the versions of a page so that they can display the correct version for each language or region.</p>"
+          },
+          {
+            "title": "Links",
+            "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/seo/hreflang/\">Document doesn't have a valid hreflang</a></li></ul>"
+          }
+        ],
+        "relatedLinks": {}
+      }      
     ]
   },
   "security": {
@@ -1020,7 +1185,95 @@
             "url": "https://standards.scangov.org/owasp-top-10"
           }
         ]
-      }
+      },
+      {
+        "key": "errors-in-console",
+        "displayName": "Errors in the console",
+        "tag": "errors-in-console",
+        "docs": "https://standards.scangov.org/errors-in-console",
+        "description": "No browser errors logged to the console",
+        "why": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns.",
+        "error": "Errors are occuring during page load and are reflected in the client side browser console.",
+        "impact": 1,
+        "guidance": [
+        ],
+        "sections": [
+          {
+            "title": "About",
+            "content": "<p>Most browsers ship with built-in developer tools. These developer tools usually include a console. The console gives you information about the page that's currently running.</p><p>Messages logged in the console come from either the web developers who built the page or the browser itself. All console messages have a severity level: Verbose, Info, Warning, or Error. An Error message means there's a problem on your page that you need to resolve.</p>"
+          }
+        ],
+        "relatedLinks": {}
+      },
+      {
+        "key": "inspector-issues",
+        "displayName": "Issues flagged in inspector DevTools",
+        "tag": "inspector-issues",
+        "docs": "https://standards.scangov.org/inspector-issues",
+        "description": "Issues were logged in the `Issues` panel in Chrome Devtools",
+        "why": "Issues logged to the `Issues` panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue.",
+        "error": "Review and resolve issues logged in DevTools",
+        "impact": 1,
+        "guidance": [
+        ],
+        "sections": [
+          {
+            "title": "About",
+            "content": "<p>The DevTools issues panel surfaces problems detected in a page. These errors include items like mixed content or blocked resource requests. Mixed content is caused by most elements on the page being loaded via https but some of the resources still being loaded insecurely. Blocked resources are items that were requested and a blocked response was returned from the server.</p>"
+          },
+          {
+            "title": "Links",
+            "content": "<ul><li><a href=\"https://www.youtube.com/watch?v=1TbkSxQb4bI\">Chrome DevTools Issues panel tutorial</a></li></ul>"
+          }
+        ],
+        "relatedLinks": {}
+      },
+      {
+        "key": "clickjacking-mitigation",
+        "displayName": "Clickjacking mitigation",
+        "tag": "clickjacking-mitigation",
+        "docs": "https://standards.scangov.org/clickjacking-mitigation",
+        "description": "Mitigate clickjacking with XFO or CSP",
+        "why": "The `X-Frame-Options` (XFO) header or the `frame-ancestors` directive in the `Content-Security-Policy` (CSP) header control where a page can be embedded. These can mitigate clickjacking attacks by blocking some or all sites from embedding the page.",
+        "error": "Page is not protected from possible clickjacking by containing frames.",
+        "impact": 1,
+        "guidance": [
+        ],
+        "sections": [
+          {
+            "title": "About",
+            "content": "<p>Clickjacking is a malicious attack where users are tricked into clicking on links or UI elements on a site that appears to be a trusted and familiar site. This is typically accomplished by embedding part or all of the trusted site into the malicious site using an <iframe>.</p><p>The X-Frame-Options (XFO) header and the frame-ancestors directive in the Content-Security-Policy (CSP) header can mitigate clickjacking attacks by controlling how a site can be embedded within an <iframe>.</p>"
+          },
+          {
+            "title": "Links",
+            "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/best-practices/clickjacking-mitigation\">Learn more about mitigating clickjacking</a></li></ul>"
+          }
+        ],
+        "relatedLinks": {}
+      },
+      {
+        "key": "paste-preventing-inputs",
+        "displayName": "Paste preventing inputs",
+        "tag": "paste-preventing-inputs",
+        "docs": "https://standards.scangov.org/paste-preventing-inputs",
+        "description": "Allows users to paste into input fields",
+        "why": "Preventing input pasting is a bad practice for the UX, and weakens security by blocking password managers.",
+        "error": "Do not block paste operations inside input fields.",
+        "impact": 1,
+        "guidance": [
+        ],
+        "sections": [
+          {
+            "title": "About",
+            "content": "<p>Some websites claim that allowing users to paste passwords reduces security. However, password pasting actually improves security because it enables the use of password managers.</p><p>Password managers typically generate strong passwords for users, store them securely, and then automatically paste them into password fields whenever users need to log in. This approach is generally more secure than forcing users to type in passwords that are short enough to remember.</p><p>In the general case, users should not be prevented from pasting into <input> elements.</p>"
+          },
+          {
+            "title": "Links",
+            "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/best-practices/paste-preventing-inputs/\">Learn more about user-friendly input fields</a></li></ul>"
+          }
+        ],
+        "relatedLinks": {}
+      }                  
     ]
   },
   "social": {
