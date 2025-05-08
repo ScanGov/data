@@ -28,6 +28,11 @@
             "url": "https://standards.scangov.org/robots"
           }
         ],
+        "userStories": [
+          {
+            "title": "As an AI bot, I want to be able to crawl and access all relevant content on the website so that I can accurately index and understand the site for providing useful responses to users."
+          }
+        ],
         "sections": [
           {
             "title": "About",
@@ -49,6 +54,11 @@
           {
             "displayName": "The Web Robots Pages",
             "url": "https://standards.scangov.org/robots"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user or AI bot, I want the content of the website to be accessible and available directly in the document so that I can easily access, read, and index the information without relying on external sources or heavy JavaScript execution."
           }
         ],
         "sections": [
@@ -82,6 +92,11 @@
             "url": "https://standards.scangov.org/wcag"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a user with a disability, I want the website to be accessible and easy to navigate so that I can access and interact with the content without barriers, regardless of my abilities or the technology I use."
+          }
+        ],
         "sections": [
           {
             "title": "Links",
@@ -107,6 +122,11 @@
           {
             "displayName": "Web Content Accessibility Guidelines",
             "url": "https://standards.scangov.org/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user with a screen reader, I want the website to provide proper semantic information for dynamic elements, so that I can easily understand their purpose and interact with them without confusion."
           }
         ],
         "sections": [
@@ -136,6 +156,11 @@
             "url": "https://standards.scangov.org/wcag"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a user with hearing or visual impairment, I want to have access to captions, transcripts, and audio descriptions for multimedia content so that I can fully understand and engage with the media on the website."
+          }
+        ],
         "sections": [
           {
             "title": "Links",
@@ -161,6 +186,11 @@
           {
             "displayName": "Web Content Accessibility Guidelines",
             "url": "https://standards.scangov.org/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a visually impaired user, I want sufficient color contrast between text and background so that I can read the content without strain or missing information."
           }
         ],
         "sections": [
@@ -190,6 +220,11 @@
             "url": "https://standards.scangov.org/wcag"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a user relying on assistive technologies, I want hidden elements to be properly marked so that I am not confused or misled by content that is not meant to be visible or interactive."
+          }
+        ],
         "sections": [
           {
             "title": "About",
@@ -215,6 +250,11 @@
           {
             "displayName": "Web Content Accessibility Guidelines",
             "url": "https://standards.scangov.org/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a multilingual user or screen reader user, I want the correct language to be defined on the website so that the content is read and interpreted accurately by assistive technologies."
           }
         ],
         "sections": [
@@ -244,6 +284,11 @@
             "url": "https://standards.scangov.org/wcag"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want every interactive element to have a clear and descriptive name or label so that I can understand its purpose and use it correctly."
+          }
+        ],
         "sections": [
           {
             "title": "Links",
@@ -271,6 +316,11 @@
             "url": "https://standards.scangov.org/wcag"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want buttons and form fields to have clear, descriptive names and labels so that I can understand their purpose and interact with them confidently."
+          }
+        ],
         "sections": [
           {
             "title": "Links",
@@ -296,6 +346,11 @@
           {
             "displayName": "Web Content Accessibility Guidelines",
             "url": "https://standards.scangov.org/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want data tables to have clear headers and associations so that I can understand the relationships between rows and columns."
           }
         ],
         "sections": [
@@ -341,6 +396,11 @@
             "url": "https://standards.scangov.org/memorandum-m-23-22"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a screen reader user or someone navigating multiple tabs, I want each page to have a clear and unique title so that I can quickly understand the content and context of the page."
+          }
+        ],
         "sections": [
           {
             "title": "About",
@@ -380,6 +440,11 @@
             "url": "https://standards.scangov.org/memorandum-m-23-22"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a user browsing search results or sharing links, I want each page to have a clear and relevant description so that I can understand what the page is about before visiting it."
+          }
+        ],
         "sections": [
           {
             "title": "About",
@@ -413,6 +478,11 @@
           {
             "displayName": "Memorandum (M-23-22)",
             "url": "https://standards.scangov.org/memorandum-m-23-22"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a mobile user, I want the website to scale and display correctly on my device so that I can read and interact with the content without zooming or horizontal scrolling."
           }
         ],
         "sections": [
@@ -573,6 +643,11 @@
             "url": "https://standards.scangov.org/memorandum-m-23-22"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a site visitor, I want the website to use HTTPS so that my data is encrypted and protected from interception or tampering while browsing or submitting information."
+          }
+        ],
         "sections": [
           {
             "title": "Guidance",
@@ -612,6 +687,11 @@
             "url": "https://standards.scangov.org/google-search-central"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a site visitor, I want to access the website using either www or non-www URLs and be automatically redirected to the correct version so that I don’t encounter errors or duplicate content."
+          }
+        ],
         "sections": [
           {
             "title": "Guidance",
@@ -637,10 +717,15 @@
         "why": "An official domain (.gov / .edu / .mil) increases trustworthiness and credibility, as it's typically reserved for governmental organizations.",
         "error": "Domain is not an official sTLD.",
         "impact": 7,
-        "guidance": [ 
+        "guidance": [
           {
             "displayName": "Federal website standards",
             "url": "https://standards.scangov.org/federal-website-standards"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a site visitor, I want to access government websites with a `.gov` domain so that I can be confident the site is official, secure, and trustworthy, providing accurate and authoritative government information."
           }
         ],
         "sections": [
@@ -688,6 +773,11 @@
             "url": "https://standards.scangov.org/web-vitals-core-web-vitals"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a user reading the page, I want the content to stay stable while loading so that I don’t accidentally click the wrong thing or lose my place."
+          }
+        ],
         "sections": [
           {
             "title": "About",
@@ -709,6 +799,11 @@
           {
             "displayName": "Web Vitals / Core Web Vitals",
             "url": "https://standards.scangov.org/web-vitals-core-web-vitals"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user visiting the website, I want the first visible content to load quickly so that I know the site is responding and I don’t leave out of frustration."
           }
         ],
         "sections": [
@@ -734,6 +829,14 @@
             "url": "https://standards.scangov.org/web-vitals-core-web-vitals"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a user interacting with the page, I want the site to respond quickly to my actions so that I feel in control and don’t experience delays."
+          },
+          {
+            "title": "As a user of a cheaper model mobile phone, I want your website to respond to my interactions quickly. If it is inefficient and performs a lot of processing on my device I wonder if it is even working, get stressed out and may click multiple times."
+          }
+        ],
         "sections": [
           {
             "title": "About",
@@ -756,6 +859,14 @@
             "displayName": "Web Vitals / Core Web Vitals",
             "url": "https://standards.scangov.org/web-vitals-core-web-vitals"
           }
+        ],
+        "userStories": [
+          {
+            "title": "As a user visiting the site, I want the main content to load quickly so that I can start engaging with the page without waiting."
+          },
+          {
+            "title": "As a commuter on the BART train riding through Lafayette, I want your website to display the main content efficiently so my temporarily constrained bandwidth which radically exacerbates loading times doesn't make me give up before it loads."
+          }
         ]
       },
       {
@@ -771,6 +882,11 @@
           {
             "displayName": "Web Vitals / Core Web Vitals",
             "url": "https://standards.scangov.org/web-vitals-core-web-vitals"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user requesting a web page, I want the server to respond quickly so that the page starts loading without noticeable delay."
           }
         ],
         "sections": [
@@ -803,6 +919,11 @@
             "displayName": "sitemaps.org",
             "url": "https://standards.scangov.org/sitemaps-org"
           }
+        ],
+        "userStories": [
+          {
+            "title": "As a search engine bot or user, I want the website's sitemap to be easily accessible so that I can discover all the pages and content on the site efficiently and improve the website’s discoverability."
+          }
         ]
       },
       {
@@ -818,6 +939,11 @@
           {
             "displayName": "sitemaps.org",
             "url": "https://standards.scangov.org/sitemaps-org"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a search engine bot, I want the website to provide a properly formatted XML sitemap so that I can efficiently crawl and index all relevant pages, improving the site's visibility in search results."
           }
         ],
         "sections": [
@@ -855,6 +981,11 @@
           {
             "displayName": "sitemaps.org",
             "url": "https://standards.scangov.org/sitemaps-org"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a search engine bot, I want the sitemap to contain all of the website’s pages so that I can efficiently crawl and index every page, ensuring comprehensive coverage and improved visibility in search results."
           }
         ]
       },
@@ -914,6 +1045,11 @@
             "url": "https://standards.scangov.org/robots"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a search engine crawler, I want to read the robots.txt file so that I know which parts of the website I am allowed or disallowed to index."
+          }
+        ],
         "sections": [
           {
             "title": "Guidance",
@@ -955,6 +1091,11 @@
             "url": "https://standards.scangov.org/google-search-central"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a search engine bot, I want the `robots.txt` file to point to the sitemap so that I can easily discover and crawl the full sitemap of the website, ensuring comprehensive indexing and better visibility in search results."
+          }
+        ],
         "sections": [
           {
             "title": "About",
@@ -994,6 +1135,11 @@
           {
             "displayName": "Google Search Central",
             "url": "https://standards.scangov.org/google-search-central"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user or search engine bot, I want to be directed to the preferred version of a webpage (canonical URL) to avoid duplicate content and ensure that I am viewing the correct page with the most relevant content."
           }
         ],
         "sections": [
@@ -1077,6 +1223,14 @@
             "url": "https://standards.scangov.org/cisa-web-security"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a website owner, I want to define a Content Security Policy so that I can prevent malicious scripts from executing and protect users from XSS attacks."
+          },
+          {
+            "title": "As a site visitor, I want the website to load safely and securely without being exposed to malicious content or scripts so that my browsing experience is safe and my data is protected."
+          }
+        ],
         "sections": [
           {
             "title": "Guidance",
@@ -1126,6 +1280,11 @@
             "url": "https://standards.scangov.org/memorandum-m-23-22"
           }
         ],
+        "userStories": [
+          {
+            "title": "As a site visitor, I want the website to automatically redirect to HTTPS and prevent any connection via HTTP so that my data is always encrypted and secure during transmission."
+          }
+        ],
         "sections": [
           {
             "title": "Guidance",
@@ -1168,6 +1327,11 @@
             "displayName": "security.txt",
             "url": "https://standards.scangov.org/security-txt"
           }
+        ],
+        "userStories": [
+          {
+            "title": "As a security researcher, I want to find a security.txt file on the website so that I can report vulnerabilities to the right contact securely and efficiently."
+          }
         ]
       },
       {
@@ -1183,6 +1347,11 @@
           {
             "displayName": "OWASP Top 10",
             "url": "https://standards.scangov.org/owasp-top-10"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a website user, I want the site to ensure that my browser only loads files of the correct type, so I can avoid unexpected errors or security issues while browsing."
           }
         ]
       },
@@ -1296,6 +1465,11 @@
             "displayName": "Open Graph",
             "url": "https://standards.scangov.org/open-graph"
           }
+        ],
+        "userStories": [
+          {
+            "title": "As a site visitor, I want rich and visually appealing previews when a website is shared on social media so that I can easily understand the content and decide whether to click on the link."
+          }
         ]
       },
       {
@@ -1311,6 +1485,11 @@
           {
             "displayName": "Open Graph",
             "url": "https://standards.scangov.org/open-graph"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a site visitor, I want the content shared from the website to display the correct type of information (e.g., article, video, website) so that I can easily understand the context and purpose of the link before clicking on it."
           }
         ]
       },
@@ -1328,6 +1507,11 @@
             "displayName": "Open Graph",
             "url": "https://standards.scangov.org/open-graph"
           }
+        ],
+        "userStories": [
+          {
+            "title": "As a site visitor, I want the title of the shared content to be clear and descriptive so that I can easily understand what the link is about before clicking on it."
+          }
         ]
       },
       {
@@ -1343,6 +1527,11 @@
           {
             "displayName": "Open Graph",
             "url": "https://standards.scangov.org/open-graph"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a site visitor, I want the description of shared content to be informative and concise so that I can quickly understand what the content is about before deciding to click the link."
           }
         ]
       },
@@ -1360,6 +1549,11 @@
             "displayName": "Open Graph",
             "url": "https://standards.scangov.org/open-graph"
           }
+        ],
+        "userStories": [
+          {
+            "title": "As a site visitor, I want the shared content to link to the correct webpage, so that I can be sure I am clicking the right link and accessing the intended content."
+          }
         ]
       },
       {
@@ -1376,6 +1570,11 @@
             "displayName": "Open Graph",
             "url": "https://standards.scangov.org/open-graph"
           }
+        ],
+        "userStories": [
+          {
+            "title": "As a social media user, I want shared links to have a clear and relevant image so that I can easily understand the content of the link before clicking on it."
+          }
         ]
       },
       {
@@ -1391,6 +1590,11 @@
           {
             "displayName": "Open Graph",
             "url": "https://standards.scangov.org/open-graph"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a site visitor, I want the image shared on social media to have an alt text so that I can understand the content of the image even if I can't see it, especially if I rely on screen readers."
           }
         ]
       }
