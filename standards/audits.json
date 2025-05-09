@@ -498,10 +498,10 @@
         "relatedLinks": {}
       },
       {
-        "key": "image-aspect-ratio",
+        "key": "image_aspect_ratio",
         "displayName": "Image aspect ratio",
-        "tag": "image-aspect-ratio",
-        "docs": "https://standards.scangov.org/image-aspect-ratio",
+        "tag": "image_aspect_ratio",
+        "docs": "https://standards.scangov.org/image_aspect_ratio",
         "description": "Displays images with incorrect aspect ratio",
         "why": "Image display dimensions should match natural aspect ratio.",
         "error": "Images are displayed at an aspect ratio significantly different from source.",
@@ -521,10 +521,10 @@
         "relatedLinks": {}
       },
       {
-        "key": "html-lang-valid",
+        "key": "html_lang_valid",
         "displayName": "Valid language code in the HTML tag",
-        "tag": "html-lang-valid",
-        "docs": "https://standards.scangov.org/html-lang-valid",
+        "tag": "html_lang_valid",
+        "docs": "https://standards.scangov.org/html_lang_valid",
         "description": "`<html>` element has a valid value for its `[lang]` attribute",
         "why": "Clearly specifying the language of the page in the html tag helps screen readers and browsers.",
         "error": "Page language is not defined in html.",
@@ -1155,10 +1155,10 @@
         "relatedLinks": {}
       },
       {
-        "key": "link-text",
+        "key": "link_text",
         "displayName": "Link text",
-        "tag": "link-text",
-        "docs": "https://standards.scangov.org/link-text",
+        "tag": "link_text",
+        "docs": "https://standards.scangov.org/link_text",
         "description": "Links have descriptive text",
         "why": "Descriptive link text helps search engines understand your content.",
         "error": "",
@@ -1356,10 +1356,10 @@
         ]
       },
       {
-        "key": "errors-in-console",
+        "key": "errors_in_console",
         "displayName": "Errors in the console",
-        "tag": "errors-in-console",
-        "docs": "https://standards.scangov.org/errors-in-console",
+        "tag": "errors_in_console",
+        "docs": "https://standards.scangov.org/errors_in_console",
         "description": "No browser errors logged to the console",
         "why": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns.",
         "error": "Errors are occuring during page load and are reflected in the client side browser console.",
@@ -1375,10 +1375,10 @@
         "relatedLinks": {}
       },
       {
-        "key": "clickjacking-mitigation",
+        "key": "clickjacking_mitigation",
         "displayName": "Clickjacking mitigation",
-        "tag": "clickjacking-mitigation",
-        "docs": "https://standards.scangov.org/clickjacking-mitigation",
+        "tag": "clickjacking_mitigation",
+        "docs": "https://standards.scangov.org/clickjacking_mitigation",
         "description": "Mitigate clickjacking with XFO or CSP",
         "why": "The `X-Frame-Options` (XFO) header or the `frame-ancestors` directive in the `Content-Security-Policy` (CSP) header control where a page can be embedded. These can mitigate clickjacking attacks by blocking some or all sites from embedding the page.",
         "error": "Page is not protected from possible clickjacking by containing frames.",
@@ -1398,10 +1398,10 @@
         "relatedLinks": {}
       },
       {
-        "key": "paste-preventing-inputs",
+        "key": "paste_preventing_inputs",
         "displayName": "Paste preventing inputs",
-        "tag": "paste-preventing-inputs",
-        "docs": "https://standards.scangov.org/paste-preventing-inputs",
+        "tag": "paste_preventing_inputs",
+        "docs": "https://standards.scangov.org/paste_preventing_inputs",
         "description": "Allows users to paste into input fields",
         "why": "Preventing input pasting is a bad practice for the UX, and weakens security by blocking password managers.",
         "error": "Do not block paste operations inside input fields.",
