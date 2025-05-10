@@ -3,7 +3,6 @@
     "key": "21stcenturyidea",
     "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
     "description": "Modernizes government websites and digital services.",
-    "docs": "/21stcenturyidea",
     "topics": [
       "accessibility",
       "content",
@@ -53,7 +52,6 @@
     "key": "28-cfr-part-35",
     "displayName": "28 CFR Part 35",
     "description": "State and local government web accessibility requirements.",
-    "docs": "/28-cfr-part-35",
     "topics": [
       "accessibility",
       "content"
@@ -92,7 +90,6 @@
     "key": "cpg",
     "displayName": "CISA Cybersecurity Performance Goals",
     "description": "Voluntary, high-impact security practices.",
-    "docs": "/cybersecurity-performance-goals",
     "topics": [
       "security"
     ],
@@ -115,7 +112,6 @@
     "key": "federal-website-standards",
     "displayName": "U.S. Federal Website Standards",
     "description": "Improves accessibility, consistency and user experience.",
-    "docs": "/federal-website-standards",
     "topics": [
       "accessibility",
       "content",
@@ -152,7 +148,6 @@
     "key": "google-search-central",
     "displayName": "Google Search Central",
     "description": "Resources to improve site search rankings.",
-    "docs": "/google-search-central",
     "topics": [
       "content",
       "domain",
@@ -195,7 +190,6 @@
     "key": "gsa-site-scanning",
     "displayName": "GSA Site Scanning",
     "description": "Checks and tracks federal .gov websites.",
-    "docs": "/gsa-site-scanning",
     "topics": [
       "aifriendly",
       "accessibility",
@@ -276,7 +270,6 @@
     "key": "memorandum-m-23-22",
     "displayName": "Memorandum (M-23-22)",
     "description": "Delivering a digital-first public experience.",
-    "docs": "/memorandum-m-23-22",
     "topics": [
       "accessibility",
       "content",
@@ -312,7 +305,6 @@
     "key": "open-graph",
     "displayName": "Open Graph",
     "description": "Improves how social media content shows.",
-    "docs": "/open-graph",
     "topics": [
       "content",
       "seo",
@@ -350,10 +342,9 @@
     ]
   },
   {
-    "key": "owasp10",
+    "key": "owasp-top-10",
     "displayName": "OWASP Top 10",
     "description": "Helps make websites and apps safer.",
-    "docs": "/owasp-top-10",
     "topics": [
       "security"
     ],
@@ -372,7 +363,6 @@
     "key": "rfc9116",
     "displayName": "RFC 9116",
     "description": "A file format to aid in security vulnerability disclosure.",
-    "docs": "/rfc9116",
     "topics": [
       "security"
     ],
@@ -395,10 +385,9 @@
     "audio": "https://docs.scangov.org/assets/audio/security-txt.mp3"
   },
   {
-    "key": "security.txt",
+    "key": "security-txt",
     "displayName": "security.txt",
     "description": "Contact file for reporting security issues.",
-    "docs": "/security-txt",
     "topics": [
       "security"
     ],
@@ -410,10 +399,9 @@
     ]
   },
   {
-    "key": "sitemaps",
+    "key": "sitemaps-org",
     "displayName": "sitemaps.org",
     "description": "Website sitemap standards.",
-    "docs": "/sitemaps-org",
     "topics": [
       "aifriendly",
       "content",
@@ -430,7 +418,6 @@
     "key": "wcag",
     "displayName": "Web Content Accessibility Guidelines (WCAG)",
     "description": "Rules for making websites accessible.",
-    "docs": "/wcag",
     "topics": [
       "accessibility",
       "content",
@@ -451,7 +438,7 @@
       },
       {
         "displayName": "Character encoding",
-        "url": "/character-encoding"
+        "url": "/charset"
       },
       {
         "displayName": "Color contrast",
@@ -522,7 +509,6 @@
     "key": "robots",
     "displayName": "The Web Robots Pages",
     "description": "Guidelines for controlling search engine crawling.",
-    "docs": "/robots",
     "topics": [
       "aifriendly",
       "seo"
@@ -548,7 +534,6 @@
     "key": "websitesecurity-cisa",
     "displayName": "CISA Website Security",
     "description": "Protect websites from cyber threats.",
-    "docs": "/cisa-web-security",
     "topics": [
       "security"
     ],
@@ -572,10 +557,9 @@
     ]
   },
   {
-    "key": "webvitals",
+    "key": "web-vitals-core-web-vitals",
     "displayName": "Web Vitals / Core Web Vitals",
     "description": "Google's speed, interaction, and stability metrics.",
-    "docs": "/web-vitals-core-web-vitals",
     "topics": [
       "content",
       "performance",
