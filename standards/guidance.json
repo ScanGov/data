@@ -33,12 +33,10 @@
         "url": "/viewport"
       }
     ],
-    "sections": [
-      {
-        "title": "About",
-        "content": "<p>The 21st Century Integrated Digital Experience Act (IDEA), enacted in December 2018, mandates that U.S. federal agencies modernize their websites, digitize services and forms, adopt e-signatures, enhance customer experience, and standardize shared services. In September 2023, the Office of Management and Budget issued Memo M-23-22 to further guide agencies in implementing these requirements, aiming to provide a digital-first public experience that meets modern expectations.</p>"
-      }
-    ],
+    "about": {
+      "title": "About",
+      "content": "<p>The 21st Century Integrated Digital Experience Act (IDEA), enacted in December 2018, mandates that U.S. federal agencies modernize their websites, digitize services and forms, adopt e-signatures, enhance customer experience, and standardize shared services. In September 2023, the Office of Management and Budget issued Memo M-23-22 to further guide agencies in implementing these requirements, aiming to provide a digital-first public experience that meets modern expectations.</p>"
+    },
     "links": [
       {
         "link": "https://www.congress.gov/bill/115th-congress/house-bill/5759/text",
@@ -74,12 +72,10 @@
         "url": "/viewport"
       }
     ],
-    "sections": [
-      {
-        "title": "About",
-        "content": "<p>The Department of Justice issued a rule (“Nondiscrimination on the Basis of Disability; Accessibility of Web Information and Services of State and Local Government Entities”) requiring state and local governments to make their websites and mobile apps accessible to people with disabilities (WCAG 2.1, Level AA). This rule, effective April 24, 2024, specifies technical standards to ensure equal access to online services. Governments have until April 2026 or April 2027, depending on their size, to comply.</p>"
-      }
-    ],
+    "about": {
+      "title": "About",
+      "content": "<p>The Department of Justice issued a rule (“Nondiscrimination on the Basis of Disability; Accessibility of Web Information and Services of State and Local Government Entities”) requiring state and local governments to make their websites and mobile apps accessible to people with disabilities (WCAG 2.1, Level AA). This rule, effective April 24, 2024, specifies technical standards to ensure equal access to online services. Governments have until April 2026 or April 2027, depending on their size, to comply.</p>"
+    },
     "links": [
       {
         "link": "https://www.federalregister.gov/documents/2024/04/24/2024-07758/nondiscrimination-on-the-basis-of-disability-accessibility-of-web-information-and-services-of-state",
@@ -137,12 +133,10 @@
         "url": "/description"
       }
     ],
-    "sections": [
-      {
-        "title": "About",
-        "content": "<p>The federal website standards outline U.S. government standards designed to improve the quality and consistency of digital experiences across agencies. These standards cover both visual and technical aspects, incorporating user experience best practices and progressing through stages of research, draft, pending, and required. The standards are aimed at enhancing accessibility, discoverability, and user trust on government websites.</p>"
-      }
-    ],
+    "about": {
+      "title": "About",
+      "content": "<p>The federal website standards outline U.S. government standards designed to improve the quality and consistency of digital experiences across agencies. These standards cover both visual and technical aspects, incorporating user experience best practices and progressing through stages of research, draft, pending, and required. The standards are aimed at enhancing accessibility, discoverability, and user trust on government websites.</p>"
+    },
     "links": [
       {
         "link": "https://standards.digital.gov/",
@@ -182,12 +176,10 @@
         "url": "/www"
       }
     ],
-    "sections": [
-      {
-        "title": "About",
-        "content": "<p>Google Search Central, formerly known as Google Webmasters, provides resources to help website owners improve their site’s visibility on Google Search. It offers tools like Search Console to monitor site performance, fix issues, and enhance search rankings.</p>"
-      }
-    ],
+    "about": {
+      "title": "About",
+      "content": "<p>Google Search Central, formerly known as Google Webmasters, provides resources to help website owners improve their site’s visibility on Google Search. It offers tools like Search Console to monitor site performance, fix issues, and enhance search rankings.</p>"
+    },
     "links": [
       {
         "link": "https://developers.google.com/search",
@@ -390,12 +382,10 @@
         "url": "/securitytxt"
       }
     ],
-    "sections": [
-      {
-        "title": "About",
-        "content": "<p>RFC 9116 sets rules for the “security.txt” file, which helps organizations share how to report security problems. This file, usually found at /.well-known/security.txt, makes it easier for security experts to report issues. It includes details like contact info, encryption keys, and policy links. The file can be digitally signed to ensure its authenticity. With this standard format, organizations can handle security reports more efficiently and respond to problems faster.</p>"
-      }
-    ],
+    "about": {
+      "title": "About",
+      "content": "<p>RFC 9116 sets rules for the “security.txt” file, which helps organizations share how to report security problems. This file, usually found at /.well-known/security.txt, makes it easier for security experts to report issues. It includes details like contact info, encryption keys, and policy links. The file can be digitally signed to ensure its authenticity. With this standard format, organizations can handle security reports more efficiently and respond to problems faster.</p>"
+    },
     "links": [
       {
         "link": "https://www.rfc-editor.org/rfc/rfc9116",
@@ -504,16 +494,10 @@
         "url": "/zooming-scaling"
       }
     ],
-    "sections": [
-      {
-        "title": "About",
-        "content": "<p>The Web Content Accessibility Guidelines (WCAG) are a set of rules for making web content more accessible to people with disabilities. WCAG helps developers, designers, and others create websites that are perceivable, operable, understandable, and robust. These guidelines have different levels (A, AA, and AAA), with AAA being the highest. Following WCAG helps make the web more user-friendly for everyone.</p>"
-      },
-      {
-        "title": "Links",
-        "content": "<ul>\n  <li><a href=\"https://www.w3.org/TR/WCAG21/\">Web Content Accessibility Guidelines (WCAG) 2.1</a> (W3C)</li>\n  <li><a href=\"https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines\">Web Content Accessibility Guidelines</a> (Wikipedia)</li>\n</ul>"
-      }
-    ],
+    "about": {
+      "title": "About",
+      "content": "<p>The Web Content Accessibility Guidelines (WCAG) are a set of rules for making web content more accessible to people with disabilities. WCAG helps developers, designers, and others create websites that are perceivable, operable, understandable, and robust. These guidelines have different levels (A, AA, and AAA), with AAA being the highest. Following WCAG helps make the web more user-friendly for everyone.</p>"
+    },
     "links": [
       {
         "link": "https://www.w3.org/WAI/standards-guidelines/wcag/",
@@ -522,6 +506,14 @@
       {
         "link": "https://www.w3.org/",
         "text": "World Wide Web Consortium"
+      },
+      {
+        "link": "https://www.w3.org/TR/WCAG21/",
+        "text": "Web Content Accessibility Guidelines (WCAG) 2.1 (W3C)"
+      },
+      {
+        "link": "https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines",
+        "text": "Web Content Accessibility Guidelines (Wikipedia)"
       }
     ],
     "audio": "https://docs.scangov.org/assets/audio/wcag.mp3"
@@ -541,12 +533,10 @@
         "url": "/valid"
       }
     ],
-    "sections": [
-      {
-        "title": "About",
-        "content": "<p>The Web Robots Pages provides guidelines on how websites can control search engine crawling using a robots.txt file.</p>"
-      }
-    ],
+    "about": {
+      "title": "About",
+      "content": "<p>The Web Robots Pages provides guidelines on how websites can control search engine crawling using a robots.txt file.</p>"
+    },
     "links": [
       {
         "link": "https://robotstxt.org/",
