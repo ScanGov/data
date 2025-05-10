@@ -879,6 +879,12 @@
         "why": "Ensuring that the most important content loads quickly improves the perceived performance and user experience.",
         "error": "Main content didn't load in 2.5 seconds.",
         "impact": 8,
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "Largest Contentful Paint (LCP) measures how long it takes for the main content of a web page to appear. This is important because it helps users know when the page is ready. A good LCP time is 2.5 seconds or less. It tracks the largest visible element, like images, videos, or text blocks. A faster LCP improves user experience and helps websites perform better."
+          }  
+        },
         "guidance": [
           {
             "displayName": "Web Vitals / Core Web Vitals",
@@ -937,6 +943,12 @@
         "why": "A properly functioning sitemap ensures that search engines can crawl the site effectively and index it properly.",
         "error": "Sitemap.xml is missing or inaccessible.",
         "impact": 3,
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>A sitemap is a file that lists all of the pages on a website in addition to information about each so that search engines can more intelligently crawl the site.</p><p>Web crawlers usually discover pages from links within the site and from other sites. Sitemaps supplement this data to allow crawlers that support sitemaps to pick up all Uniform Resources Locators (URLs) in the sitemap and learn about them using the associated metadata. Using sitemap protocol doesn’t guarantee web pages are included in search engines, but provides hints for web crawlers to do a better job of crawling your site.</p><p>The sitemap is an Extensible Markup Language (XML) file on the website’s root directory that include metadata for each URL, such as:</p><ul><li>when it was last updated</li><li>how often it usually changes</li><li>how important it is, relative to other URLs in the site</li></ul>"
+          }
+        },
         "guidance": [
           {
             "displayName": "sitemaps.org",
@@ -1335,6 +1347,12 @@
         "why": "A security.txt file is a standard for websites to provide contact information and guidelines for reporting security vulnerabilities. It helps security researchers and good actors to report potential issues with the site to the responsible parties. Without a security.txt file, it may be harder for researchers to reach out to the website's administrators, potentially delaying the response to security threats.",
         "error": "No available security.txt file.",
         "impact": 1,
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>security.txt is a text file located on the site root-level or `/.well-known/` directory that helps improve vulnerability disclosure by giving security researchers clear contact and reporting information.</p><p>security.txt is an accepted standard (<a href=\"https://www.rfc-editor.org/rfc/rfc9116\">RFC 9116</a>) by the <a href=\"https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force\">Internet Engineering Task Force</a>.</p>"
+          }
+        },
         "guidance": [
           {
             "displayName": "CISA Cybersecurity Performance Goals",
@@ -1363,6 +1381,12 @@
         "why": "The X-Content-Type-Options header helps prevent browsers from interpreting files as a different MIME type than what is specified. This is a security measure that prevents certain types of attacks, such as MIME sniffing. Without this header, there is a risk that malicious content might be executed if a browser misinterprets the type of content being served.",
         "error": "Mime type sniffing is not prevented.",
         "impact": 3,
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>`X-Content-Type-Options` is a security header that:</p><ul><li>Prevents browsers from MIME-sniffing.</li><li>Ensures content is rendered as declared (e.g., no misinterpretation of file types).</li><li>Stops browsers from guessing content types, enhancing security.</li></ul>"
+          }
+        },
         "guidance": [
           {
             "displayName": "OWASP Top 10",
