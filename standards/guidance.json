@@ -93,6 +93,10 @@
     "topics": [
       "security"
     ],
+    "about": {
+      "title": "About",
+      "content": "The Cybersecurity and Infrastructure Security Agency's Cybersecurity Performance Goals (CPGs) are voluntary practices that help organizations defend against cyber threats. These goals are divided into five key areas: Identify, Protect, Detect, Respond, and Recover. They include proactive steps like tracking assets and fixing vulnerabilities, as well as reactive actions like reporting incidents and planning for recovery. By following these guidelines, organizations can lower their risk of cyberattacks and strengthen the nation’s cybersecurity."
+    },
     "standards": [
       {
         "displayName": "security.txt",
@@ -199,6 +203,10 @@
       "security",
       "social"
     ],
+    "about": {
+      "title": "About",
+      "content": "The General Services Administration Site Scanning program automatically checks public federal websites to assess their health, policy compliance, and best practices. It maintains a Federal Website Index, listing all public federal .gov sites by agency or department. Daily scans generate extensive data on approximately 26,000 federal .gov websites, which are publicly available via API and bulk download. The program scans for various factors, including the presence of agency websites and subdomains, participation in the Digital Analytics Program, use of the US Web Design System, search engine optimization, third-party services, IPv6 compliance, and other best practices."
+    },
     "standards": [
       {
         "displayName": "Canonicalization",
@@ -278,6 +286,10 @@
       "seo",
       "security"
     ],
+    "about": {
+      "title": "About",
+      "contetn": "The Office of Management and Budget's Memorandum M-23-22 guides federal agencies to improve their digital services. It emphasizes making websites accessible to all, using consistent designs, ensuring content is clear and authoritative, and adopting mobile-friendly layouts. Agencies are also encouraged to digitize forms and incorporate electronic signatures to enhance user experience. The goal is to create simple, seamless, and secure online interactions between the public and the government."
+    },
     "standards": [
       {
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
@@ -310,6 +322,10 @@
       "seo",
       "social"
     ],
+    "about": {
+      "title": "About",
+      "content": "Open Graph is a protocol that helps websites control how their content look when shared on social media. It decides the title, image, and description that appear in previews. This makes shared links more attractive and informative. Platforms like Facebook and X use Open Graph to display content properly. Website owners add special tags to their pages to customize previews, helping posts stand out and get more clicks."
+    },
     "standards": [
       {
         "displayName": "Open Graph site name",
@@ -348,6 +364,10 @@
     "topics": [
       "security"
     ],
+    "about": {
+      "title": "About",
+      "content": "The OWASP Top Ten is a list of the biggest security problems for websites.<br><br><ol><li>Broken Access Control: Unauthorized access to data.</li><li>Weak Encryption: Poor data protection.</li><li>Injection Attacks: Hackers insert harmful code.</li><li>Bad Design: Security not built-in.</li><li>Wrong Settings: Unsafe system setup.</li><li>Unsafe Software: Using outdated programs.</li><li>Weak Logins: Easy-to-break passwords.</li><li>Unsafe Updates: Untrusted changes allowed.</li><li>No Security Monitoring: Attacks go unnoticed.</li><li>Tricking Servers: Servers access wrong links.</li></ol>"
+    },
     "standards": [
       {
         "displayName": "X-Content-Type-Options",
@@ -391,6 +411,10 @@
     "topics": [
       "security"
     ],
+    "about": {
+      "title": "About",
+      "content": "<p>security.txt is a text file located on the site root-level or `/.well-known/` directory that helps improve vulnerability disclosure by giving security researchers clear contact and reporting information.</p><p>security.txt is an accepted standard (<a href=\"https://www.rfc-editor.org/rfc/rfc9116\">RFC 9116</a>) by the <a href=\"https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force\">Internet Engineering Task Force</a>.</p>"
+    },
     "standards": [
       {
         "displayName": "security.txt",
@@ -407,6 +431,10 @@
       "content",
       "seo"
     ],
+    "about": {
+      "title": "About",
+      "content": "Sitemaps.org includes guidelines, protocols, and formats for creating sitemaps, helping search engines find and index website content efficiently."
+    },
     "standards": [
       {
         "displayName": "sitemap.xml",
@@ -537,6 +565,10 @@
     "topics": [
       "security"
     ],
+    "about": {
+      "title": "About",
+      "content": "The Cybersecurity and Infrastructure Security Agency warns that cyberattacks can damage websites by defacing them, stealing data, or making them unusable. These attacks harm security, trust, and finances. To stay safe, organizations should protect their domain systems, check DNS and registrar records, and change default passwords. Following these steps helps keep websites secure from hackers."
+    },
     "standards": [
       {
         "displayName": "Content security policy (CSP)",
@@ -560,6 +592,10 @@
     "key": "web-vitals-core-web-vitals",
     "displayName": "Web Vitals / Core Web Vitals",
     "description": "Google's speed, interaction, and stability metrics.",
+    "about": {
+      "title": "About",
+      "content": "Web Vitals are Google's metrics for assessing website user experience. Core Web Vitals focus on loading speed, interactivity, and visual stability. These include Largest Contentful Paint (LCP), Interaction to Next Paint (INP), and Cumulative Layout Shift (CLS). Other Web Vitals are Time to First Byte (TTFB) and First Contentful Paint (FCP)."
+    },
     "topics": [
       "content",
       "performance",
