@@ -87,7 +87,7 @@
     "audio": "https://docs.scangov.org/assets/audio/28-cfr-part-35.mp3"
   },
   {
-    "key": "cpg",
+    "key": "cybersecurity-performance-goals",
     "displayName": "CISA Cybersecurity Performance Goals",
     "description": "Voluntary, high-impact security practices.",
     "topics": [
