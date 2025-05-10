@@ -405,24 +405,6 @@
     "audio": "https://docs.scangov.org/assets/audio/security-txt.mp3"
   },
   {
-    "key": "security-txt",
-    "displayName": "security.txt",
-    "description": "Contact file for reporting security issues.",
-    "topics": [
-      "security"
-    ],
-    "about": {
-      "title": "About",
-      "content": "<p>security.txt is a text file located on the site root-level or `/.well-known/` directory that helps improve vulnerability disclosure by giving security researchers clear contact and reporting information.</p><p>security.txt is an accepted standard (<a href=\"https://www.rfc-editor.org/rfc/rfc9116\">RFC 9116</a>) by the <a href=\"https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force\">Internet Engineering Task Force</a>.</p>"
-    },
-    "standards": [
-      {
-        "displayName": "security.txt",
-        "url": "/securitytxt"
-      }
-    ]
-  },
-  {
     "key": "sitemaps-org",
     "displayName": "sitemaps.org",
     "description": "Website sitemap standards.",

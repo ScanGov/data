@@ -1361,10 +1361,6 @@
           {
             "displayName": "RFC 9116",
             "url": "/rfc9116"
-          },
-          {
-            "displayName": "security.txt",
-            "url": "/security-txt"
           }
         ],
         "userStories": [
