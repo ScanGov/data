@@ -1294,6 +1294,7 @@
         "tag": "HSTS",
         "description": "Site upgrades to a secure connection.",
         "why": "Forces secure connections, protecting user data by making websites always load with encryption.",
+        "error": "Site doesn't force secure connection; easier for hackers to intercept.",
         "impact": 10,
         "guidance": [
           {
