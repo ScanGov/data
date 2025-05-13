@@ -10,7 +10,7 @@
         "displayName": "Crawlable",
         "tag": "crawlable",
         "description": "Site is available for indexing by well-behaved agents.",
-        "why": "Allows search engines to find and index your pages, helping your content appear in search results and reach more people.",
+        "why": "Allows AI bots to find and index your pages, helping your content appear in search results and reach more people.",
         "error": "Site is not accessible to well-behaved agents.",
         "impact": 4,
         "guidance": [
