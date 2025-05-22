@@ -783,7 +783,7 @@
   },
   "performance": {
     "displayName": "Performance",
-    "icon": "gauge",
+    "icon": "gauge-high",
     "color": "#ffbc78",
     "url": "/guidance/performance",
     "attributes": [
