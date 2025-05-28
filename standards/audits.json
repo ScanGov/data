@@ -484,7 +484,7 @@
         "relatedLinks": {}
       },
       {
-        "key": "image-aspect-ratio",
+        "key": "image_aspect_ratio",
         "displayName": "Image aspect ratio",
         "tag": "image-aspect-ratio",
         "description": "Ratio of image width to height.",
@@ -515,7 +515,7 @@
         "relatedLinks": {}
       },
       {
-        "key": "html-lang-valid",
+        "key": "html_lang_valid",
         "displayName": "Valid language code",
         "tag": "html-lang-valid",
         "description": "Correct code to identify language.",
@@ -1390,7 +1390,7 @@
         ]
       },
       {
-        "key": "errors-in-console",
+        "key": "errors_in_console",
         "displayName": "Errors in the console",
         "tag": "errors-in-console",
         "description": "Tracks mistakes in code for debugging.",
@@ -1415,7 +1415,7 @@
         }
       },
       {
-        "key": "clickjacking-mitigation",
+        "key": "clickjacking_mitigation",
         "displayName": "Clickjacking mitigation",
         "tag": "clickjacking-mitigation",
         "description": "Stops fake clicks on hidden content.",
@@ -1446,7 +1446,7 @@
         "relatedLinks": {}
       },
       {
-        "key": "paste-preventing-inputs",
+        "key": "paste_preventing_inputs",
         "displayName": "Paste preventing inputs",
         "tag": "paste-preventing-inputs",
         "description": "Page doesn't allow copy-paste into inputs.",
