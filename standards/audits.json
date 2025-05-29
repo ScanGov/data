@@ -4,6 +4,7 @@
     "icon": "robot",
     "color": "#e6e6e6",
     "url": "/guidance/aifriendly",
+    "description": "ScanGov AI-friendly standards and guidance.",
     "attributes": [
       {
         "key": "crawlable",
@@ -74,6 +75,7 @@
     "icon": "universal-access",
     "color": "#a8f2ff",
     "url": "/guidance/accessibility",
+    "description": "ScanGov accessibility standards and guidance.",
     "attributes": [
       {
         "key": "a11y-best-practices",
@@ -361,6 +363,7 @@
     "icon": "file-lines",
     "color": "#d5bfff",
     "url": "/guidance/content",
+    "description": "ScanGov content standards and guidance.",
     "attributes": [
       {
         "key": "title",
@@ -655,6 +658,7 @@
     "icon": "link",
     "color": "#7efbe1",
     "url": "/guidance/domain",
+    "description": "ScanGov domain standards and guidance.",
     "attributes": [
       {
         "key": "https",
@@ -786,6 +790,7 @@
     "icon": "gauge-high",
     "color": "#ffbc78",
     "url": "/guidance/performance",
+    "description": "ScanGov performance standards and guidance.",
     "attributes": [
       {
         "key": "cls",
@@ -934,6 +939,7 @@
     "icon": "magnifying-glass",
     "color": "#ffe396",
     "url": "/guidance/seo",
+    "description": "ScanGov search engine optimization standards and guidance.",
     "attributes": [
       {
         "key": "status",
@@ -1247,6 +1253,7 @@
     "icon": "lock",
     "color": "#ff8d7b",
     "url": "/guidance/security",
+    "description": "ScanGov security standards and guidance.",
     "attributes": [
       {
         "key": "csp",
@@ -1477,6 +1484,7 @@
     "icon": "share-nodes",
     "color": "#e7f434",
     "url": "/guidance/social",
+    "description": "ScanGov social media standards and guidance.",
     "attributes": [
       {
         "key": "ogSiteName",
