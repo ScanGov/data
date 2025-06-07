@@ -2,6 +2,7 @@
   {
     "key": "21stcenturyidea",
     "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
+    "featured": true,
     "description": "Modernizes government websites and digital services.",
     "topics": [
       "accessibility",
@@ -51,6 +52,7 @@
   {
     "key": "28-cfr-part-35",
     "displayName": "28 CFR Part 35",
+    "featured": true,
     "description": "State and local government web accessibility requirements.",
     "topics": [
       "accessibility",
@@ -89,6 +91,7 @@
   {
     "key": "cybersecurity-performance-goals",
     "displayName": "CISA Cybersecurity Performance Goals",
+    "featured": true,
     "description": "Voluntary, high-impact security practices.",
     "topics": [
       "security"
@@ -115,6 +118,7 @@
   {
     "key": "federal-website-standards",
     "displayName": "U.S. Federal Website Standards",
+    "featured": true,
     "description": "Improves accessibility, consistency and user experience.",
     "topics": [
       "accessibility",
@@ -151,6 +155,7 @@
   {
     "key": "google-search-central",
     "displayName": "Google Search Central",
+    "featured": true,
     "description": "Resources to improve site search rankings.",
     "topics": [
       "content",
@@ -316,6 +321,7 @@
   {
     "key": "open-graph",
     "displayName": "Open Graph",
+    "featured": true,
     "description": "Improves how social media content shows.",
     "topics": [
       "content",
@@ -360,6 +366,7 @@
   {
     "key": "owasp-top-10",
     "displayName": "OWASP Top 10",
+    "featured": true,
     "description": "Helps make websites and apps safer.",
     "topics": [
       "security"
@@ -382,6 +389,7 @@
   {
     "key": "rfc9116",
     "displayName": "RFC 9116",
+    "featured": true,
     "description": "A file format to aid in security vulnerability disclosure.",
     "topics": [
       "security"
@@ -407,6 +415,7 @@
   {
     "key": "sitemaps-org",
     "displayName": "sitemaps.org",
+    "featured": true,
     "description": "Website sitemap standards.",
     "topics": [
       "aifriendly",
@@ -427,6 +436,7 @@
   {
     "key": "wcag",
     "displayName": "Web Content Accessibility Guidelines (WCAG)",
+    "featured": true,
     "description": "Rules for making websites accessible.",
     "topics": [
       "accessibility",
@@ -518,6 +528,7 @@
   {
     "key": "robots",
     "displayName": "The Web Robots Pages",
+    "featured": true,
     "description": "Guidelines for controlling search engine crawling.",
     "topics": [
       "aifriendly",
@@ -543,6 +554,7 @@
   {
     "key": "websitesecurity-cisa",
     "displayName": "CISA Website Security",
+    "featured": true,
     "description": "Protect websites from cyber threats.",
     "topics": [
       "security"

@@ -80,6 +80,7 @@
       {
         "key": "a11y-best-practices",
         "displayName": "Accessibility best practices",
+        "featured": true,
         "tag": "a11y-best-practices",
         "description": "Common accessibility best practices.",
         "why": "Follows guidelines that make websites usable for everyone, including people with disabilities, improving user experience and reach.",
@@ -454,6 +455,7 @@
       {
         "key": "viewport",
         "displayName": "Viewport meta tag",
+        "featured": true,
         "tag": "<meta name=\"viewport\">",
         "description": "Makes websites fit all screen sizes.",
         "why": "Optimizes page display for various devices, ensuring content looks good on all screen sizes and enhances user experience.",
@@ -489,6 +491,7 @@
       {
         "key": "image_aspect_ratio",
         "displayName": "Image aspect ratio",
+        "featured": true,
         "tag": "image-aspect-ratio",
         "description": "Ratio of image width to height.",
         "why": "Ensures images display correctly without distortion on different screens and devices.",
@@ -552,6 +555,7 @@
       {
         "key": "zooming-scaling",
         "displayName": "Zooming/scaling enabled",
+        "featured": true,
         "tag": "zooming-scaling",
         "description": "Making images bigger or smaller.",
         "why": "Allows users to adjust size for better readability, improving accessibility and making content easier to view on all devices.",
@@ -663,6 +667,7 @@
       {
         "key": "https",
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
+        "featured": true,
         "tag": "HTTPS",
         "description": "Privacy and integrity protection.",
         "why": "Secures data by encrypting communication, protecting user privacy and preventing unauthorized access to sensitive information during online interactions.",
@@ -745,6 +750,7 @@
       {
         "key": "dotgov",
         "displayName": "Sponsored top-level domain (sTLD)",
+        "featured": true,
         "tag": "sTLD",
         "description": "Sponsored top-level domain (.gov / .edu / .mil).",
         "why": "Defines trusted website categories, helping users identify official sites and improving credibility and security for specific organizations.",
@@ -795,6 +801,7 @@
       {
         "key": "cls",
         "displayName": "Cumulative Layout Shift (CLS)",
+        "featured": true,
         "tag": "CLS",
         "description": "Measures unexpected webpage content shifts.",
         "why": "Minimizes unexpected page movements, improving user experience by keeping content stable while it loads.",
@@ -822,6 +829,7 @@
       {
         "key": "fcp",
         "displayName": "First Contentful Paint (FCP)",
+        "featured": true,
         "tag": "FCP",
         "description": "The page begins to display within 1.8 seconds.",
         "why": "Measures how quickly important content appears, improving user experience by reducing wait time when loading a page.",
@@ -944,6 +952,7 @@
       {
         "key": "status",
         "displayName": "Sitemap status",
+        "featured": true,
         "tag": "Status",
         "description": "The HTTP status of /sitemap.xml is OK.",
         "why": "Confirms the sitemap is accessible, ensuring search engines can easily find and index all pages on the site.",
@@ -1031,6 +1040,7 @@
       {
         "key": "valid",
         "displayName": "Robots valid",
+        "featured": true,
         "tag": "Valid",
         "description": "The site has a valid robots policy.",
         "why": "Guides search engines on which pages to crawl or avoid, ensuring important content is indexed and irrelevant pages aren't.",
@@ -1258,6 +1268,7 @@
       {
         "key": "csp",
         "displayName": "Content security policy (CSP)",
+        "featured": true,
         "tag": "CSP",
         "description": "The site restricts what can be loaded.",
         "why": "Helps stop hackers by blocking harmful code from running on your website.",
@@ -1298,6 +1309,7 @@
       {
         "key": "hsts",
         "displayName": "HTTP Strict Transport Security (HSTS)",
+        "featured": true,
         "tag": "HSTS",
         "description": "Site upgrades to a secure connection.",
         "why": "Forces secure connections, protecting user data by making websites always load with encryption.",
@@ -1349,6 +1361,7 @@
       {
         "key": "securityTxt",
         "displayName": "security.txt",
+        "featured": true,
         "tag": "security.txt",
         "description": "The site has a security.txt file.",
         "why": "Provides contact info for reporting security issues, helping site owners fix problems quickly and keep users safe.",
@@ -1541,6 +1554,7 @@
       {
         "key": "ogTitle",
         "displayName": "Open Graph title",
+        "featured": true,
         "tag": "<meta property=\"og:title\">",
         "description": "Page title for social sharing.",
         "why": "Sets a clear title for shared content, ensuring accurate and engaging previews on social media platforms.",
