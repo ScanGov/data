@@ -361,7 +361,7 @@
   },
   "content": {
     "displayName": "Content",
-    "icon": "file-lines",
+    "icon": "rectangle-list",
     "color": "#d5bfff",
     "url": "/guidance/content",
     "description": "ScanGov content standards and guidance.",
