@@ -1395,6 +1395,7 @@
         "tag": "X-Content-Type-Options",
         "description": "The site prevents mime type sniffing.",
         "why": "Stops browsers from guessing file types, helping prevent security risks by enforcing correct content handling.",
+        "error": "Missing or wrong X-Content-Type-Options setting.",
         "impact": 3,
         "sections": {
           "about": {
@@ -1415,7 +1416,7 @@
         "tag": "errors-in-console",
         "description": "Tracks mistakes in code for debugging.",
         "why": "Signals problems in website code, helping developers fix issues that could affect how the site works or displays.",
-        "error": "Errors are occuring during page load and are reflected in the client side browser console.",
+        "error": "Page load problem — check browser console for errors and details.",
         "impact": 1,
         "guidance": [],
         "userStories": [
