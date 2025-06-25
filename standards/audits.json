@@ -1018,26 +1018,6 @@
         }
       },
       {
-        "key": "completion",
-        "displayName": "Sitemap complete",
-        "tag": "Complete",
-        "description": "Sitemap has all pages on website designated.",
-        "why": "Ensures search engines can find and index every page, improving website visibility and search ranking.",
-        "error": "Home page links missing from sitemap.",
-        "impact": 1,
-        "guidance": [
-          {
-            "displayName": "sitemaps.org",
-            "url": "/sitemaps-org"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a search engine bot, I want the sitemap to contain all of the website's pages so that I can efficiently crawl and index every page, ensuring comprehensive coverage and improved visibility in search results."
-          }
-        ]
-      },
-      {
         "key": "valid",
         "displayName": "Robots valid",
         "featured": true,
