@@ -1,5 +1,4 @@
-{
-  "records": [
+[
     {
       "auditedTime": 1750704688552,
       "domainStatus": "homepages:auditing",
@@ -9446,5 +9445,4 @@
       "sortKeyPath": "/portal/",
       "primaryKeyDomain": "mn.gov"
     }
-  ]
-}
+]
