@@ -2,7 +2,7 @@
   "aifriendly": {
     "displayName": "AI-friendly",
     "icon": "robot",
-    "color": "#e6e6e6",
+    "color": "#e7f434",
     "url": "/guidance/aifriendly",
     "description": "ScanGov AI-friendly standards and guidance.",
     "attributes": [
@@ -1476,7 +1476,7 @@
   "social": {
     "displayName": "Social",
     "icon": "share-nodes",
-    "color": "#e7f434",
+    "color": "#70e17b",
     "url": "/guidance/social",
     "description": "ScanGov social media standards and guidance.",
     "attributes": [
