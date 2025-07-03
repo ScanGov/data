@@ -103,6 +103,13 @@
     "color": "#a8f2ff",
     "url": "/guidance/accessibility",
     "description": "ScanGov accessibility standards and guidance.",
+    "videos": [
+      {
+        "title": "Accessibility and ScanGov",
+        "id": "MIOnSSb2FIM",
+        "url": "https://youtu.be/MIOnSSb2FIM"
+      }
+    ],
     "attributes": [
       {
         "key": "a11y-best-practices",
