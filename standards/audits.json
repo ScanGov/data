@@ -5,6 +5,7 @@
     "color": "#e7f434",
     "url": "/guidance/aifriendly",
     "description": "ScanGov AI-friendly standards and guidance.",
+    "ogImage": "https://scangov.com/assets/img/og/aifriendly-og.png",
     "attributes": [
       {
         "key": "crawlable",
@@ -103,6 +104,7 @@
     "color": "#a8f2ff",
     "url": "/guidance/accessibility",
     "description": "ScanGov accessibility standards and guidance.",
+    "ogImage": "https://scangov.com/assets/img/og/accessibility-og.png",
     "videos": [
       {
         "title": "Accessibility and ScanGov",
@@ -399,6 +401,7 @@
     "color": "#d5bfff",
     "url": "/guidance/content",
     "description": "ScanGov content standards and guidance.",
+    "ogImage": "https://scangov.com/assets/img/og/content-og.png",
     "attributes": [
       {
         "key": "title",
@@ -697,6 +700,7 @@
     "color": "#7efbe1",
     "url": "/guidance/domain",
     "description": "ScanGov domain standards and guidance.",
+    "ogImage": "https://scangov.com/assets/img/og/domain-og.png",
     "attributes": [
       {
         "key": "https",
@@ -831,6 +835,7 @@
     "color": "#ffbc78",
     "url": "/guidance/performance",
     "description": "ScanGov performance standards and guidance.",
+    "ogImage": "https://scangov.com/assets/img/og/performance-og.png",
     "attributes": [
       {
         "key": "cls",
@@ -982,6 +987,7 @@
     "color": "#ffe396",
     "url": "/guidance/seo",
     "description": "ScanGov search engine optimization standards and guidance.",
+    "ogImage": "https://scangov.com/assets/img/og/seo-og.png",
     "attributes": [
       {
         "key": "status",
@@ -1278,6 +1284,7 @@
     "color": "#ff8d7b",
     "url": "/guidance/security",
     "description": "ScanGov security standards and guidance.",
+    "ogImage": "https://scangov.com/assets/img/og/security-og.png",
     "attributes": [
       {
         "key": "csp",
@@ -1513,6 +1520,7 @@
     "color": "#70e17b",
     "url": "/guidance/social",
     "description": "ScanGov social media standards and guidance.",
+    "ogImage": "https://scangov.com/assets/img/og/social-og.png",
     "attributes": [
       {
         "key": "ogSiteName",
