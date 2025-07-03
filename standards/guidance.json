@@ -552,6 +552,32 @@
     ]
   },
   {
+    "key": "schema-org",
+    "displayName": "Schema.org structured data",
+    "featured": true,
+    "description": "Standards for providing structured data to search engines, llm crawlers and other machine parsers.",
+    "topics": [
+      "aifriendly",
+      "seo"
+    ],
+    "standards": [
+      {
+        "displayName": "GovernmentOrganization Schema.org Type",
+        "url": "/schema-government-organization"
+      }
+    ],
+    "about": {
+      "title": "About",
+      "content": "<p>Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.</p>"
+    },
+    "links": [
+      {
+        "link": "https://schema.org/",
+        "text": "Website"
+      }
+    ]
+  },  
+  {
     "key": "websitesecurity-cisa",
     "displayName": "CISA Website Security",
     "featured": true,
