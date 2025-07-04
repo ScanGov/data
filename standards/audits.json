@@ -402,6 +402,13 @@
     "url": "/guidance/content",
     "description": "ScanGov content standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/content-og.png",
+    "videos": [
+      {
+        "title": "Content and ScanGov",
+        "id": "ttkYbgEanNM",
+        "url": "https://youtu.be/ttkYbgEanNM"
+      }
+    ],
     "attributes": [
       {
         "key": "title",
@@ -701,6 +708,13 @@
     "url": "/guidance/domain",
     "description": "ScanGov domain standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/domain-og.png",
+    "videos": [
+      {
+        "title": "Domain and ScanGov",
+        "id": "nsCLD7NWUAk",
+        "url": "https://youtu.be/nsCLD7NWUAk"
+      }
+    ],
     "attributes": [
       {
         "key": "https",
@@ -836,6 +850,13 @@
     "url": "/guidance/performance",
     "description": "ScanGov performance standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/performance-og.png",
+    "videos": [
+      {
+        "title": "Performance and ScanGov",
+        "id": "nweehCZS-40",
+        "url": "https://youtu.be/nweehCZS-40"
+      }
+    ],
     "attributes": [
       {
         "key": "cls",
@@ -988,6 +1009,13 @@
     "url": "/guidance/seo",
     "description": "ScanGov search engine optimization standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/seo-og.png",
+    "videos": [
+      {
+        "title": "Search engine optimization and ScanGov",
+        "id": "0EW6DefeU_w",
+        "url": "https://youtu.be/0EW6DefeU_w"
+      }
+    ],
     "attributes": [
       {
         "key": "status",
@@ -1285,6 +1313,13 @@
     "url": "/guidance/security",
     "description": "ScanGov security standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/security-og.png",
+    "videos": [
+      {
+        "title": "Security and ScanGov",
+        "id": "7Z1fzLy2B4w",
+        "url": "https://youtu.be/7Z1fzLy2B4w"
+      }
+    ],
     "attributes": [
       {
         "key": "csp",
@@ -1521,190 +1556,197 @@
     "url": "/guidance/social",
     "description": "ScanGov social media standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/social-og.png",
-    "attributes": [
+    "videos": [
       {
-        "key": "ogSiteName",
-        "displayName": "Open Graph site name",
-        "tag": "<meta property=\"og:site-name\">",
-        "description": "Website title for social sharing.",
-        "why": "Sets the website's title for social media sharing, ensuring consistent branding and better previews when content is shared.",
-        "error": "Open Graph site name is missing.",
-        "impact": 1,
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>The Open Graph site name tag helps define the name of the website when content is shared on social media platforms. This tag is important for consistency in branding across social media and ensures that the website is properly identified when users share content. Without it, the default title might be used, which can lead to incorrect or incomplete branding."
-          }
-        },
-        "guidance": [
-          {
-            "displayName": "Open Graph",
-            "url": "/open-graph"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a site visitor, I want rich and visually appealing previews when a website is shared on social media so that I can easily understand the content and decide whether to click on the link."
-          }
-        ]
-      },
-      {
-        "key": "ogType",
-        "displayName": "Open Graph type",
-        "tag": "<meta property=\"og:type\">",
-        "description": "Content category for social media.",
-        "why": "Specifies content type for social media, improving how links are displayed and enhancing engagement when shared online.",
-        "error": "Open Graph type is missing.",
-        "impact": 1,
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>The Open Graph type tag specifies the type of content being shared (e.g., website, article, video, etc.) and helps social media platforms understand how to render the content. It allows for better control over how the shared content is presented, ensuring that the correct type of preview is displayed, which enhances user engagement. Without this tag, the content may not display optimally on social platforms."
-          }
-        },
-        "guidance": [
-          {
-            "displayName": "Open Graph",
-            "url": "/open-graph"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a site visitor, I want the content shared from the website to display the correct type of information (e.g., article, video, website) so that I can easily understand the context and purpose of the link before clicking on it."
-          }
-        ]
-      },
-      {
-        "key": "ogTitle",
-        "displayName": "Open Graph title",
-        "featured": true,
-        "tag": "<meta property=\"og:title\">",
-        "description": "Page title for social sharing.",
-        "why": "Sets a clear title for shared content, ensuring accurate and engaging previews on social media platforms.",
-        "error": "Open Graph title is missing.",
-        "impact": 1,
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>The Open Graph title tag defines the title of the page when it is shared on social media platforms. It ensures that the title appears clearly and accurately on platforms like Facebook, Twitter, and LinkedIn. Without a well-defined Open Graph title, social media platforms may default to the page's title or pick a less relevant part of the page content, leading to poor user engagement and a less polished appearance on social media."
-          }
-        },
-        "guidance": [
-          {
-            "displayName": "Open Graph",
-            "url": "/open-graph"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a site visitor, I want the title of the shared content to be clear and descriptive so that I can easily understand what the link is about before clicking on it."
-          }
-        ]
-      },
-      {
-        "key": "ogDescription",
-        "displayName": "Open Graph description",
-        "tag": "<meta property=\"og:description\">",
-        "description": "Short description of your webpage content.",
-        "why": "Provides a brief summary of content, helping users understand what the link is about when shared on social media.",
-        "error": "Open Graph description is missing.",
-        "impact": 1,
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>The Open Graph description tag specifies the description that will be shown when the page is shared on social media platforms. It plays a crucial role in providing a concise and engaging summary of the page's content. Without a well-defined Open Graph description, social platforms may default to content from the page itself, which could lead to inaccurate or unappealing descriptions, potentially reducing click-through rates and user engagement on social media."
-          }
-        },
-        "guidance": [
-          {
-            "displayName": "Open Graph",
-            "url": "/open-graph"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a site visitor, I want the description of shared content to be informative and concise so that I can quickly understand what the content is about before deciding to click the link."
-          }
-        ]
-      },
-      {
-        "key": "ogUrl",
-        "displayName": "Open Graph URL",
-        "tag": "<meta property=\"og:url\">",
-        "description": "Canonical link for social sharing.",
-        "why": "Defines the URL of the shared content, ensuring correct linking and improving how the page is displayed on social media.",
-        "error": "Canonical link missing.",
-        "impact": 1,
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>The Open Graph URL tag provides the canonical URL for the content, which is essential for social media platforms to know which page to link to when shared. If the URL is missing or incorrect, social media platforms may not correctly associate the content with the intended page, potentially causing issues like broken links or the sharing of the wrong page, which could affect user engagement and SEO performance."
-          }
-        },
-        "guidance": [
-          {
-            "displayName": "Open Graph",
-            "url": "/open-graph"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a site visitor, I want the shared content to link to the correct webpage, so that I can be sure I am clicking the right link and accessing the intended content."
-          }
-        ]
-      },
-      {
-        "key": "ogImage",
-        "displayName": "Open Graph image",
-        "tag": "<meta property=\"og:image\">",
-        "description": "Preview image for social sharing.",
-        "why": "Sets an image for social media previews, improving engagement by displaying relevant visuals when content is shared.",
-        "error": "Open Graph image is missing.",
-        "impact": 1,
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>The Open Graph image tag is used to specify a preview image that appears when a page is shared on social media. Without this tag, social media platforms may not display any image, or they might display an irrelevant image, which could negatively affect user engagement and click-through rates. Including a proper Open Graph image ensures that the page looks attractive and engaging when shared on platforms like Facebook, X, and LinkedIn."
-          }
-        },
-        "guidance": [
-          {
-            "displayName": "Open Graph",
-            "url": "/open-graph"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a social media user, I want shared links to have a clear and relevant image so that I can easily understand the content of the link before clicking on it."
-          }
-        ]
-      },
-      {
-        "key": "ogImageAlt",
-        "displayName": "Open Graph image alt",
-        "tag": "<meta property=\"og:image:alt\">",
-        "description": "Image description for accessibility",
-        "why": "Provides a description for the image, improving accessibility and helping search engines understand the image content.",
-        "error": "Open Graph image alt is missing.",
-        "impact": 1,
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>The Open Graph image alt tag provides alternative text for the image specified in the Open Graph protocol. This helps improve accessibility for users with visual impairments, as screen readers can describe the image content. Additionally, providing alt text ensures that the content of the image is still conveyed in cases where the image cannot be loaded or viewed, contributing to a better user experience and broader reach."
-          }
-        },
-        "guidance": [
-          {
-            "displayName": "Open Graph",
-            "url": "/open-graph"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a site visitor, I want the image shared on social media to have an alt text so that I can understand the content of the image even if I can't see it, especially if I rely on screen readers."
-          }
-        ]
+        "title": "Social media and ScanGov",
+        "id": "-CvHdDEqmes",
+        "url": "https://youtu.be/-CvHdDEqmes"
       }
     ]
-  }
+  },
+  "attributes": [
+    {
+      "key": "ogSiteName",
+      "displayName": "Open Graph site name",
+      "tag": "<meta property=\"og:site-name\">",
+      "description": "Website title for social sharing.",
+      "why": "Sets the website's title for social media sharing, ensuring consistent branding and better previews when content is shared.",
+      "error": "Open Graph site name is missing.",
+      "impact": 1,
+      "sections": {
+        "about": {
+          "title": "About",
+          "content": "<p>The Open Graph site name tag helps define the name of the website when content is shared on social media platforms. This tag is important for consistency in branding across social media and ensures that the website is properly identified when users share content. Without it, the default title might be used, which can lead to incorrect or incomplete branding."
+        }
+      },
+      "guidance": [
+        {
+          "displayName": "Open Graph",
+          "url": "/open-graph"
+        }
+      ],
+      "userStories": [
+        {
+          "title": "As a site visitor, I want rich and visually appealing previews when a website is shared on social media so that I can easily understand the content and decide whether to click on the link."
+        }
+      ]
+    },
+    {
+      "key": "ogType",
+      "displayName": "Open Graph type",
+      "tag": "<meta property=\"og:type\">",
+      "description": "Content category for social media.",
+      "why": "Specifies content type for social media, improving how links are displayed and enhancing engagement when shared online.",
+      "error": "Open Graph type is missing.",
+      "impact": 1,
+      "sections": {
+        "about": {
+          "title": "About",
+          "content": "<p>The Open Graph type tag specifies the type of content being shared (e.g., website, article, video, etc.) and helps social media platforms understand how to render the content. It allows for better control over how the shared content is presented, ensuring that the correct type of preview is displayed, which enhances user engagement. Without this tag, the content may not display optimally on social platforms."
+        }
+      },
+      "guidance": [
+        {
+          "displayName": "Open Graph",
+          "url": "/open-graph"
+        }
+      ],
+      "userStories": [
+        {
+          "title": "As a site visitor, I want the content shared from the website to display the correct type of information (e.g., article, video, website) so that I can easily understand the context and purpose of the link before clicking on it."
+        }
+      ]
+    },
+    {
+      "key": "ogTitle",
+      "displayName": "Open Graph title",
+      "featured": true,
+      "tag": "<meta property=\"og:title\">",
+      "description": "Page title for social sharing.",
+      "why": "Sets a clear title for shared content, ensuring accurate and engaging previews on social media platforms.",
+      "error": "Open Graph title is missing.",
+      "impact": 1,
+      "sections": {
+        "about": {
+          "title": "About",
+          "content": "<p>The Open Graph title tag defines the title of the page when it is shared on social media platforms. It ensures that the title appears clearly and accurately on platforms like Facebook, Twitter, and LinkedIn. Without a well-defined Open Graph title, social media platforms may default to the page's title or pick a less relevant part of the page content, leading to poor user engagement and a less polished appearance on social media."
+        }
+      },
+      "guidance": [
+        {
+          "displayName": "Open Graph",
+          "url": "/open-graph"
+        }
+      ],
+      "userStories": [
+        {
+          "title": "As a site visitor, I want the title of the shared content to be clear and descriptive so that I can easily understand what the link is about before clicking on it."
+        }
+      ]
+    },
+    {
+      "key": "ogDescription",
+      "displayName": "Open Graph description",
+      "tag": "<meta property=\"og:description\">",
+      "description": "Short description of your webpage content.",
+      "why": "Provides a brief summary of content, helping users understand what the link is about when shared on social media.",
+      "error": "Open Graph description is missing.",
+      "impact": 1,
+      "sections": {
+        "about": {
+          "title": "About",
+          "content": "<p>The Open Graph description tag specifies the description that will be shown when the page is shared on social media platforms. It plays a crucial role in providing a concise and engaging summary of the page's content. Without a well-defined Open Graph description, social platforms may default to content from the page itself, which could lead to inaccurate or unappealing descriptions, potentially reducing click-through rates and user engagement on social media."
+        }
+      },
+      "guidance": [
+        {
+          "displayName": "Open Graph",
+          "url": "/open-graph"
+        }
+      ],
+      "userStories": [
+        {
+          "title": "As a site visitor, I want the description of shared content to be informative and concise so that I can quickly understand what the content is about before deciding to click the link."
+        }
+      ]
+    },
+    {
+      "key": "ogUrl",
+      "displayName": "Open Graph URL",
+      "tag": "<meta property=\"og:url\">",
+      "description": "Canonical link for social sharing.",
+      "why": "Defines the URL of the shared content, ensuring correct linking and improving how the page is displayed on social media.",
+      "error": "Canonical link missing.",
+      "impact": 1,
+      "sections": {
+        "about": {
+          "title": "About",
+          "content": "<p>The Open Graph URL tag provides the canonical URL for the content, which is essential for social media platforms to know which page to link to when shared. If the URL is missing or incorrect, social media platforms may not correctly associate the content with the intended page, potentially causing issues like broken links or the sharing of the wrong page, which could affect user engagement and SEO performance."
+        }
+      },
+      "guidance": [
+        {
+          "displayName": "Open Graph",
+          "url": "/open-graph"
+        }
+      ],
+      "userStories": [
+        {
+          "title": "As a site visitor, I want the shared content to link to the correct webpage, so that I can be sure I am clicking the right link and accessing the intended content."
+        }
+      ]
+    },
+    {
+      "key": "ogImage",
+      "displayName": "Open Graph image",
+      "tag": "<meta property=\"og:image\">",
+      "description": "Preview image for social sharing.",
+      "why": "Sets an image for social media previews, improving engagement by displaying relevant visuals when content is shared.",
+      "error": "Open Graph image is missing.",
+      "impact": 1,
+      "sections": {
+        "about": {
+          "title": "About",
+          "content": "<p>The Open Graph image tag is used to specify a preview image that appears when a page is shared on social media. Without this tag, social media platforms may not display any image, or they might display an irrelevant image, which could negatively affect user engagement and click-through rates. Including a proper Open Graph image ensures that the page looks attractive and engaging when shared on platforms like Facebook, X, and LinkedIn."
+        }
+      },
+      "guidance": [
+        {
+          "displayName": "Open Graph",
+          "url": "/open-graph"
+        }
+      ],
+      "userStories": [
+        {
+          "title": "As a social media user, I want shared links to have a clear and relevant image so that I can easily understand the content of the link before clicking on it."
+        }
+      ]
+    },
+    {
+      "key": "ogImageAlt",
+      "displayName": "Open Graph image alt",
+      "tag": "<meta property=\"og:image:alt\">",
+      "description": "Image description for accessibility",
+      "why": "Provides a description for the image, improving accessibility and helping search engines understand the image content.",
+      "error": "Open Graph image alt is missing.",
+      "impact": 1,
+      "sections": {
+        "about": {
+          "title": "About",
+          "content": "<p>The Open Graph image alt tag provides alternative text for the image specified in the Open Graph protocol. This helps improve accessibility for users with visual impairments, as screen readers can describe the image content. Additionally, providing alt text ensures that the content of the image is still conveyed in cases where the image cannot be loaded or viewed, contributing to a better user experience and broader reach."
+        }
+      },
+      "guidance": [
+        {
+          "displayName": "Open Graph",
+          "url": "/open-graph"
+        }
+      ],
+      "userStories": [
+        {
+          "title": "As a site visitor, I want the image shared on social media to have an alt text so that I can understand the content of the image even if I can't see it, especially if I rely on screen readers."
+        }
+      ]
+    }
+  ]
 }
