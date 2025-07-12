@@ -387,6 +387,36 @@
     ]
   },
   {
+    "key": "plain-writing-act",
+    "displayName": "Plain Writing Act of 2010",
+    "featured": true,
+    "description": "Mandates government documents use simple language.",
+    "topics": [
+      "content"
+    ],
+    "standards": [
+      {
+        "displayName": "Readability ",
+        "url": "/readability"
+      }
+    ],
+    "about": {
+      "title": "About",
+      "content": "<p>The Plain Writing Act of 2010 (H.R. 946) requires federal agencies write government documents in clear, simple language that regular people can understand. Before this law, government papers were often filled with confusing legal words and complicated sentences. Now agencies must use everyday words, shorter sentences, and organize information clearly. This helps citizens better understand important government information like forms, instructions, and notices. The goal is making government communication more accessible to everyone.</p>"
+    },
+    "links": [
+      {
+        "link": "https://www.congress.gov/bill/115th-congress/house-bill/5759/text",
+        "text": "Plain Writing Act of 2010"
+      },
+      {
+        "link": "https://www.plainlanguage.gov/",
+        "text": "plainlanguage.gov"
+      }
+    ],
+    "audio": ""
+  },
+  {
     "key": "rfc9116",
     "displayName": "RFC 9116",
     "featured": true,
@@ -576,7 +606,7 @@
         "text": "Website"
       }
     ]
-  },  
+  },
   {
     "key": "websitesecurity-cisa",
     "displayName": "CISA Website Security",

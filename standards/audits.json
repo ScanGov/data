@@ -497,6 +497,49 @@
         "relatedLinks": {}
       },
       {
+        "key": "readability",
+        "displayName": "Readability",
+        "tag": "",
+        "description": "How easy text is to read.",
+        "why": "Improves communication by helping readers quickly understand messages without confusion or frustration.",
+        "error": "Automated Readability Index score is above 8 (higher than 7th grade reading level).",
+        "impact": 5,
+        "guidance": [
+          {
+            "displayName": "21st Century Integrated Digital Experience Act",
+            "url": "/21stcenturyidea"
+          },
+          {
+            "displayName": "Federal website standards",
+            "url": "/federal-website-standards"
+          },
+          {
+            "displayName": "Memorandum (M-23-22)",
+            "url": "/memorandum-m-23-22"
+          },
+          {
+            "displayName": "Plain Writing Act of 2010",
+            "url": "/plain-writing-act"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user reading content on a web page, I want the text to have high readability through clear content and optimal presentation so that I can understand and process the information with minimal effort and maximum comprehension."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Readability measures how easy text is to understand by looking at words and layout. Experts like Flesch-Kincaid and ARI help test reading level. The Automated Readability Index (ARI) uses the average number of characters per word and words per sentence to give a U.S. school grade level—e.g., 8 = eighth grade. Simple words, short sentences, clear design, and legible fonts make text easier to read. These tests help match writing to different audiences' skill levels.</p>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul>\n  <li><a href=\"https://en.wikipedia.org/wiki/Readability\">Readability</a> (Wikipedia)</li>\n</ul>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
         "key": "viewport",
         "displayName": "Viewport meta tag",
         "featured": true,
