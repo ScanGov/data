@@ -538,11 +538,12 @@
           },
           "links": {
             "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://en.wikipedia.org/wiki/Readability\">Readability</a> (Wikipedia)</li>\n</ul>",
-            "audio": "https://standards.scangov.org/assets/audio/readability.mp3"
+            "content": "<ul>\n  <li><a href=\"https://en.wikipedia.org/wiki/Readability\">Readability</a> (Wikipedia)</li>\n</ul>"
           }
         },
-        "relatedLinks": {}
+        "relatedLinks": {
+          "audio": "https://standards.scangov.org/assets/audio/readability.mp3"
+        }
       },
       {
         "key": "viewport",
