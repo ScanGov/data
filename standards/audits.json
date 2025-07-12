@@ -73,9 +73,9 @@
         "key": "schema-government-organization",
         "displayName": "GovernmentOrganization Schema.org Type",
         "tag": "schema-government-organization",
-        "description": "The site includes structured data conforming to the Schema.org GovernmentOrganization type to provide details about the organization the site represents.",
-        "why": "Implementing the Schema.org structured data to officially identify the site as representing a government organization lets bots know who owns the site and gives them structured data about the organization they can parse easily.",
-        "error": "The homepage does not use standard schema.org code to provide information about itself as a government organization.",
+        "description": "Homepage has Schema.org government organization type tags.",
+        "why": "Identifies websites as official government agencies for AI systems and search engines to recognize automatically.",
+        "error": "Homepage does not use standard Schema.org code that identifies the site as a government organization.",
         "impact": 2,
         "guidance": [
           {
@@ -85,13 +85,17 @@
         ],
         "userStories": [
           {
-            "title": "As a user or AI bot, I want homepages owned by government organizations to identify themselves as a government agency using the standard schema.org type definitions."
+            "title": "As a user or bot, I want homepages owned by government organizations to identify themselves as government agencies using the standard Schema.org type definitions."
           }
         ],
         "sections": {
           "about": {
             "title": "About",
             "content": "<p>The GovernmentOrganization Schema.org type is present in the pages as structured data.</p><p><code><script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"GovernmentService\",\n  \"name\": \"Veterans Affairs Emergency Mental Health\",\n  \"serviceType\": \"Psychiatric Emergency Services\",\n  \"serviceOperator\": {\n    \"@type\": \"GovernmentOrganization\",\n    \"name\": \"US Department of Veterans Affairs\"\n  },\n  \"areaServed\": {\n    \"@type\": \"AdministrativeArea\",\n    \"name\": \"Massachusetts\"\n  },\n  \"audience\": {\n    \"@type\": \"Audience\",\n    \"name\": \"Veterans\"\n  }\n}\n</script></code></p>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul>\n  <li><a href=\"https://schema.org/GovernmentOrganization\">GovernmentOrganization</a></li>\n</ul>"
           }
         },
         "relatedLinks": {}
@@ -530,11 +534,12 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Readability measures how easy text is to understand by looking at words and layout. Experts like Flesch-Kincaid and ARI help test reading level. The Automated Readability Index (ARI) uses the average number of characters per word and words per sentence to give a U.S. school grade level—e.g., 8 = eighth grade. Simple words, short sentences, clear design, and legible fonts make text easier to read. These tests help match writing to different audiences' skill levels.</p>"
+            "content": "<p>Readability measures how easy text is to understand by looking at words and layout. Experts like Flesch-Kincaid and Automated Readability Index help test reading level. For example, ARI uses the average number of characters per word and words per sentence to give a U.S. school grade level—e.g., 8 = eighth grade. Simple words, short sentences, clear design, and legible fonts make text easier to read. These tests help match writing to different audiences' skill levels.</p>"
           },
           "links": {
             "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://en.wikipedia.org/wiki/Readability\">Readability</a> (Wikipedia)</li>\n</ul>"
+            "content": "<ul>\n  <li><a href=\"https://en.wikipedia.org/wiki/Readability\">Readability</a> (Wikipedia)</li>\n</ul>",
+            "audio": "https://standards.scangov.org/assets/audio/readability.mp3"
           }
         },
         "relatedLinks": {}
