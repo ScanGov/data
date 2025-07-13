@@ -90,7 +90,7 @@
   },
   {
     "key": "autmated-readability-index",
-    "displayName": "Automated Readability Index",
+    "displayName": "Automated Readability Index (ARI)",
     "featured": true,
     "description": "Measures text reading difficulty levels.",
     "topics": [
