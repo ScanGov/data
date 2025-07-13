@@ -89,6 +89,36 @@
     "audio": "https://docs.scangov.org/assets/audio/28-cfr-part-35.mp3"
   },
   {
+    "key": "autmated-readability-index",
+    "displayName": "Automated Readability Index",
+    "featured": true,
+    "description": "Measures text reading difficulty levels.",
+    "topics": [
+      "content"
+    ],
+    "about": {
+      "title": "About",
+      "content": "The Automated Readability Index (ARI) is a tool that measures how hard text is to read. It gives a score that matches US grade levels - like 8th grade or 12th grade. Unlike other reading tests, ARI counts letters and characters instead of syllables, which makes it faster for computers to use. The formula looks at how many characters are in words and how many sentences there are. Higher scores mean the text is harder to read."
+    },
+    "links": [
+      {
+        "link": "https://en.wikipedia.org/wiki/Automated_readability_index",
+        "text": "Automated readability index (Wikipedia)"
+      },
+      {
+        "link": "https://hemingwayapp.com/articles/readability/automated-readability-index",
+        "text": "What is the Automated Readability Index?"
+      }
+    ],
+    "audio": "https://standards.scangov.org/assets/audio/readability.mp3",
+    "standards": [
+      {
+        "displayName": "Readability",
+        "url": "/readability"
+      }
+    ]
+  },
+  {
     "key": "cybersecurity-performance-goals",
     "displayName": "CISA Cybersecurity Performance Goals",
     "featured": true,
