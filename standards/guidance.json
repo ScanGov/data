@@ -89,7 +89,7 @@
     "audio": "https://docs.scangov.org/assets/audio/28-cfr-part-35.mp3"
   },
   {
-    "key": "autmated-readability-index",
+    "key": "automated-readability-index",
     "displayName": "Automated Readability Index (ARI)",
     "featured": true,
     "description": "Measures text reading difficulty levels.",
