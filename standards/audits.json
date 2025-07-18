@@ -959,6 +959,15 @@
             "title": "As a user visiting the website, I want the first visible content to load quickly so that I know the site is responding and I don't leave out of frustration."
           }
         ],
+        "videos": [
+          {
+            "title": "First Contentful Paint (FCP) + Largest Contentful Paint (LCP)",
+            "id": "6ElhrWOutL0",
+            "thumb": "/assets/img/pages/fcp-lcp.png",
+            "url": "https://youtu.be/6ElhrWOutL0",
+            "description": "Improving the performance metrics: First and Largest contentful paint on the scangov.com site."
+          }
+        ],
         "sections": {
           "about": {
             "title": "About",
@@ -1051,6 +1060,15 @@
             "content": "<p>Time to First Byte (TTFB) measures the time it takes from when a browser requests a resource to when the first byte of data begins to load. It's an important metric for website performance, affecting how quickly a page appears. A good TTFB is under 0.8 seconds, and anything over 1.8 seconds needs improvement. TTFB is influenced by server responsiveness and connection setup time. Lowering it can improve overall user experience and speed.</p>"
           }
         },
+        "videos": [
+          {
+            "title": "Time to First Byte (TTFB)",
+            "id": "ZqA12UyL3Bs",
+            "thumb": "/assets/img/pages/ttfb.png",
+            "url": "https://youtu.be/ZqA12UyL3Bs",
+            "description": "Using ScanGov to audit performance, how the scangov.com site itself performs on the performance metric time to first byte."
+          }
+        ],
         "relatedLinks": {}
       }
     ]
