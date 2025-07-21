@@ -860,7 +860,7 @@
         "description": "Sponsored top-level domain (.gov / .edu / .mil).",
         "why": "Defines trusted website categories, helping users identify official sites and improving credibility and security for specific organizations.",
         "error": "Domain is not an official sTLD.",
-        "impact": 7,
+        "impact": 10,
         "guidance": [
           {
             "displayName": "Federal website standards",
