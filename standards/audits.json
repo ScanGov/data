@@ -6,6 +6,7 @@
     "url": "/guidance/aifriendly",
     "description": "ScanGov AI-friendly standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/aifriendly-og.png",
+    "why": "Smart technology can better process and share public information, making government services faster and more efficient for citizens.",
     "attributes": [
       {
         "key": "crawlable",
@@ -109,6 +110,7 @@
     "url": "/guidance/accessibility",
     "description": "ScanGov accessibility standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/accessibility-og.png",
+    "why": "Citizens with disabilities need equal access to public information and online services for voting, benefits, and civic participation.",
     "videos": [
       {
         "title": "Accessibility and ScanGov",
@@ -406,6 +408,7 @@
     "url": "/guidance/content",
     "description": "ScanGov content standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/content-og.png",
+    "why": "Well-written pages help people understand laws, services, and procedures without confusion, reducing calls and office visits.",
     "videos": [
       {
         "title": "Content and ScanGov",
@@ -761,6 +764,7 @@
     "url": "/guidance/domain",
     "description": "ScanGov domain standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/domain-og.png",
+    "why": "Legitimate web addresses help citizens identify real government sites and avoid scams or fake information online.",
     "videos": [
       {
         "title": "Domain and ScanGov",
@@ -903,6 +907,7 @@
     "url": "/guidance/performance",
     "description": "ScanGov performance standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/performance-og.png",
+    "why": "Fast-loading pages let citizens quickly file taxes, apply for benefits, and access emergency information when needed.",
     "videos": [
       {
         "title": "Performance and ScanGov",
@@ -1080,6 +1085,7 @@
     "url": "/guidance/seo",
     "description": "ScanGov search engine optimization standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/seo-og.png",
+    "why": "Good search results help citizens quickly locate the right agency, forms, and services they need online.",
     "videos": [
       {
         "title": "Search engine optimization and ScanGov",
@@ -1384,6 +1390,7 @@
     "url": "/guidance/security",
     "description": "ScanGov security standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/security-og.png",
+    "why": "Strong defenses prevent hackers from stealing personal information, Social Security numbers, and other confidential government records.",
     "videos": [
       {
         "title": "Security and ScanGov",
@@ -1627,6 +1634,7 @@
     "url": "/guidance/social",
     "description": "ScanGov social media standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/social-og.png",
+    "why": "Optimized posts help emergency alerts, policy updates, and community news reach more citizens across different social media platforms.",
     "videos": [
       {
         "title": "Social media and ScanGov",
