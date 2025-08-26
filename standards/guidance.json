@@ -412,7 +412,7 @@
       },
       {
         "displayName": "Clickjacking mitigation",
-        "url": "/clickjacking_mitigation"
+        "url": "/clickjacking-mitigation"
       }
     ]
   },
@@ -554,7 +554,7 @@
       },
       {
         "displayName": "Valid language code",
-        "url": "/html_lang_valid"
+        "url": "/html-lang-valid"
       },
       {
         "displayName": "Zooming/scaling enabled",

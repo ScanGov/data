@@ -589,7 +589,7 @@
         "relatedLinks": {}
       },
       {
-        "key": "image_aspect_ratio",
+        "key": "image-aspect-ratio",
         "displayName": "Image aspect ratio",
         "featured": true,
         "tag": "image-aspect-ratio",
@@ -621,9 +621,9 @@
         "relatedLinks": {}
       },
       {
-        "key": "html_lang_valid",
+        "key": "html-lang-valid",
         "displayName": "Valid language code",
-        "tag": "html_lang_valid",
+        "tag": "html-lang-valid",
         "description": "Correct code to identify language.",
         "why": "Ensures websites display text in the correct language, making content easier to understand for users.",
         "error": "Page language is not defined in the HTML.",
@@ -1545,7 +1545,7 @@
         ]
       },
       {
-        "key": "errors_in_console",
+        "key": "errors-in-console",
         "displayName": "Errors in the console",
         "tag": "errors-in-console",
         "description": "Tracks mistakes in code for debugging.",
@@ -1570,7 +1570,7 @@
         }
       },
       {
-        "key": "clickjacking_mitigation",
+        "key": "clickjacking-mitigation",
         "displayName": "Clickjacking mitigation",
         "tag": "clickjacking-mitigation",
         "description": "Stops fake clicks on hidden content.",
@@ -1601,7 +1601,7 @@
         "relatedLinks": {}
       },
       {
-        "key": "paste_preventing_inputs",
+        "key": "paste-preventing-inputs",
         "displayName": "Paste preventing inputs",
         "tag": "paste-preventing-inputs",
         "description": "Page doesn't allow copy-paste into inputs.",
