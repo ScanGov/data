@@ -1493,7 +1493,7 @@
         "relatedLinks": {}
       },
       {
-        "key": "securityTxt",
+        "key": "securitytxt",
         "displayName": "security.txt",
         "featured": true,
         "tag": "security.txt",
@@ -1524,7 +1524,7 @@
         ]
       },
       {
-        "key": "xContentTypeOptions",
+        "key": "xcontenttypeoptions",
         "displayName": "X-Content-Type-Options",
         "tag": "X-Content-Type-Options",
         "description": "The site prevents mime type sniffing.",
@@ -1644,7 +1644,7 @@
     ],
     "attributes": [
       {
-        "key": "ogSiteName",
+        "key": "ogsitename",
         "displayName": "Open Graph site name",
         "tag": "<meta property=\"og:site-name\">",
         "description": "Website title for social sharing.",
@@ -1670,7 +1670,7 @@
         ]
       },
       {
-        "key": "ogType",
+        "key": "ogtype",
         "displayName": "Open Graph type",
         "tag": "<meta property=\"og:type\">",
         "description": "Content category for social media.",
@@ -1696,7 +1696,7 @@
         ]
       },
       {
-        "key": "ogTitle",
+        "key": "ogtitle",
         "displayName": "Open Graph title",
         "featured": true,
         "tag": "<meta property=\"og:title\">",
@@ -1723,7 +1723,7 @@
         ]
       },
       {
-        "key": "ogDescription",
+        "key": "ogdescription",
         "displayName": "Open Graph description",
         "tag": "<meta property=\"og:description\">",
         "description": "Short description of your webpage content.",
@@ -1749,7 +1749,7 @@
         ]
       },
       {
-        "key": "ogUrl",
+        "key": "ogurl",
         "displayName": "Open Graph URL",
         "tag": "<meta property=\"og:url\">",
         "description": "Canonical link for social sharing.",
@@ -1775,7 +1775,7 @@
         ]
       },
       {
-        "key": "ogImage",
+        "key": "ogimage",
         "displayName": "Open Graph image",
         "tag": "<meta property=\"og:image\">",
         "description": "Preview image for social sharing.",
@@ -1801,7 +1801,7 @@
         ]
       },
       {
-        "key": "ogImageAlt",
+        "key": "ogimagealt",
         "displayName": "Open Graph image alt",
         "tag": "<meta property=\"og:image:alt\">",
         "description": "Image description for accessibility",
