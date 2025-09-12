@@ -121,6 +121,7 @@
     "attributes": [
       {
         "key": "a11y-best-practices",
+        "scorekey": "a11y-best-practices",
         "displayName": "Accessibility best practices",
         "featured": true,
         "tag": "a11y-best-practices",
@@ -153,6 +154,7 @@
       },
       {
         "key": "a11y-aria",
+        "scorekey": "a11y-aria",
         "displayName": "ARIA attributes",
         "tag": "a11y-aria",
         "description": "Accessibility properties for screen readers.",
@@ -184,6 +186,7 @@
       },
       {
         "key": "a11y-audio-video",
+        "scorekey": "a11y-audio-video",
         "displayName": "Audio and video",
         "tag": "a11y-audio-video",
         "description": "Alternative text, captions, and transcripts.",
@@ -215,6 +218,7 @@
       },
       {
         "key": "a11y-color-contrast",
+        "scorekey": "a11y-color-contrast",
         "displayName": "Color contrast",
         "tag": "a11y-color-contrast",
         "description": "Difference between text and background colors.",
@@ -246,6 +250,7 @@
       },
       {
         "key": "hidden",
+        "scorekey": "hidden",
         "displayName": "Hidden elements",
         "tag": "hidden",
         "description": "Ensure hidden elements are accessible.",
@@ -277,6 +282,7 @@
       },
       {
         "key": "a11y-language",
+        "scorekey": "a11y-language",
         "displayName": "Language",
         "tag": "a11y-language",
         "description": "Use correct language attributes for accessibility.",
@@ -308,6 +314,7 @@
       },
       {
         "key": "a11y-names-labels",
+        "scorekey": "a11y-names-labels",
         "displayName": "Names and labels",
         "tag": "a11y-names-labels",
         "description": "Descriptive identifiers for elements.",
@@ -339,6 +346,7 @@
       },
       {
         "key": "a11y-navigation",
+        "scorekey": "a11y-navigation",
         "displayName": "Navigation",
         "tag": "a11y-navigation",
         "description": "Application keyboard navigation.",
@@ -370,6 +378,7 @@
       },
       {
         "key": "a11y-tables-lists",
+        "scorekey": "a11y-tables-lists",
         "displayName": "Tables and lists",
         "tag": "a11y-tables-lists",
         "description": "Ensure tables and lists are accessible.",
@@ -419,6 +428,7 @@
     "attributes": [
       {
         "key": "title",
+        "scorekey": "title",
         "displayName": "Page title",
         "tag": "<title>",
         "description": "Describes webpage content in a few words.",
@@ -462,6 +472,7 @@
       },
       {
         "key": "description",
+        "scorekey": "description",
         "displayName": "Page description",
         "tag": "<meta name=\"description\">",
         "description": "Describes webpage content in a few words.",
@@ -505,6 +516,7 @@
       },
       {
         "key": "readability",
+        "scorekey": "readability",
         "displayName": "Readability",
         "tag": "",
         "description": "How easy text is to read.",
@@ -554,6 +566,7 @@
       },
       {
         "key": "viewport",
+        "scorekey": "viewport",
         "displayName": "Viewport meta tag",
         "featured": true,
         "tag": "<meta name=\"viewport\">",
@@ -590,6 +603,7 @@
       },
       {
         "key": "image-aspect-ratio",
+        "scorekey": "image_aspect_ratio",
         "displayName": "Image aspect ratio",
         "featured": true,
         "tag": "image-aspect-ratio",
@@ -622,6 +636,7 @@
       },
       {
         "key": "html-lang-valid",
+        "scorekey": "html_lang_valid",
         "displayName": "Valid language code",
         "tag": "html-lang-valid",
         "description": "Correct code to identify language.",
@@ -654,6 +669,7 @@
       },
       {
         "key": "zooming-scaling",
+        "scorekey": "zooming-scaling",
         "displayName": "Zooming/scaling enabled",
         "featured": true,
         "tag": "zooming-scaling",
@@ -689,6 +705,7 @@
       },
       {
         "key": "doctype",
+        "scorekey": "doctype",
         "displayName": "Valid doctype",
         "tag": "doctype",
         "description": "Tells browser how to read code.",
@@ -726,6 +743,7 @@
       },
       {
         "key": "charset",
+        "scorekey": "charset",
         "displayName": "Character encoding",
         "tag": "charset",
         "description": "Character set for text encoding.",
@@ -775,6 +793,7 @@
     "attributes": [
       {
         "key": "https",
+        "scorekey": "https",
         "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
         "featured": true,
         "tag": "HTTPS",
@@ -819,6 +838,7 @@
       },
       {
         "key": "www",
+        "scorekey": "www",
         "displayName": "www resolution",
         "tag": "www",
         "description": "One domain works with www and non-www.",
@@ -858,6 +878,7 @@
       },
       {
         "key": "dotgov",
+        "scorekey": "dotgov",
         "displayName": "Sponsored top-level domain (sTLD)",
         "featured": true,
         "tag": "sTLD",
@@ -918,6 +939,7 @@
     "attributes": [
       {
         "key": "cls",
+        "scorekey": "cls",
         "displayName": "Cumulative Layout Shift (CLS)",
         "featured": true,
         "tag": "CLS",
@@ -946,6 +968,7 @@
       },
       {
         "key": "fcp",
+        "scorekey": "fcp",
         "displayName": "First Contentful Paint (FCP)",
         "featured": true,
         "tag": "FCP",
@@ -983,6 +1006,7 @@
       },
       {
         "key": "inp",
+        "scorekey": "inp",
         "displayName": "Interaction to Next Paint (INP)",
         "tag": "INP",
         "description": "Page responds in under 0.2 seconds.",
@@ -1013,6 +1037,7 @@
       },
       {
         "key": "lcp",
+        "scorekey": "lcp",
         "displayName": "Largest Contentful Paint (LCP)",
         "tag": "LCP",
         "description": "Major content loads in 2.5 seconds.",
@@ -1042,6 +1067,7 @@
       },
       {
         "key": "ttfb",
+        "scorekey": "ttfb",
         "displayName": "Time to First Byte (TTFB)",
         "tag": "TTFB",
         "description": "Code received in 0.8 seconds.",
@@ -1123,6 +1149,7 @@
       },
       {
         "key": "xml",
+        "scorekey": "xml",
         "displayName": "Sitemap XML",
         "tag": "XML",
         "description": "The sitemap file type is XML.",
@@ -1164,6 +1191,7 @@
       },
       {
         "key": "valid",
+        "scorekey": "valid",
         "displayName": "Robots valid",
         "featured": true,
         "tag": "Valid",
@@ -1205,6 +1233,7 @@
       },
       {
         "key": "allowed",
+        "scorekey": "allowed",
         "displayName": "Robots allowed",
         "tag": "Allowed",
         "description": "The robots policy allows access to browsers and scrapers.",
@@ -1250,6 +1279,7 @@
       },
       {
         "key": "sitemap-robots",
+        "scorekey": "sitemap-robots",
         "displayName": "Sitemap in robots.txt",
         "tag": "Sitemap",
         "description": "The robots.txt file points to a sitemap file.",
@@ -1291,6 +1321,7 @@
       },
       {
         "key": "canonical",
+        "scorekey": "canonical",
         "displayName": "Canonical",
         "tag": "<link rel=\"canonical\">",
         "description": "Use preferred page URLs to avoid duplication.",
@@ -1326,6 +1357,7 @@
       },
       {
         "key": "link-text",
+        "scorekey": "link-text",
         "displayName": "Link text",
         "tag": "link-text",
         "description": "Links have descriptive text.",
@@ -1352,6 +1384,7 @@
       },
       {
         "key": "hreflang",
+        "scorekey": "hreflang",
         "displayName": "hreflang",
         "tag": "hreflang",
         "description": "Specifies language and region for webpages.",
@@ -1401,6 +1434,7 @@
     "attributes": [
       {
         "key": "csp",
+        "scorekey": "csp",
         "displayName": "Content security policy (CSP)",
         "featured": true,
         "tag": "CSP",
@@ -1442,6 +1476,7 @@
       },
       {
         "key": "hsts",
+        "scorekey": "hsts",
         "displayName": "HTTP Strict Transport Security (HSTS)",
         "featured": true,
         "tag": "HSTS",
@@ -1494,6 +1529,7 @@
       },
       {
         "key": "securitytxt",
+        "scorekey": "securityTxt",
         "displayName": "security.txt",
         "featured": true,
         "tag": "security.txt",
@@ -1525,6 +1561,7 @@
       },
       {
         "key": "xcontenttypeoptions",
+        "scorekey": "xContentTypeOptions",
         "displayName": "X-Content-Type-Options",
         "tag": "X-Content-Type-Options",
         "description": "The site prevents mime type sniffing.",
@@ -1546,6 +1583,7 @@
       },
       {
         "key": "errors-in-console",
+        "scorekey": "errors_in_console",
         "displayName": "Errors in the console",
         "tag": "errors-in-console",
         "description": "Tracks mistakes in code for debugging.",
@@ -1571,6 +1609,7 @@
       },
       {
         "key": "clickjacking-mitigation",
+        "scorekey": "clickjacking_mitigation",
         "displayName": "Clickjacking mitigation",
         "tag": "clickjacking-mitigation",
         "description": "Stops fake clicks on hidden content.",
@@ -1602,6 +1641,7 @@
       },
       {
         "key": "paste-preventing-inputs",
+        "scorekey": "paste_preventing_inputs",
         "displayName": "Paste preventing inputs",
         "tag": "paste-preventing-inputs",
         "description": "Page doesn't allow copy-paste into inputs.",
@@ -1645,6 +1685,7 @@
     "attributes": [
       {
         "key": "ogsitename",
+        "scorekey": "ogSiteName",
         "displayName": "Open Graph site name",
         "tag": "<meta property=\"og:site-name\">",
         "description": "Website title for social sharing.",
@@ -1671,6 +1712,7 @@
       },
       {
         "key": "ogtype",
+        "scorekey": "ogType",
         "displayName": "Open Graph type",
         "tag": "<meta property=\"og:type\">",
         "description": "Content category for social media.",
@@ -1697,6 +1739,7 @@
       },
       {
         "key": "ogtitle",
+        "scorekey": "ogTitle",
         "displayName": "Open Graph title",
         "featured": true,
         "tag": "<meta property=\"og:title\">",
@@ -1724,6 +1767,7 @@
       },
       {
         "key": "ogdescription",
+        "scorekey": "ogDescription",
         "displayName": "Open Graph description",
         "tag": "<meta property=\"og:description\">",
         "description": "Short description of your webpage content.",
@@ -1750,6 +1794,7 @@
       },
       {
         "key": "ogurl",
+        "scorekey": "ogUrl",
         "displayName": "Open Graph URL",
         "tag": "<meta property=\"og:url\">",
         "description": "Canonical link for social sharing.",
@@ -1776,6 +1821,7 @@
       },
       {
         "key": "ogimage",
+        "scorekey": "ogImage",
         "displayName": "Open Graph image",
         "tag": "<meta property=\"og:image\">",
         "description": "Preview image for social sharing.",
@@ -1802,6 +1848,7 @@
       },
       {
         "key": "ogimagealt",
+        "scorekey": "ogImageAlt",
         "displayName": "Open Graph image alt",
         "tag": "<meta property=\"og:image:alt\">",
         "description": "Image description for accessibility",
