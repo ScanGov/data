@@ -510,7 +510,7 @@
         "description": "How easy text is to read.",
         "why": "Improves communication by helping readers quickly understand messages without confusion or frustration.",
         "error": "Automated Readability Index score is above 8 (higher than 7th grade reading level).",
-        "impact": 5,
+        "impact": 10,
         "guidance": [
           {
             "displayName": "21st Century Integrated Digital Experience Act",
