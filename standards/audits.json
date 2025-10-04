@@ -7,6 +7,7 @@
     "description": "ScanGov AI-friendly standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/aifriendly-og.png",
     "why": "Smart technology can better process and share public information, making government services faster and more efficient for citizens.",
+    "risk": "AI tools cannot find or understand your content.",
     "attributes": [
       {
         "key": "crawlable",
@@ -14,6 +15,7 @@
         "tag": "crawlable",
         "description": "Site is available for indexing by well-behaved agents.",
         "why": "Allows AI bots to find and index your pages, helping your content appear in search results and reach more people.",
+        "risk": "Search engines cannot find your pages.",
         "error": "Site is not accessible to well-behaved agents.",
         "impact": 4,
         "guidance": [
@@ -49,6 +51,7 @@
         "tag": "text-content",
         "description": "Page main content is available in initial document.",
         "why": "Ensures search engines can read and index the content within a document, making it discoverable and improving visibility online.",
+        "risk": "Bots cannot read your content.",
         "error": "Main content not available in the initial document.",
         "impact": 2,
         "guidance": [
@@ -76,6 +79,7 @@
         "tag": "schema-government-organization",
         "description": "Homepage has Schema.org government organization type tags.",
         "why": "Identifies websites as official government agencies for AI systems and search engines to recognize automatically.",
+        "risk": "Systems cannot verify you are an official government site.",
         "error": "Homepage does not use standard Schema.org code that identifies the site as a government organization.",
         "impact": 2,
         "guidance": [
@@ -111,6 +115,7 @@
     "description": "ScanGov accessibility standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/accessibility-og.png",
     "why": "Citizens with disabilities need equal access to public information and online services for voting, benefits, and civic participation.",
+    "risk": "People with disabilities cannot use your site.",
     "videos": [
       {
         "title": "Accessibility and ScanGov",
@@ -127,6 +132,7 @@
         "tag": "a11y-best-practices",
         "description": "Common accessibility best practices.",
         "why": "Follows guidelines that make websites usable for everyone, including people with disabilities, improving user experience and reach.",
+        "risk": "Users with disabilities face barriers using your site.",
         "error": "Basic accessibility best practices not met.",
         "impact": 3,
         "guidance": [
@@ -159,6 +165,7 @@
         "tag": "a11y-aria",
         "description": "Accessibility properties for screen readers.",
         "why": "Provides extra information for screen readers, helping visually impaired users understand content and navigate websites more easily.",
+        "risk": "Screen readers cannot understand your page elements.",
         "error": "Missing ARIA attributes for screen readers.",
         "impact": 3,
         "guidance": [
@@ -191,6 +198,7 @@
         "tag": "a11y-audio-video",
         "description": "Alternative text, captions, and transcripts.",
         "why": "Supports accessibility by adding captions and transcripts, helping users with hearing impairments understand audio and video content.",
+        "risk": "Deaf users cannot access your videos.",
         "error": "No captions or transcripts provided.",
         "impact": 3,
         "guidance": [
@@ -223,6 +231,7 @@
         "tag": "a11y-color-contrast",
         "description": "Difference between text and background colors.",
         "why": "Improves readability by ensuring text stands out from the background, helping users with visual impairments see content clearly.",
+        "risk": "People with low vision cannot read your text.",
         "error": "Insufficient color contrast detected.",
         "impact": 3,
         "guidance": [
@@ -255,6 +264,7 @@
         "tag": "hidden",
         "description": "Ensure hidden elements are accessible.",
         "why": "Prevents search engines and users from accessing unnecessary content, improving page performance and ensuring only relevant information is displayed.",
+        "risk": "Screen readers announce wrong content or miss visible content.",
         "error": "Hidden elements are inaccessible.",
         "impact": 3,
         "guidance": [
@@ -287,6 +297,7 @@
         "tag": "a11y-language",
         "description": "Use correct language attributes for accessibility.",
         "why": "Specifies the language of content, helping screen readers and browsers display text correctly for users in different languages.",
+        "risk": "Screen readers say words wrong.",
         "error": "Language attribute is missing or incorrect.",
         "impact": 3,
         "guidance": [
@@ -319,6 +330,7 @@
         "tag": "a11y-names-labels",
         "description": "Descriptive identifiers for elements.",
         "why": "Clarifies content by providing clear names and labels, helping users understand and navigate forms or buttons easily.",
+        "risk": "Users cannot identify buttons and form fields.",
         "error": "Elements lack descriptive labels.",
         "impact": 3,
         "guidance": [
@@ -351,6 +363,7 @@
         "tag": "a11y-navigation",
         "description": "Application keyboard navigation.",
         "why": "Enables users with motor disabilities to navigate apps efficiently using only the keyboard, improving accessibility and speed.",
+        "risk": "Keyboard-only users cannot move around your site.",
         "error": "Keyboard navigation is not functional.",
         "impact": 3,
         "guidance": [
@@ -383,6 +396,7 @@
         "tag": "a11y-tables-lists",
         "description": "Ensure tables and lists are accessible.",
         "why": "Improves access by making tables and lists easier to navigate for users with disabilities.",
+        "risk": "Screen readers cannot understand your data tables.",
         "error": "Tables or lists are not accessible.",
         "impact": 3,
         "guidance": [
@@ -418,6 +432,7 @@
     "description": "ScanGov content standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/content-og.png",
     "why": "Well-written pages help people understand laws, services, and procedures without confusion, reducing calls and office visits.",
+    "risk": "Users cannot understand your information.",
     "videos": [
       {
         "title": "Content and ScanGov",
@@ -433,6 +448,7 @@
         "tag": "<title>",
         "description": "Describes webpage content in a few words.",
         "why": "Identifies the page's content, helping users and search engines understand it quickly.",
+        "risk": "Users cannot tell what your page is about.",
         "error": "Page title is missing or unclear.",
         "impact": 10,
         "guidance": [
@@ -477,6 +493,7 @@
         "tag": "<meta name=\"description\">",
         "description": "Describes webpage content in a few words.",
         "why": "Describes page content briefly, helping users understand what to expect and improving search engine results.",
+        "risk": "Search results do not show what your page does.",
         "error": "Page description is missing or unclear.",
         "impact": 8,
         "guidance": [
@@ -521,6 +538,7 @@
         "tag": "",
         "description": "How easy text is to read.",
         "why": "Improves communication by helping readers quickly understand messages without confusion or frustration.",
+        "risk": "People struggle to understand your content.",
         "error": "Automated Readability Index score is above 8 (higher than 7th grade reading level).",
         "impact": 10,
         "guidance": [
@@ -572,6 +590,7 @@
         "tag": "<meta name=\"viewport\">",
         "description": "Makes websites fit all screen sizes.",
         "why": "Optimizes page display for various devices, ensuring content looks good on all screen sizes and enhances user experience.",
+        "risk": "Mobile users see broken pages on their phones.",
         "error": "Viewport meta tag is missing.",
         "impact": 10,
         "guidance": [
@@ -609,6 +628,7 @@
         "tag": "image-aspect-ratio",
         "description": "Ratio of image width to height.",
         "why": "Ensures images display correctly without distortion on different screens and devices.",
+        "risk": "Images look stretched or squished.",
         "error": "Image could not be displayed correctly due to aspect ratio issues.",
         "impact": 1,
         "guidance": [
@@ -641,6 +661,7 @@
         "tag": "html-lang-valid",
         "description": "Correct code to identify language.",
         "why": "Ensures websites display text in the correct language, making content easier to understand for users.",
+        "risk": "Browsers cannot apply correct language settings.",
         "error": "Page language is not defined in the HTML.",
         "impact": 1,
         "guidance": [
@@ -675,6 +696,7 @@
         "tag": "zooming-scaling",
         "description": "Making images bigger or smaller.",
         "why": "Allows users to adjust size for better readability, improving accessibility and making content easier to view on all devices.",
+        "risk": "Users cannot zoom in to read small text.",
         "error": "Viewport configuration error: 'user-scalable' is set to 'no' or 'maximum-scale' exceeds the recommended limit.",
         "impact": 3,
         "guidance": [
@@ -710,6 +732,7 @@
         "tag": "doctype",
         "description": "Tells browser how to read code.",
         "why": "Helps browsers display web pages correctly by telling them what kind of HTML code the page is using.",
+        "risk": "Browsers display your page wrong.",
         "error": "Page may not display correctly due to missing or incorrect doctype declaration.",
         "impact": 1,
         "guidance": [
@@ -748,6 +771,7 @@
         "tag": "charset",
         "description": "Character set for text encoding.",
         "why": "Helps computers show words and symbols correctly in different languages and on different devices.",
+        "risk": "Special characters show up as weird symbols.",
         "error": "Charset declaration is missing or occurs too late in the HTML.",
         "impact": 1,
         "guidance": [
@@ -783,6 +807,7 @@
     "description": "ScanGov domain standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/domain-og.png",
     "why": "Legitimate web addresses help citizens identify real government sites and avoid scams or fake information online.",
+    "risk": "People may visit fake sites instead of yours.",
     "videos": [
       {
         "title": "Domain and ScanGov",
@@ -799,6 +824,7 @@
         "tag": "HTTPS",
         "description": "Privacy and integrity protection.",
         "why": "Secures data by encrypting communication, protecting user privacy and preventing unauthorized access to sensitive information during online interactions.",
+        "risk": "Hackers can see and steal personal information.",
         "error": "Site is not served over HTTPS.",
         "impact": 10,
         "guidance": [
@@ -843,6 +869,7 @@
         "tag": "www",
         "description": "One domain works with www and non-www.",
         "why": "Ensures consistent site display whether users type with or without 'www,' preventing errors and improving overall accessibility.",
+        "risk": "Users get errors when typing your web address.",
         "error": "www and non-www versions are inconsistent.",
         "impact": 5,
         "guidance": [
@@ -884,6 +911,7 @@
         "tag": "sTLD",
         "description": "Sponsored top-level domain (.gov / .edu / .mil).",
         "why": "Defines trusted website categories, helping users identify official sites and improving credibility and security for specific organizations.",
+        "risk": "People cannot tell if your site is real government.",
         "error": "Domain is not an official sTLD.",
         "impact": 10,
         "guidance": [
@@ -929,6 +957,7 @@
     "description": "ScanGov performance standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/performance-og.png",
     "why": "Fast-loading pages let citizens quickly file taxes, apply for benefits, and access emergency information when needed.",
+    "risk": "Slow pages make users give up and leave.",
     "videos": [
       {
         "title": "Performance and ScanGov",
@@ -945,6 +974,7 @@
         "tag": "CLS",
         "description": "Measures unexpected webpage content shifts.",
         "why": "Minimizes unexpected page movements, improving user experience by keeping content stable while it loads.",
+        "risk": "Users click wrong buttons by mistake.",
         "error": "Unexpected layout shifts detected.",
         "impact": 5,
         "guidance": [
@@ -974,6 +1004,7 @@
         "tag": "FCP",
         "description": "The page begins to display within 1.8 seconds.",
         "why": "Measures how quickly important content appears, improving user experience by reducing wait time when loading a page.",
+        "risk": "Users see blank screen and think site is broken.",
         "error": "Page didn't display within 1.8 seconds.",
         "impact": 8,
         "guidance": [
@@ -1011,6 +1042,7 @@
         "tag": "INP",
         "description": "Page responds in under 0.2 seconds.",
         "why": "A fast response time increases interactivity and user satisfaction, leading to a more engaging experience.",
+        "risk": "Site feels frozen when users click things.",
         "error": "Page response exceeded 0.2 seconds.",
         "impact": 9,
         "guidance": [
@@ -1042,6 +1074,7 @@
         "tag": "LCP",
         "description": "Major content loads in 2.5 seconds.",
         "why": "Measures when the main content fully loads, improving user experience by showing the most important part of a page quickly.",
+        "risk": "Users wait too long and leave your page.",
         "error": "Main content didn't load in 2.5 seconds.",
         "impact": 8,
         "sections": {
@@ -1072,6 +1105,7 @@
         "tag": "TTFB",
         "description": "Code received in 0.8 seconds.",
         "why": "Measures how quickly a server responds, impacting page load speed and user experience by reducing wait times.",
+        "risk": "Slow server delays everything on your page.",
         "error": "Server response took over 0.8 seconds.",
         "impact": 8,
         "guidance": [
@@ -1112,6 +1146,7 @@
     "description": "ScanGov search engine optimization standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/seo-og.png",
     "why": "Good search results help citizens quickly locate the right agency, forms, and services they need online.",
+    "risk": "People cannot find your site in search results.",
     "videos": [
       {
         "title": "Search engine optimization and ScanGov",
@@ -1127,6 +1162,7 @@
         "tag": "Status",
         "description": "The HTTP status of /sitemap.xml is OK.",
         "why": "Confirms the sitemap is accessible, ensuring search engines can easily find and index all pages on the site.",
+        "risk": "Search engines cannot find all your pages.",
         "error": "Sitemap.xml is missing or inaccessible.",
         "impact": 3,
         "sections": {
@@ -1154,6 +1190,7 @@
         "tag": "XML",
         "description": "The sitemap file type is XML.",
         "why": "Stores site structure in a readable format, helping search engines efficiently crawl and index all website pages.",
+        "risk": "Search engines cannot read your sitemap.",
         "error": "Sitemap is not in XML format.",
         "impact": 3,
         "guidance": [
@@ -1197,6 +1234,7 @@
         "tag": "Valid",
         "description": "The site has a valid robots policy.",
         "why": "Guides search engines on which pages to crawl or avoid, ensuring important content is indexed and irrelevant pages aren't.",
+        "risk": "Search engines ignore your instructions.",
         "error": "Robots.txt is missing or invalid.",
         "impact": 3,
         "guidance": [
@@ -1238,6 +1276,7 @@
         "tag": "Allowed",
         "description": "The robots policy allows access to browsers and scrapers.",
         "why": "Permits search engines and web tools to access content, helping improve search visibility and gather relevant data.",
+        "risk": "Your site is blocked from search results.",
         "error": "Robots policy blocks browsers or scrapers.",
         "impact": 3,
         "guidance": [
@@ -1284,6 +1323,7 @@
         "tag": "Sitemap",
         "description": "The robots.txt file points to a sitemap file.",
         "why": "Helps search engines find the sitemap quickly, improving how they discover and index website pages.",
+        "risk": "Search engines take longer to find your pages.",
         "error": "robots.txt missing sitemap reference.",
         "impact": 5,
         "guidance": [
@@ -1326,6 +1366,7 @@
         "tag": "<link rel=\"canonical\">",
         "description": "Use preferred page URLs to avoid duplication.",
         "why": "Prevents duplicate content issues by telling search engines which version of a page is the main one.",
+        "risk": "Search rankings split across duplicate pages.",
         "error": "Duplicate page URLs detected.",
         "impact": 3,
         "guidance": [
@@ -1362,6 +1403,7 @@
         "tag": "link-text",
         "description": "Links have descriptive text.",
         "why": "Describes the link’s purpose clearly, helping users know where it leads and improving navigation for everyone.",
+        "risk": "Users cannot tell where links go.",
         "error": "Links do not have descriptive text.",
         "impact": 1,
         "guidance": [
@@ -1389,6 +1431,7 @@
         "tag": "hreflang",
         "description": "Specifies language and region for webpages.",
         "why": "Indicates page language and region, helping users see the right version and improving search results in different countries.",
+        "risk": "Users see pages in wrong language.",
         "error": "The pages has a missing or invalid hreflang attribute.",
         "impact": 1,
         "guidance": [
@@ -1424,6 +1467,7 @@
     "description": "ScanGov security standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/security-og.png",
     "why": "Strong defenses prevent hackers from stealing personal information, Social Security numbers, and other confidential government records.",
+    "risk": "Hackers can steal private information from your site.",
     "videos": [
       {
         "title": "Security and ScanGov",
@@ -1440,6 +1484,7 @@
         "tag": "CSP",
         "description": "The site restricts what can be loaded.",
         "why": "Helps stop hackers by blocking harmful code from running on your website.",
+        "risk": "Hackers can inject bad code into your site.",
         "error": "Content Security Policy is missing or too permissive.",
         "impact": 3,
         "guidance": [
@@ -1482,6 +1527,7 @@
         "tag": "HSTS",
         "description": "Site upgrades to a secure connection.",
         "why": "Forces secure connections, protecting user data by making websites always load with encryption.",
+        "risk": "Hackers can downgrade your connection and steal data.",
         "error": "Site doesn't force secure connection; easier for hackers to intercept.",
         "impact": 10,
         "guidance": [
@@ -1535,6 +1581,7 @@
         "tag": "security.txt",
         "description": "The site has a security.txt file.",
         "why": "Provides contact info for reporting security issues, helping site owners fix problems quickly and keep users safe.",
+        "risk": "Security researchers cannot report problems to you.",
         "error": "No available security.txt file.",
         "impact": 1,
         "sections": {
@@ -1566,6 +1613,7 @@
         "tag": "X-Content-Type-Options",
         "description": "The site prevents mime type sniffing.",
         "why": "Stops browsers from guessing file types, helping prevent security risks by enforcing correct content handling.",
+        "risk": "Browsers might run dangerous files by mistake.",
         "error": "Missing or wrong X-Content-Type-Options setting.",
         "impact": 3,
         "sections": {
@@ -1588,6 +1636,7 @@
         "tag": "errors-in-console",
         "description": "Tracks mistakes in code for debugging.",
         "why": "Signals problems in website code, helping developers fix issues that could affect how the site works or displays.",
+        "risk": "Site may have hidden bugs that break features.",
         "error": "Page load problem — check browser console for errors and details.",
         "impact": 1,
         "guidance": [],
@@ -1614,6 +1663,7 @@
         "tag": "clickjacking-mitigation",
         "description": "Stops fake clicks on hidden content.",
         "why": "Prevents malicious websites from tricking users into clicking hidden elements, enhancing site security and protecting user actions.",
+        "risk": "Hackers can trick users into clicking wrong things.",
         "error": "Page is not protected from possible clickjacking by containing frames.",
         "impact": 1,
         "guidance": [
@@ -1646,6 +1696,7 @@
         "tag": "paste-preventing-inputs",
         "description": "Page doesn't allow copy-paste into inputs.",
         "why": "Negatively impacts user experience and weakens security by blocking password managers.",
+        "risk": "Users cannot use password managers safely.",
         "error": "Page doesn't allow copy-paste into inputs.",
         "impact": 1,
         "guidance": [],
@@ -1675,6 +1726,7 @@
     "description": "ScanGov social media standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/social-og.png",
     "why": "Optimized posts help emergency alerts, policy updates, and community news reach more citizens across different social media platforms.",
+    "risk": "Content looks bad when shared on social media.",
     "videos": [
       {
         "title": "Social media and ScanGov",
@@ -1690,6 +1742,7 @@
         "tag": "<meta property=\"og:site-name\">",
         "description": "Website title for social sharing.",
         "why": "Sets the website's title for social media sharing, ensuring consistent branding and better previews when content is shared.",
+        "risk": "Site name missing in social media shares.",
         "error": "Open Graph site name is missing.",
         "impact": 1,
         "sections": {
@@ -1717,6 +1770,7 @@
         "tag": "<meta property=\"og:type\">",
         "description": "Content category for social media.",
         "why": "Specifies content type for social media, improving how links are displayed and enhancing engagement when shared online.",
+        "risk": "Social media shows wrong content type.",
         "error": "Open Graph type is missing.",
         "impact": 1,
         "sections": {
@@ -1745,6 +1799,7 @@
         "tag": "<meta property=\"og:title\">",
         "description": "Page title for social sharing.",
         "why": "Sets a clear title for shared content, ensuring accurate and engaging previews on social media platforms.",
+        "risk": "Shared links have no title on social media.",
         "error": "Open Graph title is missing.",
         "impact": 1,
         "sections": {
@@ -1772,6 +1827,7 @@
         "tag": "<meta property=\"og:description\">",
         "description": "Short description of your webpage content.",
         "why": "Provides a brief summary of content, helping users understand what the link is about when shared on social media.",
+        "risk": "Shared links have no description on social media.",
         "error": "Open Graph description is missing.",
         "impact": 1,
         "sections": {
@@ -1799,6 +1855,7 @@
         "tag": "<meta property=\"og:url\">",
         "description": "Canonical link for social sharing.",
         "why": "Defines the URL of the shared content, ensuring correct linking and improving how the page is displayed on social media.",
+        "risk": "Shared links may point to wrong page.",
         "error": "Canonical link missing.",
         "impact": 1,
         "sections": {
@@ -1826,6 +1883,7 @@
         "tag": "<meta property=\"og:image\">",
         "description": "Preview image for social sharing.",
         "why": "Sets an image for social media previews, improving engagement by displaying relevant visuals when content is shared.",
+        "risk": "Shared links have no image on social media.",
         "error": "Open Graph image is missing.",
         "impact": 1,
         "sections": {
@@ -1853,6 +1911,7 @@
         "tag": "<meta property=\"og:image:alt\">",
         "description": "Image description for accessibility",
         "why": "Provides a description for the image, improving accessibility and helping search engines understand the image content.",
+        "risk": "Screen readers cannot describe shared images.",
         "error": "Open Graph image alt is missing.",
         "impact": 1,
         "sections": {
