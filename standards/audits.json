@@ -551,6 +551,10 @@
             "url": "/automated-readability-index"
           },
           {
+            "displayName": "Flesch-Kincaid",
+            "url": "/flesch-kincaid"
+          },
+          {
             "displayName": "Federal website standards",
             "url": "/federal-website-standards"
           },

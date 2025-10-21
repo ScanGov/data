@@ -183,6 +183,32 @@
     ]
   },
   {
+    "key": "flesch-kincaid",
+    "displayName": "Flesch-Kincaid (FK)",
+    "featured": true,
+    "description": "Measure how hard text is to read.",
+    "topics": [
+      "content"
+    ],
+    "about": {
+      "title": "About",
+      "content": "The Flesch-Kincaid tests measure how easy or hard text is to read. There are two versions: one gives a reading ease score (higher numbers mean easier reading), and another gives a grade level (like 8th grade or 12th grade). The tests look at sentence length and word length - shorter sentences and shorter words make text easier to read. Schools, the military, and even insurance companies use these tests to make sure their writing is clear and understandable."
+    },
+    "links": [
+      {
+        "link": "https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests",
+        "text": "Flesch–Kincaid readability tests"
+      }
+    ],
+    "audio": "https://standards.scangov.org/assets/audio/readability.mp3",
+    "standards": [
+      {
+        "displayName": "Readability",
+        "url": "/readability"
+      }
+    ]
+  },
+  {
     "key": "google-search-central",
     "displayName": "Google Search Central",
     "featured": true,
