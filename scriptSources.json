@@ -1,46 +1,222 @@
 [
   {
-    "domain": "maryland.gov",
-    "scriptSrc": "/_layouts/15/16.0.10407.20000/1033/initstrings.js"
+    "domain": "blm.gov",
+    "scriptSrc": "https://www.googletagmanager.com/gtag/js?id=UA-23560114-3"
   },
   {
-    "domain": "maryland.gov",
-    "scriptSrc": "/_layouts/15/16.0.10407.20000/init.js"
+    "domain": "blm.gov",
+    "scriptSrc": "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOI&subagency=BLM"
   },
   {
-    "domain": "maryland.gov",
-    "scriptSrc": "/ScriptResource.axd?d=geAARSRQq_hQfEBy6qPf56M1jnFL-ZK27S2CfW36u_LOrGgAujzJ0essxi4AnM-EVeI26l5rzS5z-AVqF5aYkeS4w5iaFWG6-GrVZEp3gxIrquin2XYJZSjZUxhsFORN6gqIq-Uq91kTWiP4tO9f4Qd4jOxOLx_7aEqxGZo5SQzPG0zxPUTKK5xfIIacUNOb0&t=2a9d95e3"
+    "domain": "blm.gov",
+    "scriptSrc": "https://siteimproveanalytics.com/js/siteanalyze_88289.js"
   },
   {
-    "domain": "maryland.gov",
-    "scriptSrc": "/_layouts/15/16.0.10407.20000/blank.js"
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/polyfill/blazy.polyfill.min.js?teee42"
   },
   {
-    "domain": "maryland.gov",
-    "scriptSrc": "https://egov.maryland.gov/common/nate/v3/js/lib/modernizr.js"
+    "domain": "blm.gov",
+    "scriptSrc": "/core/assets/vendor/jquery/jquery.min.js?v=4.0.0"
   },
   {
-    "domain": "maryland.gov",
-    "scriptSrc": "https://cdn.govshare.site/332764c512a160cc598311295321d52196c562c3/lib/jquery/jquery-3.6.0.min.js"
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/polyfill/blazy.classlist.min.js?teee42"
   },
   {
-    "domain": "maryland.gov",
-    "scriptSrc": "https://cdn.govshare.site/332764c512a160cc598311295321d52196c562c3/lib/bootstrap/bootstrap.min.js"
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/polyfill/blazy.promise.min.js?teee42"
   },
   {
-    "domain": "maryland.gov",
-    "scriptSrc": "/DependencyHandler.axd/9462b300eeafd07aa8a4832a98a99a3e/121/js"
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/polyfill/blazy.raf.min.js?teee42"
   },
   {
-    "domain": "maryland.gov",
-    "scriptSrc": "/_layouts/15/16.0.10407.20000/blank.js"
+    "domain": "blm.gov",
+    "scriptSrc": "/core/assets/vendor/once/once.min.js?v=1.0.1"
   },
   {
-    "domain": "maryland.gov",
-    "scriptSrc": "https://egov.maryland.gov/doit/ewf/ewf.js"
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/slick/js/jquery-type-polyfill.min.js?teee42"
   },
   {
-    "domain": "maryland.gov",
-    "scriptSrc": "https://egov.maryland.gov/common/nate/v3/dist/core/js/nate.min.js"
+    "domain": "blm.gov",
+    "scriptSrc": "/core/misc/drupalSettingsLoader.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/core/misc/drupal.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/core/misc/drupal.init.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/core/misc/debounce.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/dblazy.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/plugin/blazy.once.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/plugin/blazy.sanitizer.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/plugin/blazy.dom.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/base/blazy.base.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/plugin/blazy.dataset.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/plugin/blazy.viewport.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/plugin/blazy.xlazy.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/plugin/blazy.observer.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/plugin/blazy.loading.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/polyfill/blazy.webp.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/base/blazy.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/base/io/bio.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/libraries/slick/slick/slick.min.js?v=1.x"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/base/io/bio.media.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/base/blazy.drupal.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/blazy.load.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/blazy.compat.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/core/assets/vendor/tabbable/index.umd.min.js?v=6.3.0"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/core/misc/progress.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/core/misc/announce.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/core/misc/message.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/core/misc/ajax.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/blazy/js/base/io/bio.ajax.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/custom/blm_a11y/js/script.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/themes/custom/blm_d9_22/js/bootstrap.bundle.min.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/themes/custom/blm_d9_22/js/popper.min.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/themes/custom/blm_d9_22/js/script.min.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/themes/custom/blm_d9_22/js/uswds.min.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/custom/bwm_ckeditor/js/bwm-ckeditor.js?v=1.x"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/extlink/js/extlink.js?teee42"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/google_analytics/js/google_analytics.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/slick/js/slick.load.min.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/modules/contrib/tb_megamenu/dist/js/frontend.js?v=1.x"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/core/misc/jquery.form.js?v=4.3.0"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/core/modules/views/js/base.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "/core/modules/views/js/ajax_view.js?v=11.3.8"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "https://touchpoints.app.cloud.gov/touchpoints/b163de7b.js"
+  },
+  {
+    "domain": "blm.gov",
+    "scriptSrc": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
   }
 ]

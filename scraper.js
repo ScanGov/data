@@ -295,14 +295,27 @@ if (process.argv[2]) {
         }
 
     if (!found && !process.argv[2].startsWith('--')) {
-        console.log('Domain ' + process.argv[2] + ' not found, adding it to list');
-        console.log('To cancel, press Ctrl+C');
+        let noWrites = false;
+        for (let i = 3; i < process.argv.length; i++)
+            if (process.argv[i] === '--no-writes') {
+                noWrites = true;
+                break;
+            }
+
+        if (!noWrites) {
+            // Only update domain list if making changes to data
+            console.log('Domain ' + process.argv[2] + ' not found, adding it to list');
+            console.log('To cancel, press Ctrl+C');
+        }
+
         let org = readlineSync.question('Enter organization name: ').trim();
         if (org.includes(','))
             org = '"' + org + '"';
         const domain = process.argv[2] + ',' + org;
         domains = [domain];
-        writeFileSync('domains.csv', domainsCsv + '\n' + domain);
+
+        if (!noWrites)
+            writeFileSync('domains.csv', domainsCsv + '\n' + domain);
     }
 
     for (let i = 2; i < process.argv.length - 1; i++)
@@ -392,6 +405,7 @@ for (let i = 0; i < 3 && i < domains.length; i++)
             // The response used to score HTTPS and TLD
             const res = base.statusCode < 300 ? base : www;
 
+            // Check valid WWW
             if (debug)
                 console.log(`\tStatus\tProtocol\tHost\tPathname
 base\t${base.statusCode}\t${base.req.protocol}\t${base.req.host}\t${base.req.pathname}
@@ -399,6 +413,7 @@ www\t${www.statusCode}\t${www.req.protocol}\t${www.req.host}\t${www.req.pathname
             const validWww = !!(base.req && www.req) && base.statusCode < 300 && www.statusCode < 300 && base.req.protocol === www.req.protocol && base.req.host === www.req.host && base.req.pathname === www.req.pathname;
             const useWww = www.statusCode < 300 && (validWww || base.statusCode >= 300) && res.req.host.startsWith('www');
 
+            // Check security headers
             security.csp = !!(res.headers && res.headers['content-security-policy']) && res.headers['content-security-policy'].length > 0;
             security.xContentTypeOptions = !!res.headers && res.headers['content-type'].startsWith('text/html') && res.headers['x-content-type-options'] === 'nosniff';
 
@@ -553,7 +568,7 @@ www\t${www.statusCode}\t${www.req.protocol}\t${www.req.host}\t${www.req.pathname
                                 else if (readingAllows) {
                                     if (line.includes('llow:')) {
                                         const allowLine = line.charAt(0) === 'A';
-                                        const path = line.substring(9).trim().replaceAll('*', '.*');
+                                        const path = line.substring(9).trim().replaceAll('?', '\\?').replaceAll('*', '.*');
                                         if (path.length === 0 && !allowLine)
                                             allowed = true;
                                         else if (new RegExp(path, 'g').test(res.req.path))
@@ -613,7 +628,7 @@ www\t${www.statusCode}\t${www.req.protocol}\t${www.req.host}\t${www.req.pathname
                                     }
                                     // Check for other sitemaps in the file
                                     index = -1;
-                                    while ((index = data.indexOf('<sitemap>', index + 1)) > -1 && visitedSitemaps.length < 75 /* Cap amount of requests */) {
+                                    while ((index = data.indexOf('<sitemap>', index + 1)) > -1 && visitedSitemaps.length < 10 /* Cap amount of requests */) {
                                         const urlStartIndex = data.indexOf('<loc>', index) + 5;
                                         const sitemapHref = new URL(data.substring(urlStartIndex, data.indexOf('</loc>', urlStartIndex)), res.url).href;
                                         if (visitedSitemaps.includes(sitemapHref))

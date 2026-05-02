@@ -326,7 +326,7 @@ waterdata.usgs.gov,"United States Geological Survey",200,"https://waterdata.usgs
 earthquake.usgs.gov,"United States Geological Survey",200,"https://www.usgs.gov/programs/earthquake-hazards",false,0,0,0
 bha.colorado.gov,"Colorado Behavioral Health Administration",200,"https://bha.colorado.gov/sitemap.xml",true,436,0,0.9538461538461538
 cityofmonongahela-pa.gov,"City of Monongahela, Pennsylvania",200,"https://www.cityofmonongahela-pa.gov/sitemap.xml",true,396,0,0.7878787878787878
-altoonawater.gov,"Altoona Water Authority",200,"https://www.altoonawater.gov/sitemap.xml",true,200,0,0.8875
+altoonawater.gov,"Altoona Water Authority",200,"https://www.altoonawater.gov/sitemap.xml",true,162,0,0.8902439024390244
 jocogov.org,"Johnson County, Kansas",200,"https://www.jocogov.org/sitemap.xml",true,2318,0,0.7848101265822784
 usarmyband.com,"Department of Defense",200,"https://usarmyband.com/sitemaps-1-sitemap.xml",true,815,214,0.9215686274509804
 vavmc.com,"Department of Veterans Affairs",200,"https://vavmc.com/sitemap.xml",false,0,0,1
@@ -1409,7 +1409,7 @@ fdicseguro.gov,"Federal Deposit Insurance Corporation",500,"undefined",false,0,0
 fdicoig.gov,"Federal Deposit Insurance Corporation",200,"https://www.fdicoig.gov/sitemap.xml",true,445,0,0.5581395348837209
 fdicig.gov,"Federal Deposit Insurance Corporation",500,"undefined",false,0,0,0
 fdicconnect.gov,"Federal Deposit Insurance Corporation",500,"undefined",false,0,0,0
-fdic.gov,"Federal Deposit Insurance Corporation",200,"https://fdic.gov/sitemap.xml",true,20836,0,0.7297297297297297
+fdic.gov,"Federal Deposit Insurance Corporation",200,"https://www.fdic.gov/sitemap.xml",true,18000,0,0.6666666666666667
 economicinclusion.gov,"Federal Deposit Insurance Corporation",500,"undefined",false,0,0,0
 getinternet.gov,"Federal Communications Commission",200,"https://getinternet.gov/auth_redirect.do?sysparm_stack=no&sysparm_url=https%3A%2F%2Fusac.okta.com%2Fapp%2Fservicenow_ud%2Fexk11mawq4zaM74E1297%2Fsso%2Fsaml%3FSAMLRequest%3DlVJbb5swFP4ryO9grkljhUgs2bRIbYeabA97mU7hhFoFm%252FoY6PrrF0iqtA%252BttDfL%252Fs75bl4SNHXYiqyzD%252BoOnzok6zw3tSJxeklZZ5TQQJKEggZJ2ELssptrEXq%252BaI22utA1czIiNFZqtdaKugbNDk0vC%252Fx5d52yB2tbEpxrIyup3GEYvAqtVBaNQutVuucK%252BhYq9ErNnM1RhFQwbrvMdgSFpx8teIVuOLQtpxOD0sOfruT4%252FBgEDQxP8QvczOOvQbiYcyLNRx%252FM%252BaZNgZPLlB2gJmTOdpOy3e06vro%252FhGEwi%252BJ4UcxhtojCme9HSZTgVZKUI5ByIJI9XkaJOtwqsqBsykI%252FTFw%252Fdv1k70ci8UUcelES%252FGZOfs7ni1SlVNXnYd6fQCS%252B7%252Fe5m%252F%252FY7acFvSzR3B7R%252F53jLzQ0ZXjczlbLqVAxSTdvO%252F5cFbwWy1av9KdqoO7RyINE412aOJ9oLGnJ3zKe%252BVsxWtlucl3L4q%252BT1bUe1gbBHu1Z0%252BHUVAP2Y1GBF0w3snQPE1RgA7LOytIgEeOrM%252B%252F7T736Bw%253D%253D%26RelayState%3Dhttps%253A%252F%252Forigin-www.getinternet.gov%252Fsaml_redirector.do%253Fsysparm_nostack%253Dtrue%2526sysparm_uri%253D%25252Fnav_to.do%25253Furi%25253D%2525252Fsitemap.xml",false,0,0,1
 fcc.gov,"Federal Communications Commission",200,"https://www.fcc.gov/page-not-found",false,0,0,0
@@ -1651,7 +1651,6 @@ bsee.gov,"Department of the Interior",200,"https://www.bsee.gov/sitemap.xml",tru
 bor.gov,"Department of the Interior",500,"undefined",false,0,0,0
 boemre.gov,"Department of the Interior",500,"undefined",false,0,0,0
 boem.gov,"Department of the Interior",200,"https://www.boem.gov/sitemap.xml",true,3214,0,0.9052631578947369
-blm.gov,"Department of the Interior",200,"https://www.blm.gov/sitemap.xml",true,27645,2,0.948051948051948
 bia.gov,"Department of the Interior",200,"https://www.bia.gov/sitemap.xml",true,2205,0,0.7872340425531915
 anstaskforce.gov,"Department of the Interior",500,"undefined",false,0,0,0
 acwi.gov,"Department of the Interior",500,"undefined",false,0,0,0
@@ -2262,6 +2261,7 @@ mississippi.gov,"State of Mississippi",200,"https://www.mississippi.gov/",false,
 mn.gov,"State of Minnesota",404,"https://mn.gov/sitemap.xml",false,0,0,1
 michigan.gov,"State of Michigan",500,"https://__cdurl__/sitemap.xml",false,0,0,0
 mass.gov,"State of Massachusetts",200,"https://www.mass.gov/sitemap.xml",true,222000,19500,0
+maryland.gov,"State of Maryland",200,"https://www.maryland.gov/sitemap.xml",true,53,0,1
 maine.gov,"State of Maine",404,"https://www.maine.gov/sitemap.xml",false,0,0,0
 louisiana.gov,"State of Louisiana",404,"https://www.louisiana.gov/sitemap.xml",false,0,0,0
 kentucky.gov,"State of Kentucky",404,"https://www.kentucky.gov/sitemap.xml",false,0,0,0
@@ -2282,4 +2282,4 @@ az.gov,"State of Arizona",200,"https://az.gov/sitemap.xml",true,7,0,0.1190476190
 alaska.gov,"State of Alaska",404,"https://alaska.gov/sitemap.xml",false,0,0,0
 alabama.gov,"State of Alabama",200,"https://www.alabama.gov/sitemap.xml",false,0,0,1
 slc.gov,"Salt Lake City, UT",200,"https://www.slc.gov/wp-sitemap.xml",true,1729,0,0.24675324675324672
-maryland.gov,"State of Maryland",404,"https://www.maryland.gov/sitemap.xml",false,0,0,0
+blm.gov,"Department of the Interior",200,"https://www.blm.gov/sitemap.xml",true,18000,2,0.20149253731343286
