@@ -427,16 +427,14 @@
     ],
     "attributes": [
       {
-        "key": "a11y-best-practices",
-        "scorekey": "a11y-best-practices",
-        "displayName": "Accessibility best practices",
-        "featured": true,
-        "tag": "a11y-best-practices",
-        "description": "Common accessibility best practices.",
-        "why": "Follows guidelines that make websites usable for everyone, including people with disabilities, improving user experience and reach.",
-        "risk": "Users with disabilities face barriers using your site.",
-        "error": "Basic accessibility best practices not met.",
-        "impact": 3,
+        "key": "accesskeys",
+        "displayName": "[accesskey] values are unique",
+        "tag": "accesskeys",
+        "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique.",
+        "why": "Allows keyboard-only users and screen reader users to efficiently move through and interact with page content.",
+        "risk": "Keyboard users cannot efficiently navigate your site.",
+        "error": "Failed: [accesskey] values are unique",
+        "impact": 1,
         "guidance": [
           {
             "displayName": "Web Content Accessibility Guidelines (WCAG)",
@@ -445,30 +443,25 @@
         ],
         "userStories": [
           {
-            "title": "As a user with a disability, I want the website to be accessible and easy to navigate so that I can access and interact with the content without barriers, regardless of my abilities or the technology I use."
+            "title": "As a keyboard-only user, I want to efficiently navigate through page content without getting stuck or lost."
           }
         ],
         "sections": {
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/meta-refresh\">Refresh meta tag</a></li>\n  <li><a href=\"https://standards.scangov.org/viewport\">Viewport meta tag</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/target-size\">Touch targets</a></li>\n</ul>"
-          },
           "about": {
             "title": "About",
-            "content": "<p>Accessibilty can be improved by passing these tests:</p><ol>\n  <li>\n    <p>The document does not use <code class=\"language-plaintext highlighter-rouge\">&lt;meta http-equiv=\"refresh\"&gt;</code>: Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">[user-scalable=\"no\"]</code> is not used in the <code class=\"language-plaintext highlighter-rouge\">&lt;meta name=\"viewport\"&gt;</code> element and the <code class=\"language-plaintext highlighter-rouge\">[maximum-scale]</code> attribute is not less than 5: Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page.</p>\n  </li>\n  <li>\n    <p>Touch targets do not have sufficient size or spacing: Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets.</p>\n  </li>\n</ol>"
+            "content": "<p>Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique.</p>"
           }
         },
         "relatedLinks": {}
       },
       {
-        "key": "a11y-aria",
-        "scorekey": "a11y-aria",
-        "displayName": "ARIA attributes",
-        "tag": "a11y-aria",
-        "description": "Accessibility properties for screen readers.",
-        "why": "Provides extra information for screen readers, helping visually impaired users understand content and navigate websites more easily.",
-        "risk": "Screen readers cannot understand your page elements.",
-        "error": "Missing ARIA attributes for screen readers.",
+        "key": "aria-allowed-attr",
+        "displayName": "[aria-*] attributes match their roles",
+        "tag": "aria-allowed-attr",
+        "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn how to match ARIA attributes to their roles](https://dequeuniversity.c",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: [aria-*] attributes match their roles",
         "impact": 3,
         "guidance": [
           {
@@ -478,30 +471,25 @@
         ],
         "userStories": [
           {
-            "title": "As a user with a screen reader, I want the website to provide proper semantic information for dynamic elements, so that I can easily understand their purpose and interact with them without confusion."
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
           }
         ],
         "sections": {
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-allowed-attr\">How to match ARIA attributes to their roles</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role\">About ARIA roles</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-command-name\">How to make command elements more accessible</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-conditional-attr\">About conditional ARIA attributes</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-deprecated-role\">About deprecated ARIA roles</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-dialog-name\">How to make ARIA dialog elements more accessible</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body\">How <code class=\"language-plaintext highlighter-rouge\">aria-hidden</code> affects the document body</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus\">How <code class=\"language-plaintext highlighter-rouge\">aria-hidden</code> affects focusable elements</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-input-field-name\">About input field labels</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-meter-name\">How to name <code class=\"language-plaintext highlighter-rouge\">meter</code> elements</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-progressbar-name\">How to label <code class=\"language-plaintext highlighter-rouge\">progressbar</code> elements</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr\">About prohibited ARIA roles</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-required-attr\">About roles and required attributes</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-required-children\">About roles and required children elements</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-required-parent\">About ARIA roles and required parent element</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-roles\">About valid ARIA roles</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-text\">About the <code class=\"language-plaintext highlighter-rouge\">role=text</code> attribute</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-toggle-field-name\">About toggle fields</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-tooltip-name\">How to name <code class=\"language-plaintext highlighter-rouge\">tooltip</code> elements</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-treeitem-name\">About labeling <code class=\"language-plaintext highlighter-rouge\">treeitem</code> elements</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value\">About valid values for ARIA attributes</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr\">About valid ARIA attributes</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria\">How to fix duplicate ARIA IDs</a></li>\n</ul>"
-          },
           "about": {
             "title": "About",
-            "content": "<p>These are opportunities to improve the usage of ARIA in your application which may enhance the experience for users of assistive technology, like a screen reader.</p><p>You don't always need <code class=\"language-plaintext highlighter-rouge\">aria-</code> attributes in your application for it to be accessible. When you do use <code class=\"language-plaintext highlighter-rouge\">aria-</code> attributes follow these recommendations to make sure they are helpful.</p><p>Contains:</p><ol>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">[aria-*]</code> attributes match their roles: Each ARIA <code class=\"language-plaintext highlighter-rouge\">role</code> supports a specific subset of <code class=\"language-plaintext highlighter-rouge\">aria-*</code> attributes. Mismatching these invalidates the <code class=\"language-plaintext highlighter-rouge\">aria-*</code> attributes.</p>\n  </li>\n  <li>\n    <p>Uses ARIA roles only on compatible elements: Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">button</code>, <code class=\"language-plaintext highlighter-rouge\">link</code>, and <code class=\"language-plaintext highlighter-rouge\">menuitem</code> elements have accessible names: When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>\n  </li>\n  <li>\n    <p>ARIA attributes are used as specified for the element's role: Some ARIA attributes are only allowed on an element under certain conditions.</p>\n  </li>\n  <li>\n    <p>Deprecated ARIA roles were not used: Deprecated ARIA roles may not be processed correctly by assistive technology.</p>\n  </li>\n  <li>\n    <p>Elements with <code class=\"language-plaintext highlighter-rouge\">role=\"dialog\"</code> or <code class=\"language-plaintext highlighter-rouge\">role=\"alertdialog\"</code> have accessible names: ARIA dialog elements without accessible names may prevent screen readers users from discerning the purpose of these elements.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">[aria-hidden=\"true\"]</code> is not present on the document <code class=\"language-plaintext highlighter-rouge\">&lt;body&gt;</code>: Assistive technologies, like screen readers, work inconsistently when <code class=\"language-plaintext highlighter-rouge\">aria-hidden=\"true\"</code> is set on the document <code class=\"language-plaintext highlighter-rouge\">&lt;body&gt;</code>.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">[aria-hidden=\"true\"]</code> elements do not contain focusable descendents: Focusable descendents within an <code class=\"language-plaintext highlighter-rouge\">[aria-hidden=\"true\"]</code> element prevent those interactive elements from being available to users of assistive technologies like screen readers.</p>\n  </li>\n  <li>\n    <p>ARIA input fields have accessible names: When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>\n  </li>\n  <li>\n    <p>ARIA meter elements have accessible names: When a meter element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>\n  </li>\n  <li>\n    <p>ARIA progressbar elements have accessible names: When a <code class=\"language-plaintext highlighter-rouge\">progressbar</code> element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>\n  </li>\n  <li>\n    <p>Elements use only permitted ARIA attributes: Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to users of assistive technologies.</p>\n  </li>\n  <li>\n    <p>[role]s have all required [aria-*] attributes: Some ARIA roles have required attributes that describe the state of the element to screen readers.</p>\n  </li>\n  <li>\n    <p>Elements with an ARIA <code class=\"language-plaintext highlighter-rouge\">[role]</code> that require children to contain a specific <code class=\"language-plaintext highlighter-rouge\">[role]</code> have all required children: Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions.</p>\n  </li>\n  <li>\n    <p>[role]s are contained by their required parent element: Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions.</p>\n  </li>\n  <li>\n    <p>[role] values are valid: ARIA roles must have valid values in order to perform their intended accessibility functions.</p>\n  </li>\n  <li>\n    <p>Elements with the role=text attribute do not have focusable descendents: Adding <code class=\"language-plaintext highlighter-rouge\">role=text</code> around a text node split by markup enables VoiceOver to treat it as one phrase, but the element's focusable descendents will not be announced.</p>\n  </li>\n  <li>\n    <p>ARIA toggle fields have accessible names: When a toggle field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>\n  </li>\n  <li>\n    <p>ARIA tooltip elements have accessible names: When a tooltip element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>\n  </li>\n  <li>\n    <p>ARIA treeitem elements have accessible names: When a <code class=\"language-plaintext highlighter-rouge\">treeitem</code> element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">[aria-*]</code> attributes have valid values: Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">[aria-*]</code> attributes are valid and not misspelled: Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names.</p>\n  </li>\n  <li>\n    <p>ARIA IDs are unique: The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies.</p>\n  </li>\n</ol>"
+            "content": "<p>Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn how to match ARIA attributes to their roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-attr).</p>"
           }
         },
         "relatedLinks": {}
       },
       {
-        "key": "a11y-audio-video",
-        "scorekey": "a11y-audio-video",
-        "displayName": "Audio and video",
-        "tag": "a11y-audio-video",
-        "description": "Alternative text, captions, and transcripts.",
-        "why": "Supports accessibility by adding captions and transcripts, helping users with hearing impairments understand audio and video content.",
-        "risk": "Deaf users cannot access your videos.",
-        "error": "No captions or transcripts provided.",
+        "key": "aria-allowed-role",
+        "displayName": "Uses ARIA roles only on compatible elements",
+        "tag": "aria-allowed-role",
+        "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: Uses ARIA roles only on compatible elements",
         "impact": 3,
         "guidance": [
           {
@@ -511,30 +499,25 @@
         ],
         "userStories": [
           {
-            "title": "As a user with hearing or visual impairment, I want to have access to captions, transcripts, and audio descriptions for multimedia content so that I can fully understand and engage with the media on the website."
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
           }
         ],
         "sections": {
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/video-caption\">About video captions</a></li>\n</ul>"
-          },
           "about": {
             "title": "About",
-            "content": "<p>These are opportunities to provide alternative content for audio and video. This may improve the experience for users with hearing or vision impairments.</p><ol>\n  <li><code class=\"language-plaintext highlighter-rouge\">&lt;video&gt;</code> elements contain a <code class=\"language-plaintext highlighter-rouge\">&lt;track&gt;</code> element with <code class=\"language-plaintext highlighter-rouge\">[kind=\"captions\"]</code>: When a video provides a caption it is easier for deaf and hearing impaired users to access its information.</li>\n</ol>"
+            "content": "<p>Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page.</p>"
           }
         },
         "relatedLinks": {}
       },
       {
-        "key": "a11y-color-contrast",
-        "scorekey": "a11y-color-contrast",
-        "displayName": "Color contrast",
-        "tag": "a11y-color-contrast",
-        "description": "Difference between text and background colors.",
-        "why": "Improves readability by ensuring text stands out from the background, helping users with visual impairments see content clearly.",
-        "risk": "People with low vision cannot read your text.",
-        "error": "Insufficient color contrast detected.",
+        "key": "aria-command-name",
+        "displayName": "button, link, and menuitem elements have accessible names",
+        "tag": "aria-command-name",
+        "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to make command elements more acces",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: button, link, and menuitem elements have accessible names",
         "impact": 3,
         "guidance": [
           {
@@ -544,30 +527,25 @@
         ],
         "userStories": [
           {
-            "title": "As a visually impaired user, I want sufficient color contrast between text and background so that I can read the content without strain or missing information."
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
           }
         ],
         "sections": {
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/color-contrast\">How to provide sufficient color contrast</a>.</li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/link-in-text-block\">How to make links distinguishable</a>.</li>\n</ul>"
-          },
           "about": {
             "title": "About",
-            "content": "<p>Content legibility can be improved by passing the following audits:</p><ol>\n  <li>\n    <p>Background and foreground colors have a sufficient contrast ratio: Low-contrast text is difficult or impossible for many users to read.</p>\n  </li>\n  <li>\n    <p>Links are distinguishable without relying on color: Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision.</p>\n  </li>\n</ol>"
+            "content": "<p>When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to make command elements more accessible](https://dequeuniversity.com/rules/axe/4.10/aria-command-name).</p>"
           }
         },
         "relatedLinks": {}
       },
       {
-        "key": "hidden",
-        "scorekey": "hidden",
-        "displayName": "Hidden elements",
-        "tag": "hidden",
-        "description": "Ensure hidden elements are accessible.",
-        "why": "Prevents search engines and users from accessing unnecessary content, improving page performance and ensuring only relevant information is displayed.",
-        "risk": "Screen readers announce wrong content or miss visible content.",
-        "error": "Hidden elements are inaccessible.",
+        "key": "aria-conditional-attr",
+        "displayName": "ARIA attributes are used as specified for the element's role",
+        "tag": "aria-conditional-attr",
+        "description": "Some ARIA attributes are only allowed on an element under certain conditions.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: ARIA attributes are used as specified for the element's role",
         "impact": 3,
         "guidance": [
           {
@@ -577,30 +555,25 @@
         ],
         "userStories": [
           {
-            "title": "As a user relying on assistive technologies, I want hidden elements to be properly marked so that I am not confused or misled by content that is not meant to be visible or interactive."
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
           }
         ],
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Hidden elements are parts of a webpage that are not visible to users but still present in the code. They might be used for functions like pop-up menus or content that shows only when needed. However, hidden elements can be problematic for accessibility if not properly managed. Screen readers and other assistive tools may still detect them. Use proper techniques, such as <code class=\"language-plaintext highlighter-rouge\">aria-hidden=\"true\"</code> or hiding content visually while maintaining accessibility.</p><p>Follow these recommendations to avoid hiding content from visitors using assistive technology:</p><ol>\n  <li>\n    <p>All heading elements contain content: A heading with no content or inaccessible text prevent screen reader users from accessing information on the page's structure.</p>\n  </li>\n  <li>\n    <p>Identical links have the same purpose: Links with the same destination should have the same description, to help users understand the link's purpose and decide whether to follow it.</p>\n  </li>\n  <li>\n    <p>Document has a main landmark: One main landmark helps screen reader users navigate a web page.</p>\n  </li>\n  <li>\n    <p>Elements with visible text labels have matching accessible names: Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users.</p>\n  </li>\n  <li>\n    <p>Tables use <code class=\"language-plaintext highlighter-rouge\">&lt;caption&gt;</code> instead of cells with the <code class=\"language-plaintext highlighter-rouge\">[colspan]</code> attribute to indicate a caption: Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the <code class=\"language-plaintext highlighter-rouge\">[colspan]</code> attribute may improve the experience for screen reader users.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">&lt;td&gt;</code> elements in a large <code class=\"language-plaintext highlighter-rouge\">&lt;table&gt;</code> have one or more table headers: Screen readers have features to make navigating tables easier. Ensuring that <code class=\"language-plaintext highlighter-rouge\">&lt;td&gt;</code> elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users.</p>\n  </li>\n</ol>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/empty-heading\">About headings</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/identical-links-same-purpose\">About identical links</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/landmark-one-main\">About landmarks</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch\">About accessible names</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/table-fake-caption\">About captions</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/td-has-header\">About table headers</a></li>\n</ul>"
+            "content": "<p>Some ARIA attributes are only allowed on an element under certain conditions.</p>"
           }
         },
         "relatedLinks": {}
       },
       {
-        "key": "a11y-language",
-        "scorekey": "a11y-language",
-        "displayName": "Language",
-        "tag": "a11y-language",
-        "description": "Use correct language attributes for accessibility.",
-        "why": "Specifies the language of content, helping screen readers and browsers display text correctly for users in different languages.",
-        "risk": "Screen readers say words wrong.",
-        "error": "Language attribute is missing or incorrect.",
+        "key": "aria-deprecated-role",
+        "displayName": "Deprecated ARIA roles were not used",
+        "tag": "aria-deprecated-role",
+        "description": "Deprecated ARIA roles may not be processed correctly by assistive technology.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: Deprecated ARIA roles were not used",
         "impact": 3,
         "guidance": [
           {
@@ -610,30 +583,25 @@
         ],
         "userStories": [
           {
-            "title": "As a multilingual user or screen reader user, I want the correct language to be defined on the website so that the content is read and interpreted accurately by assistive technologies."
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
           }
         ],
         "sections": {
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/valid-lang\">How to use the <code class=\"language-plaintext highlighter-rouge\">lang</code> attribute</a>\n <a href=\"https://dequeuniversity.com/rules/axe/4.10/html-xml-lang-mismatch\">Learn more about the <code class=\"language-plaintext highlighter-rouge\">lang</code> attribute</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/html-lang-valid\">How to use the <code class=\"language-plaintext highlighter-rouge\">lang</code> attribute</a>\n <a href=\"https://dequeuniversity.com/rules/axe/4.10/html-has-lang\">Learn more about the <code class=\"language-plaintext highlighter-rouge\">lang</code> attribute</a></li>\n</ul>"
-          },
           "about": {
             "title": "About",
-            "content": "<p>Follow these recommendations to improve the experience for visitors who may take advantage of translations.</p><ol>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">&lt;html&gt;</code> element has a <code class=\"language-plaintext highlighter-rouge\">[lang]</code> attribute: If a page doesn't specify a <code class=\"language-plaintext highlighter-rouge\">lang</code> attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">&lt;html&gt;</code> element has a valid value for its <code class=\"language-plaintext highlighter-rouge\">[lang]</code> attribute: Specifying a valid <a href=\"https://www.w3.org/International/questions/qa-choosing-language-tags#question\">BCP 47 language</a> helps screen readers announce text properly.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">&lt;html&gt;</code> element has an <code class=\"language-plaintext highlighter-rouge\">[xml:lang]</code> attribute with the same base language as the <code class=\"language-plaintext highlighter-rouge\">[lang]</code> attribute: If the webpage does not specify a consistent language, then the screen reader might not announce the page's text correctly.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">[lang]</code> attributes have a valid value: Specifying a valid <a href=\"https://www.w3.org/International/questions/qa-choosing-language-tags#question\">BCP 47 language</a> on elements helps ensure that text is pronounced correctly by a screen reader.</p>\n  </li>\n</ol>"
+            "content": "<p>Deprecated ARIA roles may not be processed correctly by assistive technology.</p>"
           }
         },
         "relatedLinks": {}
       },
       {
-        "key": "a11y-names-labels",
-        "scorekey": "a11y-names-labels",
-        "displayName": "Names and labels",
-        "tag": "a11y-names-labels",
-        "description": "Descriptive identifiers for elements.",
-        "why": "Clarifies content by providing clear names and labels, helping users understand and navigate forms or buttons easily.",
-        "risk": "Users cannot identify buttons and form fields.",
-        "error": "Elements lack descriptive labels.",
+        "key": "aria-dialog-name",
+        "displayName": "Elements with role=\"dialog\" or role=\"alertdialog\" have accessible names",
+        "tag": "aria-dialog-name",
+        "description": "ARIA dialog elements without accessible names may prevent screen readers users from discerning the purpose of these elements. [Learn how to make ARIA dialog elements more accessible](https://dequeuniv",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: Elements with role=\"dialog\" or role=\"alertdialog\" have accessible names",
         "impact": 3,
         "guidance": [
           {
@@ -643,31 +611,26 @@
         ],
         "userStories": [
           {
-            "title": "As a screen reader user, I want every interactive element to have a clear and descriptive name or label so that I can understand its purpose and use it correctly."
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
           }
         ],
         "sections": {
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/skip-link\">About skip links</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/select-name\">About the <code class=\"language-plaintext highlighter-rouge\">select</code> element</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/object-alt\">About alt text for <code class=\"language-plaintext highlighter-rouge\">object</code> elements</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/link-name\">How to make links accessible</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/label\">About form element labels</a>\n <a href=\"https://dequeuniversity.com/rules/axe/4.10/input-image-alt\">Learn about input image alt text</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/input-button-name\">About input buttons</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/image-redundant-alt\">About the <code class=\"language-plaintext highlighter-rouge\">alt</code> attribute</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/button-name\">How to make buttons more accessible</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/document-title\">About document titles</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/form-field-multiple-labels\">How to use form labels</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/frame-title\">About frame titles</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/image-alt\">About the <code class=\"language-plaintext highlighter-rouge\">alt</code> attribute</a></li>\n</ul>"
-          },
           "about": {
             "title": "About",
-            "content": "<p>Enhance your application's usability for visitors using screen readers by following these recommendations:</p><ol>\n  <li>\n    <p>Buttons have an accessible name: When a button doesn't have an accessible name, screen readers announce it as “button”, making it unusable for users who rely on screen readers.</p>\n  </li>\n  <li>\n    <p>Document has a <code class=\"language-plaintext highlighter-rouge\">&lt;title&gt;</code> element: The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search.</p>\n  </li>\n  <li>\n    <p>No form fields have multiple labels: Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">&lt;frame&gt;</code> or <code class=\"language-plaintext highlighter-rouge\">&lt;iframe&gt;</code> elements have a title: Screen reader users rely on frame titles to describe the contents of frames.</p>\n  </li>\n  <li>\n    <p>Image elements have <code class=\"language-plaintext highlighter-rouge\">[alt]</code> attributes: Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute.</p>\n  </li>\n  <li>\n    <p>Image elements do not have <code class=\"language-plaintext highlighter-rouge\">[alt]</code> attributes that are redundant text: Informative elements should aim for short, descriptive alternative text. Alternative text that is exactly the same as the text adjacent to the link or image is potentially confusing for screen reader users, because the text will be read twice.</p>\n  </li>\n  <li>\n    <p>Input buttons have discernible text: Adding discernable and accessible text to input buttons may help screen reader users understand the purpose of the input button.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">&lt;input type=\"image\"&gt;</code> elements have <code class=\"language-plaintext highlighter-rouge\">[alt]</code> text: When an image is being used as an <code class=\"language-plaintext highlighter-rouge\">&lt;input&gt;</code> button, providing alternative text can help screen reader users understand the purpose of the button.</p>\n  </li>\n  <li>\n    <p>Form elements have associated labels: Labels ensure that form controls are announced properly by assistive technologies, like screen readers.</p>\n  </li>\n  <li>\n    <p>Links have a discernible name: Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">&lt;object&gt;</code> elements have alternate text: Screen readers cannot translate non-text content. Adding alternate text to <code class=\"language-plaintext highlighter-rouge\">&lt;object&gt;</code> elements helps screen readers convey meaning to users.</p>\n  </li>\n  <li>\n    <p>Select elements have associated label elements: Form elements without effective labels can create frustrating experiences for screen reader users.</p>\n  </li>\n  <li>\n    <p>Skip links are focusable: Including a skip link can help users skip to the main content to save time.</p>\n  </li>\n</ol>"
+            "content": "<p>ARIA dialog elements without accessible names may prevent screen readers users from discerning the purpose of these elements. [Learn how to make ARIA dialog elements more accessible](https://dequeuniversity.com/rules/axe/4.10/aria-dialog-name).</p>"
           }
         },
         "relatedLinks": {}
       },
       {
-        "key": "a11y-navigation",
-        "scorekey": "a11y-navigation",
-        "displayName": "Navigation",
-        "tag": "a11y-navigation",
-        "description": "Application keyboard navigation.",
-        "why": "Enables users with motor disabilities to navigate apps efficiently using only the keyboard, improving accessibility and speed.",
-        "risk": "Keyboard-only users cannot move around your site.",
-        "error": "Keyboard navigation is not functional.",
-        "impact": 3,
+        "key": "aria-hidden-body",
+        "displayName": "[aria-hidden=\"true\"] is not present on the document <body>",
+        "tag": "aria-hidden-body",
+        "description": "Assistive technologies, like screen readers, work inconsistently when `aria-hidden=\"true\"` is set on the document `<body>`. [Learn how `aria-hidden` affects the document body](https://dequeuniversity.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: [aria-hidden=\"true\"] is not present on the document <body>",
+        "impact": 4,
         "guidance": [
           {
             "displayName": "Web Content Accessibility Guidelines (WCAG)",
@@ -676,30 +639,53 @@
         ],
         "userStories": [
           {
-            "title": "As a screen reader user, I want buttons and form fields to have clear, descriptive names and labels so that I can understand their purpose and interact with them confidently."
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
           }
         ],
         "sections": {
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/accesskeys\">About access keys</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/bypass\">About bypass blocks</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/heading-order\">About heading order</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/tabindex\">About the <code class=\"language-plaintext highlighter-rouge\">tabindex</code> attribute</a></li>\n</ul>"
-          },
           "about": {
             "title": "About",
-            "content": "<p>Improve accessibility by following these recommendations:</p><ol>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">[accesskey]</code> values are unique: Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique.</p>\n  </li>\n  <li>\n    <p>The page contains a heading, skip link, or landmark region: Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently.</p>\n  </li>\n  <li>\n    <p>Heading elements appear in a sequentially-descending order: Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies.</p>\n  </li>\n  <li>\n    <p>No element has a <code class=\"language-plaintext highlighter-rouge\">[tabindex]</code> value greater than 0: A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies.</p>\n  </li>\n</ol>"
+            "content": "<p>Assistive technologies, like screen readers, work inconsistently when `aria-hidden=\"true\"` is set on the document `<body>`. [Learn how `aria-hidden` affects the document body](https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body).</p>"
           }
         },
         "relatedLinks": {}
       },
       {
-        "key": "a11y-tables-lists",
-        "scorekey": "a11y-tables-lists",
-        "displayName": "Tables and lists",
-        "tag": "a11y-tables-lists",
-        "description": "Ensure tables and lists are accessible.",
-        "why": "Improves access by making tables and lists easier to navigate for users with disabilities.",
-        "risk": "Screen readers cannot understand your data tables.",
-        "error": "Tables or lists are not accessible.",
+        "key": "aria-hidden-focus",
+        "displayName": "[aria-hidden=\"true\"] elements do not contain focusable descendents",
+        "tag": "aria-hidden-focus",
+        "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn how `aria-hidden` ",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: [aria-hidden=\"true\"] elements do not contain focusable descendents",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn how `aria-hidden` affects focusable elements](https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-input-field-name",
+        "displayName": "ARIA input fields have accessible names",
+        "tag": "aria-input-field-name",
+        "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: ARIA input fields have accessible names",
         "impact": 3,
         "guidance": [
           {
@@ -709,17 +695,1497 @@
         ],
         "userStories": [
           {
-            "title": "As a screen reader user, I want data tables to have clear headers and associations so that I can understand the relationships between rows and columns."
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
           }
         ],
         "sections": {
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/definition-list\">How to structure definition lists correctly</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/dlitem\">How to structure definition lists correctly</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/list\">About proper list structure</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/listitem\">About proper list structure</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/table-duplicate-name\">About summary and caption</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/td-headers-attr\">About the <code class=\"language-plaintext highlighter-rouge\">headers</code> attribute</a></li>\n  <li><a href=\"https://dequeuniversity.com/rules/axe/4.10/th-has-data-cells\">About table headers</a></li>\n</ul>"
-          },
           "about": {
             "title": "About",
-            "content": "<p>Follow these recommendations to improve the accessibility of tabular and list data:</p><ol>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">&lt;dl&gt;</code>'s contain only properly-ordered <code class=\"language-plaintext highlighter-rouge\">&lt;dt&gt;</code> and <code class=\"language-plaintext highlighter-rouge\">&lt;dd&gt;</code> groups, <code class=\"language-plaintext highlighter-rouge\">&lt;script&gt;</code>, <template> or `&lt;div&gt;` elements: When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output.</template></p>\n  </li>\n  <li>\n    <p>Definition list items are wrapped in <code class=\"language-plaintext highlighter-rouge\">&lt;dl&gt;</code> elements: Definition list items (<code class=\"language-plaintext highlighter-rouge\">&lt;dt&gt;</code> and <code class=\"language-plaintext highlighter-rouge\">&lt;dd&gt;</code>) must be wrapped in a parent <code class=\"language-plaintext highlighter-rouge\">&lt;dl&gt;</code> element to ensure that screen readers can properly announce them.</p>\n  </li>\n  <li>\n    <p>Lists contain only <code class=\"language-plaintext highlighter-rouge\">&lt;li&gt;</code> elements and script supporting elements (<code class=\"language-plaintext highlighter-rouge\">&lt;script&gt;</code> and <code class=\"language-plaintext highlighter-rouge\">&lt;template&gt;</code>): Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output.</p>\n  </li>\n  <li>\n    <p>List items (<code class=\"language-plaintext highlighter-rouge\">&lt;li&gt;</code>) are contained within <code class=\"language-plaintext highlighter-rouge\">&lt;ul&gt;</code>, <code class=\"language-plaintext highlighter-rouge\">&lt;ol&gt;</code> or <code class=\"language-plaintext highlighter-rouge\">&lt;menu&gt;</code> parent elements: Screen readers require list items (<code class=\"language-plaintext highlighter-rouge\">&lt;li&gt;</code>) to be contained within a parent <code class=\"language-plaintext highlighter-rouge\">&lt;ul&gt;</code>, <code class=\"language-plaintext highlighter-rouge\">&lt;ol&gt;</code> or <code class=\"language-plaintext highlighter-rouge\">&lt;menu&gt;</code> to be announced properly.</p>\n  </li>\n  <li>\n    <p>Tables have different content in the summary attribute and <code class=\"language-plaintext highlighter-rouge\">&lt;caption&gt;</code>: The summary attribute should describe the table structure, while <code class=\"language-plaintext highlighter-rouge\">&lt;caption&gt;</code> should have the onscreen title. Accurate table mark-up helps users of screen readers.</p>\n  </li>\n  <li>\n    <p>Cells in a <code class=\"language-plaintext highlighter-rouge\">&lt;table&gt;</code> element that use the <code class=\"language-plaintext highlighter-rouge\">[headers]</code> attribute refer to table cells within the same table: Screen readers have features to make navigating tables easier. Ensuring <code class=\"language-plaintext highlighter-rouge\">&lt;td&gt;</code> cells using the <code class=\"language-plaintext highlighter-rouge\">[headers]</code> attribute only refer to other cells in the same table may improve the experience for screen reader users.</p>\n  </li>\n  <li>\n    <p><code class=\"language-plaintext highlighter-rouge\">&lt;th&gt;</code> elements and elements with <code class=\"language-plaintext highlighter-rouge\">[role=\"columnheader\"/\"rowheader\"]</code> have data cells they describe: Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users.</p>\n  </li>\n</ol>"
+            "content": "<p>When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-meter-name",
+        "displayName": "ARIA meter elements have accessible names",
+        "tag": "aria-meter-name",
+        "description": "When a meter element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to name `meter` elements](http",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: ARIA meter elements have accessible names",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>When a meter element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to name `meter` elements](https://dequeuniversity.com/rules/axe/4.10/aria-meter-name).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-progressbar-name",
+        "displayName": "ARIA progressbar elements have accessible names",
+        "tag": "aria-progressbar-name",
+        "description": "When a `progressbar` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to label `progressbar`",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: ARIA progressbar elements have accessible names",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>When a `progressbar` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to label `progressbar` elements](https://dequeuniversity.com/rules/axe/4.10/aria-progressbar-name).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-prohibited-attr",
+        "displayName": "Elements use only permitted ARIA attributes",
+        "tag": "aria-prohibited-attr",
+        "description": "Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to users of assistive technologies.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: Elements use only permitted ARIA attributes",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to users of assistive technologies.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-required-attr",
+        "displayName": "[role]s have all required [aria-*] attributes",
+        "tag": "aria-required-attr",
+        "description": "Some ARIA roles have required attributes that describe the state of the element to screen readers.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: [role]s have all required [aria-*] attributes",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Some ARIA roles have required attributes that describe the state of the element to screen readers.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-required-children",
+        "displayName": "Elements with an ARIA [role] that require children to contain a specific [role] have all required children",
+        "tag": "aria-required-children",
+        "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: Elements with an ARIA [role] that require children to contain a specific [role] have all required children",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-required-parent",
+        "displayName": "[role]s are contained by their required parent element",
+        "tag": "aria-required-parent",
+        "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: [role]s are contained by their required parent element",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-roles",
+        "displayName": "[role] values are valid",
+        "tag": "aria-roles",
+        "description": "ARIA roles must have valid values in order to perform their intended accessibility functions.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: [role] values are valid",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>ARIA roles must have valid values in order to perform their intended accessibility functions.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-text",
+        "displayName": "Elements with the role=text attribute do not have focusable descendents",
+        "tag": "aria-text",
+        "description": "Adding `role=text` around a text node split by markup enables VoiceOver to treat it as one phrase, but the element's focusable descendents will not be announced.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: Elements with the role=text attribute do not have focusable descendents",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Adding `role=text` around a text node split by markup enables VoiceOver to treat it as one phrase, but the element's focusable descendents will not be announced.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-toggle-field-name",
+        "displayName": "ARIA toggle fields have accessible names",
+        "tag": "aria-toggle-field-name",
+        "description": "When a toggle field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: ARIA toggle fields have accessible names",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>When a toggle field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-tooltip-name",
+        "displayName": "ARIA tooltip elements have accessible names",
+        "tag": "aria-tooltip-name",
+        "description": "When a tooltip element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to name `tooltip` elements](",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: ARIA tooltip elements have accessible names",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>When a tooltip element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to name `tooltip` elements](https://dequeuniversity.com/rules/axe/4.10/aria-tooltip-name).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-treeitem-name",
+        "displayName": "ARIA treeitem elements have accessible names",
+        "tag": "aria-treeitem-name",
+        "description": "When a `treeitem` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: ARIA treeitem elements have accessible names",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>When a `treeitem` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-valid-attr-value",
+        "displayName": "[aria-*] attributes have valid values",
+        "tag": "aria-valid-attr-value",
+        "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: [aria-*] attributes have valid values",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "aria-valid-attr",
+        "displayName": "[aria-*] attributes are valid and not misspelled",
+        "tag": "aria-valid-attr",
+        "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names.",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: [aria-*] attributes are valid and not misspelled",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "button-name",
+        "displayName": "Buttons have an accessible name",
+        "tag": "button-name",
+        "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequ",
+        "why": "Gives screen reader users meaningful descriptions of interactive elements so they can understand and use them.",
+        "risk": "Screen reader users cannot identify or interact with elements.",
+        "error": "Failed: Buttons have an accessible name",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want all interactive elements to have clear, descriptive names so that I know what they do."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.10/button-name).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "bypass",
+        "displayName": "The page contains a heading, skip link, or landmark region",
+        "tag": "bypass",
+        "description": "Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently.",
+        "why": "Allows keyboard-only users and screen reader users to efficiently move through and interact with page content.",
+        "risk": "Keyboard users cannot efficiently navigate your site.",
+        "error": "Failed: The page contains a heading, skip link, or landmark region",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a keyboard-only user, I want to efficiently navigate through page content without getting stuck or lost."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "color-contrast",
+        "displayName": "Background and foreground colors have a sufficient contrast ratio",
+        "tag": "color-contrast",
+        "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+        "why": "Makes text readable for users with low vision or color blindness by ensuring sufficient visual distinction.",
+        "risk": "Users with low vision cannot read your text.",
+        "error": "Failed: Background and foreground colors have a sufficient contrast ratio",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user with low vision, I want sufficient color contrast so that I can read all text content clearly."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "definition-list",
+        "displayName": "<dl>'s contain only properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+        "tag": "definition-list",
+        "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4",
+        "why": "Helps screen readers announce structured content (tables, lists) in a logical order that users can understand.",
+        "risk": "Screen readers announce structured content incorrectly.",
+        "error": "Failed: <dl>'s contain only properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want tables and lists to be properly structured so that I can understand the relationships between items."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "dlitem",
+        "displayName": "Definition list items are wrapped in <dl> elements",
+        "tag": "dlitem",
+        "description": "Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn how to structure definition lists correctly](https",
+        "why": "Helps screen readers announce structured content (tables, lists) in a logical order that users can understand.",
+        "risk": "Screen readers announce structured content incorrectly.",
+        "error": "Failed: Definition list items are wrapped in <dl> elements",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want tables and lists to be properly structured so that I can understand the relationships between items."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/dlitem).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "document-title",
+        "displayName": "Document has a <title> element",
+        "tag": "document-title",
+        "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search.",
+        "why": "Gives screen reader users meaningful descriptions of interactive elements so they can understand and use them.",
+        "risk": "Screen reader users cannot identify or interact with elements.",
+        "error": "Failed: Document has a <title> element",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want all interactive elements to have clear, descriptive names so that I know what they do."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "duplicate-id-aria",
+        "displayName": "ARIA IDs are unique",
+        "tag": "duplicate-id-aria",
+        "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn how to fix duplicate ARIA IDs](https://dequeuniversity.com/rules/axe/4.10/dupl",
+        "why": "Ensures assistive technologies like screen readers can correctly interpret and announce page elements to users with disabilities.",
+        "risk": "Screen readers announce elements incorrectly or skip them entirely.",
+        "error": "Failed: ARIA IDs are unique",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want ARIA attributes to be correctly implemented so that I can understand the purpose and state of interactive elements."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn how to fix duplicate ARIA IDs](https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "form-field-multiple-labels",
+        "displayName": "No form fields have multiple labels",
+        "tag": "form-field-multiple-labels",
+        "description": "Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels. [Learn how to use form labels](h",
+        "why": "Gives screen reader users meaningful descriptions of interactive elements so they can understand and use them.",
+        "risk": "Screen reader users cannot identify or interact with elements.",
+        "error": "No form fields have multiple labels",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want all interactive elements to have clear, descriptive names so that I know what they do."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels. [Learn how to use form labels](https://dequeuniversity.com/rules/axe/4.10/form-field-multiple-labels).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "frame-title",
+        "displayName": "<frame> or <iframe> elements have a title",
+        "tag": "frame-title",
+        "description": "Screen reader users rely on frame titles to describe the contents of frames.",
+        "why": "Gives screen reader users meaningful descriptions of interactive elements so they can understand and use them.",
+        "risk": "Screen reader users cannot identify or interact with elements.",
+        "error": "Failed: <frame> or <iframe> elements have a title",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want all interactive elements to have clear, descriptive names so that I know what they do."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Screen reader users rely on frame titles to describe the contents of frames.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "heading-order",
+        "displayName": "Heading elements appear in a sequentially-descending order",
+        "tag": "heading-order",
+        "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies.",
+        "why": "Allows keyboard-only users and screen reader users to efficiently move through and interact with page content.",
+        "risk": "Keyboard users cannot efficiently navigate your site.",
+        "error": "Failed: Heading elements appear in a sequentially-descending order",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a keyboard-only user, I want to efficiently navigate through page content without getting stuck or lost."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "html-has-lang",
+        "displayName": "<html> element has a [lang] attribute",
+        "tag": "html-has-lang",
+        "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the ",
+        "why": "Helps screen readers pronounce content correctly by identifying the language of the page and its elements.",
+        "risk": "Screen readers mispronounce content, confusing users.",
+        "error": "Failed: <html> element has a [lang] attribute",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want the page language to be correctly identified so that content is pronounced properly."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "html-lang-valid",
+        "displayName": "<html> element has a valid value for its [lang] attribute",
+        "tag": "html-lang-valid",
+        "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn how to use the `lang` attribute]",
+        "why": "Helps screen readers pronounce content correctly by identifying the language of the page and its elements.",
+        "risk": "Screen readers mispronounce content, confusing users.",
+        "error": "Failed: <html> element has a valid value for its [lang] attribute",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want the page language to be correctly identified so that content is pronounced properly."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn how to use the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-lang-valid).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "html-xml-lang-mismatch",
+        "displayName": "<html> element has an [xml:lang] attribute with the same base language as the [lang] attribute",
+        "tag": "html-xml-lang-mismatch",
+        "description": "If the webpage does not specify a consistent language, then the screen reader might not announce the page's text correctly.",
+        "why": "Helps screen readers pronounce content correctly by identifying the language of the page and its elements.",
+        "risk": "Screen readers mispronounce content, confusing users.",
+        "error": "Failed: <html> element has an [xml:lang] attribute with the same base language as the [lang] attribute",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want the page language to be correctly identified so that content is pronounced properly."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>If the webpage does not specify a consistent language, then the screen reader might not announce the page's text correctly.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "image-alt",
+        "displayName": "Image elements have [alt] attributes",
+        "tag": "image-alt",
+        "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute.",
+        "why": "Gives screen reader users meaningful descriptions of interactive elements so they can understand and use them.",
+        "risk": "Screen reader users cannot identify or interact with elements.",
+        "error": "Failed: Image elements have [alt] attributes",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want all interactive elements to have clear, descriptive names so that I know what they do."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "image-redundant-alt",
+        "displayName": "Image elements do not have [alt] attributes that are redundant text",
+        "tag": "image-redundant-alt",
+        "description": "Informative elements should aim for short, descriptive alternative text. Alternative text that is exactly the same as the text adjacent to the link or image is potentially confusing for screen reader ",
+        "why": "Gives screen reader users meaningful descriptions of interactive elements so they can understand and use them.",
+        "risk": "Screen reader users cannot identify or interact with elements.",
+        "error": "Failed: Image elements do not have [alt] attributes that are redundant text",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want all interactive elements to have clear, descriptive names so that I know what they do."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Informative elements should aim for short, descriptive alternative text. Alternative text that is exactly the same as the text adjacent to the link or image is potentially confusing for screen reader users, because the text will be read twice.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "input-button-name",
+        "displayName": "Input buttons have discernible text",
+        "tag": "input-button-name",
+        "description": "Adding discernable and accessible text to input buttons may help screen reader users understand the purpose of the input button.",
+        "why": "Gives screen reader users meaningful descriptions of interactive elements so they can understand and use them.",
+        "risk": "Screen reader users cannot identify or interact with elements.",
+        "error": "Failed: Input buttons have discernible text",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want all interactive elements to have clear, descriptive names so that I know what they do."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Adding discernable and accessible text to input buttons may help screen reader users understand the purpose of the input button.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "input-image-alt",
+        "displayName": "<input type=\"image\"> elements have [alt] text",
+        "tag": "input-image-alt",
+        "description": "When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn about input image alt text](https://dequeuniver",
+        "why": "Gives screen reader users meaningful descriptions of interactive elements so they can understand and use them.",
+        "risk": "Screen reader users cannot identify or interact with elements.",
+        "error": "Failed: <input type=\"image\"> elements have [alt] text",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want all interactive elements to have clear, descriptive names so that I know what they do."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn about input image alt text](https://dequeuniversity.com/rules/axe/4.10/input-image-alt).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "label",
+        "displayName": "Form elements have associated labels",
+        "tag": "label",
+        "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers.",
+        "why": "Gives screen reader users meaningful descriptions of interactive elements so they can understand and use them.",
+        "risk": "Screen reader users cannot identify or interact with elements.",
+        "error": "Failed: Form elements have associated labels",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want all interactive elements to have clear, descriptive names so that I know what they do."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Labels ensure that form controls are announced properly by assistive technologies, like screen readers.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "link-in-text-block",
+        "displayName": "Links are distinguishable without relying on color",
+        "tag": "link-in-text-block",
+        "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://",
+        "why": "Makes text readable for users with low vision or color blindness by ensuring sufficient visual distinction.",
+        "risk": "Users with low vision cannot read your text.",
+        "error": "Failed: Links are distinguishable without relying on color",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user with low vision, I want sufficient color contrast so that I can read all text content clearly."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "link-name",
+        "displayName": "Links have a discernible name",
+        "tag": "link-name",
+        "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible",
+        "why": "Gives screen reader users meaningful descriptions of interactive elements so they can understand and use them.",
+        "risk": "Screen reader users cannot identify or interact with elements.",
+        "error": "Failed: Links have a discernible name",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want all interactive elements to have clear, descriptive names so that I know what they do."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "list",
+        "displayName": "Lists contain only <li> elements and script supporting elements (<script> and <template>)",
+        "tag": "list",
+        "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output.",
+        "why": "Helps screen readers announce structured content (tables, lists) in a logical order that users can understand.",
+        "risk": "Screen readers announce structured content incorrectly.",
+        "error": "Failed: Lists contain only <li> elements and script supporting elements (<script> and <template>)",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want tables and lists to be properly structured so that I can understand the relationships between items."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "listitem",
+        "displayName": "List items (<li>) are contained within <ul>, <ol> or <menu> parent elements",
+        "tag": "listitem",
+        "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly.",
+        "why": "Helps screen readers announce structured content (tables, lists) in a logical order that users can understand.",
+        "risk": "Screen readers announce structured content incorrectly.",
+        "error": "Failed: List items (<li>) are contained within <ul>, <ol> or <menu> parent elements",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want tables and lists to be properly structured so that I can understand the relationships between items."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "meta-refresh",
+        "displayName": "The document does not use <meta http-equiv=\"refresh\">",
+        "tag": "meta-refresh",
+        "description": "Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience.",
+        "why": "Follows established patterns that prevent common usability barriers for people with disabilities.",
+        "risk": "Users with disabilities encounter barriers using your site.",
+        "error": "Failed: The document does not use <meta http-equiv=\"refresh\">",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user with a disability, I want the site to follow accessibility best practices so that I can use it without encountering barriers."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "meta-viewport",
+        "displayName": "[user-scalable=\"no\"] is not used in the <meta name=\"viewport\"> element and the [maximum-scale] attribute is not less than 5",
+        "tag": "meta-viewport",
+        "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page.",
+        "why": "Follows established patterns that prevent common usability barriers for people with disabilities.",
+        "risk": "Users with disabilities encounter barriers using your site.",
+        "error": "Failed: [user-scalable=\"no\"] is not used in the <meta name=\"viewport\"> element and the [maximum-scale] attribute is not less than 5",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user with a disability, I want the site to follow accessibility best practices so that I can use it without encountering barriers."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "object-alt",
+        "displayName": "<object> elements have alternate text",
+        "tag": "object-alt",
+        "description": "Screen readers cannot translate non-text content. Adding alternate text to `<object>` elements helps screen readers convey meaning to users.",
+        "why": "Gives screen reader users meaningful descriptions of interactive elements so they can understand and use them.",
+        "risk": "Screen reader users cannot identify or interact with elements.",
+        "error": "Failed: <object> elements have alternate text",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want all interactive elements to have clear, descriptive names so that I know what they do."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Screen readers cannot translate non-text content. Adding alternate text to `<object>` elements helps screen readers convey meaning to users.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "select-name",
+        "displayName": "Select elements have associated label elements",
+        "tag": "select-name",
+        "description": "Form elements without effective labels can create frustrating experiences for screen reader users.",
+        "why": "Gives screen reader users meaningful descriptions of interactive elements so they can understand and use them.",
+        "risk": "Screen reader users cannot identify or interact with elements.",
+        "error": "Failed: Select elements have associated label elements",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want all interactive elements to have clear, descriptive names so that I know what they do."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Form elements without effective labels can create frustrating experiences for screen reader users.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "skip-link",
+        "displayName": "Skip links are focusable",
+        "tag": "skip-link",
+        "description": "Including a skip link can help users skip to the main content to save time.",
+        "why": "Gives screen reader users meaningful descriptions of interactive elements so they can understand and use them.",
+        "risk": "Screen reader users cannot identify or interact with elements.",
+        "error": "Failed: Skip links are focusable",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want all interactive elements to have clear, descriptive names so that I know what they do."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Including a skip link can help users skip to the main content to save time.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "tabindex",
+        "displayName": "No element has a [tabindex] value greater than 0",
+        "tag": "tabindex",
+        "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies.",
+        "why": "Allows keyboard-only users and screen reader users to efficiently move through and interact with page content.",
+        "risk": "Keyboard users cannot efficiently navigate your site.",
+        "error": "No element has a [tabindex] value greater than 0",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a keyboard-only user, I want to efficiently navigate through page content without getting stuck or lost."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "table-duplicate-name",
+        "displayName": "Tables have different content in the summary attribute and <caption>",
+        "tag": "table-duplicate-name",
+        "description": "The summary attribute should describe the table structure, while `<caption>` should have the onscreen title. Accurate table mark-up helps users of screen readers.",
+        "why": "Helps screen readers announce structured content (tables, lists) in a logical order that users can understand.",
+        "risk": "Screen readers announce structured content incorrectly.",
+        "error": "Failed: Tables have different content in the summary attribute and <caption>",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want tables and lists to be properly structured so that I can understand the relationships between items."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>The summary attribute should describe the table structure, while `<caption>` should have the onscreen title. Accurate table mark-up helps users of screen readers.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "target-size",
+        "displayName": "Touch targets have sufficient size and spacing",
+        "tag": "target-size",
+        "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets.",
+        "why": "Follows established patterns that prevent common usability barriers for people with disabilities.",
+        "risk": "Users with disabilities encounter barriers using your site.",
+        "error": "Failed: Touch targets have sufficient size and spacing",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user with a disability, I want the site to follow accessibility best practices so that I can use it without encountering barriers."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "td-headers-attr",
+        "displayName": "Cells in a <table> element that use the [headers] attribute refer to table cells within the same table",
+        "tag": "td-headers-attr",
+        "description": "Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen r",
+        "why": "Helps screen readers announce structured content (tables, lists) in a logical order that users can understand.",
+        "risk": "Screen readers announce structured content incorrectly.",
+        "error": "Failed: Cells in a <table> element that use the [headers] attribute refer to table cells within the same table",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want tables and lists to be properly structured so that I can understand the relationships between items."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "th-has-data-cells",
+        "displayName": "<th> elements and elements with [role=\"columnheader\"/\"rowheader\"] have data cells they describe",
+        "tag": "th-has-data-cells",
+        "description": "Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users.",
+        "why": "Helps screen readers announce structured content (tables, lists) in a logical order that users can understand.",
+        "risk": "Screen readers announce structured content incorrectly.",
+        "error": "Failed: <th> elements and elements with [role=\"columnheader\"/\"rowheader\"] have data cells they describe",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want tables and lists to be properly structured so that I can understand the relationships between items."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "valid-lang",
+        "displayName": "[lang] attributes have a valid value",
+        "tag": "valid-lang",
+        "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Lear",
+        "why": "Helps screen readers pronounce content correctly by identifying the language of the page and its elements.",
+        "risk": "Screen readers mispronounce content, confusing users.",
+        "error": "Failed: [lang] attributes have a valid value",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user, I want the page language to be correctly identified so that content is pronounced properly."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn how to use the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/valid-lang).</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "video-caption",
+        "displayName": "<video> elements contain a <track> element with [kind=\"captions\"]",
+        "tag": "video-caption",
+        "description": "When a video provides a caption it is easier for deaf and hearing impaired users to access its information.",
+        "why": "Provides alternative ways to access media content for users who are deaf or hard of hearing.",
+        "risk": "Users who are deaf cannot access video content.",
+        "error": "Failed: <video> elements contain a <track> element with [kind=\"captions\"]",
+        "impact": 4,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user who is deaf or hard of hearing, I want captions on video content so that I can understand the information being presented."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>When a video provides a caption it is easier for deaf and hearing impaired users to access its information.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "empty-heading",
+        "displayName": "All heading elements contain content",
+        "tag": "empty-heading",
+        "description": "A heading with no content or inaccessible text prevent screen reader users from accessing information on the page's structure.",
+        "why": "Improves the experience for assistive technology users by ensuring content structure is clear and consistent.",
+        "risk": "Assistive technology users encounter confusing or broken content structure.",
+        "error": "Failed: All heading elements contain content",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As an assistive technology user, I want content to be properly structured so that I can navigate and understand the page."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>A heading with no content or inaccessible text prevent screen reader users from accessing information on the page's structure.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "identical-links-same-purpose",
+        "displayName": "Identical links have the same purpose",
+        "tag": "identical-links-same-purpose",
+        "description": "Links with the same destination should have the same description, to help users understand the link's purpose and decide whether to follow it.",
+        "why": "Improves the experience for assistive technology users by ensuring content structure is clear and consistent.",
+        "risk": "Assistive technology users encounter confusing or broken content structure.",
+        "error": "Failed: Identical links have the same purpose",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As an assistive technology user, I want content to be properly structured so that I can navigate and understand the page."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Links with the same destination should have the same description, to help users understand the link's purpose and decide whether to follow it.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "landmark-one-main",
+        "displayName": "Document has a main landmark",
+        "tag": "landmark-one-main",
+        "description": "One main landmark helps screen reader users navigate a web page.",
+        "why": "Improves the experience for assistive technology users by ensuring content structure is clear and consistent.",
+        "risk": "Assistive technology users encounter confusing or broken content structure.",
+        "error": "Failed: Document has a main landmark",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As an assistive technology user, I want content to be properly structured so that I can navigate and understand the page."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>One main landmark helps screen reader users navigate a web page.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "label-content-name-mismatch",
+        "displayName": "Elements with visible text labels have matching accessible names",
+        "tag": "label-content-name-mismatch",
+        "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users.",
+        "why": "Improves the experience for assistive technology users by ensuring content structure is clear and consistent.",
+        "risk": "Assistive technology users encounter confusing or broken content structure.",
+        "error": "Failed: Elements with visible text labels have matching accessible names",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As an assistive technology user, I want content to be properly structured so that I can navigate and understand the page."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "table-fake-caption",
+        "displayName": "Tables use <caption> instead of cells with the [colspan] attribute to indicate a caption",
+        "tag": "table-fake-caption",
+        "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen",
+        "why": "Improves the experience for assistive technology users by ensuring content structure is clear and consistent.",
+        "risk": "Assistive technology users encounter confusing or broken content structure.",
+        "error": "Failed: Tables use <caption> instead of cells with the [colspan] attribute to indicate a caption",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As an assistive technology user, I want content to be properly structured so that I can navigate and understand the page."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users.</p>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "td-has-header",
+        "displayName": "<td> elements in a large <table> have one or more table headers",
+        "tag": "td-has-header",
+        "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the expe",
+        "why": "Improves the experience for assistive technology users by ensuring content structure is clear and consistent.",
+        "risk": "Assistive technology users encounter confusing or broken content structure.",
+        "error": "Failed: <td> elements in a large <table> have one or more table headers",
+        "impact": 2,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As an assistive technology user, I want content to be properly structured so that I can navigate and understand the page."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users.</p>"
           }
         },
         "relatedLinks": {}
@@ -757,40 +2223,6 @@
           }
         },
         "relatedLinks": {}
-      },
-      {
-        "key": "html-lang-valid",
-        "scorekey": "html_lang_valid",
-        "displayName": "Valid language code",
-        "tag": "html-lang-valid",
-        "description": "Correct code to identify language.",
-        "why": "Ensures websites display text in the correct language, making content easier to understand for users.",
-        "risk": "Browsers cannot apply correct language settings.",
-        "error": "Page language is not defined in the HTML.",
-        "impact": 1,
-        "guidance": [
-          {
-            "displayName": "Web Content Accessibility Guidelines (WCAG)",
-            "url": "/wcag"
-          }
-        ],
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>A valid language code is a short code used to represent a language, such as \"en\" for English or \"fr\" for French. It's important for websites and apps to use the correct code to display text in the right language for users. These codes also help websites adjust to different regions, ensuring users see content in their preferred language.</p>"
-          },
-          "code": {
-            "title": "Code",
-            "content": "<code>&lt;html lang=\"en\"&gt;</code>"
-          },
-          "userStories": {
-            "title": "As a website user, I want the content to appear in my preferred language, so I can easily understand it."
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul><li><a href=\"https://www.w3.org/International/articles/language-tags/\">Language tags in HTML and XML</a></li></ul>"
-          }
-        }
       },
       {
         "key": "doctype",
