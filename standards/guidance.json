@@ -6,9 +6,9 @@
     "description": "Modernizes government websites and digital services.",
     "topics": [
       "accessibility",
-      "content",
+      "usability",
       "performance",
-      "seo",
+      "botfriendly",
       "security"
     ],
     "standards": [
@@ -56,7 +56,7 @@
     "description": "State and local government web accessibility requirements.",
     "topics": [
       "accessibility",
-      "content"
+      "usability"
     ],
     "standards": [
       {
@@ -94,7 +94,7 @@
     "featured": true,
     "description": "Measures text reading difficulty levels.",
     "topics": [
-      "content"
+      "usability"
     ],
     "about": {
       "title": "About",
@@ -152,9 +152,9 @@
     "description": "Improves accessibility, consistency and user experience.",
     "topics": [
       "accessibility",
-      "content",
+      "usability",
       "domain",
-      "seo",
+      "botfriendly",
       "social"
     ],
     "standards": [
@@ -188,7 +188,7 @@
     "featured": true,
     "description": "Measure how hard text is to read.",
     "topics": [
-      "content"
+      "usability"
     ],
     "about": {
       "title": "About",
@@ -214,13 +214,13 @@
     "featured": true,
     "description": "Resources to improve site search rankings.",
     "topics": [
-      "content",
+      "usability",
       "domain",
-      "seo"
+      "botfriendly"
     ],
     "standards": [
       {
-        "displayName": "Canonicalization",
+        "displayName": "Canonical",
         "url": "/canonical"
       },
       {
@@ -256,11 +256,10 @@
     "displayName": "GSA Site Scanning",
     "description": "Checks and tracks federal .gov websites.",
     "topics": [
-      "aifriendly",
+      "botfriendly",
       "accessibility",
-      "content",
+      "usability",
       "performance",
-      "seo",
       "security",
       "social"
     ],
@@ -270,7 +269,7 @@
     },
     "standards": [
       {
-        "displayName": "Canonicalization",
+        "displayName": "Canonical",
         "url": "/canonical"
       },
       {
@@ -326,8 +325,8 @@
         "url": "/description"
       },
       {
-        "displayName": "sitemap.xml",
-        "url": "/sitemap"
+        "displayName": "Sitemap XML",
+        "url": "/xml"
       },
       {
         "displayName": "Viewport meta tag",
@@ -341,10 +340,10 @@
     "description": "Delivering a digital-first public experience.",
     "topics": [
       "accessibility",
-      "content",
+      "usability",
       "domain",
       "performance",
-      "seo",
+      "botfriendly",
       "security"
     ],
     "about": {
@@ -380,8 +379,8 @@
     "featured": true,
     "description": "Improves how social media content shows.",
     "topics": [
-      "content",
-      "seo",
+      "usability",
+      "botfriendly",
       "social"
     ],
     "about": {
@@ -448,7 +447,7 @@
     "featured": true,
     "description": "Mandates government documents use simple language.",
     "topics": [
-      "content"
+      "usability"
     ],
     "standards": [
       {
@@ -504,9 +503,8 @@
     "featured": true,
     "description": "Website sitemap standards.",
     "topics": [
-      "aifriendly",
-      "content",
-      "seo"
+      "botfriendly",
+      "usability"
     ],
     "about": {
       "title": "About",
@@ -514,8 +512,8 @@
     },
     "standards": [
       {
-        "displayName": "sitemap.xml",
-        "url": "/sitemap"
+        "displayName": "Sitemap XML",
+        "url": "/xml"
       }
     ]
   },
@@ -526,8 +524,8 @@
     "description": "Rules for making websites accessible.",
     "topics": [
       "accessibility",
-      "content",
-      "seo"
+      "usability",
+      "botfriendly"
     ],
     "standards": [
       {
@@ -617,12 +615,11 @@
     "featured": true,
     "description": "Guidelines for controlling search engine crawling.",
     "topics": [
-      "aifriendly",
-      "seo"
+      "botfriendly"
     ],
     "standards": [
       {
-        "displayName": "robots.txt",
+        "displayName": "Robots valid",
         "url": "/valid"
       }
     ],
@@ -643,8 +640,7 @@
     "featured": true,
     "description": "Standards for providing structured data to search engines, llm crawlers and other machine parsers.",
     "topics": [
-      "aifriendly",
-      "seo"
+      "botfriendly"
     ],
     "standards": [
       {
@@ -709,9 +705,9 @@
       "content": "Web Vitals are Google's metrics for assessing website user experience. Core Web Vitals focus on loading speed, interactivity, and visual stability. These include Largest Contentful Paint (LCP), Interaction to Next Paint (INP), and Cumulative Layout Shift (CLS). Other Web Vitals are Time to First Byte (TTFB) and First Contentful Paint (FCP)."
     },
     "topics": [
-      "content",
+      "usability",
       "performance",
-      "seo"
+      "botfriendly"
     ],
     "standards": [
       {

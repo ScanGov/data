@@ -1,10 +1,10 @@
 {
-  "aifriendly": {
-    "displayName": "AI-friendly",
+  "botfriendly": {
+    "displayName": "Bot-friendly",
     "icon": "robot",
     "color": "#e7f434",
-    "url": "/guidance/aifriendly",
-    "description": "ScanGov AI-friendly standards and guidance.",
+    "url": "/guidance/botfriendly",
+    "description": "ScanGov bot-friendly standards and guidance.",
     "ogImage": "https://scangov.com/assets/img/og/aifriendly-og.png",
     "why": "Smart technology can better process and share public information, making government services faster and more efficient for citizens.",
     "risk": "AI tools cannot find or understand your content.",
@@ -20,7 +20,7 @@
         "impact": 4,
         "guidance": [
           {
-            "displayName": "21st Century Integrated Digital Experience Act",
+            "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
             "url": "/21stcenturyidea"
           },
           {
@@ -84,7 +84,7 @@
         "impact": 2,
         "guidance": [
           {
-            "displayName": "The GovernmentOrganization Schema.org type",
+            "displayName": "Schema.org structured data",
             "url": "/schema-org"
           }
         ],
@@ -101,6 +101,308 @@
           "links": {
             "title": "Links",
             "content": "<ul>\n  <li><a href=\"https://schema.org/GovernmentOrganization\">GovernmentOrganization</a></li>\n</ul>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "status",
+        "displayName": "Sitemap status",
+        "featured": true,
+        "tag": "Status",
+        "description": "The HTTP status of /sitemap.xml is OK.",
+        "why": "Confirms the sitemap is accessible, ensuring search engines can easily find and index all pages on the site.",
+        "risk": "Search engines cannot find all your pages.",
+        "error": "Sitemap.xml is missing or inaccessible.",
+        "impact": 3,
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>A sitemap is a file that lists all of the pages on a website in addition to information about each so that search engines can more intelligently crawl the site.</p><p>Web crawlers usually discover pages from links within the site and from other sites. Sitemaps supplement this data to allow crawlers that support sitemaps to pick up all Uniform Resources Locators (URLs) in the sitemap and learn about them using the associated metadata. Using sitemap protocol doesn’t guarantee web pages are included in search engines, but provides hints for web crawlers to do a better job of crawling your site.</p><p>The sitemap is an Extensible Markup Language (XML) file on the website’s root directory that include metadata for each URL, such as:</p><ul><li>when it was last updated</li><li>how often it usually changes</li><li>how important it is, relative to other URLs in the site</li></ul>"
+          }
+        },
+        "guidance": [
+          {
+            "displayName": "sitemaps.org",
+            "url": "/sitemaps-org"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a search engine bot or user, I want the website's sitemap to be easily accessible so that I can discover all the pages and content on the site efficiently and improve the website's discoverability."
+          }
+        ]
+      },
+      {
+        "key": "xml",
+        "scorekey": "xml",
+        "displayName": "Sitemap XML",
+        "tag": "XML",
+        "description": "The sitemap file type is XML.",
+        "why": "Stores site structure in a readable format, helping search engines efficiently crawl and index all website pages.",
+        "risk": "Search engines cannot read your sitemap.",
+        "error": "Sitemap is not in XML format.",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "sitemaps.org",
+            "url": "/sitemaps-org"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a search engine bot, I want the website to provide a properly formatted XML sitemap so that I can efficiently crawl and index all relevant pages, improving the site's visibility in search results."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>The sitemap is an Extensible Markup Language (XML) file on the website's root directory that include metadata for each URL, such as:</p><ul>\n  <li>when it was last updated</li>\n  <li>how often it usually changes</li>\n  <li>how important it is, relative to other URLs in the site</li>\n</ul>"
+          },
+          "example": {
+            "title": "Examples",
+            "content": "<p>Example government website sitemaps:</p><ul>\n  <li><a href=\"https://www.usa.gov/sitemap.xml\">https://www.usa.gov/sitemap.xml</a></li>\n  <li><a href=\"https://18f.gov/sitemap.xml\">https://18f.gov/sitemap.xml</a></li>\n</ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"cp\">&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;</span>\n\n<span class=\"nt\">&lt;urlset</span> <span class=\"na\">xmlns=</span><span class=\"s\">\"http://www.sitemaps.org/schemas/sitemap/0.9\"</span><span class=\"nt\">&gt;</span>\n\n   <span class=\"nt\">&lt;url&gt;</span>\n\n      <span class=\"nt\">&lt;loc&gt;</span>http://www.example.com/<span class=\"nt\">&lt;/loc&gt;</span>\n\n      <span class=\"nt\">&lt;lastmod&gt;</span>2005-01-01<span class=\"nt\">&lt;/lastmod&gt;</span>\n\n      <span class=\"nt\">&lt;changefreq&gt;</span>monthly<span class=\"nt\">&lt;/changefreq&gt;</span>\n\n      <span class=\"nt\">&lt;priority&gt;</span>0.8<span class=\"nt\">&lt;/priority&gt;</span>\n\n   <span class=\"nt\">&lt;/url&gt;</span>\n\n<span class=\"nt\">&lt;/urlset&gt;</span>\n</code></pre></div></div>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul>\n  <li><a href=\"https://www.sitemaps.org/\">sitemaps.org</a></li>\n  <li><a href=\"https://en.wikipedia.org/wiki/Sitemaps\">Sitemaps</a> (Wikipedia)</li>\n</ul>"
+          }
+        },
+        "relatedLinks": {
+          "audio": "https://standards.scangov.org/assets/audio/sitemaps.mp3"
+        }
+      },
+      {
+        "key": "valid",
+        "scorekey": "valid",
+        "displayName": "Robots valid",
+        "featured": true,
+        "tag": "Valid",
+        "description": "The site has a valid robots policy.",
+        "why": "Guides search engines on which pages to crawl or avoid, ensuring important content is indexed and irrelevant pages aren't.",
+        "risk": "Search engines ignore your instructions.",
+        "error": "Robots.txt is missing or invalid.",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "The Web Robots Pages",
+            "url": "/robots"
+          }
+        ],
+        "sections": {
+          "guidance": {
+            "title": "Guidance",
+            "content": "<p>All government websites must allow robots indexing and following.</p>"
+          },
+          "about": {
+            "title": "About",
+            "content": "<p>Robots valid means the robots.txt file is correctly written and follows the rules that search engines understand. If it's valid, search engines can read the file and know which parts of the site they can or can't visit. A valid file helps control how your site shows up in search results and avoids errors.</p>"
+          },
+          "example": {
+            "title": "Examples",
+            "content": "<p>Example government website robots.txt files:</p><ul>\n  <li><a href=\"https://www.usa.gov/robots.txt\">https://www.usa.gov/robots.txt</a></li>\n  <li><a href=\"https://www.ca.gov/robots.txt\">https://www.ca.gov/robots.txt</a></li>\n</ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Example robots.txt code:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"c1\"># Only applies to search.gov scraping</span>\n<span class=\"na\">User-agent</span><span class=\"pi\">:</span> <span class=\"s\">usasearch</span>  \n<span class=\"c1\"># Slow amount of requests</span>\n<span class=\"na\">Crawl-delay</span><span class=\"pi\">:</span> <span class=\"m\">2</span>\n<span class=\"c1\"># Specify it can read /archive/</span>\n<span class=\"na\">Allow</span><span class=\"pi\">:</span> <span class=\"s\">/archive/</span>\n\n<span class=\"c1\"># Applies to all scrapers</span>\n<span class=\"na\">User-agent</span><span class=\"pi\">:</span> <span class=\"err\">*</span>\n<span class=\"c1\"># Slow amount of requests to 1 every 10 seconds</span>\n<span class=\"na\">Crawl-delay</span><span class=\"pi\">:</span> <span class=\"m\">10</span>\n<span class=\"c1\"># Don't let them read /archive/</span>\n<span class=\"na\">Disallow</span><span class=\"pi\">:</span> <span class=\"s\">/archive/</span>\n\n<span class=\"c1\"># Point to a sitemap file</span>\n<span class=\"na\">Sitemap</span><span class=\"pi\">:</span> <span class=\"s\">/sitemap.xml</span>\n</code></pre></div></div><p>Example robots meta code:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"c\">&lt;!-- This page can be indexed \nand links on it can be followed --&gt;</span>\n<span class=\"nt\">&lt;meta</span> <span class=\"na\">name=</span><span class=\"s\">\"robots\"</span> <span class=\"na\">content=</span><span class=\"s\">\"index, follow\"</span><span class=\"nt\">&gt;</span>\n</code></pre></div></div><p>Example X-Robots-Tag:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"c1\"># This URL can be indexed </span>\n<span class=\"c1\"># and links on it can be followed</span>\n<span class=\"na\">X-Robots-Tag</span><span class=\"pi\">:</span> <span class=\"s\">index, follow</span>\n</code></pre></div></div>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul>\n  <li><a href=\"https://www.robotstxt.org\">robotstxt.org</a></li>\n  <li><a href=\"https://search.gov/indexing/robotstxt.html\">robots.txt</a> (Search.gov)</li>\n  <li><a href=\"https://en.wikipedia.org/wiki/Robots.txt\">robots.txt</a> (Wikipedia)</li>\n  <li><a href=\"https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag\">Robots Meta Tags Specifications</a> (Google)</li>\n</ul>"
+          }
+        },
+        "relatedLinks": {
+          "audio": "https://standards.scangov.org/assets/audio/robots-txt.mp3"
+        }
+      },
+      {
+        "key": "allowed",
+        "scorekey": "allowed",
+        "displayName": "Robots allowed",
+        "tag": "Allowed",
+        "description": "The robots policy allows access to browsers and scrapers.",
+        "why": "Permits search engines and web tools to access content, helping improve search visibility and gather relevant data.",
+        "risk": "Your site is blocked from search results.",
+        "error": "Robots policy blocks browsers or scrapers.",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "The Web Robots Pages",
+            "url": "/robots"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a search engine crawler, I want to read the robots.txt file so that I know which parts of the website I am allowed or disallowed to index."
+          }
+        ],
+        "sections": {
+          "guidance": {
+            "title": "Guidance",
+            "content": "<p>All government websites must allow robots indexing and following.</p>"
+          },
+          "about": {
+            "title": "About",
+            "content": "<p>Robots allowed in a robots.txt file means search engines like Google are allowed to look at and list (or “crawl”) the page in search results. Website owners use robots.txt to tell search engines what they can and can't see. If robots are allowed, the site or page can show up in search engines, making it easier for people to find.</p>"
+          },
+          "example": {
+            "title": "Examples",
+            "content": "<p>Example government website robots.txt files:</p><ul>\n  <li><a href=\"https://www.usa.gov/robots.txt\">https://www.usa.gov/robots.txt</a></li>\n  <li><a href=\"https://www.ca.gov/robots.txt\">https://www.ca.gov/robots.txt</a></li>\n</ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Example robots.txt code:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"c1\"># Only applies to search.gov scraping</span>\n<span class=\"na\">User-agent</span><span class=\"pi\">:</span> <span class=\"s\">usasearch</span>  \n<span class=\"c1\"># Slow amount of requests</span>\n<span class=\"na\">Crawl-delay</span><span class=\"pi\">:</span> <span class=\"m\">2</span>\n<span class=\"c1\"># Specify it can read /archive/</span>\n<span class=\"na\">Allow</span><span class=\"pi\">:</span> <span class=\"s\">/archive/</span>\n\n<span class=\"c1\"># Applies to all scrapers</span>\n<span class=\"na\">User-agent</span><span class=\"pi\">:</span> <span class=\"err\">*</span>\n<span class=\"c1\"># Slow amount of requests to 1 every 10 seconds</span>\n<span class=\"na\">Crawl-delay</span><span class=\"pi\">:</span> <span class=\"m\">10</span>\n<span class=\"c1\"># Don't let them read /archive/</span>\n<span class=\"na\">Disallow</span><span class=\"pi\">:</span> <span class=\"s\">/archive/</span>\n\n<span class=\"c1\"># Point to a sitemap file</span>\n<span class=\"na\">Sitemap</span><span class=\"pi\">:</span> <span class=\"s\">/sitemap.xml</span>\n</code></pre></div></div><p>Example robots meta code:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"c\">&lt;!-- This page can be indexed \nand links on it can be followed --&gt;</span>\n<span class=\"nt\">&lt;meta</span> <span class=\"na\">name=</span><span class=\"s\">\"robots\"</span> <span class=\"na\">content=</span><span class=\"s\">\"index, follow\"</span><span class=\"nt\">&gt;</span>\n</code></pre></div></div><p>Example X-Robots-Tag:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"c1\"># This URL can be indexed </span>\n<span class=\"c1\"># and links on it can be followed</span>\n<span class=\"na\">X-Robots-Tag</span><span class=\"pi\">:</span> <span class=\"s\">index, follow</span>\n</code></pre></div></div>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul>\n  <li><a href=\"https://www.robotstxt.org\">robotstxt.org</a></li>\n  <li><a href=\"https://search.gov/indexing/robotstxt.html\">robots.txt</a> (Search.gov)</li>\n  <li><a href=\"https://en.wikipedia.org/wiki/Robots.txt\">robots.txt</a> (Wikipedia)</li>\n  <li><a href=\"https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag\">Robots Meta Tags Specifications</a> (Google)</li>\n</ul>"
+          }
+        },
+        "relatedLinks": {
+          "audio": "https://standards.scangov.org/assets/audio/robots-txt.mp3"
+        }
+      },
+      {
+        "key": "sitemap-robots",
+        "scorekey": "sitemap-robots",
+        "displayName": "Sitemap in robots.txt",
+        "tag": "Sitemap",
+        "description": "The robots.txt file points to a sitemap file.",
+        "why": "Helps search engines find the sitemap quickly, improving how they discover and index website pages.",
+        "risk": "Search engines take longer to find your pages.",
+        "error": "robots.txt missing sitemap reference.",
+        "impact": 5,
+        "guidance": [
+          {
+            "displayName": "Google Search Central",
+            "url": "/google-search-central"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a search engine bot, I want the `robots.txt` file to point to the sitemap so that I can easily discover and crawl the full sitemap of the website, ensuring comprehensive indexing and better visibility in search results."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>A sitemap is a file that lists all of the pages on a website in addition to information about each so that search engines can more intelligently crawl the site.</p><p>Web crawlers usually discover pages from links within the site and from other sites. Sitemaps supplement this data to allow crawlers that support sitemaps to pick up all Uniform Resources Locators (URLs) in the sitemap and learn about them using the associated metadata. Using sitemap protocol doesn't guarantee web pages are included in search engines, but provides hints for web crawlers to do a better job of crawling your site.</p><p>The sitemap is an Extensible Markup Language (XML) file on the website's root directory that include metadata for each URL, such as:</p><ul>\n  <li>when it was last updated</li>\n  <li>how often it usually changes</li>\n  <li>how important it is, relative to other URLs in the site</li>\n</ul>"
+          },
+          "example": {
+            "title": "Examples",
+            "content": "<p>Example government website sitemaps:</p><ul>\n  <li><a href=\"https://www.usa.gov/sitemap.xml\">https://www.usa.gov/sitemap.xml</a></li>\n  <li><a href=\"https://18f.gov/sitemap.xml\">https://18f.gov/sitemap.xml</a></li>\n</ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"cp\">&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;</span>\n\n<span class=\"nt\">&lt;urlset</span> <span class=\"na\">xmlns=</span><span class=\"s\">\"http://www.sitemaps.org/schemas/sitemap/0.9\"</span><span class=\"nt\">&gt;</span>\n\n   <span class=\"nt\">&lt;url&gt;</span>\n\n      <span class=\"nt\">&lt;loc&gt;</span>http://www.example.com/<span class=\"nt\">&lt;/loc&gt;</span>\n\n      <span class=\"nt\">&lt;lastmod&gt;</span>2005-01-01<span class=\"nt\">&lt;/lastmod&gt;</span>\n\n      <span class=\"nt\">&lt;changefreq&gt;</span>monthly<span class=\"nt\">&lt;/changefreq&gt;</span>\n\n      <span class=\"nt\">&lt;priority&gt;</span>0.8<span class=\"nt\">&lt;/priority&gt;</span>\n\n   <span class=\"nt\">&lt;/url&gt;</span>\n\n<span class=\"nt\">&lt;/urlset&gt;</span>\n</code></pre></div></div>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul>\n  <li><a href=\"https://www.sitemaps.org/\">sitemaps.org</a></li>\n  <li><a href=\"https://en.wikipedia.org/wiki/Sitemaps\">Sitemaps</a> (Wikipedia)</li>\n</ul>"
+          }
+        },
+        "relatedLinks": {
+          "audio": "https://standards.scangov.org/assets/audio/sitemaps.mp3"
+        }
+      },
+      {
+        "key": "canonical",
+        "scorekey": "canonical",
+        "displayName": "Canonical",
+        "tag": "<link rel=\"canonical\">",
+        "description": "Use preferred page URLs to avoid duplication.",
+        "why": "Prevents duplicate content issues by telling search engines which version of a page is the main one.",
+        "risk": "Search rankings split across duplicate pages.",
+        "error": "Duplicate page URLs detected.",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "The Web Robots Pages",
+            "url": "/robots"
+          },
+          {
+            "displayName": "Google Search Central",
+            "url": "/google-search-central"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user or search engine bot, I want to be directed to the preferred version of a webpage (canonical URL) to avoid duplicate content and ensure that I am viewing the correct page with the most relevant content."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Canonicalization ensures that search engines index the correct version of a page when there are duplicate or similar pages. By specifying a canonical URL with the <code class=\"language-plaintext highlighter-rouge\">rel=\"canonical\"</code> tag, you direct search engines to the primary page, helping improve SEO. This prevents search engines from splitting the ranking between multiple pages with similar content. Proper canonicalization avoids indexing issues and boosts a site's performance in search results.</p>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul>\n  <li><a href=\"https://developers.google.com/search/docs/crawling-indexing/canonicalization\">Google canonicalization guide</a></li>\n</ul>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "link-text",
+        "scorekey": "link-text",
+        "displayName": "Link text",
+        "tag": "link-text",
+        "description": "Links have descriptive text.",
+        "why": "Describes the link’s purpose clearly, helping users know where it leads and improving navigation for everyone.",
+        "risk": "Users cannot tell where links go.",
+        "error": "Links do not have descriptive text.",
+        "impact": 1,
+        "guidance": [
+          {
+            "displayName": "Google Search Central",
+            "url": "/google-search-central"
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Link text is the clickable word or phrase in a hyperlink. When link text clearly conveys a hyperlink's target, both users and search engines can more easily understand your content and how it relates to other pages.</p>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/seo/link-text/\">Links do not have descriptive text</a></li>\n</ul>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "hreflang",
+        "scorekey": "hreflang",
+        "displayName": "hreflang",
+        "tag": "hreflang",
+        "description": "Specifies language and region for webpages.",
+        "why": "Indicates page language and region, helping users see the right version and improving search results in different countries.",
+        "risk": "Users see pages in wrong language.",
+        "error": "The pages has a missing or invalid hreflang attribute.",
+        "impact": 1,
+        "guidance": [
+          {
+            "displayName": "Google Search Central",
+            "url": "/google-search-central"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a website visitor, I want to see the page in my language so I can easily understand the content."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>The `hreflang` attribute helps search engines understand which language and region a webpage is targeting. This is useful when a website has multiple versions in different languages or for different regions. By using `hreflang`, the site can show the correct version of a page to users based on their language or location, improving their experience. It also helps search engines avoid showing the wrong language version in search results, leading to better SEO and user engagement.</p>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/seo/hreflang/\">Document doesn't have a valid hreflang</a></li><li><a href=\"https://developers.google.com/search/docs/specialty/international/localized-versions\">Tell Google about localized versions of your page</a></li></ul>"
           }
         },
         "relatedLinks": {}
@@ -421,208 +723,6 @@
           }
         },
         "relatedLinks": {}
-      }
-    ]
-  },
-  "content": {
-    "displayName": "Content",
-    "icon": "rectangle-list",
-    "color": "#d5bfff",
-    "url": "/guidance/content",
-    "description": "ScanGov content standards and guidance.",
-    "ogImage": "https://scangov.com/assets/img/og/content-og.png",
-    "why": "Well-written pages help people understand laws, services, and procedures without confusion, reducing calls and office visits.",
-    "risk": "Users cannot understand your information.",
-    "videos": [
-      {
-        "title": "Content and ScanGov",
-        "id": "ttkYbgEanNM",
-        "url": "https://youtu.be/ttkYbgEanNM"
-      }
-    ],
-    "attributes": [
-      {
-        "key": "title",
-        "scorekey": "title",
-        "displayName": "Page title",
-        "tag": "<title>",
-        "description": "Describes webpage content in a few words.",
-        "why": "Identifies the page's content, helping users and search engines understand it quickly.",
-        "risk": "Users cannot tell what your page is about.",
-        "error": "Page title is missing or unclear.",
-        "impact": 10,
-        "guidance": [
-          {
-            "displayName": "21st Century Integrated Digital Experience Act",
-            "url": "/21stcenturyidea"
-          },
-          {
-            "displayName": "Federal website standards",
-            "url": "/federal-website-standards"
-          },
-          {
-            "displayName": "Memorandum (M-23-22)",
-            "url": "/memorandum-m-23-22"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a screen reader user or someone navigating multiple tabs, I want each page to have a clear and unique title so that I can quickly understand the content and context of the page."
-          }
-        ],
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>The HTML <code class=\"language-plaintext highlighter-rouge\">&lt;title&gt;</code> tag sets the title of a webpage, which appears in the browser tab and search results. It helps users know what the page is about and improves search engine optimization. The <code class=\"language-plaintext highlighter-rouge\">&lt;title&gt;</code> tag goes inside the <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code> section of an HTML document. A good title is short, clear, and relevant to the page content.</p>"
-          },
-          "code": {
-            "title": "Code",
-            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"nt\">&lt;head&gt;</span>\n  <span class=\"nt\">&lt;title&gt;</span>Our website<span class=\"nt\">&lt;/title&gt;</span>\n<span class=\"nt\">&lt;/head&gt;</span>\n</code></pre></div></div>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title\">The Document Title element</a> (Mozilla)</li>\n</ul>"
-          }
-        },
-        "relatedLinks": {}
-      },
-      {
-        "key": "description",
-        "scorekey": "description",
-        "displayName": "Page description",
-        "tag": "<meta name=\"description\">",
-        "description": "Describes webpage content in a few words.",
-        "why": "Describes page content briefly, helping users understand what to expect and improving search engine results.",
-        "risk": "Search results do not show what your page does.",
-        "error": "Page description is missing or unclear.",
-        "impact": 8,
-        "guidance": [
-          {
-            "displayName": "21st Century Integrated Digital Experience Act",
-            "url": "/21stcenturyidea"
-          },
-          {
-            "displayName": "Federal website standards",
-            "url": "/federal-website-standards"
-          },
-          {
-            "displayName": "Memorandum (M-23-22)",
-            "url": "/memorandum-m-23-22"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a user browsing search results or sharing links, I want each page to have a clear and relevant description so that I can understand what the page is about before visiting it."
-          }
-        ],
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>A page description is a short summary of a webpage, usually shown in search results. It's set using the <code class=\"language-plaintext highlighter-rouge\">&lt;meta name=\"description\"&gt;</code> tag inside the <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code> section of an HTML document. A good description is clear, brief, and tells users what to expect on the page. It also helps with search engine optimization.</p>"
-          },
-          "code": {
-            "title": "Code",
-            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"nt\">&lt;head&gt;</span>\n  <span class=\"nt\">&lt;meta</span> <span class=\"na\">name=</span><span class=\"s\">\"description\"</span> <span class=\"na\">content=</span><span class=\"s\">\"Welcome to our website\"</span><span class=\"nt\">&gt;</span>\n<span class=\"nt\">&lt;/head&gt;</span>\n</code></pre></div></div>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta\"><meta>: The metadata element</a> (Mozilla)</li>\n</ul>"
-          }
-        },
-        "relatedLinks": {}
-      },
-      {
-        "key": "readability",
-        "scorekey": "readability",
-        "displayName": "Readability",
-        "tag": "",
-        "description": "How easy text is to read.",
-        "why": "Improves communication by helping readers quickly understand messages without confusion or frustration.",
-        "risk": "People struggle to understand your content.",
-        "error": "Automated Readability Index score is above 8 (higher than 7th grade reading level).",
-        "impact": 10,
-        "guidance": [
-          {
-            "displayName": "21st Century Integrated Digital Experience Act",
-            "url": "/21stcenturyidea"
-          },
-          {
-            "displayName": "Automated Readability Index",
-            "url": "/automated-readability-index"
-          },
-          {
-            "displayName": "Flesch-Kincaid",
-            "url": "/flesch-kincaid"
-          },
-          {
-            "displayName": "Federal website standards",
-            "url": "/federal-website-standards"
-          },
-          {
-            "displayName": "Memorandum (M-23-22)",
-            "url": "/memorandum-m-23-22"
-          },
-          {
-            "displayName": "Plain Writing Act of 2010",
-            "url": "/plain-writing-act"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a user reading content on a web page, I want the text to have high readability through clear content and optimal presentation so that I can understand and process the information with minimal effort and maximum comprehension."
-          }
-        ],
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>Readability measures how easy text is to understand by looking at words and layout. Experts like Flesch-Kincaid and Automated Readability Index help test reading level. For example, ARI uses the average number of characters per word and words per sentence to give a U.S. school grade level—e.g., 8 = eighth grade. Simple words, short sentences, clear design, and legible fonts make text easier to read. These tests help match writing to different audiences' skill levels.</p>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://en.wikipedia.org/wiki/Readability\">Readability</a> (Wikipedia)</li>\n</ul>"
-          }
-        },
-        "relatedLinks": {
-          "audio": "https://standards.scangov.org/assets/audio/readability.mp3"
-        }
-      },
-      {
-        "key": "viewport",
-        "scorekey": "viewport",
-        "displayName": "Viewport meta tag",
-        "featured": true,
-        "tag": "<meta name=\"viewport\">",
-        "description": "Makes websites fit all screen sizes.",
-        "why": "Optimizes page display for various devices, ensuring content looks good on all screen sizes and enhances user experience.",
-        "risk": "Mobile users see broken pages on their phones.",
-        "error": "Viewport meta tag is missing.",
-        "impact": 10,
-        "guidance": [
-          {
-            "displayName": "21st Century Integrated Digital Experience Act",
-            "url": "/21stcenturyidea"
-          },
-          {
-            "displayName": "Memorandum (M-23-22)",
-            "url": "/memorandum-m-23-22"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a mobile user, I want the website to scale and display correctly on my device so that I can read and interact with the content without zooming or horizontal scrolling."
-          }
-        ],
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>The viewport meta tag helps web pages look good on all devices by controlling the screen size and zoom settings. This makes websites adjust to fit different screens. You can also disable zooming or set a custom zoom level. It's important for making websites mobile-friendly.</p>"
-          },
-          "example": {
-            "title": "Example",
-            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"nt\">&lt;meta</span> <span class=\"na\">name=</span><span class=\"s\">\"viewport\"</span> <span class=\"na\">content=</span><span class=\"s\">\"width=device-width, initial-scale=1.0\"</span><span class=\"nt\">&gt;</span>\n</code></pre></div></div>"
-          }
-        },
-        "relatedLinks": {}
       },
       {
         "key": "image-aspect-ratio",
@@ -689,43 +789,6 @@
           "links": {
             "title": "Links",
             "content": "<ul><li><a href=\"https://www.w3.org/International/articles/language-tags/\">Language tags in HTML and XML</a></li></ul>"
-          }
-        }
-      },
-      {
-        "key": "zooming-scaling",
-        "scorekey": "zooming-scaling",
-        "displayName": "Zooming/scaling enabled",
-        "featured": true,
-        "tag": "zooming-scaling",
-        "description": "Making images bigger or smaller.",
-        "why": "Allows users to adjust size for better readability, improving accessibility and making content easier to view on all devices.",
-        "risk": "Users cannot zoom in to read small text.",
-        "error": "Viewport configuration error: 'user-scalable' is set to 'no' or 'maximum-scale' exceeds the recommended limit.",
-        "impact": 3,
-        "guidance": [
-          {
-            "displayName": "Web Content Accessibility Guidelines (WCAG)",
-            "url": "/wcag"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a website user, I want to zoom and scale content so I can read and view it comfortably on any device."
-          }
-        ],
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>Zooming and scaling mean changing the size of something on a screen, like making an image or text bigger or smaller. Zooming usually refers to the whole screen or view, while scaling changes the size of a specific object, like a picture. These tools help people see things better, fit images in different spaces, or make websites work well on all screen sizes. It's useful for both design and accessibility.</p>"
-          },
-          "code": {
-            "title": "Code",
-            "content": "<code>&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5\"&gt;</code>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul><li><a href=\"https://dequeuniversity.com/rules/axe/4.10/meta-viewport\">Zooming and scaling must not be disabled</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Viewport_meta_element\">Using the viewport meta element</a></li></ul>"
           }
         }
       },
@@ -803,6 +866,245 @@
       }
     ]
   },
+  "usability": {
+    "displayName": "Usability",
+    "icon": "rectangle-list",
+    "color": "#d5bfff",
+    "url": "/guidance/usability",
+    "description": "ScanGov content standards and guidance.",
+    "ogImage": "https://scangov.com/assets/img/og/content-og.png",
+    "why": "Well-written pages help people understand laws, services, and procedures without confusion, reducing calls and office visits.",
+    "risk": "Users cannot understand your information.",
+    "videos": [
+      {
+        "title": "Content and ScanGov",
+        "id": "ttkYbgEanNM",
+        "url": "https://youtu.be/ttkYbgEanNM"
+      }
+    ],
+    "attributes": [
+      {
+        "key": "title",
+        "scorekey": "title",
+        "displayName": "Page title",
+        "tag": "<title>",
+        "description": "Describes webpage content in a few words.",
+        "why": "Identifies the page's content, helping users and search engines understand it quickly.",
+        "risk": "Users cannot tell what your page is about.",
+        "error": "Page title is missing or unclear.",
+        "impact": 10,
+        "guidance": [
+          {
+            "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
+            "url": "/21stcenturyidea"
+          },
+          {
+            "displayName": "U.S. Federal Website Standards",
+            "url": "/federal-website-standards"
+          },
+          {
+            "displayName": "Memorandum (M-23-22)",
+            "url": "/memorandum-m-23-22"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a screen reader user or someone navigating multiple tabs, I want each page to have a clear and unique title so that I can quickly understand the content and context of the page."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>The HTML <code class=\"language-plaintext highlighter-rouge\">&lt;title&gt;</code> tag sets the title of a webpage, which appears in the browser tab and search results. It helps users know what the page is about and improves search engine optimization. The <code class=\"language-plaintext highlighter-rouge\">&lt;title&gt;</code> tag goes inside the <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code> section of an HTML document. A good title is short, clear, and relevant to the page content.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"nt\">&lt;head&gt;</span>\n  <span class=\"nt\">&lt;title&gt;</span>Our website<span class=\"nt\">&lt;/title&gt;</span>\n<span class=\"nt\">&lt;/head&gt;</span>\n</code></pre></div></div>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul>\n  <li><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title\">The Document Title element</a> (Mozilla)</li>\n</ul>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "description",
+        "scorekey": "description",
+        "displayName": "Page description",
+        "tag": "<meta name=\"description\">",
+        "description": "Describes webpage content in a few words.",
+        "why": "Describes page content briefly, helping users understand what to expect and improving search engine results.",
+        "risk": "Search results do not show what your page does.",
+        "error": "Page description is missing or unclear.",
+        "impact": 8,
+        "guidance": [
+          {
+            "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
+            "url": "/21stcenturyidea"
+          },
+          {
+            "displayName": "U.S. Federal Website Standards",
+            "url": "/federal-website-standards"
+          },
+          {
+            "displayName": "Memorandum (M-23-22)",
+            "url": "/memorandum-m-23-22"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user browsing search results or sharing links, I want each page to have a clear and relevant description so that I can understand what the page is about before visiting it."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>A page description is a short summary of a webpage, usually shown in search results. It's set using the <code class=\"language-plaintext highlighter-rouge\">&lt;meta name=\"description\"&gt;</code> tag inside the <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code> section of an HTML document. A good description is clear, brief, and tells users what to expect on the page. It also helps with search engine optimization.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"nt\">&lt;head&gt;</span>\n  <span class=\"nt\">&lt;meta</span> <span class=\"na\">name=</span><span class=\"s\">\"description\"</span> <span class=\"na\">content=</span><span class=\"s\">\"Welcome to our website\"</span><span class=\"nt\">&gt;</span>\n<span class=\"nt\">&lt;/head&gt;</span>\n</code></pre></div></div>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul>\n  <li><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta\"><meta>: The metadata element</a> (Mozilla)</li>\n</ul>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "readability",
+        "scorekey": "readability",
+        "displayName": "Readability",
+        "tag": "",
+        "description": "How easy text is to read.",
+        "why": "Improves communication by helping readers quickly understand messages without confusion or frustration.",
+        "risk": "People struggle to understand your content.",
+        "error": "Automated Readability Index score is above 8 (higher than 7th grade reading level).",
+        "impact": 10,
+        "guidance": [
+          {
+            "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
+            "url": "/21stcenturyidea"
+          },
+          {
+            "displayName": "Automated Readability Index (ARI)",
+            "url": "/automated-readability-index"
+          },
+          {
+            "displayName": "Flesch-Kincaid (FK)",
+            "url": "/flesch-kincaid"
+          },
+          {
+            "displayName": "U.S. Federal Website Standards",
+            "url": "/federal-website-standards"
+          },
+          {
+            "displayName": "Memorandum (M-23-22)",
+            "url": "/memorandum-m-23-22"
+          },
+          {
+            "displayName": "Plain Writing Act of 2010",
+            "url": "/plain-writing-act"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a user reading content on a web page, I want the text to have high readability through clear content and optimal presentation so that I can understand and process the information with minimal effort and maximum comprehension."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Readability measures how easy text is to understand by looking at words and layout. Experts like Flesch-Kincaid and Automated Readability Index help test reading level. For example, ARI uses the average number of characters per word and words per sentence to give a U.S. school grade level—e.g., 8 = eighth grade. Simple words, short sentences, clear design, and legible fonts make text easier to read. These tests help match writing to different audiences' skill levels.</p>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul>\n  <li><a href=\"https://en.wikipedia.org/wiki/Readability\">Readability</a> (Wikipedia)</li>\n</ul>"
+          }
+        },
+        "relatedLinks": {
+          "audio": "https://standards.scangov.org/assets/audio/readability.mp3"
+        }
+      },
+      {
+        "key": "viewport",
+        "scorekey": "viewport",
+        "displayName": "Viewport meta tag",
+        "featured": true,
+        "tag": "<meta name=\"viewport\">",
+        "description": "Makes websites fit all screen sizes.",
+        "why": "Optimizes page display for various devices, ensuring content looks good on all screen sizes and enhances user experience.",
+        "risk": "Mobile users see broken pages on their phones.",
+        "error": "Viewport meta tag is missing.",
+        "impact": 10,
+        "guidance": [
+          {
+            "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
+            "url": "/21stcenturyidea"
+          },
+          {
+            "displayName": "Memorandum (M-23-22)",
+            "url": "/memorandum-m-23-22"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a mobile user, I want the website to scale and display correctly on my device so that I can read and interact with the content without zooming or horizontal scrolling."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>The viewport meta tag helps web pages look good on all devices by controlling the screen size and zoom settings. This makes websites adjust to fit different screens. You can also disable zooming or set a custom zoom level. It's important for making websites mobile-friendly.</p>"
+          },
+          "example": {
+            "title": "Example",
+            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"nt\">&lt;meta</span> <span class=\"na\">name=</span><span class=\"s\">\"viewport\"</span> <span class=\"na\">content=</span><span class=\"s\">\"width=device-width, initial-scale=1.0\"</span><span class=\"nt\">&gt;</span>\n</code></pre></div></div>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "zooming-scaling",
+        "scorekey": "zooming-scaling",
+        "displayName": "Zooming/scaling enabled",
+        "featured": true,
+        "tag": "zooming-scaling",
+        "description": "Making images bigger or smaller.",
+        "why": "Allows users to adjust size for better readability, improving accessibility and making content easier to view on all devices.",
+        "risk": "Users cannot zoom in to read small text.",
+        "error": "Viewport configuration error: 'user-scalable' is set to 'no' or 'maximum-scale' exceeds the recommended limit.",
+        "impact": 3,
+        "guidance": [
+          {
+            "displayName": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "/wcag"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a website user, I want to zoom and scale content so I can read and view it comfortably on any device."
+          }
+        ],
+        "sections": {
+          "about": {
+            "title": "About",
+            "content": "<p>Zooming and scaling mean changing the size of something on a screen, like making an image or text bigger or smaller. Zooming usually refers to the whole screen or view, while scaling changes the size of a specific object, like a picture. These tools help people see things better, fit images in different spaces, or make websites work well on all screen sizes. It's useful for both design and accessibility.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<code>&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5\"&gt;</code>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul><li><a href=\"https://dequeuniversity.com/rules/axe/4.10/meta-viewport\">Zooming and scaling must not be disabled</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Viewport_meta_element\">Using the viewport meta element</a></li></ul>"
+          }
+        }
+      }
+    ]
+  },
   "domain": {
     "displayName": "Domain",
     "icon": "link",
@@ -833,7 +1135,7 @@
         "impact": 10,
         "guidance": [
           {
-            "displayName": "Federal website standards",
+            "displayName": "U.S. Federal Website Standards",
             "url": "/federal-website-standards"
           },
           {
@@ -878,7 +1180,7 @@
         "impact": 5,
         "guidance": [
           {
-            "displayName": "Federal website standards",
+            "displayName": "U.S. Federal Website Standards",
             "url": "/federal-website-standards"
           },
           {
@@ -920,7 +1222,7 @@
         "impact": 10,
         "guidance": [
           {
-            "displayName": "Federal website standards",
+            "displayName": "U.S. Federal Website Standards",
             "url": "/federal-website-standards"
           }
         ],
@@ -1142,327 +1444,6 @@
       }
     ]
   },
-  "seo": {
-    "displayName": "SEO",
-    "icon": "magnifying-glass",
-    "color": "#ffe396",
-    "url": "/guidance/seo",
-    "description": "ScanGov search engine optimization standards and guidance.",
-    "ogImage": "https://scangov.com/assets/img/og/seo-og.png",
-    "why": "Good search results help citizens quickly locate the right agency, forms, and services they need online.",
-    "risk": "People cannot find your site in search results.",
-    "videos": [
-      {
-        "title": "Search engine optimization and ScanGov",
-        "id": "0EW6DefeU_w",
-        "url": "https://youtu.be/0EW6DefeU_w"
-      }
-    ],
-    "attributes": [
-      {
-        "key": "status",
-        "displayName": "Sitemap status",
-        "featured": true,
-        "tag": "Status",
-        "description": "The HTTP status of /sitemap.xml is OK.",
-        "why": "Confirms the sitemap is accessible, ensuring search engines can easily find and index all pages on the site.",
-        "risk": "Search engines cannot find all your pages.",
-        "error": "Sitemap.xml is missing or inaccessible.",
-        "impact": 3,
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>A sitemap is a file that lists all of the pages on a website in addition to information about each so that search engines can more intelligently crawl the site.</p><p>Web crawlers usually discover pages from links within the site and from other sites. Sitemaps supplement this data to allow crawlers that support sitemaps to pick up all Uniform Resources Locators (URLs) in the sitemap and learn about them using the associated metadata. Using sitemap protocol doesn’t guarantee web pages are included in search engines, but provides hints for web crawlers to do a better job of crawling your site.</p><p>The sitemap is an Extensible Markup Language (XML) file on the website’s root directory that include metadata for each URL, such as:</p><ul><li>when it was last updated</li><li>how often it usually changes</li><li>how important it is, relative to other URLs in the site</li></ul>"
-          }
-        },
-        "guidance": [
-          {
-            "displayName": "sitemaps.org",
-            "url": "/sitemaps-org"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a search engine bot or user, I want the website's sitemap to be easily accessible so that I can discover all the pages and content on the site efficiently and improve the website's discoverability."
-          }
-        ]
-      },
-      {
-        "key": "xml",
-        "scorekey": "xml",
-        "displayName": "Sitemap XML",
-        "tag": "XML",
-        "description": "The sitemap file type is XML.",
-        "why": "Stores site structure in a readable format, helping search engines efficiently crawl and index all website pages.",
-        "risk": "Search engines cannot read your sitemap.",
-        "error": "Sitemap is not in XML format.",
-        "impact": 3,
-        "guidance": [
-          {
-            "displayName": "sitemaps.org",
-            "url": "/sitemaps-org"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a search engine bot, I want the website to provide a properly formatted XML sitemap so that I can efficiently crawl and index all relevant pages, improving the site's visibility in search results."
-          }
-        ],
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>The sitemap is an Extensible Markup Language (XML) file on the website's root directory that include metadata for each URL, such as:</p><ul>\n  <li>when it was last updated</li>\n  <li>how often it usually changes</li>\n  <li>how important it is, relative to other URLs in the site</li>\n</ul>"
-          },
-          "example": {
-            "title": "Examples",
-            "content": "<p>Example government website sitemaps:</p><ul>\n  <li><a href=\"https://www.usa.gov/sitemap.xml\">https://www.usa.gov/sitemap.xml</a></li>\n  <li><a href=\"https://18f.gov/sitemap.xml\">https://18f.gov/sitemap.xml</a></li>\n</ul>"
-          },
-          "code": {
-            "title": "Code",
-            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"cp\">&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;</span>\n\n<span class=\"nt\">&lt;urlset</span> <span class=\"na\">xmlns=</span><span class=\"s\">\"http://www.sitemaps.org/schemas/sitemap/0.9\"</span><span class=\"nt\">&gt;</span>\n\n   <span class=\"nt\">&lt;url&gt;</span>\n\n      <span class=\"nt\">&lt;loc&gt;</span>http://www.example.com/<span class=\"nt\">&lt;/loc&gt;</span>\n\n      <span class=\"nt\">&lt;lastmod&gt;</span>2005-01-01<span class=\"nt\">&lt;/lastmod&gt;</span>\n\n      <span class=\"nt\">&lt;changefreq&gt;</span>monthly<span class=\"nt\">&lt;/changefreq&gt;</span>\n\n      <span class=\"nt\">&lt;priority&gt;</span>0.8<span class=\"nt\">&lt;/priority&gt;</span>\n\n   <span class=\"nt\">&lt;/url&gt;</span>\n\n<span class=\"nt\">&lt;/urlset&gt;</span>\n</code></pre></div></div>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://www.sitemaps.org/\">sitemaps.org</a></li>\n  <li><a href=\"https://en.wikipedia.org/wiki/Sitemaps\">Sitemaps</a> (Wikipedia)</li>\n</ul>"
-          }
-        },
-        "relatedLinks": {
-          "audio": "https://standards.scangov.org/assets/audio/sitemaps.mp3"
-        }
-      },
-      {
-        "key": "valid",
-        "scorekey": "valid",
-        "displayName": "Robots valid",
-        "featured": true,
-        "tag": "Valid",
-        "description": "The site has a valid robots policy.",
-        "why": "Guides search engines on which pages to crawl or avoid, ensuring important content is indexed and irrelevant pages aren't.",
-        "risk": "Search engines ignore your instructions.",
-        "error": "Robots.txt is missing or invalid.",
-        "impact": 3,
-        "guidance": [
-          {
-            "displayName": "The Web Robots Pages",
-            "url": "/robots"
-          }
-        ],
-        "sections": {
-          "guidance": {
-            "title": "Guidance",
-            "content": "<p>All government websites must allow robots indexing and following.</p>"
-          },
-          "about": {
-            "title": "About",
-            "content": "<p>Robots valid means the robots.txt file is correctly written and follows the rules that search engines understand. If it's valid, search engines can read the file and know which parts of the site they can or can't visit. A valid file helps control how your site shows up in search results and avoids errors.</p>"
-          },
-          "example": {
-            "title": "Examples",
-            "content": "<p>Example government website robots.txt files:</p><ul>\n  <li><a href=\"https://www.usa.gov/robots.txt\">https://www.usa.gov/robots.txt</a></li>\n  <li><a href=\"https://www.ca.gov/robots.txt\">https://www.ca.gov/robots.txt</a></li>\n</ul>"
-          },
-          "code": {
-            "title": "Code",
-            "content": "<p>Example robots.txt code:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"c1\"># Only applies to search.gov scraping</span>\n<span class=\"na\">User-agent</span><span class=\"pi\">:</span> <span class=\"s\">usasearch</span>  \n<span class=\"c1\"># Slow amount of requests</span>\n<span class=\"na\">Crawl-delay</span><span class=\"pi\">:</span> <span class=\"m\">2</span>\n<span class=\"c1\"># Specify it can read /archive/</span>\n<span class=\"na\">Allow</span><span class=\"pi\">:</span> <span class=\"s\">/archive/</span>\n\n<span class=\"c1\"># Applies to all scrapers</span>\n<span class=\"na\">User-agent</span><span class=\"pi\">:</span> <span class=\"err\">*</span>\n<span class=\"c1\"># Slow amount of requests to 1 every 10 seconds</span>\n<span class=\"na\">Crawl-delay</span><span class=\"pi\">:</span> <span class=\"m\">10</span>\n<span class=\"c1\"># Don't let them read /archive/</span>\n<span class=\"na\">Disallow</span><span class=\"pi\">:</span> <span class=\"s\">/archive/</span>\n\n<span class=\"c1\"># Point to a sitemap file</span>\n<span class=\"na\">Sitemap</span><span class=\"pi\">:</span> <span class=\"s\">/sitemap.xml</span>\n</code></pre></div></div><p>Example robots meta code:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"c\">&lt;!-- This page can be indexed \nand links on it can be followed --&gt;</span>\n<span class=\"nt\">&lt;meta</span> <span class=\"na\">name=</span><span class=\"s\">\"robots\"</span> <span class=\"na\">content=</span><span class=\"s\">\"index, follow\"</span><span class=\"nt\">&gt;</span>\n</code></pre></div></div><p>Example X-Robots-Tag:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"c1\"># This URL can be indexed </span>\n<span class=\"c1\"># and links on it can be followed</span>\n<span class=\"na\">X-Robots-Tag</span><span class=\"pi\">:</span> <span class=\"s\">index, follow</span>\n</code></pre></div></div>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://www.robotstxt.org\">robotstxt.org</a></li>\n  <li><a href=\"https://search.gov/indexing/robotstxt.html\">robots.txt</a> (Search.gov)</li>\n  <li><a href=\"https://en.wikipedia.org/wiki/Robots.txt\">robots.txt</a> (Wikipedia)</li>\n  <li><a href=\"https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag\">Robots Meta Tags Specifications</a> (Google)</li>\n</ul>"
-          }
-        },
-        "relatedLinks": {
-          "audio": "https://standards.scangov.org/assets/audio/robots-txt.mp3"
-        }
-      },
-      {
-        "key": "allowed",
-        "scorekey": "allowed",
-        "displayName": "Robots allowed",
-        "tag": "Allowed",
-        "description": "The robots policy allows access to browsers and scrapers.",
-        "why": "Permits search engines and web tools to access content, helping improve search visibility and gather relevant data.",
-        "risk": "Your site is blocked from search results.",
-        "error": "Robots policy blocks browsers or scrapers.",
-        "impact": 3,
-        "guidance": [
-          {
-            "displayName": "The Web Robots Pages",
-            "url": "/robots"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a search engine crawler, I want to read the robots.txt file so that I know which parts of the website I am allowed or disallowed to index."
-          }
-        ],
-        "sections": {
-          "guidance": {
-            "title": "Guidance",
-            "content": "<p>All government websites must allow robots indexing and following.</p>"
-          },
-          "about": {
-            "title": "About",
-            "content": "<p>Robots allowed in a robots.txt file means search engines like Google are allowed to look at and list (or “crawl”) the page in search results. Website owners use robots.txt to tell search engines what they can and can't see. If robots are allowed, the site or page can show up in search engines, making it easier for people to find.</p>"
-          },
-          "example": {
-            "title": "Examples",
-            "content": "<p>Example government website robots.txt files:</p><ul>\n  <li><a href=\"https://www.usa.gov/robots.txt\">https://www.usa.gov/robots.txt</a></li>\n  <li><a href=\"https://www.ca.gov/robots.txt\">https://www.ca.gov/robots.txt</a></li>\n</ul>"
-          },
-          "code": {
-            "title": "Code",
-            "content": "<p>Example robots.txt code:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"c1\"># Only applies to search.gov scraping</span>\n<span class=\"na\">User-agent</span><span class=\"pi\">:</span> <span class=\"s\">usasearch</span>  \n<span class=\"c1\"># Slow amount of requests</span>\n<span class=\"na\">Crawl-delay</span><span class=\"pi\">:</span> <span class=\"m\">2</span>\n<span class=\"c1\"># Specify it can read /archive/</span>\n<span class=\"na\">Allow</span><span class=\"pi\">:</span> <span class=\"s\">/archive/</span>\n\n<span class=\"c1\"># Applies to all scrapers</span>\n<span class=\"na\">User-agent</span><span class=\"pi\">:</span> <span class=\"err\">*</span>\n<span class=\"c1\"># Slow amount of requests to 1 every 10 seconds</span>\n<span class=\"na\">Crawl-delay</span><span class=\"pi\">:</span> <span class=\"m\">10</span>\n<span class=\"c1\"># Don't let them read /archive/</span>\n<span class=\"na\">Disallow</span><span class=\"pi\">:</span> <span class=\"s\">/archive/</span>\n\n<span class=\"c1\"># Point to a sitemap file</span>\n<span class=\"na\">Sitemap</span><span class=\"pi\">:</span> <span class=\"s\">/sitemap.xml</span>\n</code></pre></div></div><p>Example robots meta code:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"c\">&lt;!-- This page can be indexed \nand links on it can be followed --&gt;</span>\n<span class=\"nt\">&lt;meta</span> <span class=\"na\">name=</span><span class=\"s\">\"robots\"</span> <span class=\"na\">content=</span><span class=\"s\">\"index, follow\"</span><span class=\"nt\">&gt;</span>\n</code></pre></div></div><p>Example X-Robots-Tag:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"c1\"># This URL can be indexed </span>\n<span class=\"c1\"># and links on it can be followed</span>\n<span class=\"na\">X-Robots-Tag</span><span class=\"pi\">:</span> <span class=\"s\">index, follow</span>\n</code></pre></div></div>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://www.robotstxt.org\">robotstxt.org</a></li>\n  <li><a href=\"https://search.gov/indexing/robotstxt.html\">robots.txt</a> (Search.gov)</li>\n  <li><a href=\"https://en.wikipedia.org/wiki/Robots.txt\">robots.txt</a> (Wikipedia)</li>\n  <li><a href=\"https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag\">Robots Meta Tags Specifications</a> (Google)</li>\n</ul>"
-          }
-        },
-        "relatedLinks": {
-          "audio": "https://standards.scangov.org/assets/audio/robots-txt.mp3"
-        }
-      },
-      {
-        "key": "sitemap-robots",
-        "scorekey": "sitemap-robots",
-        "displayName": "Sitemap in robots.txt",
-        "tag": "Sitemap",
-        "description": "The robots.txt file points to a sitemap file.",
-        "why": "Helps search engines find the sitemap quickly, improving how they discover and index website pages.",
-        "risk": "Search engines take longer to find your pages.",
-        "error": "robots.txt missing sitemap reference.",
-        "impact": 5,
-        "guidance": [
-          {
-            "displayName": "Google Search Central",
-            "url": "/google-search-central"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a search engine bot, I want the `robots.txt` file to point to the sitemap so that I can easily discover and crawl the full sitemap of the website, ensuring comprehensive indexing and better visibility in search results."
-          }
-        ],
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>A sitemap is a file that lists all of the pages on a website in addition to information about each so that search engines can more intelligently crawl the site.</p><p>Web crawlers usually discover pages from links within the site and from other sites. Sitemaps supplement this data to allow crawlers that support sitemaps to pick up all Uniform Resources Locators (URLs) in the sitemap and learn about them using the associated metadata. Using sitemap protocol doesn't guarantee web pages are included in search engines, but provides hints for web crawlers to do a better job of crawling your site.</p><p>The sitemap is an Extensible Markup Language (XML) file on the website's root directory that include metadata for each URL, such as:</p><ul>\n  <li>when it was last updated</li>\n  <li>how often it usually changes</li>\n  <li>how important it is, relative to other URLs in the site</li>\n</ul>"
-          },
-          "example": {
-            "title": "Examples",
-            "content": "<p>Example government website sitemaps:</p><ul>\n  <li><a href=\"https://www.usa.gov/sitemap.xml\">https://www.usa.gov/sitemap.xml</a></li>\n  <li><a href=\"https://18f.gov/sitemap.xml\">https://18f.gov/sitemap.xml</a></li>\n</ul>"
-          },
-          "code": {
-            "title": "Code",
-            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"cp\">&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;</span>\n\n<span class=\"nt\">&lt;urlset</span> <span class=\"na\">xmlns=</span><span class=\"s\">\"http://www.sitemaps.org/schemas/sitemap/0.9\"</span><span class=\"nt\">&gt;</span>\n\n   <span class=\"nt\">&lt;url&gt;</span>\n\n      <span class=\"nt\">&lt;loc&gt;</span>http://www.example.com/<span class=\"nt\">&lt;/loc&gt;</span>\n\n      <span class=\"nt\">&lt;lastmod&gt;</span>2005-01-01<span class=\"nt\">&lt;/lastmod&gt;</span>\n\n      <span class=\"nt\">&lt;changefreq&gt;</span>monthly<span class=\"nt\">&lt;/changefreq&gt;</span>\n\n      <span class=\"nt\">&lt;priority&gt;</span>0.8<span class=\"nt\">&lt;/priority&gt;</span>\n\n   <span class=\"nt\">&lt;/url&gt;</span>\n\n<span class=\"nt\">&lt;/urlset&gt;</span>\n</code></pre></div></div>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://www.sitemaps.org/\">sitemaps.org</a></li>\n  <li><a href=\"https://en.wikipedia.org/wiki/Sitemaps\">Sitemaps</a> (Wikipedia)</li>\n</ul>"
-          }
-        },
-        "relatedLinks": {
-          "audio": "https://standards.scangov.org/assets/audio/sitemaps.mp3"
-        }
-      },
-      {
-        "key": "canonical",
-        "scorekey": "canonical",
-        "displayName": "Canonical",
-        "tag": "<link rel=\"canonical\">",
-        "description": "Use preferred page URLs to avoid duplication.",
-        "why": "Prevents duplicate content issues by telling search engines which version of a page is the main one.",
-        "risk": "Search rankings split across duplicate pages.",
-        "error": "Duplicate page URLs detected.",
-        "impact": 3,
-        "guidance": [
-          {
-            "displayName": "The Web Robots Pages",
-            "url": "/robots"
-          },
-          {
-            "displayName": "Google Search Central",
-            "url": "/google-search-central"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a user or search engine bot, I want to be directed to the preferred version of a webpage (canonical URL) to avoid duplicate content and ensure that I am viewing the correct page with the most relevant content."
-          }
-        ],
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>Canonicalization ensures that search engines index the correct version of a page when there are duplicate or similar pages. By specifying a canonical URL with the <code class=\"language-plaintext highlighter-rouge\">rel=\"canonical\"</code> tag, you direct search engines to the primary page, helping improve SEO. This prevents search engines from splitting the ranking between multiple pages with similar content. Proper canonicalization avoids indexing issues and boosts a site's performance in search results.</p>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://developers.google.com/search/docs/crawling-indexing/canonicalization\">Google canonicalization guide</a></li>\n</ul>"
-          }
-        },
-        "relatedLinks": {}
-      },
-      {
-        "key": "link-text",
-        "scorekey": "link-text",
-        "displayName": "Link text",
-        "tag": "link-text",
-        "description": "Links have descriptive text.",
-        "why": "Describes the link’s purpose clearly, helping users know where it leads and improving navigation for everyone.",
-        "risk": "Users cannot tell where links go.",
-        "error": "Links do not have descriptive text.",
-        "impact": 1,
-        "guidance": [
-          {
-            "displayName": "Google Search Central",
-            "url": "/google-search-central"
-          }
-        ],
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>Link text is the clickable word or phrase in a hyperlink. When link text clearly conveys a hyperlink's target, both users and search engines can more easily understand your content and how it relates to other pages.</p>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/seo/link-text/\">Links do not have descriptive text</a></li>\n</ul>"
-          }
-        },
-        "relatedLinks": {}
-      },
-      {
-        "key": "hreflang",
-        "scorekey": "hreflang",
-        "displayName": "hreflang",
-        "tag": "hreflang",
-        "description": "Specifies language and region for webpages.",
-        "why": "Indicates page language and region, helping users see the right version and improving search results in different countries.",
-        "risk": "Users see pages in wrong language.",
-        "error": "The pages has a missing or invalid hreflang attribute.",
-        "impact": 1,
-        "guidance": [
-          {
-            "displayName": "Google Search Central",
-            "url": "/google-search-central"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a website visitor, I want to see the page in my language so I can easily understand the content."
-          }
-        ],
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>The `hreflang` attribute helps search engines understand which language and region a webpage is targeting. This is useful when a website has multiple versions in different languages or for different regions. By using `hreflang`, the site can show the correct version of a page to users based on their language or location, improving their experience. It also helps search engines avoid showing the wrong language version in search results, leading to better SEO and user engagement.</p>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/seo/hreflang/\">Document doesn't have a valid hreflang</a></li><li><a href=\"https://developers.google.com/search/docs/specialty/international/localized-versions\">Tell Google about localized versions of your page</a></li></ul>"
-          }
-        },
-        "relatedLinks": {}
-      }
-    ]
-  },
   "security": {
     "displayName": "Security",
     "icon": "lock",
@@ -1536,7 +1517,7 @@
         "impact": 10,
         "guidance": [
           {
-            "displayName": "21st Century Integrated Digital Experience Act",
+            "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
             "url": "/21stcenturyidea"
           },
           {
