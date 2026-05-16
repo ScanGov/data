@@ -6,9 +6,9 @@
     "description": "Modernizes government websites and digital services.",
     "topics": [
       "accessibility",
-      "content",
+      "usability",
       "performance",
-      "seo",
+      "botfriendly",
       "security"
     ],
     "standards": [
@@ -56,7 +56,7 @@
     "description": "State and local government web accessibility requirements.",
     "topics": [
       "accessibility",
-      "content"
+      "usability"
     ],
     "standards": [
       {
@@ -94,7 +94,7 @@
     "featured": true,
     "description": "Measures text reading difficulty levels.",
     "topics": [
-      "content"
+      "usability"
     ],
     "about": {
       "title": "About",
@@ -152,9 +152,9 @@
     "description": "Improves accessibility, consistency and user experience.",
     "topics": [
       "accessibility",
-      "content",
+      "usability",
       "domain",
-      "seo",
+      "botfriendly",
       "social"
     ],
     "standards": [
@@ -188,7 +188,7 @@
     "featured": true,
     "description": "Measure how hard text is to read.",
     "topics": [
-      "content"
+      "usability"
     ],
     "about": {
       "title": "About",
@@ -214,13 +214,13 @@
     "featured": true,
     "description": "Resources to improve site search rankings.",
     "topics": [
-      "content",
+      "usability",
       "domain",
-      "seo"
+      "botfriendly"
     ],
     "standards": [
       {
-        "displayName": "Canonicalization",
+        "displayName": "Canonical",
         "url": "/canonical"
       },
       {
@@ -256,11 +256,10 @@
     "displayName": "GSA Site Scanning",
     "description": "Checks and tracks federal .gov websites.",
     "topics": [
-      "aifriendly",
+      "botfriendly",
       "accessibility",
-      "content",
+      "usability",
       "performance",
-      "seo",
       "security",
       "social"
     ],
@@ -270,7 +269,7 @@
     },
     "standards": [
       {
-        "displayName": "Canonicalization",
+        "displayName": "Canonical",
         "url": "/canonical"
       },
       {
@@ -326,8 +325,8 @@
         "url": "/description"
       },
       {
-        "displayName": "sitemap.xml",
-        "url": "/sitemap"
+        "displayName": "Sitemap XML",
+        "url": "/xml"
       },
       {
         "displayName": "Viewport meta tag",
@@ -341,10 +340,10 @@
     "description": "Delivering a digital-first public experience.",
     "topics": [
       "accessibility",
-      "content",
+      "usability",
       "domain",
       "performance",
-      "seo",
+      "botfriendly",
       "security"
     ],
     "about": {
@@ -380,8 +379,8 @@
     "featured": true,
     "description": "Improves how social media content shows.",
     "topics": [
-      "content",
-      "seo",
+      "usability",
+      "botfriendly",
       "social"
     ],
     "about": {
@@ -448,7 +447,7 @@
     "featured": true,
     "description": "Mandates government documents use simple language.",
     "topics": [
-      "content"
+      "usability"
     ],
     "standards": [
       {
@@ -504,9 +503,8 @@
     "featured": true,
     "description": "Website sitemap standards.",
     "topics": [
-      "aifriendly",
-      "content",
-      "seo"
+      "botfriendly",
+      "usability"
     ],
     "about": {
       "title": "About",
@@ -514,8 +512,8 @@
     },
     "standards": [
       {
-        "displayName": "sitemap.xml",
-        "url": "/sitemap"
+        "displayName": "Sitemap XML",
+        "url": "/xml"
       }
     ]
   },
@@ -526,65 +524,273 @@
     "description": "Rules for making websites accessible.",
     "topics": [
       "accessibility",
-      "content",
-      "seo"
+      "usability",
+      "botfriendly"
     ],
     "standards": [
       {
-        "displayName": "Accessibility best practices",
-        "url": "/a11y-best-practices"
+        "displayName": "[accesskey] values are unique",
+        "url": "/accesskeys"
       },
       {
-        "displayName": "ARIA attributes",
-        "url": "/a11y-aria"
+        "displayName": "[aria-*] attributes match their roles",
+        "url": "/aria-allowed-attr"
       },
       {
-        "displayName": "Audio and video",
-        "url": "/a11y-audio-video"
+        "displayName": "Uses ARIA roles only on compatible elements",
+        "url": "/aria-allowed-role"
+      },
+      {
+        "displayName": "button, link, and menuitem elements have accessible names",
+        "url": "/aria-command-name"
+      },
+      {
+        "displayName": "ARIA attributes are used as specified for the element's role",
+        "url": "/aria-conditional-attr"
+      },
+      {
+        "displayName": "Deprecated ARIA roles were not used",
+        "url": "/aria-deprecated-role"
+      },
+      {
+        "displayName": "Elements with role=\"dialog\" or role=\"alertdialog\" have accessible names",
+        "url": "/aria-dialog-name"
+      },
+      {
+        "displayName": "[aria-hidden=\"true\"] is not present on the document <body>",
+        "url": "/aria-hidden-body"
+      },
+      {
+        "displayName": "[aria-hidden=\"true\"] elements do not contain focusable descendents",
+        "url": "/aria-hidden-focus"
+      },
+      {
+        "displayName": "ARIA input fields have accessible names",
+        "url": "/aria-input-field-name"
+      },
+      {
+        "displayName": "ARIA meter elements have accessible names",
+        "url": "/aria-meter-name"
+      },
+      {
+        "displayName": "ARIA progressbar elements have accessible names",
+        "url": "/aria-progressbar-name"
+      },
+      {
+        "displayName": "Elements use only permitted ARIA attributes",
+        "url": "/aria-prohibited-attr"
+      },
+      {
+        "displayName": "[role]s have all required [aria-*] attributes",
+        "url": "/aria-required-attr"
+      },
+      {
+        "displayName": "Elements with an ARIA [role] that require children to contain a specific [role] have all required children",
+        "url": "/aria-required-children"
+      },
+      {
+        "displayName": "[role]s are contained by their required parent element",
+        "url": "/aria-required-parent"
+      },
+      {
+        "displayName": "[role] values are valid",
+        "url": "/aria-roles"
+      },
+      {
+        "displayName": "Elements with the role=text attribute do not have focusable descendents",
+        "url": "/aria-text"
+      },
+      {
+        "displayName": "ARIA toggle fields have accessible names",
+        "url": "/aria-toggle-field-name"
+      },
+      {
+        "displayName": "ARIA tooltip elements have accessible names",
+        "url": "/aria-tooltip-name"
+      },
+      {
+        "displayName": "ARIA treeitem elements have accessible names",
+        "url": "/aria-treeitem-name"
+      },
+      {
+        "displayName": "[aria-*] attributes have valid values",
+        "url": "/aria-valid-attr-value"
+      },
+      {
+        "displayName": "[aria-*] attributes are valid and not misspelled",
+        "url": "/aria-valid-attr"
+      },
+      {
+        "displayName": "Buttons have an accessible name",
+        "url": "/button-name"
+      },
+      {
+        "displayName": "The page contains a heading, skip link, or landmark region",
+        "url": "/bypass"
+      },
+      {
+        "displayName": "Background and foreground colors have a sufficient contrast ratio",
+        "url": "/color-contrast"
+      },
+      {
+        "displayName": "<dl>'s contain only properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+        "url": "/definition-list"
+      },
+      {
+        "displayName": "Definition list items are wrapped in <dl> elements",
+        "url": "/dlitem"
+      },
+      {
+        "displayName": "Document has a <title> element",
+        "url": "/document-title"
+      },
+      {
+        "displayName": "ARIA IDs are unique",
+        "url": "/duplicate-id-aria"
+      },
+      {
+        "displayName": "No form fields have multiple labels",
+        "url": "/form-field-multiple-labels"
+      },
+      {
+        "displayName": "<frame> or <iframe> elements have a title",
+        "url": "/frame-title"
+      },
+      {
+        "displayName": "Heading elements appear in a sequentially-descending order",
+        "url": "/heading-order"
+      },
+      {
+        "displayName": "<html> element has a [lang] attribute",
+        "url": "/html-has-lang"
+      },
+      {
+        "displayName": "<html> element has a valid value for its [lang] attribute",
+        "url": "/html-lang-valid"
+      },
+      {
+        "displayName": "<html> element has an [xml:lang] attribute with the same base language as the [lang] attribute",
+        "url": "/html-xml-lang-mismatch"
+      },
+      {
+        "displayName": "Image elements have [alt] attributes",
+        "url": "/image-alt"
+      },
+      {
+        "displayName": "Image elements do not have [alt] attributes that are redundant text",
+        "url": "/image-redundant-alt"
+      },
+      {
+        "displayName": "Input buttons have discernible text",
+        "url": "/input-button-name"
+      },
+      {
+        "displayName": "<input type=\"image\"> elements have [alt] text",
+        "url": "/input-image-alt"
+      },
+      {
+        "displayName": "Form elements have associated labels",
+        "url": "/label"
+      },
+      {
+        "displayName": "Links are distinguishable without relying on color",
+        "url": "/link-in-text-block"
+      },
+      {
+        "displayName": "Links have a discernible name",
+        "url": "/link-name"
+      },
+      {
+        "displayName": "Lists contain only <li> elements and script supporting elements (<script> and <template>)",
+        "url": "/list"
+      },
+      {
+        "displayName": "List items (<li>) are contained within <ul>, <ol> or <menu> parent elements",
+        "url": "/listitem"
+      },
+      {
+        "displayName": "The document does not use <meta http-equiv=\"refresh\">",
+        "url": "/meta-refresh"
+      },
+      {
+        "displayName": "[user-scalable=\"no\"] is not used in the <meta name=\"viewport\"> element and the [maximum-scale] attribute is not less than 5",
+        "url": "/meta-viewport"
+      },
+      {
+        "displayName": "<object> elements have alternate text",
+        "url": "/object-alt"
+      },
+      {
+        "displayName": "Select elements have associated label elements",
+        "url": "/select-name"
+      },
+      {
+        "displayName": "Skip links are focusable",
+        "url": "/skip-link"
+      },
+      {
+        "displayName": "No element has a [tabindex] value greater than 0",
+        "url": "/tabindex"
+      },
+      {
+        "displayName": "Tables have different content in the summary attribute and <caption>",
+        "url": "/table-duplicate-name"
+      },
+      {
+        "displayName": "Touch targets have sufficient size and spacing",
+        "url": "/target-size"
+      },
+      {
+        "displayName": "Cells in a <table> element that use the [headers] attribute refer to table cells within the same table",
+        "url": "/td-headers-attr"
+      },
+      {
+        "displayName": "<th> elements and elements with [role=\"columnheader\"/\"rowheader\"] have data cells they describe",
+        "url": "/th-has-data-cells"
+      },
+      {
+        "displayName": "[lang] attributes have a valid value",
+        "url": "/valid-lang"
+      },
+      {
+        "displayName": "<video> elements contain a <track> element with [kind=\"captions\"]",
+        "url": "/video-caption"
+      },
+      {
+        "displayName": "All heading elements contain content",
+        "url": "/empty-heading"
+      },
+      {
+        "displayName": "Identical links have the same purpose",
+        "url": "/identical-links-same-purpose"
+      },
+      {
+        "displayName": "Document has a main landmark",
+        "url": "/landmark-one-main"
+      },
+      {
+        "displayName": "Elements with visible text labels have matching accessible names",
+        "url": "/label-content-name-mismatch"
+      },
+      {
+        "displayName": "Tables use <caption> instead of cells with the [colspan] attribute to indicate a caption",
+        "url": "/table-fake-caption"
+      },
+      {
+        "displayName": "<td> elements in a large <table> have one or more table headers",
+        "url": "/td-has-header"
       },
       {
         "displayName": "Character encoding",
         "url": "/charset"
       },
       {
-        "displayName": "Color contrast",
-        "url": "/a11y-color-contrast"
-      },
-      {
-        "displayName": "Hidden elements",
-        "url": "/hidden"
-      },
-      {
         "displayName": "Image aspect ratio",
         "url": "/image-aspect-ratio"
       },
       {
-        "displayName": "Language",
-        "url": "/a11y-language"
-      },
-      {
-        "displayName": "Names and labels",
-        "url": "/a11y-names-labels"
-      },
-      {
-        "displayName": "Navigation",
-        "url": "/a11y-navigation"
-      },
-      {
-        "displayName": "Tables and lists",
-        "url": "/a11y-tables-lists"
-      },
-      {
         "displayName": "Valid doctype",
         "url": "/doctype"
-      },
-      {
-        "displayName": "Valid language code",
-        "url": "/html-lang-valid"
-      },
-      {
-        "displayName": "Zooming/scaling enabled",
-        "url": "/zooming-scaling"
       }
     ],
     "about": {
@@ -617,12 +823,11 @@
     "featured": true,
     "description": "Guidelines for controlling search engine crawling.",
     "topics": [
-      "aifriendly",
-      "seo"
+      "botfriendly"
     ],
     "standards": [
       {
-        "displayName": "robots.txt",
+        "displayName": "Robots valid",
         "url": "/valid"
       }
     ],
@@ -643,8 +848,7 @@
     "featured": true,
     "description": "Standards for providing structured data to search engines, llm crawlers and other machine parsers.",
     "topics": [
-      "aifriendly",
-      "seo"
+      "botfriendly"
     ],
     "standards": [
       {
@@ -709,9 +913,9 @@
       "content": "Web Vitals are Google's metrics for assessing website user experience. Core Web Vitals focus on loading speed, interactivity, and visual stability. These include Largest Contentful Paint (LCP), Interaction to Next Paint (INP), and Cumulative Layout Shift (CLS). Other Web Vitals are Time to First Byte (TTFB) and First Contentful Paint (FCP)."
     },
     "topics": [
-      "content",
+      "usability",
       "performance",
-      "seo"
+      "botfriendly"
     ],
     "standards": [
       {
