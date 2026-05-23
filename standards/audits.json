@@ -2499,108 +2499,6 @@
         "relatedLinks": {}
       },
       {
-        "key": "zooming-scaling",
-        "scorekey": "zooming-scaling",
-        "displayName": "Zooming/scaling enabled",
-        "featured": true,
-        "tag": "zooming-scaling",
-        "description": "Making images bigger or smaller.",
-        "why": "Allows users to adjust size for better readability, improving accessibility and making content easier to view on all devices.",
-        "risk": "Users cannot zoom in to read small text.",
-        "error": "Viewport configuration error: 'user-scalable' is set to 'no' or 'maximum-scale' exceeds the recommended limit.",
-        "impact": 3,
-        "guidance": [
-          {
-            "displayName": "Web Content Accessibility Guidelines (WCAG)",
-            "url": "/wcag"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a website user, I want to zoom and scale content so I can read and view it comfortably on any device."
-          }
-        ],
-        "sections": {
-          "about": {
-            "title": "About",
-            "content": "<p>Zooming and scaling mean changing the size of something on a screen, like making an image or text bigger or smaller. Zooming usually refers to the whole screen or view, while scaling changes the size of a specific object, like a picture. These tools help people see things better, fit images in different spaces, or make websites work well on all screen sizes. It's useful for both design and accessibility.</p>"
-          },
-          "code": {
-            "title": "Code",
-            "content": "<code>&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5\"&gt;</code>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul><li><a href=\"https://dequeuniversity.com/rules/axe/4.10/meta-viewport\">Zooming and scaling must not be disabled</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Viewport_meta_element\">Using the viewport meta element</a></li></ul>"
-          }
-        }
-      }
-    ]
-  },
-  "domain": {
-    "displayName": "Domain",
-    "icon": "link",
-    "color": "#7efbe1",
-    "url": "/guidance/domain",
-    "description": "ScanGov domain standards and guidance.",
-    "ogImage": "https://scangov.com/assets/img/og/domain-og.png",
-    "why": "Legitimate web addresses help citizens identify real government sites and avoid scams or fake information online.",
-    "risk": "People may visit fake sites instead of yours.",
-    "videos": [
-      {
-        "title": "Domain and ScanGov",
-        "id": "nsCLD7NWUAk",
-        "url": "https://youtu.be/nsCLD7NWUAk"
-      }
-    ],
-    "attributes": [
-      {
-        "key": "https",
-        "scorekey": "https",
-        "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
-        "featured": true,
-        "tag": "HTTPS",
-        "description": "Privacy and integrity protection.",
-        "why": "Secures data by encrypting communication, protecting user privacy and preventing unauthorized access to sensitive information during online interactions.",
-        "risk": "Hackers can see and steal personal information.",
-        "error": "Site is not served over HTTPS.",
-        "impact": 10,
-        "guidance": [
-          {
-            "displayName": "U.S. Federal Website Standards",
-            "url": "/federal-website-standards"
-          },
-          {
-            "displayName": "Memorandum (M-23-22)",
-            "url": "/memorandum-m-23-22"
-          }
-        ],
-        "userStories": [
-          {
-            "title": "As a site visitor, I want the website to use HTTPS so that my data is encrypted and protected from interception or tampering while browsing or submitting information."
-          }
-        ],
-        "sections": {
-          "guidance": {
-            "title": "Guidance",
-            "content": "<p>All government websites must have HTTPS.</p><p>OMB Memorandum M-15-1338 requires agencies to encrypt HTTP traffic that travels\nover the public internet to or from a Federal system, using HTTPS and HTTP Strict Transport\nSecurity (HSTS)</p>"
-          },
-          "about": {
-            "title": "About",
-            "content": "<p>Hypertext Transfer Protocol Secure (HTTPS) is the strongest privacy and integrity protection currently available for public web connections. HTTPS ensures users that their privacy is protected when visiting a government website.</p><p>HTTPS is indicated by a lock icon and/or <code class=\"language-plaintext highlighter-rouge\">https://</code> in the browser bar.</p>"
-          },
-          "example": {
-            "title": "Examples",
-            "content": "<p>Example government websites with HTTPS:</p><ul>\n  <li><a href=\"https://digital.gov\">https://digital.gov</a></li>\n  <li><a href=\"https://whitehouse.gov\">https://whitehouse.gov</a></li>\n</ul>"
-          },
-          "links": {
-            "title": "Links",
-            "content": "<ul>\n  <li><a href=\"https://https.cio.gov/\">The HTTPS-Only Standard</a> (CIO.gov)</li>\n  <li><a href=\"https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-13.pdf\">M-15-13: Policy to Require Secure Connections across Federal Websites and Web\nServices</a></li>\n</ul>"
-          }
-        },
-        "relatedLinks": {}
-      },
-      {
         "key": "www",
         "scorekey": "www",
         "displayName": "www resolution",
@@ -3129,6 +3027,52 @@
           "links": {
             "title": "Links",
             "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/best-practices/paste-preventing-inputs/\">Prevents users from pasting into input fields</a></li></ul>"
+          }
+        },
+        "relatedLinks": {}
+      },
+      {
+        "key": "https",
+        "scorekey": "https",
+        "displayName": "Hypertext Transfer Protocol Secure (HTTPS)",
+        "featured": true,
+        "tag": "HTTPS",
+        "description": "Privacy and integrity protection.",
+        "why": "Secures data by encrypting communication, protecting user privacy and preventing unauthorized access to sensitive information during online interactions.",
+        "risk": "Hackers can see and steal personal information.",
+        "error": "Site is not served over HTTPS.",
+        "impact": 10,
+        "guidance": [
+          {
+            "displayName": "U.S. Federal Website Standards",
+            "url": "/federal-website-standards"
+          },
+          {
+            "displayName": "Memorandum (M-23-22)",
+            "url": "/memorandum-m-23-22"
+          }
+        ],
+        "userStories": [
+          {
+            "title": "As a site visitor, I want the website to use HTTPS so that my data is encrypted and protected from interception or tampering while browsing or submitting information."
+          }
+        ],
+        "sections": {
+          "guidance": {
+            "title": "Guidance",
+            "content": "<p>All government websites must have HTTPS.</p><p>OMB Memorandum M-15-1338 requires agencies to encrypt HTTP traffic that travels\nover the public internet to or from a Federal system, using HTTPS and HTTP Strict Transport\nSecurity (HSTS)</p>"
+          },
+          "about": {
+            "title": "About",
+            "content": "<p>Hypertext Transfer Protocol Secure (HTTPS) is the strongest privacy and integrity protection currently available for public web connections. HTTPS ensures users that their privacy is protected when visiting a government website.</p><p>HTTPS is indicated by a lock icon and/or <code class=\"language-plaintext highlighter-rouge\">https://</code> in the browser bar.</p>"
+          },
+          "example": {
+            "title": "Examples",
+            "content": "<p>Example government websites with HTTPS:</p><ul>\n  <li><a href=\"https://digital.gov\">https://digital.gov</a></li>\n  <li><a href=\"https://whitehouse.gov\">https://whitehouse.gov</a></li>\n</ul>"
+          },
+          "links": {
+            "title": "Links",
+            "content": "<ul>\n  <li><a href=\"https://https.cio.gov/\">The HTTPS-Only Standard</a> (CIO.gov)</li>\n  <li><a href=\"https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-13.pdf\">M-15-13: Policy to Require Secure Connections across Federal Websites and Web\nServices</a></li>\n</ul>"
           }
         },
         "relatedLinks": {}

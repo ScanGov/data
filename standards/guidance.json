@@ -153,7 +153,6 @@
     "topics": [
       "accessibility",
       "usability",
-      "domain",
       "botfriendly",
       "social"
     ],
@@ -215,7 +214,6 @@
     "description": "Resources to improve site search rankings.",
     "topics": [
       "usability",
-      "domain",
       "botfriendly"
     ],
     "standards": [
@@ -341,7 +339,6 @@
     "topics": [
       "accessibility",
       "usability",
-      "domain",
       "performance",
       "botfriendly",
       "security"
