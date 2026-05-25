@@ -7,8 +7,7 @@
     "topics": [
       "accessibility",
       "usability",
-      "performance",
-      "botfriendly",
+      "botability",
       "security"
     ],
     "standards": [
@@ -153,8 +152,7 @@
     "topics": [
       "accessibility",
       "usability",
-      "botfriendly",
-      "social"
+      "botability"
     ],
     "standards": [
       {
@@ -214,7 +212,7 @@
     "description": "Resources to improve site search rankings.",
     "topics": [
       "usability",
-      "botfriendly"
+      "botability"
     ],
     "standards": [
       {
@@ -254,12 +252,10 @@
     "displayName": "GSA Site Scanning",
     "description": "Checks and tracks federal .gov websites.",
     "topics": [
-      "botfriendly",
+      "botability",
       "accessibility",
       "usability",
-      "performance",
-      "security",
-      "social"
+      "security"
     ],
     "about": {
       "title": "About",
@@ -339,8 +335,7 @@
     "topics": [
       "accessibility",
       "usability",
-      "performance",
-      "botfriendly",
+      "botability",
       "security"
     ],
     "about": {
@@ -377,8 +372,7 @@
     "description": "Improves how social media content shows.",
     "topics": [
       "usability",
-      "botfriendly",
-      "social"
+      "botability"
     ],
     "about": {
       "title": "About",
@@ -500,7 +494,7 @@
     "featured": true,
     "description": "Website sitemap standards.",
     "topics": [
-      "botfriendly",
+      "botability",
       "usability"
     ],
     "about": {
@@ -522,7 +516,7 @@
     "topics": [
       "accessibility",
       "usability",
-      "botfriendly"
+      "botability"
     ],
     "standards": [
       {
@@ -820,7 +814,7 @@
     "featured": true,
     "description": "Guidelines for controlling search engine crawling.",
     "topics": [
-      "botfriendly"
+      "botability"
     ],
     "standards": [
       {
@@ -845,7 +839,7 @@
     "featured": true,
     "description": "Standards for providing structured data to search engines, llm crawlers and other machine parsers.",
     "topics": [
-      "botfriendly"
+      "botability"
     ],
     "standards": [
       {
@@ -911,8 +905,7 @@
     },
     "topics": [
       "usability",
-      "performance",
-      "botfriendly"
+      "botability"
     ],
     "standards": [
       {
