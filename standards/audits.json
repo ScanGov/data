@@ -103,7 +103,8 @@
             "content": "<ul>\n  <li><a href=\"https://schema.org/GovernmentOrganization\">GovernmentOrganization</a></li>\n</ul>"
           }
         },
-        "relatedLinks": {}
+        "relatedLinks": {},
+        "sitewide": true
       },
       {
         "key": "status",
@@ -131,7 +132,8 @@
           {
             "title": "As a search engine bot or user, I want the website's sitemap to be easily accessible so that I can discover all the pages and content on the site efficiently and improve the website's discoverability."
           }
-        ]
+        ],
+        "sitewide": true
       },
       {
         "key": "xml",
@@ -174,7 +176,8 @@
         },
         "relatedLinks": {
           "audio": "https://standards.scangov.org/assets/audio/sitemaps.mp3"
-        }
+        },
+        "sitewide": true
       },
       {
         "key": "valid",
@@ -217,7 +220,8 @@
         },
         "relatedLinks": {
           "audio": "https://standards.scangov.org/assets/audio/robots-txt.mp3"
-        }
+        },
+        "sitewide": true
       },
       {
         "key": "allowed",
@@ -264,7 +268,8 @@
         },
         "relatedLinks": {
           "audio": "https://standards.scangov.org/assets/audio/robots-txt.mp3"
-        }
+        },
+        "sitewide": true
       },
       {
         "key": "sitemap-robots",
@@ -307,7 +312,8 @@
         },
         "relatedLinks": {
           "audio": "https://standards.scangov.org/assets/audio/sitemaps.mp3"
-        }
+        },
+        "sitewide": true
       },
       {
         "key": "canonical",
@@ -3053,7 +3059,8 @@
           {
             "title": "As a security researcher, I want to find a security.txt file on the website so that I can report vulnerabilities to the right contact securely and efficiently."
           }
-        ]
+        ],
+        "sitewide": true
       },
       {
         "key": "xcontenttypeoptions",
