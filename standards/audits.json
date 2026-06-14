@@ -2306,7 +2306,7 @@
   },
   "usability": {
     "displayName": "Usability",
-    "icon": "rectangle-list",
+    "icon": "hand-pointer",
     "color": "#d5bfff",
     "url": "/guidance/usability",
     "description": "ScanGov content standards and guidance.",
@@ -2916,7 +2916,7 @@
   },
   "security": {
     "displayName": "Security",
-    "icon": "lock",
+    "icon": "shield-halved",
     "color": "#ff8d7b",
     "url": "/guidance/security",
     "description": "ScanGov security standards and guidance.",
