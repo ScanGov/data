@@ -2198,7 +2198,7 @@
       },
       {
         "key": "image-aspect-ratio",
-        "scorekey": "image_aspect_ratio",
+        "scorekey": "image-aspect-ratio",
         "displayName": "Image aspect ratio",
         "featured": true,
         "tag": "image-aspect-ratio",
@@ -2717,7 +2717,7 @@
       },
       {
         "key": "ogsitename",
-        "scorekey": "ogSiteName",
+        "scorekey": "ogsitename",
         "displayName": "Open Graph site name",
         "tag": "<meta property=\"og:site-name\">",
         "description": "Website title for social sharing.",
@@ -2745,7 +2745,7 @@
       },
       {
         "key": "ogtype",
-        "scorekey": "ogType",
+        "scorekey": "ogtype",
         "displayName": "Open Graph type",
         "tag": "<meta property=\"og:type\">",
         "description": "Content category for social media.",
@@ -2773,7 +2773,7 @@
       },
       {
         "key": "ogtitle",
-        "scorekey": "ogTitle",
+        "scorekey": "ogtitle",
         "displayName": "Open Graph title",
         "featured": true,
         "tag": "<meta property=\"og:title\">",
@@ -2802,7 +2802,7 @@
       },
       {
         "key": "ogdescription",
-        "scorekey": "ogDescription",
+        "scorekey": "ogdescription",
         "displayName": "Open Graph description",
         "tag": "<meta property=\"og:description\">",
         "description": "Short description of your webpage content.",
@@ -2830,7 +2830,7 @@
       },
       {
         "key": "ogurl",
-        "scorekey": "ogUrl",
+        "scorekey": "ogurl",
         "displayName": "Open Graph URL",
         "tag": "<meta property=\"og:url\">",
         "description": "Canonical link for social sharing.",
@@ -2858,7 +2858,7 @@
       },
       {
         "key": "ogimage",
-        "scorekey": "ogImage",
+        "scorekey": "ogimage",
         "displayName": "Open Graph image",
         "tag": "<meta property=\"og:image\">",
         "description": "Preview image for social sharing.",
@@ -2886,7 +2886,7 @@
       },
       {
         "key": "ogimagealt",
-        "scorekey": "ogImageAlt",
+        "scorekey": "ogimagealt",
         "displayName": "Open Graph image alt",
         "tag": "<meta property=\"og:image:alt\">",
         "description": "Image description for accessibility",
@@ -3030,7 +3030,7 @@
       },
       {
         "key": "securitytxt",
-        "scorekey": "securityTxt",
+        "scorekey": "securitytxt",
         "displayName": "security.txt",
         "featured": true,
         "tag": "security.txt",
@@ -3064,7 +3064,7 @@
       },
       {
         "key": "xcontenttypeoptions",
-        "scorekey": "xContentTypeOptions",
+        "scorekey": "xcontenttypeoptions",
         "displayName": "X-Content-Type-Options",
         "tag": "X-Content-Type-Options",
         "description": "The site prevents mime type sniffing.",
@@ -3087,7 +3087,7 @@
       },
       {
         "key": "errors-in-console",
-        "scorekey": "errors_in_console",
+        "scorekey": "errors-in-console",
         "displayName": "Errors in the console",
         "tag": "errors-in-console",
         "description": "Tracks mistakes in code for debugging.",
@@ -3114,7 +3114,7 @@
       },
       {
         "key": "clickjacking-mitigation",
-        "scorekey": "clickjacking_mitigation",
+        "scorekey": "clickjacking-mitigation",
         "displayName": "Clickjacking mitigation",
         "tag": "clickjacking-mitigation",
         "description": "Stops fake clicks on hidden content.",
@@ -3147,7 +3147,7 @@
       },
       {
         "key": "paste-preventing-inputs",
-        "scorekey": "paste_preventing_inputs",
+        "scorekey": "paste-preventing-inputs",
         "displayName": "Paste preventing inputs",
         "tag": "paste-preventing-inputs",
         "description": "Page doesn't allow copy-paste into inputs.",
