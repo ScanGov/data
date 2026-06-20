@@ -3065,6 +3065,7 @@
       {
         "key": "xcontenttypeoptions",
         "scorekey": "xcontenttypeoptions",
+        "sitewide": true,
         "displayName": "X-Content-Type-Options",
         "tag": "X-Content-Type-Options",
         "description": "The site prevents mime type sniffing.",
