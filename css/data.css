@@ -1,0 +1,31 @@
+/* Copy buttons — Bootstrap-docs style, icon only */
+.copy-btn,
+#cite-copy-btn {
+  background-color: rgba(33, 37, 41, 0.85);
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  line-height: 1;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.copy-btn:hover,
+#cite-copy-btn:hover {
+  background-color: rgba(33, 37, 41, 1);
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #fff;
+}
+.copy-btn svg,
+#cite-copy-btn svg {
+  fill: #fff !important;
+  color: #fff !important;
+}
+
+/* Reserve right-side space for the floating copy button */
+.copy-wrap {
+  padding-right: 5rem;
+}
+.copy-wrap > pre {
+  padding-top: 2.5rem;
+}
+.copy-wrap > .table-responsive {
+  margin-top: 2.5rem;
+}

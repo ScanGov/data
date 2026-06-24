@@ -1,0 +1,1 @@
+Update the data for project ScanGov (/myscangov_homepage_audits.json) by following the instructions in the auditor repository

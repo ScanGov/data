@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ScanGov Data</title>
+  <subtitle>Digital experience data managed by ScanGov.</subtitle>
+  <link href="https://data.scangov.org/feed.xml" rel="self"/>
+  <link href="https://data.scangov.org/"/>
+  
+  <updated>2026-06-24T00:00:00Z</updated>
+  <id>https://data.scangov.org/</id>
+  <author>
+    <name>ScanGov</name>
+  </author>
+  
+  
+  <entry>
+    <title>Datasets updated — June 23, 2026</title>
+    <link href="https://data.scangov.org/changelog/"/>
+    <id>https://data.scangov.org/changelog/#1782275004396</id>
+    <updated>2026-06-24T00:00:00Z</updated>
+    <content type="html">Datasets updated on June 23, 2026.&#10;&lt;a href="https://data.scangov.org/datasets/domains/"&gt;Domains&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/accessibility/"&gt;Accessibility&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/metadata/"&gt;Metadata&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/performance/"&gt;Performance&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/robots/"&gt;Robots&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/security/"&gt;Security&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/sitemap/"&gt;Sitemap&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/url/"&gt;URL&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/script-sources/"&gt;Script Sources&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/homepage-audits/"&gt;Homepage Audits&lt;/a&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Datasets updated — May 2, 2026</title>
+    <link href="https://data.scangov.org/changelog/"/>
+    <id>https://data.scangov.org/changelog/#1777744713587</id>
+    <updated>2026-05-02T00:00:00Z</updated>
+    <content type="html">Datasets updated on May 2, 2026.&#10;&lt;a href="https://data.scangov.org/datasets/domains/"&gt;Domains&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/accessibility/"&gt;Accessibility&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/metadata/"&gt;Metadata&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/performance/"&gt;Performance&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/robots/"&gt;Robots&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/security/"&gt;Security&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/sitemap/"&gt;Sitemap&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/url/"&gt;URL&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/script-sources/"&gt;Script Sources&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/homepage-audits/"&gt;Homepage Audits&lt;/a&gt;</content>
+  </entry>
+  
+</feed>
