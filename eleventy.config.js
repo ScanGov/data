@@ -23,7 +23,6 @@ export default async function (eleventyConfig) {
   // Passthrough: site assets
   eleventyConfig.addPassthroughCopy({ './public/': '/' })
   eleventyConfig.addPassthroughCopy('CNAME')
-  eleventyConfig.addPassthroughCopy('google10895162be5e592f.html')
 
   // Passthrough: data files — preserve all existing URLs
   const dataFiles = [
