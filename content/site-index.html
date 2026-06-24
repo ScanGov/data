@@ -1,0 +1,31 @@
+---
+layout: layouts/default
+title: Site index
+description: All pages on ScanGov Data.
+---
+
+<div class="col-12">
+  <div class="container mb-5">
+    <h2 class="h4 mb-3">Datasets</h2>
+    <ul>
+      {%- for dataset in datasets %}
+      <li><a href="/datasets/{{ dataset.slug }}/">{{ dataset.title }}</a></li>
+      {%- endfor %}
+    </ul>
+
+    <h2 class="h4 mt-4 mb-3">Pages</h2>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/datasets/">Datasets</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/changelog/">Changelog</a></li>
+      <li><a href="/site-index/">Site index</a></li>
+    </ul>
+
+    <h2 class="h4 mt-4 mb-3">Feeds</h2>
+    <ul>
+      <li><a href="/feed.xml">RSS feed</a></li>
+      <li><a href="/data.json">Dataset catalog (data.json)</a></li>
+    </ul>
+  </div>
+</div>

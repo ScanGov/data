@@ -1,12 +1,20 @@
 {
+  "name": "scangov-data",
+  "version": "1.0.0",
   "type": "module",
+  "scripts": {
+    "build": "npx @11ty/eleventy --quiet",
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "cross-env": "^7.0.3"
+  },
   "dependencies": {
-    "cheerio": "^1.0.0",
-    "fs": "^0.0.1-security",
-    "http": "^0.0.1-security",
-    "https": "^1.0.0",
-    "process": "^0.11.10",
-    "readline-sync": "^1.4.10",
-    "zlib": "^1.0.5"
+    "@11ty/font-awesome": "github:aaronhans/eleventy-plugin-font-awesome",
+    "purgecss": "^7.0.2"
   }
 }

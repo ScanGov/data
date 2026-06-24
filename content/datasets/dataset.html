@@ -1,0 +1,275 @@
+---
+layout: layouts/dataset
+pagination:
+  data: datasets
+  size: 1
+  alias: dataset
+permalink: /datasets/{{ dataset.slug }}/
+---
+
+<div class="col-12 col-lg-8 mx-auto">
+
+    <!-- Data preview -->
+    <h2 class="mt-4 mb-2">Data</h2>
+
+    {% if dataset.files | length > 1 %}
+    <ul class="nav nav-tabs mb-3" id="data-tabs" role="tablist">
+      {% for f in dataset.files %}
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link{% if loop.first %} active{% endif %}"
+          id="tab-{{ loop.index }}"
+          data-bs-toggle="tab"
+          data-bs-target="#panel-{{ loop.index }}"
+          type="button"
+          role="tab"
+          aria-controls="panel-{{ loop.index }}"
+          aria-selected="{{ 'true' if loop.first else 'false' }}"
+          data-file="{{ f.downloadUrl }}"
+          data-type="{{ f.type }}">
+          .{{ f.type }}
+        </button>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <div class="tab-content" id="data-tab-content">
+      {% for f in dataset.files %}
+      <div
+        class="tab-pane fade{% if loop.first %} show active{% endif %}"
+        id="panel-{{ loop.index }}"
+        role="tabpanel"
+        aria-labelledby="tab-{{ loop.index }}"
+        data-file="{{ f.downloadUrl }}"
+        data-type="{{ f.type }}"
+        data-size="{{ f.size.display }}"
+        data-large="{{ 'true' if f.size.large else 'false' }}">
+
+        <div class="position-relative copy-wrap">
+          <button
+            class="btn btn-sm btn-outline-secondary position-absolute top-0 end-0 m-2 copy-btn"
+            aria-label="Copy to clipboard"
+            title="Copy to clipboard"
+            data-panel="panel-{{ loop.index }}">
+            <i class="fa-regular fa-clipboard"></i>
+          </button>
+          {% if f.type == 'csv' %}
+          <div class="table-responsive" style="max-height: 400px; overflow-y: scroll;">
+            <table class="table table-sm table-bordered small" id="csv-table-{{ loop.index }}" aria-label="{{ dataset.title }} data preview">
+              <thead id="csv-head-{{ loop.index }}"></thead>
+              <tbody id="csv-body-{{ loop.index }}"></tbody>
+            </table>
+          </div>
+          {% else %}
+          <pre class="border rounded p-3 small" style="max-height: 400px; overflow-y: scroll; overflow-x: auto;"><code id="code-{{ loop.index }}" class="language-json"></code></pre>
+          {% endif %}
+          <noscript><p class="text-body-secondary small mt-2 mb-0">JavaScript is required to load the data preview. <a href="{{ f.downloadUrl }}" download="{{ f.name }}">Download the file</a> to view it locally.</p></noscript>
+          <p class="text-body-secondary small mt-1 mb-0" id="truncate-note-{{ loop.index }}" style="display:none;">
+            Showing first 100 lines. <a href="{{ f.downloadUrl }}" download="{{ f.name }}">Download full file.</a>
+          </p>
+        </div>
+
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Data dictionary -->
+    {% if dataset.fields and dataset.fields.length %}
+    <h2 class="mt-4 mb-2">Data dictionary</h2>
+    <table class="table table-sm table-bordered mb-5 small">
+      <caption class="visually-hidden">Data dictionary for {{ dataset.title }}</caption>
+      <thead>
+        <tr>
+          <th scope="col">Field</th>
+          <th scope="col">Type</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for field in dataset.fields %}
+        <tr>
+          <td><code>{{ field.name }}</code></td>
+          <td>{{ field.type }}</td>
+          <td>{{ field.description }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+
+    <!-- Citation -->
+    <h2 class="mt-4 mb-2">Citation</h2>
+    <div class="position-relative copy-wrap mb-4">
+      <button
+        class="btn btn-sm btn-outline-secondary position-absolute top-0 end-0 m-2"
+        id="cite-copy-btn"
+        aria-label="Copy citation"
+        title="Copy citation">
+        <i class="fa-regular fa-clipboard"></i>
+      </button>
+      <pre class="border rounded p-3 small" id="citation-text">ScanGov. ({{ dataset.updatedYear }}). {{ dataset.title }} [Data set]. ScanGov Data. {{ site.url }}/datasets/{{ dataset.slug }}/</pre>
+    </div>
+
+    <!-- Share -->
+    {% include "actions.html" %}
+
+</div>
+
+<script>
+(function () {
+  function loadPanel(panelEl) {
+    const file = panelEl.dataset.file;
+    const type = panelEl.dataset.type;
+    const size = panelEl.dataset.size;
+    const large = panelEl.dataset.large === 'true';
+    const index = panelEl.id.split('-').pop();
+
+    if (panelEl.dataset.loaded) return;
+
+    if (large && panelEl.dataset.confirmed !== '1') {
+      const targetId = type === 'csv' ? 'csv-body-' + index : 'code-' + index;
+      const targetEl = document.getElementById(targetId);
+      if (targetEl && !targetEl.dataset.promptShown) {
+        targetEl.dataset.promptShown = '1';
+        const wrapper = targetEl.closest('.position-relative');
+        const prompt = document.createElement('p');
+        prompt.className = 'text-body-secondary small p-3 mb-0';
+        prompt.innerHTML = 'File size: ' + size + '. ' +
+          '<button class="btn btn-sm btn-outline-secondary ms-2 load-preview-btn">Load preview</button>';
+        if (wrapper) wrapper.insertBefore(prompt, wrapper.querySelector('pre, .table-responsive'));
+        prompt.querySelector('.load-preview-btn').addEventListener('click', function () {
+          prompt.remove();
+          panelEl.dataset.confirmed = '1';
+          loadPanel(panelEl);
+        });
+      }
+      return;
+    }
+
+    panelEl.dataset.loaded = '1';
+
+    fetch(file)
+      .then(function (r) { return r.text(); })
+      .then(function (text) {
+        if (type === 'csv') {
+          renderCsv(text, index);
+        } else {
+          renderJson(text, index);
+        }
+      })
+      .catch(function () {
+        const el = document.getElementById('code-' + index) || document.getElementById('csv-body-' + index);
+        if (el) el.textContent = 'Failed to load data.';
+      });
+  }
+
+  function renderJson(text, index) {
+    var el = document.getElementById('code-' + index);
+    if (!el) return;
+    try {
+      var parsed = JSON.parse(text);
+      var pretty = JSON.stringify(parsed, null, 2);
+      var lines = pretty.split('\n');
+      var truncated = lines.length > 100;
+      el.textContent = lines.slice(0, 100).join('\n');
+      if (truncated) {
+        var note = document.getElementById('truncate-note-' + index);
+        if (note) note.style.display = '';
+      }
+    } catch (e) {
+      var lines = text.split('\n');
+      el.textContent = lines.slice(0, 100).join('\n');
+    }
+  }
+
+  function renderCsv(text, index) {
+    const lines = text.split('\n').filter(Boolean);
+    const truncated = lines.length > 21;
+    const rows = lines.slice(0, 21);
+    const head = document.getElementById('csv-head-' + index);
+    const body = document.getElementById('csv-body-' + index);
+    if (!head || !body) return;
+
+    const headers = parseCsvRow(rows[0]);
+    head.innerHTML = '<tr>' + headers.map(function (h) {
+      return '<th scope="col">' + escHtml(h) + '</th>';
+    }).join('') + '</tr>';
+
+    body.innerHTML = rows.slice(1).map(function (row) {
+      return '<tr>' + parseCsvRow(row).map(function (c) {
+        return '<td>' + escHtml(c) + '</td>';
+      }).join('') + '</tr>';
+    }).join('');
+
+    if (truncated) {
+      const note = document.getElementById('truncate-note-' + index);
+      if (note) note.style.display = '';
+    }
+  }
+
+  function parseCsvRow(row) {
+    const result = [];
+    let cur = '', inQuotes = false;
+    for (let i = 0; i < row.length; i++) {
+      const ch = row[i];
+      if (ch === '"') { inQuotes = !inQuotes; }
+      else if (ch === ',' && !inQuotes) { result.push(cur); cur = ''; }
+      else { cur += ch; }
+    }
+    result.push(cur);
+    return result;
+  }
+
+  function escHtml(s) {
+    return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  const firstPanel = document.querySelector('.tab-pane.active');
+  if (firstPanel) loadPanel(firstPanel);
+
+  document.querySelectorAll('[data-bs-toggle="tab"]').forEach(function (btn) {
+    btn.addEventListener('shown.bs.tab', function (e) {
+      const target = document.querySelector(e.target.dataset.bsTarget);
+      if (target) loadPanel(target);
+    });
+  });
+
+  document.querySelectorAll('.copy-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      const panelId = btn.dataset.panel;
+      const panel = document.getElementById(panelId);
+      let text = '';
+      const code = panel && panel.querySelector('code');
+      const table = panel && panel.querySelector('table');
+      if (code) text = code.textContent;
+      else if (table) text = table.innerText;
+      if (text) {
+        navigator.clipboard.writeText(text).then(function () {
+          btn.innerHTML = '<i class="fa-solid fa-check"></i>';
+          btn.setAttribute('aria-label', 'Copied');
+          setTimeout(function () {
+            btn.innerHTML = '<i class="fa-regular fa-clipboard"></i>';
+            btn.setAttribute('aria-label', 'Copy to clipboard');
+          }, 2000);
+        });
+      }
+    });
+  });
+
+  const citeBtn = document.getElementById('cite-copy-btn');
+  if (citeBtn) {
+    citeBtn.addEventListener('click', function () {
+      const text = document.getElementById('citation-text').textContent;
+      navigator.clipboard.writeText(text).then(function () {
+        citeBtn.innerHTML = '<i class="fa-solid fa-check"></i>';
+        citeBtn.setAttribute('aria-label', 'Copied');
+        setTimeout(function () {
+          citeBtn.innerHTML = '<i class="fa-regular fa-clipboard"></i>';
+          citeBtn.setAttribute('aria-label', 'Copy citation');
+        }, 2000);
+      });
+    });
+  }
+})();
+</script>

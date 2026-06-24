@@ -1,0 +1,92 @@
+{#
+  Page actions row: Share.
+
+  Single source of truth, maintained in https://github.com/ScanGov/components
+  and copied into each site repo's _includes/ (scangov, standards,
+  scangov-com, docs, data). Only share renders on the data site.
+#}
+{% set actionsSocialSites = ["https://docs.scangov.org", "https://standards.scangov.org", "https://data.scangov.org"] %}
+{% set actionsEmailSites = ["https://scangov.org", "https://standards.scangov.org", "https://docs.scangov.org", "https://data.scangov.org"] %}
+<ul class="actions list-group list-group-horizontal-sm mt-3 mb-3">
+    <li class="list-group-item dropdown">
+        <a
+            href="#"
+            id="share-menu"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            aria-label="Share">
+            <i class="fa-solid fa-share-nodes"></i>
+            <small class="d-none d-sm-inline">Share</small>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="share-menu">
+            <li class="small">
+                <a
+                    href="javascript:void(0);"
+                    onclick="navigator.clipboard.writeText(location.href);"
+                    class="dropdown-item copy-link">
+                    <i class="fa-solid fa-link"></i>
+                    This page
+                </a>
+            </li>
+            {% if site.url in actionsSocialSites %}
+            <li class="small">
+                <a
+                    href="https://www.linkedin.com/sharing/share-offsite/?url={{ (site.url + page.url) | encodeParameter }}"
+                    class="dropdown-item"
+                    rel="nofollow"
+                    target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    LinkedIn
+                </a>
+            </li>
+            <li class="small">
+                <a
+                    href="https://bsky.app/intent/compose?text={{ ((title | default('')) + ' ' + site.url + page.url) | encodeParameter }}"
+                    class="dropdown-item"
+                    rel="nofollow"
+                    target="_blank">
+                    <i class="fa-brands fa-bluesky"></i>
+                    Bluesky
+                </a>
+            </li>
+            <li class="small">
+                <a
+                    href="https://mastodon.social/share?text={{ ((title | default('')) + ' ' + site.url + page.url) | encodeParameter }}"
+                    class="dropdown-item"
+                    rel="nofollow"
+                    target="_blank">
+                    <i class="fa-brands fa-mastodon"></i>
+                    Mastodon
+                </a>
+            </li>
+            {% endif %}
+            {% if site.url in actionsEmailSites %}
+            <li class="small">
+                <a
+                    href="mailto:?subject={{ (title | default('')) | encodeParameter }}&body={{ (site.url + page.url) | encodeParameter }}"
+                    class="dropdown-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    Email
+                </a>
+            </li>
+            {% endif %}
+        </ul>
+    </li>
+</ul>
+<div class="alert alert-success d-none mt-2" role="alert" id="copy-alert">
+    Link copied!
+</div>
+<script>
+    const copyAlert = document.getElementById('copy-alert');
+    let copyAlertTimeout;
+    document.querySelectorAll('.copy-link').forEach(function (link) {
+        link.addEventListener('click', function () {
+            copyAlert.classList.remove('d-none');
+            clearTimeout(copyAlertTimeout);
+            copyAlertTimeout = setTimeout(function () {
+                copyAlert.classList.add('d-none');
+            }, 2000);
+        });
+    });
+</script>

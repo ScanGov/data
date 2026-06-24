@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if description %}
+    <meta name="description" content="{{ description }}">
+    {% endif %}
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    {% for id in site.googleVerify %}
+    <meta name="google-site-verification" content="{{ id }}">
+    {% endfor %}
+    <meta property="og:locale" content="en_US">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
+    {% if site.rss %}
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.rss }}">
+    {% endif %}
+    <link rel="alternate" type="application/json" title="{{ site.title }} data catalog" href="/data.json">
+    <!-- Title -->
+    <title>{% if title %}{{ title }} - {% endif %}{{ site.title }}</title>
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:type" content="{% if dataset %}article{% else %}website{% endif %}">
+    {% if title %}<meta property="og:title" content="{{ title }}">{% endif %}
+    {% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}/assets/img/avatar-og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{ site.title }} logo">
+    <!-- Schema.org -->
+    {% if dataset %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Datasets", "item": "{{ site.url }}/datasets/" },
+        { "@type": "ListItem", "position": 2, "name": "{{ dataset.title }}", "item": "{{ site.url }}/datasets/{{ dataset.slug }}/" }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dataset",
+      "name": "{{ dataset.title }}",
+      "description": "{{ dataset.description }}",
+      "url": "{{ site.url }}/datasets/{{ dataset.slug }}/",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "publisher": {
+        "@type": "Organization",
+        "name": "ScanGov",
+        "url": "https://scangov.com"
+      },
+      "dateModified": "{{ dataset.updatedTimeISO }}",
+      "distribution": [
+        {% for f in dataset.files %}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "{% if f.type == 'json' %}application/json{% else %}text/csv{% endif %}",
+          "contentUrl": "{{ site.url }}{{ f.downloadUrl }}"
+        }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+    </script>
+    {% endif %}
+    {% include "favicon.html" %}
+    {% include "style.html" %}
+    <script>
+        (function() {
+            const theme = localStorage.getItem('theme') || 'dark';
+            document.documentElement.setAttribute('data-bs-theme', theme);
+            document.body?.setAttribute('data-bs-theme', theme);
+        })();
+    </script>
+</head>
+
+<body{% if layout %} class="{{ layout }}"{% endif %} data-bs-theme="dark">
+    <a class="visually-hidden visually-hidden-focusable skip-link" href="#main-content">
+        Skip to main content
+    </a>

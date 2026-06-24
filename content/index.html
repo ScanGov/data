@@ -1,0 +1,48 @@
+---
+layout: layouts/default
+title: Digital experience data
+description: Digital experience data managed by ScanGov.
+---
+
+<div class="col-12">
+  <div class="container">
+    <h2 class="h4 mb-4">Featured</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-4" id="featured-grid">
+      {% for dataset in datasets %}
+        {% if not dataset.experimental %}
+        <div class="col dataset-card">
+          <div class="card h-100">
+            <div class="card-body">
+              <i class="fa-solid fa-database fa-2x mb-3"></i>
+              <h2 class="h5 card-title">{{ dataset.title }}</h2>
+              <p class="card-text small">{{ dataset.description }}</p>
+              <p class="card-text">
+                <small class="text-body-secondary">Updated: <time datetime="{{ dataset.updatedTimeISO }}">{{ dataset.updatedTime }}</time></small>
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="/datasets/{{ dataset.slug }}/" class="btn btn-sm btn-primary">Get dataset</a>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <a href="/datasets/" class="btn btn-outline-primary">Datasets</a>
+  </div>
+</div>
+
+<script>
+(function () {
+  var cols = Array.from(document.querySelectorAll('#featured-grid .dataset-card'));
+  for (var i = cols.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = cols[i]; cols[i] = cols[j]; cols[j] = tmp;
+  }
+  var grid = document.getElementById('featured-grid');
+  cols.forEach(function (col, i) {
+    col.style.display = i < 6 ? '' : 'none';
+    grid.appendChild(col);
+  });
+})();
+</script>
