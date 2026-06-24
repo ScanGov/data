@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Datasets",
+    "icon": "fa-solid fa-database",
+    "url": "/datasets/"
+  },
+  {
+    "title": "Changelog",
+    "icon": "fa-solid fa-timeline",
+    "url": "/changelog/"
+  },
+  {
+    "title": "Search",
+    "icon": "fa-solid fa-magnifying-glass",
+    "url": "/search/"
+  }
+]

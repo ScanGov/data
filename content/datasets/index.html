@@ -1,0 +1,31 @@
+---
+layout: layouts/default
+title: Datasets
+description: All datasets available from ScanGov.
+---
+
+<div class="col-12">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+      {% for dataset in datasets %}
+        {% if not dataset.experimental %}
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <i class="fa-solid fa-database fa-2x mb-3"></i>
+              <h2 class="h5 card-title">{{ dataset.title }}</h2>
+              <p class="card-text small">{{ dataset.description }}</p>
+              <p class="card-text">
+                <small class="text-body-secondary">Updated: <time datetime="{{ dataset.updatedTimeISO }}">{{ dataset.updatedTime }}</time></small>
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="/datasets/{{ dataset.slug }}/" class="btn btn-sm btn-primary">Get dataset</a>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,62 @@
+---
+layout: layouts/default
+title: Search
+description: Search datasets available from ScanGov.
+---
+
+<div class="col-12">
+  <div class="container mb-5">
+    <div class="row mb-4">
+      <div class="col-12 col-md-6">
+        <label for="dataset-search" class="form-label">Filter datasets:</label>
+        <input
+          type="text"
+          id="dataset-search"
+          class="form-control"
+          placeholder="Type to filter..."
+          aria-label="Filter datasets">
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="dataset-grid">
+      {% for dataset in datasets %}
+      {% if not dataset.experimental %}
+      <div class="col dataset-card" data-title="{{ dataset.title | lower }}" data-description="{{ dataset.description | lower }}">
+        <div class="card h-100">
+          <div class="card-body">
+            <i class="fa-solid fa-database fa-2x mb-3"></i>
+            <h2 class="h5 card-title">{{ dataset.title }}</h2>
+            <p class="card-text small">{{ dataset.description }}</p>
+            <p class="card-text">
+              <small class="text-body-secondary">Updated: <time datetime="{{ dataset.updatedTimeISO }}">{{ dataset.updatedTime }}</time></small>
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="/datasets/{{ dataset.slug }}/" class="btn btn-sm btn-primary">Get dataset</a>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <p class="mt-4 text-body-secondary d-none" id="no-results">No datasets match your search.</p>
+  </div>
+</div>
+
+<script>
+  const input = document.getElementById('dataset-search');
+  const cards = document.querySelectorAll('.dataset-card');
+  const noResults = document.getElementById('no-results');
+
+  input.addEventListener('input', function () {
+    const query = this.value.toLowerCase().trim();
+    let visible = 0;
+    cards.forEach(function (card) {
+      const matches = !query ||
+        card.dataset.title.includes(query) ||
+        card.dataset.description.includes(query);
+      card.style.display = matches ? '' : 'none';
+      if (matches) visible++;
+    });
+    noResults.classList.toggle('d-none', visible > 0);
+  });
+</script>

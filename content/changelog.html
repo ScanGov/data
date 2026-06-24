@@ -1,0 +1,30 @@
+---
+layout: layouts/default
+title: Changelog
+description: A record of when ScanGov datasets were last updated.
+---
+
+<div class="col-12">
+  <div class="container mb-5">
+    {% if changelog.length %}
+    <ul class="timeline">
+      {% set sorted = changelog | reverse %}
+      {% for entry in sorted %}
+      <li class="timeline-item pb-3 mb-2">
+        <p class="timeline-date mb-1">{{ entry.displayDate }}</p>
+        <p class="text-body-secondary mb-1">{{ entry.note }}</p>
+        <ul class="small mb-0">
+          {%- for dataset in datasets %}
+          {%- if not dataset.experimental %}
+          <li><a href="/datasets/{{ dataset.slug }}/">{{ dataset.title }}</a></li>
+          {%- endif %}
+          {%- endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="text-body-secondary">No changelog entries yet.</p>
+    {% endif %}
+  </div>
+</div>

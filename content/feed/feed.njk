@@ -1,0 +1,29 @@
+---
+layout: false
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+sitemap: false
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }}</title>
+  <subtitle>{{ site.description }}</subtitle>
+  <link href="{{ site.url }}/feed.xml" rel="self"/>
+  <link href="{{ site.url }}/"/>
+  {% set latestEntry = changelog | last %}
+  <updated>{% if latestEntry %}{{ latestEntry.date }}T00:00:00Z{% endif %}</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>{{ site.org }}</name>
+  </author>
+  {% set sorted = changelog | reverse %}
+  {% for entry in sorted %}
+  <entry>
+    <title>{{ entry.note }} — {{ entry.displayDate }}</title>
+    <link href="{{ site.url }}/changelog/"/>
+    <id>{{ site.url }}/changelog/#{{ entry.timestamp }}</id>
+    <updated>{{ entry.date }}T00:00:00Z</updated>
+    <content type="html">Datasets updated on {{ entry.displayDate }}.&#10;{% set comma = joiner(", ") %}{% for d in datasets %}{% if not d.experimental %}{{ comma() }}&lt;a href="{{ site.url }}/datasets/{{ d.slug }}/"&gt;{{ d.title }}&lt;/a&gt;{% endif %}{% endfor %}</content>
+  </entry>
+  {% endfor %}
+</feed>
