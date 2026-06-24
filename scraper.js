@@ -123,14 +123,16 @@ const fetch = (url, httpAgent, httpsAgent, visited, followRedirects = true, meth
         if (typeof url === 'string')
             url = new URL(url);
         let res, req;
-        if (debug)
-            console.log('fetch to', url.href);
 
-        if (visited.has(url.href)) {
+        const nonQueryUrl = url.href.substring(0, url.href.indexOf('?'));
+        if (debug)
+            console.log('fetch to', nonQueryUrl);
+
+        if (visited.has(nonQueryUrl)) {
             if (debug)
-                console.log('Using cached version of', url.href);
+                console.log('Using cached version of', nonQueryUrl);
             req = url;
-            res = visited.get(url.href);
+            res = visited.get(nonQueryUrl);
         }
         else {
             // Use the correct protocol
@@ -144,7 +146,7 @@ const fetch = (url, httpAgent, httpsAgent, visited, followRedirects = true, meth
                             req.socket.off('timeout', req.abort);
 
                             res = response;
-                            visited.set(url.href, res);
+                            visited.set(nonQueryUrl, res);
 
                             resolveRequest();
                         })
@@ -337,7 +339,7 @@ if (process.argv[2]) {
 
 let done = 0, startTime = Date.now();
 const scrapers = [];
-for (let i = 0; i < 3 && i < domains.length; i++)
+for (let i = 0; i < 5 && i < domains.length; i++)
     scrapers.push(new Promise(async (resolve, reject) => {
         // Agents allow for keeping the connection alive
         // This means the request doesn't have to do a DNS lookup and TLS handshake every time and only has to do it once
