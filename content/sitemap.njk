@@ -6,12 +6,25 @@ sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- set lastmod = datasets[0].updatedTimeISO %}
   {%- for item in collections.all %}
-  {%- if item.url and item.data.sitemap != false %}
+  {%- if item.url and item.data.sitemap != false and not item.url.startsWith('/datasets/') %}
   <url>
     <loc>{{ site.url }}{{ item.url }}</loc>
-    <lastmod>{% if item.data.modified %}{{ item.data.modified }}{% else %}{{ item.data.date }}{% endif %}</lastmod>
+    <lastmod>{{ lastmod }}</lastmod>
   </url>
   {%- endif %}
   {%- endfor %}
+  {%- for dataset in datasets %}
+  {%- if not dataset.experimental %}
+  <url>
+    <loc>{{ site.url }}/datasets/{{ dataset.slug }}/</loc>
+    <lastmod>{{ dataset.updatedTimeISO }}</lastmod>
+  </url>
+  {%- endif %}
+  {%- endfor %}
+  <url>
+    <loc>{{ site.url }}/datasets/</loc>
+    <lastmod>{{ lastmod }}</lastmod>
+  </url>
 </urlset>
