@@ -40,6 +40,19 @@ const licenseUrl = 'https://creativecommons.org/licenses/by/4.0/'
 
 const datasetDefs = [
   {
+    slug: 'accessibility',
+    title: 'Accessibility',
+    description: 'Accessibility scan results for U.S. government websites.',
+    files: [{ name: 'accessibility.json', type: 'json' }],
+    experimental: false,
+    fields: [
+      { name: 'domain', type: 'string', description: 'Government domain' },
+      { name: 'status', type: 'number', description: 'HTTP status code of the scan' },
+      { name: 'scores', type: 'object', description: 'Accessibility score breakdown by category' },
+      { name: 'overallScore', type: 'number', description: 'Overall accessibility score (0–100)' },
+    ],
+  },
+  {
     slug: 'domains',
     title: 'Domains',
     description: 'Names, agencies, and types for U.S. government websites.',
@@ -55,16 +68,27 @@ const datasetDefs = [
     ],
   },
   {
-    slug: 'accessibility',
-    title: 'Accessibility',
-    description: 'Accessibility scan results for U.S. government websites.',
-    files: [{ name: 'accessibility.json', type: 'json' }],
+    slug: 'email-dns',
+    title: 'Email DNS',
+    description: 'Email DNS scan results for U.S. government websites.',
+    files: [{ name: 'experimental/emaildns.json', type: 'json' }],
+    experimental: true,
+    fields: [
+      { name: 'domain', type: 'string', description: 'Government domain' },
+      { name: 'spf', type: 'boolean', description: 'Whether an SPF record exists' },
+      { name: 'dmarc', type: 'boolean', description: 'Whether a DMARC record exists' },
+    ],
+  },
+  {
+    slug: 'homepage-audits',
+    title: 'Homepage Audits',
+    description: 'Homepage audit results for U.S. government websites.',
+    files: [{ name: 'myscangov_homepage_audits.json', type: 'json' }],
     experimental: false,
     fields: [
       { name: 'domain', type: 'string', description: 'Government domain' },
-      { name: 'status', type: 'number', description: 'HTTP status code of the scan' },
-      { name: 'scores', type: 'object', description: 'Accessibility score breakdown by category' },
-      { name: 'overallScore', type: 'number', description: 'Overall accessibility score (0–100)' },
+      { name: 'audits', type: 'object', description: 'Detailed audit results per category' },
+      { name: 'scores', type: 'object', description: 'Score breakdown by audit category' },
     ],
   },
   {
@@ -116,6 +140,17 @@ const datasetDefs = [
     ],
   },
   {
+    slug: 'script-sources',
+    title: 'Script Sources',
+    description: 'Third-party scripts detected on U.S. government websites.',
+    files: [{ name: 'scriptSources.json', type: 'json' }],
+    experimental: true,
+    fields: [
+      { name: 'domain', type: 'string', description: 'Government domain' },
+      { name: 'scripts', type: 'array', description: 'List of third-party script source URLs detected' },
+    ],
+  },
+  {
     slug: 'security',
     title: 'Security',
     description: 'Security scan results for U.S. government websites.',
@@ -162,42 +197,7 @@ const datasetDefs = [
       { name: 'redirectsToHttps', type: 'boolean', description: 'Whether HTTP redirects to HTTPS' },
       { name: 'scores', type: 'object', description: 'URL compliance score breakdown' },
     ],
-  },
-  {
-    slug: 'script-sources',
-    title: 'Script Sources',
-    description: 'Third-party scripts detected on U.S. government websites.',
-    files: [{ name: 'scriptSources.json', type: 'json' }],
-    experimental: false,
-    fields: [
-      { name: 'domain', type: 'string', description: 'Government domain' },
-      { name: 'scripts', type: 'array', description: 'List of third-party script source URLs detected' },
-    ],
-  },
-  {
-    slug: 'homepage-audits',
-    title: 'Homepage Audits',
-    description: 'Homepage audit results for U.S. government websites.',
-    files: [{ name: 'myscangov_homepage_audits.json', type: 'json' }],
-    experimental: false,
-    fields: [
-      { name: 'domain', type: 'string', description: 'Government domain' },
-      { name: 'audits', type: 'object', description: 'Detailed audit results per category' },
-      { name: 'scores', type: 'object', description: 'Score breakdown by audit category' },
-    ],
-  },
-  {
-    slug: 'email-dns',
-    title: 'Email DNS',
-    description: 'Email DNS scan results for U.S. government websites.',
-    files: [{ name: 'experimental/emaildns.json', type: 'json' }],
-    experimental: true,
-    fields: [
-      { name: 'domain', type: 'string', description: 'Government domain' },
-      { name: 'spf', type: 'boolean', description: 'Whether an SPF record exists' },
-      { name: 'dmarc', type: 'boolean', description: 'Whether a DMARC record exists' },
-    ],
-  },
+  }
 ]
 
 export default function () {
