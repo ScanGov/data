@@ -2,6 +2,31 @@
   "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
   "dataset": [
     {
+      "title": "Accessibility",
+      "description": "Accessibility scan results for U.S. government websites.",
+      "modified": "2026-06-23",
+      "publisher": {
+        "name": "ScanGov",
+        "@type": "org:Organization"
+      },
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "ScanGov",
+        "hasEmail": "mailto:hello@scangov.com"
+      },
+      "identifier": "https://data.scangov.org/datasets/accessibility/",
+      "accessLevel": "public",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.scangov.org/accessibility.json",
+          "mediaType": "application/json",
+          "format": "JSON"
+        }
+      ]
+    },
+    {
       "title": "Domains",
       "description": "Names, agencies, and types for U.S. government websites.",
       "modified": "2026-06-23",
@@ -27,8 +52,8 @@
       ]
     },
     {
-      "title": "Accessibility",
-      "description": "Accessibility scan results for U.S. government websites.",
+      "title": "Homepage Audits",
+      "description": "Homepage audit results for U.S. government websites.",
       "modified": "2026-06-23",
       "publisher": {
         "name": "ScanGov",
@@ -39,13 +64,13 @@
         "fn": "ScanGov",
         "hasEmail": "mailto:hello@scangov.com"
       },
-      "identifier": "https://data.scangov.org/datasets/accessibility/",
+      "identifier": "https://data.scangov.org/datasets/homepage-audits/",
       "accessLevel": "public",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "distribution": [
         {
           "@type": "dcat:Distribution",
-          "downloadURL": "https://data.scangov.org/accessibility.json",
+          "downloadURL": "https://data.scangov.org/myscangov_homepage_audits.json",
           "mediaType": "application/json",
           "format": "JSON"
         }
@@ -228,56 +253,6 @@
           "downloadURL": "https://data.scangov.org/url.csv",
           "mediaType": "text/csv",
           "format": "CSV"
-        }
-      ]
-    },
-    {
-      "title": "Script Sources",
-      "description": "Third-party scripts detected on U.S. government websites.",
-      "modified": "2026-06-23",
-      "publisher": {
-        "name": "ScanGov",
-        "@type": "org:Organization"
-      },
-      "contactPoint": {
-        "@type": "vcard:Contact",
-        "fn": "ScanGov",
-        "hasEmail": "mailto:hello@scangov.com"
-      },
-      "identifier": "https://data.scangov.org/datasets/script-sources/",
-      "accessLevel": "public",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "downloadURL": "https://data.scangov.org/scriptSources.json",
-          "mediaType": "application/json",
-          "format": "JSON"
-        }
-      ]
-    },
-    {
-      "title": "Homepage Audits",
-      "description": "Homepage audit results for U.S. government websites.",
-      "modified": "2026-06-23",
-      "publisher": {
-        "name": "ScanGov",
-        "@type": "org:Organization"
-      },
-      "contactPoint": {
-        "@type": "vcard:Contact",
-        "fn": "ScanGov",
-        "hasEmail": "mailto:hello@scangov.com"
-      },
-      "identifier": "https://data.scangov.org/datasets/homepage-audits/",
-      "accessLevel": "public",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "downloadURL": "https://data.scangov.org/myscangov_homepage_audits.json",
-          "mediaType": "application/json",
-          "format": "JSON"
         }
       ]
     }
