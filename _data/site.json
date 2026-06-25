@@ -1,5 +1,6 @@
 {
   "title": "ScanGov Data",
+  "titleShort": "Data",
   "description": "Digital experience data managed by ScanGov.",
   "url": "https://data.scangov.org",
   "org": "ScanGov",
