@@ -39,6 +39,7 @@ export default async function (eleventyConfig) {
     'security.csv',
     'sitemap.json',
     'sitemap.csv',
+    'status.json',
     'url.json',
     'url.csv',
     'updated_time',
