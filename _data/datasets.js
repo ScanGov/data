@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { execSync } from 'child_process'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.resolve(__dirname, '..')
@@ -14,6 +15,24 @@ function getSize(filepath) {
     return { display: bytes + ' B', bytes, large: false }
   } catch {
     return { display: 'Unknown', bytes: 0, large: false }
+  }
+}
+
+function getGitFileDate(relPath) {
+  try {
+    const iso = execSync(`git log -1 --format="%cs" -- "${relPath}"`, { cwd: root }).toString().trim()
+    if (!iso) return null
+    const date = new Date(iso + 'T12:00:00')
+    const display = date.toLocaleDateString('en-US', {
+      timeZone: 'America/Los_Angeles',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    })
+    const year = iso.split('-')[0]
+    return { display, iso, year }
+  } catch {
+    return null
   }
 }
 
@@ -44,6 +63,7 @@ const datasetDefs = [
     title: 'Status',
     description: 'HTTP status code definitions and types for U.S. government website scans.',
     files: [{ name: 'status.json', type: 'json' }],
+    fileDate: true,
     experimental: false,
     fields: [
       { name: 'code', type: 'number', description: 'HTTP status code' },
@@ -93,18 +113,26 @@ const datasetDefs = [
 ]
 
 export default function () {
-  const { display: updatedTime, iso: updatedTimeISO, year: updatedYear } = getUpdatedTime()
-  return datasetDefs.map((d) => ({
-    ...d,
-    updatedTime,
-    updatedTimeISO,
-    updatedYear,
-    license,
-    licenseUrl,
-    files: d.files.map((f) => ({
-      ...f,
-      size: getSize(path.join(root, f.name)),
-      downloadUrl: '/' + f.name,
-    })),
-  }))
+  const globalTime = getUpdatedTime()
+  return datasetDefs.map((d) => {
+    let timeInfo = globalTime
+    if (d.fileDate) {
+      const fromFile = d.files.map((f) => getGitFileDate(f.name)).filter(Boolean)
+      if (fromFile.length) timeInfo = fromFile.sort((a, b) => b.iso.localeCompare(a.iso))[0]
+    }
+    const { display: updatedTime, iso: updatedTimeISO, year: updatedYear } = timeInfo
+    return {
+      ...d,
+      updatedTime,
+      updatedTimeISO,
+      updatedYear,
+      license,
+      licenseUrl,
+      files: d.files.map((f) => ({
+        ...f,
+        size: getSize(path.join(root, f.name)),
+        downloadUrl: '/' + f.name,
+      })),
+    }
+  })
 }
