@@ -40,6 +40,19 @@ const licenseUrl = 'https://creativecommons.org/licenses/by/4.0/'
 
 const datasetDefs = [
   {
+    slug: 'status',
+    title: 'Status',
+    description: 'HTTP status code definitions and types for U.S. government website scans.',
+    files: [{ name: 'status.json', type: 'json' }],
+    experimental: false,
+    fields: [
+      { name: 'code', type: 'number', description: 'HTTP status code' },
+      { name: 'label', type: 'string', description: 'Standard label for the status code' },
+      { name: 'type', type: 'string', description: 'Status type: active, redirect, or inaccessible' },
+      { name: 'description', type: 'string', description: 'Plain language description of the status code' },
+    ],
+  },
+  {
     slug: 'email-dns',
     title: 'Email DNS',
     description: 'Email DNS scan results for U.S. government websites.',
