@@ -2,6 +2,31 @@
   "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
   "dataset": [
     {
+      "title": "Status",
+      "description": "HTTP status code definitions and types for U.S. government website scans.",
+      "modified": "2026-06-23",
+      "publisher": {
+        "name": "ScanGov",
+        "@type": "org:Organization"
+      },
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "ScanGov",
+        "hasEmail": "mailto:hello@scangov.com"
+      },
+      "identifier": "https://data.scangov.org/datasets/status/",
+      "accessLevel": "public",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.scangov.org/status.json",
+          "mediaType": "application/json",
+          "format": "JSON"
+        }
+      ]
+    },
+    {
       "title": "Homepage Audits",
       "description": "Homepage audit results for U.S. government websites.",
       "modified": "2026-06-23",
