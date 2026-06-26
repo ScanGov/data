@@ -43,6 +43,14 @@
           "about": {
             "title": "About",
             "content": "<p>The <code class=\"language-plaintext highlighter-rouge\">robots.txt</code> file tells AI crawlers and search engines which parts of a website they can or cannot access. This helps website owners control what data is available to AI models while protecting private or sensitive information. It also prevents unnecessary crawling, reducing server load and improving site performance. By following <code class=\"language-plaintext highlighter-rouge\">robots.txt</code> rules, AI crawlers respect website preferences and ensure ethical data collection.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>robots.txt — allow all crawlers:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>User-agent: *\nAllow: /\n</code></pre></div></div><p>HTML meta robots tag:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;meta name=&quot;robots&quot; content=&quot;index, follow&quot;&gt;\n</code></pre></div></div>"
+          },
+          "example": {
+            "title": "Example",
+            "content": "<p>A minimal passing <code class=\"language-plaintext highlighter-rouge\">robots.txt</code> that allows all crawlers and links to the sitemap:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>User-agent: *\nAllow: /\n\nSitemap: https://example.gov/sitemap.xml\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -77,7 +85,7 @@
       },
       {
         "key": "schema-government-organization",
-        "displayName": "GovernmentOrganization Schema.org Type",
+        "displayName": "GovernmentOrganization Schema.org type",
         "tag": "schema-government-organization",
         "description": "Homepage is marked up as an official government organization.",
         "why": "Identifies websites as official government agencies for AI systems and search engines to recognize automatically.",
@@ -98,11 +106,19 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>The GovernmentOrganization Schema.org type is present in the pages as structured data.</p><p><code><script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"GovernmentService\",\n  \"name\": \"Veterans Affairs Emergency Mental Health\",\n  \"serviceType\": \"Psychiatric Emergency Services\",\n  \"serviceOperator\": {\n    \"@type\": \"GovernmentOrganization\",\n    \"name\": \"US Department of Veterans Affairs\"\n  },\n  \"areaServed\": {\n    \"@type\": \"AdministrativeArea\",\n    \"name\": \"Massachusetts\"\n  },\n  \"audience\": {\n    \"@type\": \"Audience\",\n    \"name\": \"Veterans\"\n  }\n}\n</script></code></p>"
+            "content": "<p>The GovernmentOrganization Schema.org type is present in the pages as structured data.</p>"
           },
           "links": {
             "title": "Links",
             "content": "<ul>\n  <li><a href=\"https://schema.org/GovernmentOrganization\">GovernmentOrganization</a></li>\n</ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Example JSON-LD structured data:</p><div class=\"language-json highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;script type=&quot;application/ld+json&quot;&gt;\n{\n  &quot;@context&quot;: &quot;https://schema.org&quot;,\n  &quot;@type&quot;: &quot;GovernmentOrganization&quot;,\n  &quot;name&quot;: &quot;U.S. Department of Veterans Affairs&quot;,\n  &quot;url&quot;: &quot;https://www.va.gov&quot;\n}\n&lt;/script&gt;\n</code></pre></div></div>"
+          },
+          "example": {
+            "title": "Example",
+            "content": "<p>Complete JSON-LD with commonly used government organization properties:</p><div class=\"language-json highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;script type=&quot;application/ld+json&quot;&gt;\n{\n  &quot;@context&quot;: &quot;https://schema.org&quot;,\n  &quot;@type&quot;: &quot;GovernmentOrganization&quot;,\n  &quot;name&quot;: &quot;U.S. Department of Veterans Affairs&quot;,\n  &quot;alternateName&quot;: &quot;VA&quot;,\n  &quot;url&quot;: &quot;https://www.va.gov&quot;,\n  &quot;logo&quot;: &quot;https://www.va.gov/img/va-logo.png&quot;,\n  &quot;description&quot;: &quot;The VA provides benefits, services, and honor to veterans and their families.&quot;,\n  &quot;address&quot;: {\n    &quot;@type&quot;: &quot;PostalAddress&quot;,\n    &quot;streetAddress&quot;: &quot;810 Vermont Avenue NW&quot;,\n    &quot;addressLocality&quot;: &quot;Washington&quot;,\n    &quot;addressRegion&quot;: &quot;DC&quot;,\n    &quot;postalCode&quot;: &quot;20420&quot;,\n    &quot;addressCountry&quot;: &quot;US&quot;\n  },\n  &quot;contactPoint&quot;: {\n    &quot;@type&quot;: &quot;ContactPoint&quot;,\n    &quot;telephone&quot;: &quot;+1-800-698-2411&quot;,\n    &quot;contactType&quot;: &quot;customer service&quot;\n  },\n  &quot;sameAs&quot;: [\n    &quot;https://en.wikipedia.org/wiki/United_States_Department_of_Veterans_Affairs&quot;,\n    &quot;https://www.facebook.com/VeteransAffairs&quot;,\n    &quot;https://www.youtube.com/user/DeptVetAffairs&quot;\n  ]\n}\n&lt;/script&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {},
@@ -121,7 +137,11 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>A sitemap is a file that lists all of the pages on a website in addition to information about each so that search engines can more intelligently crawl the site.</p><p>Web crawlers usually discover pages from links within the site and from other sites. Sitemaps supplement this data to allow crawlers that support sitemaps to pick up all Uniform Resources Locators (URLs) in the sitemap and learn about them using the associated metadata. Using sitemap protocol doesn\u2019t guarantee web pages are included in search engines, but provides hints for web crawlers to do a better job of crawling your site.</p><p>The sitemap is an Extensible Markup Language (XML) file on the website\u2019s root directory that include metadata for each URL, such as:</p><ul><li>when it was last updated</li><li>how often it usually changes</li><li>how important it is, relative to other URLs in the site</li></ul>"
+            "content": "<p>A sitemap is a file that lists all of the pages on a website in addition to information about each so that search engines can more intelligently crawl the site.</p><p>Web crawlers usually discover pages from links within the site and from other sites. Sitemaps supplement this data to allow crawlers that support sitemaps to pick up all Uniform Resources Locators (URLs) in the sitemap and learn about them using the associated metadata. Using sitemap protocol doesn’t guarantee web pages are included in search engines, but provides hints for web crawlers to do a better job of crawling your site.</p><p>The sitemap is an Extensible Markup Language (XML) file on the website’s root directory that include metadata for each URL, such as:</p><ul><li>when it was last updated</li><li>how often it usually changes</li><li>how important it is, relative to other URLs in the site</li></ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>XML sitemap listing pages on a site:</p><div class=\"language-xml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;\n&lt;urlset xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;\n  &lt;url&gt;\n    &lt;loc&gt;https://example.gov/&lt;/loc&gt;\n    &lt;lastmod&gt;2024-01-01&lt;/lastmod&gt;\n    &lt;changefreq&gt;weekly&lt;/changefreq&gt;\n    &lt;priority&gt;1.0&lt;/priority&gt;\n  &lt;/url&gt;\n  &lt;url&gt;\n    &lt;loc&gt;https://example.gov/about/&lt;/loc&gt;\n    &lt;lastmod&gt;2024-01-01&lt;/lastmod&gt;\n  &lt;/url&gt;\n&lt;/urlset&gt;\n</code></pre></div></div><p>Reference your sitemap from <code class=\"language-plaintext highlighter-rouge\">robots.txt</code>:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>User-agent: *\nAllow: /\n\nSitemap: https://example.gov/sitemap.xml\n</code></pre></div></div>"
           }
         },
         "guidance": [
@@ -253,7 +273,7 @@
           },
           "about": {
             "title": "About",
-            "content": "<p>Robots allowed in a robots.txt file means search engines like Google are allowed to look at and list (or \u201ccrawl\u201d) the page in search results. Website owners use robots.txt to tell search engines what they can and can't see. If robots are allowed, the site or page can show up in search engines, making it easier for people to find.</p>"
+            "content": "<p>Robots allowed in a robots.txt file means search engines like Google are allowed to look at and list (or “crawl”) the page in search results. Website owners use robots.txt to tell search engines what they can and can't see. If robots are allowed, the site or page can show up in search engines, making it easier for people to find.</p>"
           },
           "example": {
             "title": "Examples",
@@ -305,7 +325,7 @@
           },
           "code": {
             "title": "Code",
-            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"cp\">&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;</span>\n\n<span class=\"nt\">&lt;urlset</span> <span class=\"na\">xmlns=</span><span class=\"s\">\"http://www.sitemaps.org/schemas/sitemap/0.9\"</span><span class=\"nt\">&gt;</span>\n\n   <span class=\"nt\">&lt;url&gt;</span>\n\n      <span class=\"nt\">&lt;loc&gt;</span>http://www.example.com/<span class=\"nt\">&lt;/loc&gt;</span>\n\n      <span class=\"nt\">&lt;lastmod&gt;</span>2005-01-01<span class=\"nt\">&lt;/lastmod&gt;</span>\n\n      <span class=\"nt\">&lt;changefreq&gt;</span>monthly<span class=\"nt\">&lt;/changefreq&gt;</span>\n\n      <span class=\"nt\">&lt;priority&gt;</span>0.8<span class=\"nt\">&lt;/priority&gt;</span>\n\n   <span class=\"nt\">&lt;/url&gt;</span>\n\n<span class=\"nt\">&lt;/urlset&gt;</span>\n</code></pre></div></div>"
+            "content": "<p>A <code class=\"language-plaintext highlighter-rouge\">robots.txt</code> file that allows all crawlers and references the sitemap:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>User-agent: *\nAllow: /\n\nSitemap: https://example.gov/sitemap.xml\n</code></pre></div></div>"
           },
           "links": {
             "title": "Links",
@@ -350,6 +370,14 @@
           "links": {
             "title": "Links",
             "content": "<ul>\n  <li><a href=\"https://developers.google.com/search/docs/crawling-indexing/canonicalization\">Google canonicalization guide</a></li>\n</ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Add inside <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code>:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;link rel=&quot;canonical&quot; href=&quot;https://example.gov/page/&quot;&gt;\n</code></pre></div></div>"
+          },
+          "example": {
+            "title": "Examples",
+            "content": "<p>When multiple URLs serve the same content:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- All these URLs resolve to the same page --&gt;\nhttps://example.gov/page\nhttps://example.gov/page/\nhttps://www.example.gov/page/\n\n&lt;!-- Canonical tells search engines which is the primary URL --&gt;\n&lt;link rel=&quot;canonical&quot; href=&quot;https://example.gov/page/&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -360,7 +388,7 @@
         "displayName": "Link text",
         "tag": "link-text",
         "description": "Links use descriptive text that tells users and search engines where they go.",
-        "why": "Describes the link\u2019s purpose clearly, helping users know where it leads and improving navigation for everyone.",
+        "why": "Describes the link’s purpose clearly, helping users know where it leads and improving navigation for everyone.",
         "risk": "Users cannot tell where links go.",
         "error": "Links do not have descriptive text.",
         "impact": 1,
@@ -378,6 +406,10 @@
           "links": {
             "title": "Links",
             "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/seo/link-text/\">Links do not have descriptive text</a></li>\n</ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Vague: does not describe the destination --&gt;\n&lt;a href=&quot;/report-2024.pdf&quot;&gt;Click here&lt;/a&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Descriptive: users know where they are going --&gt;\n&lt;a href=&quot;/report-2024.pdf&quot;&gt;Download the 2024 annual report (PDF)&lt;/a&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -411,6 +443,14 @@
           "links": {
             "title": "Links",
             "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/seo/hreflang/\">Document doesn't have a valid hreflang</a></li><li><a href=\"https://developers.google.com/search/docs/specialty/international/localized-versions\">Tell Google about localized versions of your page</a></li></ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Add inside <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code> for each language version:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;link rel=&quot;alternate&quot; hreflang=&quot;en&quot; href=&quot;https://example.gov/en/page/&quot;&gt;\n&lt;link rel=&quot;alternate&quot; hreflang=&quot;es&quot; href=&quot;https://example.gov/es/page/&quot;&gt;\n&lt;link rel=&quot;alternate&quot; hreflang=&quot;x-default&quot; href=&quot;https://example.gov/page/&quot;&gt;\n</code></pre></div></div>"
+          },
+          "example": {
+            "title": "Example",
+            "content": "<p>Full <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code> pattern for a site offering English and Spanish content:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;head&gt;\n  &lt;meta charset=&quot;UTF-8&quot;&gt;\n  &lt;title&gt;Benefits — U.S. Department of Veterans Affairs&lt;/title&gt;\n\n  &lt;!-- Self-referencing canonical --&gt;\n  &lt;link rel=&quot;canonical&quot; href=&quot;https://www.va.gov/benefits/&quot;&gt;\n\n  &lt;!-- hreflang: tell search engines about language alternates --&gt;\n  &lt;link rel=&quot;alternate&quot; hreflang=&quot;en&quot; href=&quot;https://www.va.gov/benefits/&quot;&gt;\n  &lt;link rel=&quot;alternate&quot; hreflang=&quot;es&quot; href=&quot;https://www.va.gov/es/benefits/&quot;&gt;\n  &lt;link rel=&quot;alternate&quot; hreflang=&quot;x-default&quot; href=&quot;https://www.va.gov/benefits/&quot;&gt;\n&lt;/head&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -460,6 +500,10 @@
           "about": {
             "title": "About",
             "content": "<p>Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: duplicate access key --&gt;\n&lt;a href=&quot;/search&quot; accesskey=&quot;s&quot;&gt;Search&lt;/a&gt;\n&lt;a href=&quot;/sitemap&quot; accesskey=&quot;s&quot;&gt;Sitemap&lt;/a&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: unique access keys --&gt;\n&lt;a href=&quot;/search&quot; accesskey=&quot;s&quot;&gt;Search&lt;/a&gt;\n&lt;a href=&quot;/sitemap&quot; accesskey=&quot;m&quot;&gt;Sitemap&lt;/a&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -488,6 +532,10 @@
           "about": {
             "title": "About",
             "content": "<p>Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn how to match ARIA attributes to their roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-attr).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: aria-checked is not valid on a paragraph --&gt;\n&lt;p aria-checked=&quot;true&quot;&gt;Status: active&lt;/p&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: aria-checked is valid on a checkbox role --&gt;\n&lt;input type=&quot;checkbox&quot; aria-checked=&quot;true&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -516,6 +564,10 @@
           "about": {
             "title": "About",
             "content": "<p>Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: role=&quot;dialog&quot; not allowed on a table caption --&gt;\n&lt;caption role=&quot;dialog&quot;&gt;Report data&lt;/caption&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: use an appropriate element --&gt;\n&lt;caption&gt;Report data&lt;/caption&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -544,6 +596,10 @@
           "about": {
             "title": "About",
             "content": "<p>When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to make command elements more accessible](https://dequeuniversity.com/rules/axe/4.10/aria-command-name).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: menuitem with no accessible name --&gt;\n&lt;li role=&quot;menuitem&quot;&gt;&lt;/li&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: menuitem contains visible text --&gt;\n&lt;li role=&quot;menuitem&quot;&gt;Print&lt;/li&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -572,6 +628,10 @@
           "about": {
             "title": "About",
             "content": "<p>Some ARIA attributes are only allowed on an element under certain conditions.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: aria-expanded on a non-expandable element --&gt;\n&lt;p aria-expanded=&quot;true&quot;&gt;Details&lt;/p&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: aria-expanded on a button that controls a collapsible region --&gt;\n&lt;button aria-expanded=&quot;true&quot; aria-controls=&quot;details-panel&quot;&gt;Details&lt;/button&gt;\n&lt;div id=&quot;details-panel&quot;&gt;...&lt;/div&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -600,6 +660,10 @@
           "about": {
             "title": "About",
             "content": "<p>Deprecated ARIA roles may not be processed correctly by assistive technology.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: deprecated role --&gt;\n&lt;div role=&quot;directory&quot;&gt;Navigation links&lt;/div&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: use a semantic element --&gt;\n&lt;ul aria-label=&quot;Navigation links&quot;&gt;...&lt;/ul&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -628,6 +692,10 @@
           "about": {
             "title": "About",
             "content": "<p>ARIA dialog elements without accessible names may prevent screen readers users from discerning the purpose of these elements. [Learn how to make ARIA dialog elements more accessible](https://dequeuniversity.com/rules/axe/4.10/aria-dialog-name).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: dialog with no accessible name --&gt;\n&lt;div role=&quot;dialog&quot;&gt;...&lt;/div&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: aria-labelledby references a visible heading --&gt;\n&lt;div role=&quot;dialog&quot; aria-labelledby=&quot;dialog-title&quot;&gt;\n  &lt;h2 id=&quot;dialog-title&quot;&gt;Confirm your submission&lt;/h2&gt;\n  ...\n&lt;/div&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -656,6 +724,10 @@
           "about": {
             "title": "About",
             "content": "<p>Assistive technologies, like screen readers, work inconsistently when `aria-hidden=\"true\"` is set on the document `<body>`. [Learn how `aria-hidden` affects the document body](https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: aria-hidden on the body element --&gt;\n&lt;body aria-hidden=&quot;true&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: remove aria-hidden from body --&gt;\n&lt;body&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -684,6 +756,10 @@
           "about": {
             "title": "About",
             "content": "<p>Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn how `aria-hidden` affects focusable elements](https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: focusable button inside aria-hidden container --&gt;\n&lt;div aria-hidden=&quot;true&quot;&gt;\n  &lt;button&gt;Close&lt;/button&gt;\n&lt;/div&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: remove aria-hidden, or make element non-focusable --&gt;\n&lt;div aria-hidden=&quot;true&quot;&gt;\n  &lt;button tabindex=&quot;-1&quot;&gt;Close&lt;/button&gt;\n&lt;/div&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -712,6 +788,10 @@
           "about": {
             "title": "About",
             "content": "<p>When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: custom textbox with no accessible name --&gt;\n&lt;div role=&quot;textbox&quot; contenteditable=&quot;true&quot;&gt;&lt;/div&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: aria-label provides accessible name --&gt;\n&lt;div role=&quot;textbox&quot; contenteditable=&quot;true&quot; aria-label=&quot;Search query&quot;&gt;&lt;/div&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -740,6 +820,10 @@
           "about": {
             "title": "About",
             "content": "<p>When a meter element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to name `meter` elements](https://dequeuniversity.com/rules/axe/4.10/aria-meter-name).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: meter with no accessible name --&gt;\n&lt;div role=&quot;meter&quot; aria-valuenow=&quot;75&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot;&gt;&lt;/div&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: aria-label names the meter --&gt;\n&lt;div role=&quot;meter&quot; aria-valuenow=&quot;75&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; aria-label=&quot;Download progress&quot;&gt;75%&lt;/div&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -768,6 +852,10 @@
           "about": {
             "title": "About",
             "content": "<p>When a `progressbar` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to label `progressbar` elements](https://dequeuniversity.com/rules/axe/4.10/aria-progressbar-name).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: progress bar with no accessible name --&gt;\n&lt;div role=&quot;progressbar&quot; aria-valuenow=&quot;50&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot;&gt;&lt;/div&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: aria-label names the progress bar --&gt;\n&lt;div role=&quot;progressbar&quot; aria-valuenow=&quot;50&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; aria-label=&quot;Upload progress&quot;&gt;50%&lt;/div&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -796,6 +884,10 @@
           "about": {
             "title": "About",
             "content": "<p>Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to users of assistive technologies.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: aria-label prohibited on elements with role=presentation --&gt;\n&lt;div role=&quot;presentation&quot; aria-label=&quot;decorative divider&quot;&gt;&lt;/div&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: remove prohibited attribute --&gt;\n&lt;div role=&quot;presentation&quot;&gt;&lt;/div&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -824,6 +916,10 @@
           "about": {
             "title": "About",
             "content": "<p>Some ARIA roles have required attributes that describe the state of the element to screen readers.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: combobox missing required aria-expanded --&gt;\n&lt;input role=&quot;combobox&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: all required attributes present --&gt;\n&lt;input role=&quot;combobox&quot;\n       aria-expanded=&quot;false&quot;\n       aria-controls=&quot;suggestions&quot;\n       aria-autocomplete=&quot;list&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -852,6 +948,10 @@
           "about": {
             "title": "About",
             "content": "<p>Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: listbox missing required option children --&gt;\n&lt;ul role=&quot;listbox&quot;&gt;&lt;/ul&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: listbox contains option children --&gt;\n&lt;ul role=&quot;listbox&quot;&gt;\n  &lt;li role=&quot;option&quot;&gt;Alabama&lt;/li&gt;\n  &lt;li role=&quot;option&quot;&gt;Alaska&lt;/li&gt;\n&lt;/ul&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -880,6 +980,10 @@
           "about": {
             "title": "About",
             "content": "<p>Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: option outside a listbox --&gt;\n&lt;li role=&quot;option&quot;&gt;Alabama&lt;/li&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: option inside a listbox --&gt;\n&lt;ul role=&quot;listbox&quot;&gt;\n  &lt;li role=&quot;option&quot;&gt;Alabama&lt;/li&gt;\n&lt;/ul&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -908,6 +1012,10 @@
           "about": {
             "title": "About",
             "content": "<p>ARIA roles must have valid values in order to perform their intended accessibility functions.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: non-existent or abstract ARIA role --&gt;\n&lt;div role=&quot;section&quot;&gt;...&lt;/div&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: valid ARIA role --&gt;\n&lt;div role=&quot;region&quot; aria-label=&quot;Search results&quot;&gt;...&lt;/div&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -936,6 +1044,10 @@
           "about": {
             "title": "About",
             "content": "<p>Adding `role=text` around a text node split by markup enables VoiceOver to treat it as one phrase, but the element's focusable descendents will not be announced.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: role=&quot;text&quot; is not a valid ARIA role --&gt;\n&lt;span role=&quot;text&quot;&gt;Important notice&lt;/span&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: remove the invalid role --&gt;\n&lt;span&gt;Important notice&lt;/span&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -964,6 +1076,10 @@
           "about": {
             "title": "About",
             "content": "<p>When a toggle field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: switch with no accessible name --&gt;\n&lt;input type=&quot;checkbox&quot; role=&quot;switch&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: aria-label names the toggle --&gt;\n&lt;input type=&quot;checkbox&quot; role=&quot;switch&quot; aria-label=&quot;Enable email notifications&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -992,6 +1108,10 @@
           "about": {
             "title": "About",
             "content": "<p>When a tooltip element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to name `tooltip` elements](https://dequeuniversity.com/rules/axe/4.10/aria-tooltip-name).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: tooltip element with no content --&gt;\n&lt;div role=&quot;tooltip&quot; id=&quot;tip&quot;&gt;&lt;/div&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: tooltip contains descriptive text --&gt;\n&lt;button aria-describedby=&quot;tip&quot;&gt;Open in new window\n  &lt;div role=&quot;tooltip&quot; id=&quot;tip&quot;&gt;Opens in a new browser tab&lt;/div&gt;\n&lt;/button&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1020,6 +1140,10 @@
           "about": {
             "title": "About",
             "content": "<p>When a `treeitem` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: treeitem with no accessible name --&gt;\n&lt;li role=&quot;treeitem&quot;&gt;&lt;/li&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: treeitem contains visible text --&gt;\n&lt;ul role=&quot;tree&quot;&gt;\n  &lt;li role=&quot;treeitem&quot;&gt;Documents&lt;/li&gt;\n&lt;/ul&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1048,6 +1172,10 @@
           "about": {
             "title": "About",
             "content": "<p>Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: aria-haspopup value is not in the allowed set --&gt;\n&lt;button aria-haspopup=&quot;yes&quot;&gt;Open menu&lt;/button&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: valid aria-haspopup value --&gt;\n&lt;button aria-haspopup=&quot;menu&quot;&gt;Open menu&lt;/button&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1076,6 +1204,10 @@
           "about": {
             "title": "About",
             "content": "<p>Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: aria-toggle does not exist in the ARIA spec --&gt;\n&lt;button aria-toggle=&quot;true&quot;&gt;Menu&lt;/button&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: aria-pressed is the correct attribute for toggle buttons --&gt;\n&lt;button aria-pressed=&quot;false&quot;&gt;Mute&lt;/button&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1104,6 +1236,10 @@
           "about": {
             "title": "About",
             "content": "<p>When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.10/button-name).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: icon-only button with no accessible name --&gt;\n&lt;button&gt;\n  &lt;svg aria-hidden=&quot;true&quot;&gt;...&lt;/svg&gt;\n&lt;/button&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: aria-label provides accessible name --&gt;\n&lt;button aria-label=&quot;Close dialog&quot;&gt;\n  &lt;svg aria-hidden=&quot;true&quot;&gt;...&lt;/svg&gt;\n&lt;/button&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1132,6 +1268,10 @@
           "about": {
             "title": "About",
             "content": "<p>Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;a href=&quot;#main-content&quot; class=&quot;skip-link&quot;&gt;Skip to main content&lt;/a&gt;\n\n&lt;nav&gt;...&lt;/nav&gt;\n\n&lt;main id=&quot;main-content&quot;&gt;\n  &lt;!-- page content --&gt;\n&lt;/main&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1160,6 +1300,10 @@
           "about": {
             "title": "About",
             "content": "<p>Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-css highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>/* Fail: 2.7:1 contrast ratio (below 4.5:1 minimum) */\np { color: #949494; background-color: #ffffff; }\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-css highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>/* Pass: 5.74:1 contrast ratio */\np { color: #595959; background-color: #ffffff; }\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1188,6 +1332,10 @@
           "about": {
             "title": "About",
             "content": "<p>When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: invalid children inside dl --&gt;\n&lt;dl&gt;\n  &lt;p&gt;Term: Definition&lt;/p&gt;\n&lt;/dl&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: only dt/dd inside dl --&gt;\n&lt;dl&gt;\n  &lt;dt&gt;Term&lt;/dt&gt;\n  &lt;dd&gt;Definition of the term&lt;/dd&gt;\n&lt;/dl&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1216,6 +1364,10 @@
           "about": {
             "title": "About",
             "content": "<p>Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/dlitem).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: dt and dd outside dl --&gt;\n&lt;dt&gt;Agency&lt;/dt&gt;\n&lt;dd&gt;Department of Veterans Affairs&lt;/dd&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: dt and dd inside dl --&gt;\n&lt;dl&gt;\n  &lt;dt&gt;Agency&lt;/dt&gt;\n  &lt;dd&gt;Department of Veterans Affairs&lt;/dd&gt;\n&lt;/dl&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1244,6 +1396,14 @@
           "about": {
             "title": "About",
             "content": "<p>The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;head&gt;\n  &lt;title&gt;Service name — Agency name&lt;/title&gt;\n&lt;/head&gt;\n</code></pre></div></div>"
+          },
+          "example": {
+            "title": "Example",
+            "content": "<p>Title patterns for common government page types:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Homepage --&gt;\n&lt;title&gt;U.S. Department of Veterans Affairs&lt;/title&gt;\n\n&lt;!-- Interior page --&gt;\n&lt;title&gt;Apply for VA Health Care | Veterans Affairs&lt;/title&gt;\n\n&lt;!-- Search results --&gt;\n&lt;title&gt;Search results for &quot;disability rating&quot; | Veterans Affairs&lt;/title&gt;\n\n&lt;!-- Error page --&gt;\n&lt;title&gt;Page not found (404) | Veterans Affairs&lt;/title&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1272,6 +1432,10 @@
           "about": {
             "title": "About",
             "content": "<p>The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn how to fix duplicate ARIA IDs](https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: duplicate id referenced by aria-labelledby --&gt;\n&lt;h2 id=&quot;title&quot;&gt;Section one&lt;/h2&gt;\n&lt;h2 id=&quot;title&quot;&gt;Section two&lt;/h2&gt;\n&lt;div aria-labelledby=&quot;title&quot;&gt;...&lt;/div&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: unique ids --&gt;\n&lt;h2 id=&quot;title-one&quot;&gt;Section one&lt;/h2&gt;\n&lt;h2 id=&quot;title-two&quot;&gt;Section two&lt;/h2&gt;\n&lt;div aria-labelledby=&quot;title-one&quot;&gt;...&lt;/div&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1300,6 +1464,10 @@
           "about": {
             "title": "About",
             "content": "<p>Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels. [Learn how to use form labels](https://dequeuniversity.com/rules/axe/4.10/form-field-multiple-labels).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: two labels for one input --&gt;\n&lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;\n&lt;label for=&quot;email&quot;&gt;Enter your email&lt;/label&gt;\n&lt;input type=&quot;email&quot; id=&quot;email&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: one label per input --&gt;\n&lt;label for=&quot;email&quot;&gt;Email address&lt;/label&gt;\n&lt;input type=&quot;email&quot; id=&quot;email&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1328,6 +1496,10 @@
           "about": {
             "title": "About",
             "content": "<p>Screen reader users rely on frame titles to describe the contents of frames.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: no title attribute --&gt;\n&lt;iframe src=&quot;https://example.gov/map&quot;&gt;&lt;/iframe&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: descriptive title --&gt;\n&lt;iframe src=&quot;https://example.gov/map&quot; title=&quot;Office locations map&quot;&gt;&lt;/iframe&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1356,6 +1528,14 @@
           "about": {
             "title": "About",
             "content": "<p>Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: heading level skipped --&gt;\n&lt;h1&gt;Agency name&lt;/h1&gt;\n&lt;h3&gt;Services&lt;/h3&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: sequential heading levels --&gt;\n&lt;h1&gt;Agency name&lt;/h1&gt;\n&lt;h2&gt;Services&lt;/h2&gt;\n&lt;h3&gt;Benefits&lt;/h3&gt;\n</code></pre></div></div>"
+          },
+          "example": {
+            "title": "Examples",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;h1&gt;Agency name&lt;/h1&gt;\n&lt;h3&gt;Benefits&lt;/h3&gt;  &lt;!-- skips h2 --&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;h1&gt;Agency name&lt;/h1&gt;\n&lt;h2&gt;Services&lt;/h2&gt;\n&lt;h3&gt;Benefits&lt;/h3&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1384,6 +1564,10 @@
           "about": {
             "title": "About",
             "content": "<p>If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: no lang attribute --&gt;\n&lt;html&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: lang attribute present --&gt;\n&lt;html lang=&quot;en&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1412,6 +1596,10 @@
           "about": {
             "title": "About",
             "content": "<p>Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn how to use the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-lang-valid).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: invalid BCP 47 value --&gt;\n&lt;html lang=&quot;english&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: valid BCP 47 language code --&gt;\n&lt;html lang=&quot;en&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1440,6 +1628,10 @@
           "about": {
             "title": "About",
             "content": "<p>If the webpage does not specify a consistent language, then the screen reader might not announce the page's text correctly.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: lang and xml:lang do not match --&gt;\n&lt;html lang=&quot;en&quot; xml:lang=&quot;fr&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: values match --&gt;\n&lt;html lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1468,6 +1660,14 @@
           "about": {
             "title": "About",
             "content": "<p>Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Informative image: describe what it shows --&gt;\n&lt;img src=&quot;seal.png&quot; alt=&quot;Official seal of the Department of Veterans Affairs&quot;&gt;\n\n&lt;!-- Decorative image: empty alt so screen readers skip it --&gt;\n&lt;img src=&quot;divider.png&quot; alt=&quot;&quot;&gt;\n</code></pre></div></div>"
+          },
+          "example": {
+            "title": "Examples",
+            "content": "<p>Informative image:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;img src=&quot;chart.png&quot; alt=&quot;Bar chart showing federal IT spending 2020–2024&quot;&gt;\n</code></pre></div></div><p>Decorative image (no information):</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;img src=&quot;decorative-swoosh.svg&quot; alt=&quot;&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1496,6 +1696,10 @@
           "about": {
             "title": "About",
             "content": "<p>Informative elements should aim for short, descriptive alternative text. Alternative text that is exactly the same as the text adjacent to the link or image is potentially confusing for screen reader users, because the text will be read twice.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: alt text repeats surrounding caption --&gt;\n&lt;figure&gt;\n  &lt;img src=&quot;photo.jpg&quot; alt=&quot;White House photo&quot;&gt;\n  &lt;figcaption&gt;White House photo&lt;/figcaption&gt;\n&lt;/figure&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: alt is empty when caption already describes the image --&gt;\n&lt;figure&gt;\n  &lt;img src=&quot;photo.jpg&quot; alt=&quot;&quot;&gt;\n  &lt;figcaption&gt;The White House, 1600 Pennsylvania Ave NW, Washington, DC&lt;/figcaption&gt;\n&lt;/figure&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1524,6 +1728,10 @@
           "about": {
             "title": "About",
             "content": "<p>Adding discernable and accessible text to input buttons may help screen reader users understand the purpose of the input button.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: empty value gives no accessible name --&gt;\n&lt;input type=&quot;submit&quot; value=&quot;&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: descriptive value --&gt;\n&lt;input type=&quot;submit&quot; value=&quot;Submit application&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1552,6 +1760,10 @@
           "about": {
             "title": "About",
             "content": "<p>When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn about input image alt text](https://dequeuniversity.com/rules/axe/4.10/input-image-alt).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: image input with no alt text --&gt;\n&lt;input type=&quot;image&quot; src=&quot;submit-btn.png&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: alt describes the action --&gt;\n&lt;input type=&quot;image&quot; src=&quot;submit-btn.png&quot; alt=&quot;Submit form&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1580,6 +1792,14 @@
           "about": {
             "title": "About",
             "content": "<p>Labels ensure that form controls are announced properly by assistive technologies, like screen readers.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: input with only a placeholder, no label --&gt;\n&lt;input type=&quot;email&quot; placeholder=&quot;Email address&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: visible label associated via for/id --&gt;\n&lt;label for=&quot;email&quot;&gt;Email address&lt;/label&gt;\n&lt;input type=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;you@example.gov&quot;&gt;\n</code></pre></div></div>"
+          },
+          "example": {
+            "title": "Examples",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;input type=&quot;email&quot; placeholder=&quot;Email&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;label for=&quot;email&quot;&gt;Email address&lt;/label&gt;\n&lt;input type=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;you@example.gov&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1608,6 +1828,10 @@
           "about": {
             "title": "About",
             "content": "<p>Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-css highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>/* Fail: link is indistinguishable from surrounding text */\na { color: inherit; text-decoration: none; }\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-css highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>/* Pass: underline provides non-color distinction */\na { text-decoration: underline; }\n\n/* Alternative: bold weight + color */\na { color: #0054a0; font-weight: bold; }\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1636,6 +1860,14 @@
           "about": {
             "title": "About",
             "content": "<p>Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: link with only an icon, no accessible text --&gt;\n&lt;a href=&quot;/report.pdf&quot;&gt;&lt;img src=&quot;pdf-icon.png&quot;&gt;&lt;/a&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: alt text on the image provides the link name --&gt;\n&lt;a href=&quot;/report.pdf&quot;&gt;&lt;img src=&quot;pdf-icon.png&quot; alt=&quot;Download annual report (PDF)&quot;&gt;&lt;/a&gt;\n</code></pre></div></div>"
+          },
+          "example": {
+            "title": "Examples",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;a href=&quot;/docs/report.pdf&quot;&gt;Click here&lt;/a&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;a href=&quot;/docs/report.pdf&quot;&gt;Download the 2024 Annual Report (PDF, 2 MB)&lt;/a&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1664,6 +1896,10 @@
           "about": {
             "title": "About",
             "content": "<p>Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: non-li child inside ul --&gt;\n&lt;ul&gt;\n  &lt;div&gt;Item one&lt;/div&gt;\n&lt;/ul&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: only li children --&gt;\n&lt;ul&gt;\n  &lt;li&gt;Item one&lt;/li&gt;\n  &lt;li&gt;Item two&lt;/li&gt;\n&lt;/ul&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1692,6 +1928,10 @@
           "about": {
             "title": "About",
             "content": "<p>Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: li outside a list --&gt;\n&lt;li&gt;Orphaned item&lt;/li&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: li inside ul or ol --&gt;\n&lt;ul&gt;\n  &lt;li&gt;Item&lt;/li&gt;\n&lt;/ul&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1720,6 +1960,10 @@
           "about": {
             "title": "About",
             "content": "<p>Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: delayed auto-redirect disrupts users --&gt;\n&lt;meta http-equiv=&quot;refresh&quot; content=&quot;10; url=https://example.gov/new-page&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: instant redirect (0 seconds) is acceptable for permanent moves --&gt;\n&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0; url=https://example.gov/new-page&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1748,6 +1992,10 @@
           "about": {
             "title": "About",
             "content": "<p>Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: maximum-scale=1 prevents user from zooming --&gt;\n&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: allows user scaling --&gt;\n&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1776,6 +2024,10 @@
           "about": {
             "title": "About",
             "content": "<p>Screen readers cannot translate non-text content. Adding alternate text to `<object>` elements helps screen readers convey meaning to users.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: no accessible name or fallback content --&gt;\n&lt;object data=&quot;report.pdf&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: aria-label + fallback link --&gt;\n&lt;object data=&quot;report.pdf&quot; type=&quot;application/pdf&quot; aria-label=&quot;2024 Annual Report (PDF)&quot;&gt;\n  &lt;p&gt;&lt;a href=&quot;report.pdf&quot;&gt;Download the 2024 Annual Report (PDF)&lt;/a&gt;&lt;/p&gt;\n&lt;/object&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1804,6 +2056,10 @@
           "about": {
             "title": "About",
             "content": "<p>Form elements without effective labels can create frustrating experiences for screen reader users.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: select with no label --&gt;\n&lt;select name=&quot;state&quot;&gt;\n  &lt;option value=&quot;al&quot;&gt;Alabama&lt;/option&gt;\n&lt;/select&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: label associated via for/id --&gt;\n&lt;label for=&quot;state&quot;&gt;State&lt;/label&gt;\n&lt;select id=&quot;state&quot; name=&quot;state&quot;&gt;\n  &lt;option value=&quot;al&quot;&gt;Alabama&lt;/option&gt;\n&lt;/select&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1832,6 +2088,14 @@
           "about": {
             "title": "About",
             "content": "<p>Including a skip link can help users skip to the main content to save time.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;a href=&quot;#main-content&quot; class=&quot;skip-link&quot;&gt;Skip to main content&lt;/a&gt;\n\n&lt;nav aria-label=&quot;Main navigation&quot;&gt;\n  ...\n&lt;/nav&gt;\n\n&lt;main id=&quot;main-content&quot;&gt;\n  ...\n&lt;/main&gt;\n</code></pre></div></div>"
+          },
+          "example": {
+            "title": "Example",
+            "content": "<p>A visually hidden skip link that becomes visible on focus:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;style&gt;\n  .skip-link {\n    position: absolute;\n    top: -100%;\n    left: 0;\n    background: #0054a0;\n    color: #fff;\n    padding: 0.5rem 1rem;\n    text-decoration: none;\n    z-index: 1000;\n  }\n  .skip-link:focus {\n    top: 0;\n  }\n&lt;/style&gt;\n\n&lt;a href=&quot;#main-content&quot; class=&quot;skip-link&quot;&gt;Skip to main content&lt;/a&gt;\n\n&lt;nav&gt;...&lt;/nav&gt;\n\n&lt;main id=&quot;main-content&quot;&gt;\n  &lt;!-- page content --&gt;\n&lt;/main&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1860,6 +2124,10 @@
           "about": {
             "title": "About",
             "content": "<p>A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: positive tabindex values create unpredictable tab order --&gt;\n&lt;button tabindex=&quot;3&quot;&gt;First action&lt;/button&gt;\n&lt;button tabindex=&quot;1&quot;&gt;Second action&lt;/button&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: rely on DOM order; tabindex=&quot;0&quot; to include non-interactive elements --&gt;\n&lt;button&gt;First action&lt;/button&gt;\n&lt;button&gt;Second action&lt;/button&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1888,6 +2156,10 @@
           "about": {
             "title": "About",
             "content": "<p>The summary attribute should describe the table structure, while `<caption>` should have the onscreen title. Accurate table mark-up helps users of screen readers.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: caption and summary contain the same text --&gt;\n&lt;table summary=&quot;Agency contacts&quot;&gt;\n  &lt;caption&gt;Agency contacts&lt;/caption&gt;\n&lt;/table&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: summary adds detail beyond the caption --&gt;\n&lt;table summary=&quot;Columns: Name, Phone, Email, Office hours&quot;&gt;\n  &lt;caption&gt;Agency contacts&lt;/caption&gt;\n&lt;/table&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1916,6 +2188,10 @@
           "about": {
             "title": "About",
             "content": "<p>Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-css highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>/* Fail: touch target too small */\n.icon-btn { width: 16px; height: 16px; }\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-css highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>/* Pass: meets WCAG 2.2 minimum (24x24 px) */\n.icon-btn {\n  min-width: 24px;\n  min-height: 24px;\n  padding: 0.5rem 1rem;\n}\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1944,6 +2220,10 @@
           "about": {
             "title": "About",
             "content": "<p>Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: headers attribute references a non-existent id --&gt;\n&lt;td headers=&quot;missing-id&quot;&gt;Value&lt;/td&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: headers references valid th ids --&gt;\n&lt;table&gt;\n  &lt;tr&gt;\n    &lt;th id=&quot;col-name&quot;&gt;Name&lt;/th&gt;\n    &lt;th id=&quot;col-dept&quot;&gt;Department&lt;/th&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n    &lt;td headers=&quot;col-name&quot;&gt;Jane Smith&lt;/td&gt;\n    &lt;td headers=&quot;col-dept&quot;&gt;Finance&lt;/td&gt;\n  &lt;/tr&gt;\n&lt;/table&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -1972,6 +2252,10 @@
           "about": {
             "title": "About",
             "content": "<p>Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: th column has no corresponding data cells --&gt;\n&lt;table&gt;\n  &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Department&lt;/th&gt;&lt;th&gt;Notes&lt;/th&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td&gt;Jane&lt;/td&gt;&lt;td&gt;Finance&lt;/td&gt;&lt;/tr&gt;\n&lt;/table&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: every th has matching data cells --&gt;\n&lt;table&gt;\n  &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Department&lt;/th&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td&gt;Jane&lt;/td&gt;&lt;td&gt;Finance&lt;/td&gt;&lt;/tr&gt;\n&lt;/table&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2000,6 +2284,10 @@
           "about": {
             "title": "About",
             "content": "<p>Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn how to use the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/valid-lang).</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: invalid BCP 47 value --&gt;\n&lt;p lang=&quot;english&quot;&gt;This paragraph is in English.&lt;/p&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: valid BCP 47 codes --&gt;\n&lt;p lang=&quot;en&quot;&gt;This paragraph is in English.&lt;/p&gt;\n&lt;p lang=&quot;es&quot;&gt;Este párrafo está en español.&lt;/p&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2028,6 +2316,10 @@
           "about": {
             "title": "About",
             "content": "<p>When a video provides a caption it is easier for deaf and hearing impaired users to access its information.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: video with no captions --&gt;\n&lt;video src=&quot;presentation.mp4&quot; controls&gt;&lt;/video&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: captions track attached --&gt;\n&lt;video controls&gt;\n  &lt;source src=&quot;presentation.mp4&quot; type=&quot;video/mp4&quot;&gt;\n  &lt;track kind=&quot;captions&quot; src=&quot;captions-en.vtt&quot; srclang=&quot;en&quot; label=&quot;English&quot; default&gt;\n&lt;/video&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2056,6 +2348,10 @@
           "about": {
             "title": "About",
             "content": "<p>A heading with no content or inaccessible text prevent screen reader users from accessing information on the page's structure.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: empty heading --&gt;\n&lt;h2&gt;&lt;/h2&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: heading with content --&gt;\n&lt;h2&gt;About this service&lt;/h2&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2084,6 +2380,10 @@
           "about": {
             "title": "About",
             "content": "<p>Links with the same destination should have the same description, to help users understand the link's purpose and decide whether to follow it.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: same text, different destinations --&gt;\n&lt;a href=&quot;/report-2023&quot;&gt;Read more&lt;/a&gt;\n&lt;a href=&quot;/report-2024&quot;&gt;Read more&lt;/a&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: descriptive, unique link text --&gt;\n&lt;a href=&quot;/report-2023&quot;&gt;Read the 2023 annual report&lt;/a&gt;\n&lt;a href=&quot;/report-2024&quot;&gt;Read the 2024 annual report&lt;/a&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2112,6 +2412,10 @@
           "about": {
             "title": "About",
             "content": "<p>One main landmark helps screen reader users navigate a web page.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: no main landmark --&gt;\n&lt;div id=&quot;content&quot;&gt;...&lt;/div&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: one main element --&gt;\n&lt;main id=&quot;main-content&quot;&gt;\n  &lt;!-- page content --&gt;\n&lt;/main&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2140,6 +2444,10 @@
           "about": {
             "title": "About",
             "content": "<p>Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: aria-label does not include the visible button text --&gt;\n&lt;button aria-label=&quot;Delete record&quot;&gt;Remove&lt;/button&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: accessible name starts with or contains the visible text --&gt;\n&lt;button aria-label=&quot;Remove this record&quot;&gt;Remove&lt;/button&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2168,6 +2476,10 @@
           "about": {
             "title": "About",
             "content": "<p>Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: first row used as a caption via colspan --&gt;\n&lt;table&gt;\n  &lt;tr&gt;&lt;td colspan=&quot;3&quot;&gt;Staff directory&lt;/td&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Title&lt;/th&gt;&lt;th&gt;Email&lt;/th&gt;&lt;/tr&gt;\n&lt;/table&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: use the caption element --&gt;\n&lt;table&gt;\n  &lt;caption&gt;Staff directory&lt;/caption&gt;\n  &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Title&lt;/th&gt;&lt;th&gt;Email&lt;/th&gt;&lt;/tr&gt;\n&lt;/table&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2196,6 +2508,10 @@
           "about": {
             "title": "About",
             "content": "<p>Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: data cells with no header row --&gt;\n&lt;table&gt;\n  &lt;tr&gt;&lt;td&gt;Jane Smith&lt;/td&gt;&lt;td&gt;Finance&lt;/td&gt;&lt;/tr&gt;\n&lt;/table&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: th elements provide column headers --&gt;\n&lt;table&gt;\n  &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Department&lt;/th&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td&gt;Jane Smith&lt;/td&gt;&lt;td&gt;Finance&lt;/td&gt;&lt;/tr&gt;\n&lt;/table&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2230,6 +2546,10 @@
           "links": {
             "title": "Links",
             "content": "<ul><li><a href=\"https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio/\">Displays images with incorrect aspect ratio</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio\">aspect-ratio</a></li></ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: explicit dimensions that distort the image --&gt;\n&lt;img src=&quot;logo.png&quot; width=&quot;300&quot; height=&quot;50&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: set one dimension and let the other scale --&gt;\n&lt;img src=&quot;logo.png&quot; width=&quot;300&quot; height=&quot;auto&quot;&gt;\n\n&lt;!-- Or in CSS --&gt;\nimg { max-width: 100%; height: auto; }\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2302,6 +2622,10 @@
           "links": {
             "title": "Links",
             "content": "<ul><li><a href=\"https://www.w3.org/International/articles/definitions-characters/\">Character encodings: Essential concepts</a></li></ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;head&gt;\n  &lt;meta charset=&quot;UTF-8&quot;&gt;\n  &lt;title&gt;Page title&lt;/title&gt;\n&lt;/head&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2461,7 +2785,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Readability measures how easy text is to understand by looking at words and layout. Experts like Flesch-Kincaid and Automated Readability Index help test reading level. For example, ARI uses the average number of characters per word and words per sentence to give a U.S. school grade level\u2014e.g., 8 = eighth grade. Simple words, short sentences, clear design, and legible fonts make text easier to read. These tests help match writing to different audiences' skill levels.</p>"
+            "content": "<p>Readability measures how easy text is to understand by looking at words and layout. Experts like Flesch-Kincaid and Automated Readability Index help test reading level. For example, ARI uses the average number of characters per word and words per sentence to give a U.S. school grade level—e.g., 8 = eighth grade. Simple words, short sentences, clear design, and legible fonts make text easier to read. These tests help match writing to different audiences' skill levels.</p>"
           },
           "links": {
             "title": "Links",
@@ -2506,6 +2830,10 @@
           "example": {
             "title": "Example",
             "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"nt\">&lt;meta</span> <span class=\"na\">name=</span><span class=\"s\">\"viewport\"</span> <span class=\"na\">content=</span><span class=\"s\">\"width=device-width, initial-scale=1.0\"</span><span class=\"nt\">&gt;</span>\n</code></pre></div></div>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: maximum-scale prevents users from zooming --&gt;\n&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot;&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: allows user scaling --&gt;\n&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2547,6 +2875,10 @@
           "example": {
             "title": "Examples",
             "content": "<p>Example of a government website with <code class=\"language-plaintext highlighter-rouge\">www</code> and non-<code class=\"language-plaintext highlighter-rouge\">www</code> resolution:</p><ul>\n  <li><a href=\"https://digital.gov\">https://digital.gov</a></li>\n  <li><a href=\"https://www.digital.gov\">https://www.digital.gov</a></li>\n</ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>nginx — redirect non-www to www (or www to non-www, pick one canonical form):</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code># Redirect www to non-www\nserver {\n  listen 80;\n  server_name www.example.gov;\n  return 301 https://example.gov$request_uri;\n}\nserver {\n  listen 443 ssl;\n  server_name www.example.gov;\n  return 301 https://example.gov$request_uri;\n}\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2576,7 +2908,11 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>\u200bCumulative Layout Shift (CLS) measures how much a webpage's content unexpectedly moves during loading, affecting user experience. A good CLS score is 0.1 or less. Common causes include images or ads without specified dimensions, dynamically added content, and late-loading fonts. To improve CLS, always set size attributes for media, reserve space for ads, and ensure fonts load properly. \u200b</p>"
+            "content": "<p>​Cumulative Layout Shift (CLS) measures how much a webpage's content unexpectedly moves during loading, affecting user experience. A good CLS score is 0.1 or less. Common causes include images or ads without specified dimensions, dynamically added content, and late-loading fonts. To improve CLS, always set size attributes for media, reserve space for ads, and ensure fonts load properly. ​</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-css highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>/* Fail: no dimensions causes layout shift when image loads */\nimg { max-width: 100%; }\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-css highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>/* Pass: reserve space with aspect-ratio or explicit dimensions */\nimg {\n  max-width: 100%;\n  height: auto;\n  aspect-ratio: 16 / 9;\n}\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2616,6 +2952,10 @@
           "about": {
             "title": "About",
             "content": "<p>First Contentful Paint (FCP) measures how quickly a webpage shows any content after a user starts to load it. It checks the time from when the user begins to navigate to the page until any part of the page's content, like text or images, appears on the screen. A fast FCP reassures users that the page is loading. For a good user experience, aim for an FCP of 1.8 seconds or less.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Inline critical CSS and defer non-critical styles:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;style&gt;/* critical above-the-fold styles */\nbody { font-family: sans-serif; }\n&lt;/style&gt;\n&lt;link rel=&quot;preload&quot; href=&quot;styles.css&quot; as=&quot;style&quot; onload=&quot;this.rel=&#x27;stylesheet&#x27;&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2648,6 +2988,10 @@
           "about": {
             "title": "About",
             "content": "<p>Interaction to Next Paint (INP) measures how quickly a webpage responds to user actions like clicks or typing. It tracks the time from when you interact until the next screen update. A good INP score is 200 milliseconds or less, ensuring a smooth experience. INP has replaced First Input Delay (FID) as a key performance metric.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-js highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>// Fail: long-running synchronous work on the main thread\ndocument.getElementById(&quot;btn&quot;).addEventListener(&quot;click&quot;, () =&gt; {\n  heavyComputation(); // blocks the main thread\n});\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-js highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>// Pass: defer heavy work off the main thread\ndocument.getElementById(&quot;btn&quot;).addEventListener(&quot;click&quot;, () =&gt; {\n  setTimeout(() =&gt; heavyComputation(), 0);\n});\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2666,6 +3010,10 @@
           "about": {
             "title": "About",
             "content": "Largest Contentful Paint (LCP) measures how long it takes for the main content of a web page to appear. This is important because it helps users know when the page is ready. A good LCP time is 2.5 seconds or less. It tracks the largest visible element, like images, videos, or text blocks. A faster LCP improves user experience and helps websites perform better."
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Preload the largest image to improve LCP:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;link rel=&quot;preload&quot; as=&quot;image&quot; href=&quot;hero-image.jpg&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "guidance": [
@@ -2708,6 +3056,10 @@
           "about": {
             "title": "About",
             "content": "<p>Time to First Byte (TTFB) measures the time it takes from when a browser requests a resource to when the first byte of data begins to load. It's an important metric for website performance, affecting how quickly a page appears. A good TTFB is under 0.8 seconds, and anything over 1.8 seconds needs improvement. TTFB is influenced by server responsiveness and connection setup time. Lowering it can improve overall user experience and speed.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>nginx — enable gzip compression and caching to reduce TTFB:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>gzip on;\ngzip_types text/plain text/css application/json application/javascript;\n\nlocation ~* \\.(css|js|png|jpg|svg|woff2)$ {\n  expires 1y;\n  add_header Cache-Control &quot;public, immutable&quot;;\n}\n</code></pre></div></div>"
           }
         },
         "videos": [
@@ -2735,6 +3087,10 @@
           "about": {
             "title": "About",
             "content": "<p>The Open Graph site name tag helps define the name of the website when content is shared on social media platforms. This tag is important for consistency in branding across social media and ensures that the website is properly identified when users share content. Without it, the default title might be used, which can lead to incorrect or incomplete branding."
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Add inside <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code>:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;meta property=&quot;og:site_name&quot; content=&quot;Agency Name&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "guidance": [
@@ -2763,6 +3119,10 @@
           "about": {
             "title": "About",
             "content": "<p>The Open Graph type tag specifies the type of content being shared (e.g., website, article, video, etc.) and helps social media platforms understand how to render the content. It allows for better control over how the shared content is presented, ensuring that the correct type of preview is displayed, which enhances user engagement. Without this tag, the content may not display optimally on social platforms."
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Add inside <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code>:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;meta property=&quot;og:type&quot; content=&quot;website&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "guidance": [
@@ -2792,6 +3152,10 @@
           "about": {
             "title": "About",
             "content": "<p>The Open Graph title tag defines the title of the page when it is shared on social media platforms. It ensures that the title appears clearly and accurately on platforms like Facebook, Twitter, and LinkedIn. Without a well-defined Open Graph title, social media platforms may default to the page's title or pick a less relevant part of the page content, leading to poor user engagement and a less polished appearance on social media."
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Add inside <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code>:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;meta property=&quot;og:title&quot; content=&quot;Page Title — Agency Name&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "guidance": [
@@ -2820,6 +3184,10 @@
           "about": {
             "title": "About",
             "content": "<p>The Open Graph description tag specifies the description that will be shown when the page is shared on social media platforms. It plays a crucial role in providing a concise and engaging summary of the page's content. Without a well-defined Open Graph description, social platforms may default to content from the page itself, which could lead to inaccurate or unappealing descriptions, potentially reducing click-through rates and user engagement on social media."
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Add inside <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code>:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;meta property=&quot;og:description&quot; content=&quot;A brief description of this page.&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "guidance": [
@@ -2848,6 +3216,10 @@
           "about": {
             "title": "About",
             "content": "<p>The Open Graph URL tag provides the canonical URL for the content, which is essential for social media platforms to know which page to link to when shared. If the URL is missing or incorrect, social media platforms may not correctly associate the content with the intended page, potentially causing issues like broken links or the sharing of the wrong page, which could affect user engagement and SEO performance."
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Add inside <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code>:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;meta property=&quot;og:url&quot; content=&quot;https://example.gov/page/&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "guidance": [
@@ -2876,6 +3248,10 @@
           "about": {
             "title": "About",
             "content": "<p>The Open Graph image tag is used to specify a preview image that appears when a page is shared on social media. Without this tag, social media platforms may not display any image, or they might display an irrelevant image, which could negatively affect user engagement and click-through rates. Including a proper Open Graph image ensures that the page looks attractive and engaging when shared on platforms like Facebook, X, and LinkedIn."
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Add inside <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code>:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;meta property=&quot;og:image&quot; content=&quot;https://example.gov/assets/share-image.jpg&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "guidance": [
@@ -2904,6 +3280,10 @@
           "about": {
             "title": "About",
             "content": "<p>The Open Graph image alt tag provides alternative text for the image specified in the Open Graph protocol. This helps improve accessibility for users with visual impairments, as screen readers can describe the image content. Additionally, providing alt text ensures that the content of the image is still conveyed in cases where the image cannot be loaded or viewed, contributing to a better user experience and broader reach."
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Add inside <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code>:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;meta property=&quot;og:image:alt&quot; content=&quot;Description of the share image&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "guidance": [
@@ -2967,7 +3347,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p><strong>Content Security Policy (CSP)</strong> is a security standard that helps protect websites from attacks like cross-site scripting (XSS) by allowing website owners to declare trusted sources of content.</p><p>CSP is delivered using HTTP headers or HTML meta tags, and uses directives like <code class=\"language-plaintext highlighter-rouge\">default-src</code>, <code class=\"language-plaintext highlighter-rouge\">script-src</code>, and <code class=\"language-plaintext highlighter-rouge\">img-src</code> to control resource loading. CSP can enforce policies, report violations, and is not a replacement for careful input validation, but a defense-in-depth measure. <strong>Strict CSP</strong> is more secure using nonces or hashes.</p><p>Note: It's an extra layer of protection, not the primary defense.</p>"
+            "content": "<p>Content Security Policy (CSP) is a security standard that helps protect websites from attacks like cross-site scripting (XSS) by allowing website owners to declare trusted sources of content.</p><p>CSP is delivered using HTTP headers or HTML meta tags, and uses directives like <code class=\"language-plaintext highlighter-rouge\">default-src</code>, <code class=\"language-plaintext highlighter-rouge\">script-src</code>, and <code class=\"language-plaintext highlighter-rouge\">img-src</code> to control resource loading. CSP can enforce policies, report violations, and is not a replacement for careful input validation, but a defense-in-depth measure. <strong>Strict CSP</strong> is more secure using nonces or hashes.</p><p>Note: It's an extra layer of protection, not the primary defense.</p>"
           },
           "code": {
             "title": "Code",
@@ -2976,6 +3356,10 @@
           "links": {
             "title": "Links",
             "content": "<ul>\n  <li><a href=\"https://guides.18f.org/engineering/security/content-security-policy/\">Content Security Policy</a> (18F)</li>\n  <li><a href=\"https://research.sidstamm.com/papers/csp-www2010.pdf\">Reining in the Web with Content Security Policy</a> (Mozilla)</li>\n  <li><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP\">Content Security Policy</a> (Mozilla)</li>\n  <li><a href=\"https://www.w3.org/TR/CSP3/\">Content Security Policy Level 3</a> (W3C)</li>\n  <li><a href=\"https://en.wikipedia.org/wiki/Content_Security_Policy\">Content Security Policy</a> (Wikipedia)</li>\n  <li><a href=\"https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html\">Content Security Policy Cheat Sheet</a> (OWASP)</li>\n</ul>"
+          },
+          "example": {
+            "title": "Example",
+            "content": "<p>A minimal but effective CSP for a government site that uses only its own assets:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>Content-Security-Policy: default-src &#x27;self&#x27;; script-src &#x27;self&#x27;; style-src &#x27;self&#x27; &#x27;unsafe-inline&#x27;; img-src &#x27;self&#x27; data: https:; font-src &#x27;self&#x27;; frame-ancestors &#x27;none&#x27;; base-uri &#x27;self&#x27;; form-action &#x27;self&#x27;\n</code></pre></div></div><p>Progressively tighten by switching from <code class=\"language-plaintext highlighter-rouge\">Content-Security-Policy</code> to report-only mode first:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>Content-Security-Policy-Report-Only: default-src &#x27;self&#x27;; report-uri https://example.gov/csp-report\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {
@@ -3019,7 +3403,7 @@
         "sections": {
           "guidance": {
             "title": "Guidance",
-            "content": "<p>All government websites must have HSTS.</p><p><a href=\"https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-13.pdf\">M-15-13</a>:</p><blockquote>\n  <p>Strict Transport Security: Websites and services available over HTTPS must enable HTTP Strict Transport Security (HSTS)12 to instruct compliant browsers to assume HTTPS going forward. This reduces the number of insecure redirects, and protects users against attacks that attempt to downgrade connections to plain HTTP. Once HSTS is in place, domains can be submitted to a \u201cpreload list\u201d13 used by all major browsers to ensure the HSTS policy is in effect at all times.</p>\n</blockquote><p><a href=\"https://https.cio.gov/hsts/\">CIO.gov</a>:</p><blockquote>\n  <p>The policy should be deployed at https://domain.gov, not https://www.domain.gov.</p>\n</blockquote>"
+            "content": "<p>All government websites must have HSTS.</p><p><a href=\"https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-13.pdf\">M-15-13</a>:</p><blockquote>\n  <p>Strict Transport Security: Websites and services available over HTTPS must enable HTTP Strict Transport Security (HSTS)12 to instruct compliant browsers to assume HTTPS going forward. This reduces the number of insecure redirects, and protects users against attacks that attempt to downgrade connections to plain HTTP. Once HSTS is in place, domains can be submitted to a “preload list”13 used by all major browsers to ensure the HSTS policy is in effect at all times.</p>\n</blockquote><p><a href=\"https://https.cio.gov/hsts/\">CIO.gov</a>:</p><blockquote>\n  <p>The policy should be deployed at https://domain.gov, not https://www.domain.gov.</p>\n</blockquote>"
           },
           "about": {
             "title": "About",
@@ -3027,7 +3411,7 @@
           },
           "code": {
             "title": "Code",
-            "content": "<p>Example header:</p><p><code class=\"language-plaintext highlighter-rouge\">Strict-Transport-Security: max-age=31536000; includeSubDomains; preload</code></p>"
+            "content": "<p>Example HTTP response header:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>Strict-Transport-Security: max-age=31536000; includeSubDomains; preload\n</code></pre></div></div>"
           },
           "links": {
             "title": "Links",
@@ -3051,6 +3435,14 @@
           "about": {
             "title": "About",
             "content": "<p>security.txt is a text file located on the site root-level or `/.well-known/` directory that helps improve vulnerability disclosure by giving security researchers clear contact and reporting information.</p><p>security.txt is an accepted standard (<a href=\"https://www.rfc-editor.org/rfc/rfc9116\">RFC 9116</a>) by the <a href=\"https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force\">Internet Engineering Task Force</a>.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Place at <code class=\"language-plaintext highlighter-rouge\">/.well-known/security.txt</code>:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>Contact: mailto:security@agency.gov\nExpires: 2026-12-31T23:59:59.000Z\nPreferred-Languages: en\nCanonical: https://agency.gov/.well-known/security.txt\n</code></pre></div></div>"
+          },
+          "example": {
+            "title": "Example",
+            "content": "<p>A complete <code class=\"language-plaintext highlighter-rouge\">security.txt</code> file with all recommended fields:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code># U.S. Department of Veterans Affairs — security.txt\n# https://www.va.gov/.well-known/security.txt\n\nContact: mailto:security@va.gov\nExpires: 2026-12-31T23:59:59.000Z\nEncryption: https://www.va.gov/pgp-key.txt\nAcknowledgments: https://www.va.gov/security/hall-of-fame/\nPreferred-Languages: en\nCanonical: https://www.va.gov/.well-known/security.txt\nPolicy: https://www.va.gov/security/vulnerability-disclosure-policy/\nHiring: https://www.va.gov/careers/\n</code></pre></div></div>"
           }
         },
         "guidance": [
@@ -3085,6 +3477,10 @@
           "about": {
             "title": "About",
             "content": "<p>`X-Content-Type-Options` is a security header that:</p><ul><li>Prevents browsers from MIME-sniffing.</li><li>Ensures content is rendered as declared (e.g., no misinterpretation of file types).</li><li>Stops browsers from guessing content types, enhancing security.</li></ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Example HTTP response header:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>X-Content-Type-Options: nosniff\n</code></pre></div></div>"
           }
         },
         "guidance": [
@@ -3102,7 +3498,7 @@
         "description": "The page loads without JavaScript or network errors.",
         "why": "Signals problems in website code, helping developers fix issues that could affect how the site works or displays.",
         "risk": "Site may have hidden bugs that break features.",
-        "error": "Page load problem \u2014 check browser console for errors and details.",
+        "error": "Page load problem — check browser console for errors and details.",
         "impact": 1,
         "guidance": [],
         "userStories": [
@@ -3114,6 +3510,10 @@
           "about": {
             "title": "About",
             "content": "<p>Errors logged to the console help developers find and fix problems in their code. When something goes wrong, like a bug or incorrect function, the console displays a message with details about the issue. This helps developers understand what went wrong, where it happened, and what needs to be fixed. By using the console, developers can troubleshoot and improve their websites or applications, making them run more smoothly for users.</p>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Failing pattern:</p><div class=\"language-js highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>// Fail: accessing a property on undefined throws a console error\nconst name = user.profile.name;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-js highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>// Pass: guard against undefined before accessing nested properties\nconst name = user?.profile?.name ?? &quot;&quot;;\n</code></pre></div></div>"
           }
         },
         "links": {
@@ -3150,6 +3550,10 @@
           "links": {
             "title": "Links",
             "content": "<ul><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Clickjacking\">Clickjacking</a> (Mozilla)</li><li><a href=\"https://owasp.org/www-community/attacks/Clickjacking\">Clickjacking</a> (OWASP)</li></ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>Option 1 — X-Frame-Options header:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>X-Frame-Options: DENY\n</code></pre></div></div><p>Option 2 — Content Security Policy (preferred):</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>Content-Security-Policy: frame-ancestors &#x27;none&#x27;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -3172,7 +3576,7 @@
           },
           "code": {
             "title": "Code",
-            "content": "<code>&lt;input type=&quot;text&quot; /&gt;</code>"
+            "content": "<p>Correct input — allows paste:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;input type=&quot;text&quot; autocomplete=&quot;current-password&quot;&gt;\n</code></pre></div></div><p>Incorrect — blocks paste:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;input type=&quot;text&quot; onpaste=&quot;return false;&quot;&gt;\n</code></pre></div></div>"
           },
           "links": {
             "title": "Links",
@@ -3223,6 +3627,10 @@
           "links": {
             "title": "Links",
             "content": "<ul>\n  <li><a href=\"https://https.cio.gov/\">The HTTPS-Only Standard</a> (CIO.gov)</li>\n  <li><a href=\"https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-13.pdf\">M-15-13: Policy to Require Secure Connections across Federal Websites and Web\nServices</a></li>\n</ul>"
+          },
+          "code": {
+            "title": "Code",
+            "content": "<p>nginx redirect HTTP to HTTPS:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>server {\n  listen 80;\n  server_name example.gov www.example.gov;\n  return 301 https://$host$request_uri;\n}\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
