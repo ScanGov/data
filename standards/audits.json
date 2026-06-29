@@ -7,6 +7,8 @@
     "rankingsUrl": "/rankings/botability/",
     "scangovUrl": "/botability/",
     "description": "Help AI and search engines discover, crawl, and index your website.",
+    "standardsDescription": "Standards for helping search engines and AI tools find, read, and understand your website.",
+    "guidanceDescription": "Policy and guidance that supports making your website discoverable by search engines and AI.",
     "ogImage": "https://scangov.com/assets/img/og/aifriendly-og.png",
     "why": "Smart technology can better process and share public information, making services faster and more efficient for users.",
     "risk": "AI tools cannot find or understand your content.",
@@ -46,7 +48,7 @@
           },
           "code": {
             "title": "Code",
-            "content": "<p>robots.txt — allow all crawlers:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>User-agent: *\nAllow: /\n</code></pre></div></div><p>HTML meta robots tag:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;meta name=&quot;robots&quot; content=&quot;index, follow&quot;&gt;\n</code></pre></div></div>"
+            "content": "<p>robots.txt \u2014 allow all crawlers:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>User-agent: *\nAllow: /\n</code></pre></div></div><p>HTML meta robots tag:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;meta name=&quot;robots&quot; content=&quot;index, follow&quot;&gt;\n</code></pre></div></div>"
           },
           "example": {
             "title": "Example",
@@ -137,7 +139,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>A sitemap is a file that lists all of the pages on a website in addition to information about each so that search engines can more intelligently crawl the site.</p><p>Web crawlers usually discover pages from links within the site and from other sites. Sitemaps supplement this data to allow crawlers that support sitemaps to pick up all Uniform Resources Locators (URLs) in the sitemap and learn about them using the associated metadata. Using sitemap protocol doesn’t guarantee web pages are included in search engines, but provides hints for web crawlers to do a better job of crawling your site.</p><p>The sitemap is an Extensible Markup Language (XML) file on the website’s root directory that include metadata for each URL, such as:</p><ul><li>when it was last updated</li><li>how often it usually changes</li><li>how important it is, relative to other URLs in the site</li></ul>"
+            "content": "<p>A sitemap is a file that lists all of the pages on a website in addition to information about each so that search engines can more intelligently crawl the site.</p><p>Web crawlers usually discover pages from links within the site and from other sites. Sitemaps supplement this data to allow crawlers that support sitemaps to pick up all Uniform Resources Locators (URLs) in the sitemap and learn about them using the associated metadata. Using sitemap protocol doesn\u2019t guarantee web pages are included in search engines, but provides hints for web crawlers to do a better job of crawling your site.</p><p>The sitemap is an Extensible Markup Language (XML) file on the website\u2019s root directory that include metadata for each URL, such as:</p><ul><li>when it was last updated</li><li>how often it usually changes</li><li>how important it is, relative to other URLs in the site</li></ul>"
           },
           "code": {
             "title": "Code",
@@ -273,7 +275,7 @@
           },
           "about": {
             "title": "About",
-            "content": "<p>Robots allowed in a robots.txt file means search engines like Google are allowed to look at and list (or “crawl”) the page in search results. Website owners use robots.txt to tell search engines what they can and can't see. If robots are allowed, the site or page can show up in search engines, making it easier for people to find.</p>"
+            "content": "<p>Robots allowed in a robots.txt file means search engines like Google are allowed to look at and list (or \u201ccrawl\u201d) the page in search results. Website owners use robots.txt to tell search engines what they can and can't see. If robots are allowed, the site or page can show up in search engines, making it easier for people to find.</p>"
           },
           "example": {
             "title": "Examples",
@@ -388,7 +390,7 @@
         "displayName": "Link text",
         "tag": "link-text",
         "description": "Links use descriptive text that tells users and search engines where they go.",
-        "why": "Describes the link’s purpose clearly, helping users know where it leads and improving navigation for everyone.",
+        "why": "Describes the link\u2019s purpose clearly, helping users know where it leads and improving navigation for everyone.",
         "risk": "Users cannot tell where links go.",
         "error": "Links do not have descriptive text.",
         "impact": 1,
@@ -450,7 +452,7 @@
           },
           "example": {
             "title": "Example",
-            "content": "<p>Full <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code> pattern for a site offering English and Spanish content:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;head&gt;\n  &lt;meta charset=&quot;UTF-8&quot;&gt;\n  &lt;title&gt;Benefits — U.S. Department of Veterans Affairs&lt;/title&gt;\n\n  &lt;!-- Self-referencing canonical --&gt;\n  &lt;link rel=&quot;canonical&quot; href=&quot;https://www.va.gov/benefits/&quot;&gt;\n\n  &lt;!-- hreflang: tell search engines about language alternates --&gt;\n  &lt;link rel=&quot;alternate&quot; hreflang=&quot;en&quot; href=&quot;https://www.va.gov/benefits/&quot;&gt;\n  &lt;link rel=&quot;alternate&quot; hreflang=&quot;es&quot; href=&quot;https://www.va.gov/es/benefits/&quot;&gt;\n  &lt;link rel=&quot;alternate&quot; hreflang=&quot;x-default&quot; href=&quot;https://www.va.gov/benefits/&quot;&gt;\n&lt;/head&gt;\n</code></pre></div></div>"
+            "content": "<p>Full <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code> pattern for a site offering English and Spanish content:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;head&gt;\n  &lt;meta charset=&quot;UTF-8&quot;&gt;\n  &lt;title&gt;Benefits \u2014 U.S. Department of Veterans Affairs&lt;/title&gt;\n\n  &lt;!-- Self-referencing canonical --&gt;\n  &lt;link rel=&quot;canonical&quot; href=&quot;https://www.va.gov/benefits/&quot;&gt;\n\n  &lt;!-- hreflang: tell search engines about language alternates --&gt;\n  &lt;link rel=&quot;alternate&quot; hreflang=&quot;en&quot; href=&quot;https://www.va.gov/benefits/&quot;&gt;\n  &lt;link rel=&quot;alternate&quot; hreflang=&quot;es&quot; href=&quot;https://www.va.gov/es/benefits/&quot;&gt;\n  &lt;link rel=&quot;alternate&quot; hreflang=&quot;x-default&quot; href=&quot;https://www.va.gov/benefits/&quot;&gt;\n&lt;/head&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -465,6 +467,8 @@
     "rankingsUrl": "/rankings/accessibility/",
     "scangovUrl": "/accessibility/",
     "description": "Meet WCAG standards so every type of user can use your website.",
+    "standardsDescription": "Standards for making your website usable by people with disabilities.",
+    "guidanceDescription": "Policy and guidance that supports web accessibility for people with disabilities.",
     "ogImage": "https://scangov.com/assets/img/og/accessibility-og.png",
     "why": "People with disabilities need equal access to information and services online.",
     "risk": "People with disabilities cannot use your site.",
@@ -1399,7 +1403,7 @@
           },
           "code": {
             "title": "Code",
-            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;head&gt;\n  &lt;title&gt;Service name — Agency name&lt;/title&gt;\n&lt;/head&gt;\n</code></pre></div></div>"
+            "content": "<div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;head&gt;\n  &lt;title&gt;Service name \u2014 Agency name&lt;/title&gt;\n&lt;/head&gt;\n</code></pre></div></div>"
           },
           "example": {
             "title": "Example",
@@ -1667,7 +1671,7 @@
           },
           "example": {
             "title": "Examples",
-            "content": "<p>Informative image:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;img src=&quot;chart.png&quot; alt=&quot;Bar chart showing federal IT spending 2020–2024&quot;&gt;\n</code></pre></div></div><p>Decorative image (no information):</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;img src=&quot;decorative-swoosh.svg&quot; alt=&quot;&quot;&gt;\n</code></pre></div></div>"
+            "content": "<p>Informative image:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;img src=&quot;chart.png&quot; alt=&quot;Bar chart showing federal IT spending 2020\u20132024&quot;&gt;\n</code></pre></div></div><p>Decorative image (no information):</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;img src=&quot;decorative-swoosh.svg&quot; alt=&quot;&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2287,7 +2291,7 @@
           },
           "code": {
             "title": "Code",
-            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: invalid BCP 47 value --&gt;\n&lt;p lang=&quot;english&quot;&gt;This paragraph is in English.&lt;/p&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: valid BCP 47 codes --&gt;\n&lt;p lang=&quot;en&quot;&gt;This paragraph is in English.&lt;/p&gt;\n&lt;p lang=&quot;es&quot;&gt;Este párrafo está en español.&lt;/p&gt;\n</code></pre></div></div>"
+            "content": "<p>Failing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Fail: invalid BCP 47 value --&gt;\n&lt;p lang=&quot;english&quot;&gt;This paragraph is in English.&lt;/p&gt;\n</code></pre></div></div><p>Passing pattern:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;!-- Pass: valid BCP 47 codes --&gt;\n&lt;p lang=&quot;en&quot;&gt;This paragraph is in English.&lt;/p&gt;\n&lt;p lang=&quot;es&quot;&gt;Este p\u00e1rrafo est\u00e1 en espa\u00f1ol.&lt;/p&gt;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2640,6 +2644,8 @@
     "rankingsUrl": "/rankings/usability/",
     "scangovUrl": "/usability/",
     "description": "Optimize content structure so users quickly find what they need.",
+    "standardsDescription": "Standards for making your website easy to navigate so people can find what they need.",
+    "guidanceDescription": "Policy and guidance that supports usable, user-friendly website design.",
     "ogImage": "https://scangov.com/assets/img/og/content-og.png",
     "why": "Well-written pages help people understand laws, services, and procedures without confusion, reducing calls and office visits.",
     "risk": "Users cannot understand your information.",
@@ -2785,7 +2791,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Readability measures how easy text is to understand by looking at words and layout. Experts like Flesch-Kincaid and Automated Readability Index help test reading level. For example, ARI uses the average number of characters per word and words per sentence to give a U.S. school grade level—e.g., 8 = eighth grade. Simple words, short sentences, clear design, and legible fonts make text easier to read. These tests help match writing to different audiences' skill levels.</p>"
+            "content": "<p>Readability measures how easy text is to understand by looking at words and layout. Experts like Flesch-Kincaid and Automated Readability Index help test reading level. For example, ARI uses the average number of characters per word and words per sentence to give a U.S. school grade level\u2014e.g., 8 = eighth grade. Simple words, short sentences, clear design, and legible fonts make text easier to read. These tests help match writing to different audiences' skill levels.</p>"
           },
           "links": {
             "title": "Links",
@@ -2878,7 +2884,7 @@
           },
           "code": {
             "title": "Code",
-            "content": "<p>nginx — redirect non-www to www (or www to non-www, pick one canonical form):</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code># Redirect www to non-www\nserver {\n  listen 80;\n  server_name www.example.gov;\n  return 301 https://example.gov$request_uri;\n}\nserver {\n  listen 443 ssl;\n  server_name www.example.gov;\n  return 301 https://example.gov$request_uri;\n}\n</code></pre></div></div>"
+            "content": "<p>nginx \u2014 redirect non-www to www (or www to non-www, pick one canonical form):</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code># Redirect www to non-www\nserver {\n  listen 80;\n  server_name www.example.gov;\n  return 301 https://example.gov$request_uri;\n}\nserver {\n  listen 443 ssl;\n  server_name www.example.gov;\n  return 301 https://example.gov$request_uri;\n}\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -2908,7 +2914,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>​Cumulative Layout Shift (CLS) measures how much a webpage's content unexpectedly moves during loading, affecting user experience. A good CLS score is 0.1 or less. Common causes include images or ads without specified dimensions, dynamically added content, and late-loading fonts. To improve CLS, always set size attributes for media, reserve space for ads, and ensure fonts load properly. ​</p>"
+            "content": "<p>\u200bCumulative Layout Shift (CLS) measures how much a webpage's content unexpectedly moves during loading, affecting user experience. A good CLS score is 0.1 or less. Common causes include images or ads without specified dimensions, dynamically added content, and late-loading fonts. To improve CLS, always set size attributes for media, reserve space for ads, and ensure fonts load properly. \u200b</p>"
           },
           "code": {
             "title": "Code",
@@ -3059,7 +3065,7 @@
           },
           "code": {
             "title": "Code",
-            "content": "<p>nginx — enable gzip compression and caching to reduce TTFB:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>gzip on;\ngzip_types text/plain text/css application/json application/javascript;\n\nlocation ~* \\.(css|js|png|jpg|svg|woff2)$ {\n  expires 1y;\n  add_header Cache-Control &quot;public, immutable&quot;;\n}\n</code></pre></div></div>"
+            "content": "<p>nginx \u2014 enable gzip compression and caching to reduce TTFB:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>gzip on;\ngzip_types text/plain text/css application/json application/javascript;\n\nlocation ~* \\.(css|js|png|jpg|svg|woff2)$ {\n  expires 1y;\n  add_header Cache-Control &quot;public, immutable&quot;;\n}\n</code></pre></div></div>"
           }
         },
         "videos": [
@@ -3155,7 +3161,7 @@
           },
           "code": {
             "title": "Code",
-            "content": "<p>Add inside <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code>:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;meta property=&quot;og:title&quot; content=&quot;Page Title — Agency Name&quot;&gt;\n</code></pre></div></div>"
+            "content": "<p>Add inside <code class=\"language-plaintext highlighter-rouge\">&lt;head&gt;</code>:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;meta property=&quot;og:title&quot; content=&quot;Page Title \u2014 Agency Name&quot;&gt;\n</code></pre></div></div>"
           }
         },
         "guidance": [
@@ -3308,6 +3314,8 @@
     "rankingsUrl": "/rankings/security/",
     "scangovUrl": "/security/",
     "description": "Secure your site and protect users with proper security practices.",
+    "standardsDescription": "Standards for protecting your website and its users from online threats.",
+    "guidanceDescription": "Policy and guidance that supports website security and data protection.",
     "ogImage": "https://scangov.com/assets/img/og/security-og.png",
     "why": "Strong defenses prevent hackers from stealing personal information and other confidential data.",
     "risk": "Hackers can steal private information from your site.",
@@ -3403,7 +3411,7 @@
         "sections": {
           "guidance": {
             "title": "Guidance",
-            "content": "<p>All government websites must have HSTS.</p><p><a href=\"https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-13.pdf\">M-15-13</a>:</p><blockquote>\n  <p>Strict Transport Security: Websites and services available over HTTPS must enable HTTP Strict Transport Security (HSTS)12 to instruct compliant browsers to assume HTTPS going forward. This reduces the number of insecure redirects, and protects users against attacks that attempt to downgrade connections to plain HTTP. Once HSTS is in place, domains can be submitted to a “preload list”13 used by all major browsers to ensure the HSTS policy is in effect at all times.</p>\n</blockquote><p><a href=\"https://https.cio.gov/hsts/\">CIO.gov</a>:</p><blockquote>\n  <p>The policy should be deployed at https://domain.gov, not https://www.domain.gov.</p>\n</blockquote>"
+            "content": "<p>All government websites must have HSTS.</p><p><a href=\"https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-13.pdf\">M-15-13</a>:</p><blockquote>\n  <p>Strict Transport Security: Websites and services available over HTTPS must enable HTTP Strict Transport Security (HSTS)12 to instruct compliant browsers to assume HTTPS going forward. This reduces the number of insecure redirects, and protects users against attacks that attempt to downgrade connections to plain HTTP. Once HSTS is in place, domains can be submitted to a \u201cpreload list\u201d13 used by all major browsers to ensure the HSTS policy is in effect at all times.</p>\n</blockquote><p><a href=\"https://https.cio.gov/hsts/\">CIO.gov</a>:</p><blockquote>\n  <p>The policy should be deployed at https://domain.gov, not https://www.domain.gov.</p>\n</blockquote>"
           },
           "about": {
             "title": "About",
@@ -3442,7 +3450,7 @@
           },
           "example": {
             "title": "Example",
-            "content": "<p>A complete <code class=\"language-plaintext highlighter-rouge\">security.txt</code> file with all recommended fields:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code># U.S. Department of Veterans Affairs — security.txt\n# https://www.va.gov/.well-known/security.txt\n\nContact: mailto:security@va.gov\nExpires: 2026-12-31T23:59:59.000Z\nEncryption: https://www.va.gov/pgp-key.txt\nAcknowledgments: https://www.va.gov/security/hall-of-fame/\nPreferred-Languages: en\nCanonical: https://www.va.gov/.well-known/security.txt\nPolicy: https://www.va.gov/security/vulnerability-disclosure-policy/\nHiring: https://www.va.gov/careers/\n</code></pre></div></div>"
+            "content": "<p>A complete <code class=\"language-plaintext highlighter-rouge\">security.txt</code> file with all recommended fields:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code># U.S. Department of Veterans Affairs \u2014 security.txt\n# https://www.va.gov/.well-known/security.txt\n\nContact: mailto:security@va.gov\nExpires: 2026-12-31T23:59:59.000Z\nEncryption: https://www.va.gov/pgp-key.txt\nAcknowledgments: https://www.va.gov/security/hall-of-fame/\nPreferred-Languages: en\nCanonical: https://www.va.gov/.well-known/security.txt\nPolicy: https://www.va.gov/security/vulnerability-disclosure-policy/\nHiring: https://www.va.gov/careers/\n</code></pre></div></div>"
           }
         },
         "guidance": [
@@ -3498,7 +3506,7 @@
         "description": "The page loads without JavaScript or network errors.",
         "why": "Signals problems in website code, helping developers fix issues that could affect how the site works or displays.",
         "risk": "Site may have hidden bugs that break features.",
-        "error": "Page load problem — check browser console for errors and details.",
+        "error": "Page load problem \u2014 check browser console for errors and details.",
         "impact": 1,
         "guidance": [],
         "userStories": [
@@ -3553,7 +3561,7 @@
           },
           "code": {
             "title": "Code",
-            "content": "<p>Option 1 — X-Frame-Options header:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>X-Frame-Options: DENY\n</code></pre></div></div><p>Option 2 — Content Security Policy (preferred):</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>Content-Security-Policy: frame-ancestors &#x27;none&#x27;\n</code></pre></div></div>"
+            "content": "<p>Option 1 \u2014 X-Frame-Options header:</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>X-Frame-Options: DENY\n</code></pre></div></div><p>Option 2 \u2014 Content Security Policy (preferred):</p><div class=\"language-yaml highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>Content-Security-Policy: frame-ancestors &#x27;none&#x27;\n</code></pre></div></div>"
           }
         },
         "relatedLinks": {}
@@ -3576,7 +3584,7 @@
           },
           "code": {
             "title": "Code",
-            "content": "<p>Correct input — allows paste:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;input type=&quot;text&quot; autocomplete=&quot;current-password&quot;&gt;\n</code></pre></div></div><p>Incorrect — blocks paste:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;input type=&quot;text&quot; onpaste=&quot;return false;&quot;&gt;\n</code></pre></div></div>"
+            "content": "<p>Correct input \u2014 allows paste:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;input type=&quot;text&quot; autocomplete=&quot;current-password&quot;&gt;\n</code></pre></div></div><p>Incorrect \u2014 blocks paste:</p><div class=\"language-html highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;input type=&quot;text&quot; onpaste=&quot;return false;&quot;&gt;\n</code></pre></div></div>"
           },
           "links": {
             "title": "Links",

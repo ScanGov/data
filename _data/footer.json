@@ -2,7 +2,9 @@
   [
     { "title": "Community", "url": "https://docs.scangov.org/community" },
     { "title": "Newsletter", "url": "https://scangov.substack.com" },
-    { "title": "GitHub", "url": "https://github.com/ScanGov/data" }
+    { "title": "GitHub", "url": "https://github.com/ScanGov/data" },
+    { "title": "Contact", "url": "https://scangov.com/contact" },
+    { "title": "RSS", "url": "https://data.scangov.org/feed.xml" }
   ],
   [
     { "title": "ScanGov scorecard", "url": "https://my.scangov.com/public/key5279-1751598352407/data-scangov-org/report" }
