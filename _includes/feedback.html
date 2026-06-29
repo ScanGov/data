@@ -1,7 +1,7 @@
 <a
   href="https://scangov.com/plans"
   id="feedback-button"
-  class="feedback btn"
+  class="feedback btn btn-sm"
   aria-hidden="true"
   tabindex="-1">
   <i class="fa-solid fa-rocket"></i> Get ScanGov
@@ -14,12 +14,15 @@
   function updateButton() {
     const scrolled = document.documentElement.scrollTop > window.innerHeight * 0.3;
     const footerVisible = footer && footer.getBoundingClientRect().top < window.innerHeight;
-    const visible = scrolled && !footerVisible;
+    const noticeVisible = !!document.getElementById('scan-notice');
+    const visible = scrolled && !footerVisible && !noticeVisible;
     feedbackButton.classList.toggle('is-visible', visible);
     feedbackButton.setAttribute('aria-hidden', visible ? 'false' : 'true');
     feedbackButton.setAttribute('tabindex', visible ? '0' : '-1');
   }
 
-  window.addEventListener('scroll', updateButton);
-  updateButton();
+  if (window.location.hostname !== 'my.scangov.com') {
+    window.addEventListener('scroll', updateButton);
+    updateButton();
+  }
 </script>

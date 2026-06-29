@@ -1,20 +1,7 @@
 {% include "header.html" %}
 {% include "nav.html" %}
 <main id="main-content">
-  <div class="pt-5 pb-4 mb-4 border-bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          {% if title %}
-            <h1 class="display-5">{{ title }}</h1>
-          {% endif %}
-          {% if description %}
-            <p class="lead fs-5">{{ description }}</p>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  </div>
+  {% include "jumbotron.html" %}
   <div class="container-fluid">
     <div class="row">
       {{ content | safe }}
