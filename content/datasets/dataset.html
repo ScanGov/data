@@ -55,14 +55,14 @@ permalink: /datasets/{{ dataset.slug }}/
             <i class="fa-regular fa-clipboard"></i>
           </button>
           {% if f.type == 'csv' %}
-          <div class="table-responsive" style="max-height: 400px; overflow-y: scroll;">
+          <div class="table-responsive dataset-preview">
             <table class="table table-sm table-bordered small" id="csv-table-{{ loop.index }}" aria-label="{{ dataset.title }} data preview">
               <thead id="csv-head-{{ loop.index }}"></thead>
               <tbody id="csv-body-{{ loop.index }}"></tbody>
             </table>
           </div>
           {% else %}
-          <pre class="border rounded p-3 small" style="max-height: 400px; overflow-y: scroll; overflow-x: auto;"><code id="code-{{ loop.index }}" class="language-json"></code></pre>
+          <pre class="border rounded p-3 small dataset-preview dataset-preview--code"><code id="code-{{ loop.index }}" class="language-json"></code></pre>
           {% endif %}
           <noscript><p class="text-body-secondary small mt-2 mb-0">JavaScript is required to load the data preview. <a href="{{ f.downloadUrl }}" download="{{ f.name }}">Download the file</a> to view it locally.</p></noscript>
           <p class="text-body-secondary small mt-1 mb-0" id="truncate-note-{{ loop.index }}" style="display:none;">
