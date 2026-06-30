@@ -61,7 +61,7 @@ const datasetDefs = [
   {
     slug: 'status',
     title: 'Status',
-    description: 'HTTP status code definitions and types for U.S. government website scans.',
+    description: 'HTTP status code definitions and types for websites ScanGov monitors.',
     files: [{ name: 'status.json', type: 'json' }],
     fileDate: true,
     experimental: false,
