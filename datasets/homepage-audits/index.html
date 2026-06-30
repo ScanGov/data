@@ -251,121 +251,123 @@
     <!-- Data dictionary -->
     
     <h2 class="mt-4 mb-2" id="data-dictionary">Data dictionary</h2>
-    <table class="table table-sm table-bordered mb-5 small">
-      <caption class="visually-hidden">Data dictionary for Homepage Audits</caption>
-      <thead>
-        <tr>
-          <th scope="col">Field</th>
-          <th scope="col">Type</th>
-          <th scope="col">Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        
-        <tr>
-          <td><code>urlkey</code></td>
-          <td>string</td>
-          <td>Domain used as the record key</td>
-        </tr>
-        
-        <tr>
-          <td><code>status</code></td>
-          <td>number</td>
-          <td>HTTP status code of the scanned URL</td>
-        </tr>
-        
-        <tr>
-          <td><code>name</code></td>
-          <td>string</td>
-          <td>Organization name</td>
-        </tr>
-        
-        <tr>
-          <td><code>redirect</code></td>
-          <td>string</td>
-          <td>Final URL after any redirects</td>
-        </tr>
-        
-        <tr>
-          <td><code>time</code></td>
-          <td>number</td>
-          <td>Unix timestamp (ms) of when the scan ran</td>
-        </tr>
-        
-        <tr>
-          <td><code>overallScore</code></td>
-          <td>number</td>
-          <td>Overall score across all categories (0–100)</td>
-        </tr>
-        
-        <tr>
-          <td><code>overallScoreCount</code></td>
-          <td>number</td>
-          <td>Total number of checks run</td>
-        </tr>
-        
-        <tr>
-          <td><code>overallPossibleScore</code></td>
-          <td>number</td>
-          <td>Number of checks that passed</td>
-        </tr>
-        
-        <tr>
-          <td><code>aifriendly</code></td>
-          <td>object</td>
-          <td>AI-friendliness audit: url, status, name, crawlable, text-content</td>
-        </tr>
-        
-        <tr>
-          <td><code>accessibility</code></td>
-          <td>object</td>
-          <td>Accessibility audit: url, status, name, a11y-best-practices, a11y-aria, a11y-audio-video, a11y-color-contrast, hidden, a11y-language, a11y-names-labels, a11y-navigation, a11y-tables-lists</td>
-        </tr>
-        
-        <tr>
-          <td><code>content</code></td>
-          <td>object</td>
-          <td>Content audit: url, status, name, title, description, viewport, image_aspect_ratio, html_lang_valid, zooming-scaling, doctype, charset</td>
-        </tr>
-        
-        <tr>
-          <td><code>domain</code></td>
-          <td>object</td>
-          <td>Domain audit: url, status, name, https, www, dotgov</td>
-        </tr>
-        
-        <tr>
-          <td><code>performance</code></td>
-          <td>object</td>
-          <td>Performance audit: url, status, name, cls, fcp, inp, lcp, ttfb</td>
-        </tr>
-        
-        <tr>
-          <td><code>seo</code></td>
-          <td>object</td>
-          <td>SEO audit: url, status, name, xml, valid, allowed, sitemap-robots, canonical, link-text, hreflang</td>
-        </tr>
-        
-        <tr>
-          <td><code>security</code></td>
-          <td>object</td>
-          <td>Security audit: url, status, name, csp, hsts, securityTxt, xContentTypeOptions, errors_in_console, clickjacking_mitigation, paste_preventing_inputs</td>
-        </tr>
-        
-        <tr>
-          <td><code>social</code></td>
-          <td>object</td>
-          <td>Social metadata audit: url, status, name, ogSiteName, ogType, ogTitle, ogDescription, ogUrl, ogImage, ogImageAlt</td>
-        </tr>
-        
-        <tr>
-          <td><code>scores</code></td>
-          <td>object</td>
-          <td>Per-category scores, each with attributes (boolean results), score (0–100), correct (passing count), and all (total count)</td>
-        </tr>
-        
-      </tbody>
-    </table>
+    <div class="table-responsive">
+      <table class="table table-sm table-bordered mb-5 small">
+        <caption class="visually-hidden">Data dictionary for Homepage Audits</caption>
+        <thead>
+          <tr>
+            <th scope="col">Field</th>
+            <th scope="col">Type</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td><code>urlkey</code></td>
+            <td>string</td>
+            <td>Domain used as the record key</td>
+          </tr>
+          
+          <tr>
+            <td><code>status</code></td>
+            <td>number</td>
+            <td>HTTP status code of the scanned URL</td>
+          </tr>
+          
+          <tr>
+            <td><code>name</code></td>
+            <td>string</td>
+            <td>Organization name</td>
+          </tr>
+          
+          <tr>
+            <td><code>redirect</code></td>
+            <td>string</td>
+            <td>Final URL after any redirects</td>
+          </tr>
+          
+          <tr>
+            <td><code>time</code></td>
+            <td>number</td>
+            <td>Unix timestamp (ms) of when the scan ran</td>
+          </tr>
+          
+          <tr>
+            <td><code>overallScore</code></td>
+            <td>number</td>
+            <td>Overall score across all categories (0–100)</td>
+          </tr>
+          
+          <tr>
+            <td><code>overallScoreCount</code></td>
+            <td>number</td>
+            <td>Total number of checks run</td>
+          </tr>
+          
+          <tr>
+            <td><code>overallPossibleScore</code></td>
+            <td>number</td>
+            <td>Number of checks that passed</td>
+          </tr>
+          
+          <tr>
+            <td><code>aifriendly</code></td>
+            <td>object</td>
+            <td>AI-friendliness audit: url, status, name, crawlable, text-content</td>
+          </tr>
+          
+          <tr>
+            <td><code>accessibility</code></td>
+            <td>object</td>
+            <td>Accessibility audit: url, status, name, a11y-best-practices, a11y-aria, a11y-audio-video, a11y-color-contrast, hidden, a11y-language, a11y-names-labels, a11y-navigation, a11y-tables-lists</td>
+          </tr>
+          
+          <tr>
+            <td><code>content</code></td>
+            <td>object</td>
+            <td>Content audit: url, status, name, title, description, viewport, image_aspect_ratio, html_lang_valid, zooming-scaling, doctype, charset</td>
+          </tr>
+          
+          <tr>
+            <td><code>domain</code></td>
+            <td>object</td>
+            <td>Domain audit: url, status, name, https, www, dotgov</td>
+          </tr>
+          
+          <tr>
+            <td><code>performance</code></td>
+            <td>object</td>
+            <td>Performance audit: url, status, name, cls, fcp, inp, lcp, ttfb</td>
+          </tr>
+          
+          <tr>
+            <td><code>seo</code></td>
+            <td>object</td>
+            <td>SEO audit: url, status, name, xml, valid, allowed, sitemap-robots, canonical, link-text, hreflang</td>
+          </tr>
+          
+          <tr>
+            <td><code>security</code></td>
+            <td>object</td>
+            <td>Security audit: url, status, name, csp, hsts, securityTxt, xContentTypeOptions, errors_in_console, clickjacking_mitigation, paste_preventing_inputs</td>
+          </tr>
+          
+          <tr>
+            <td><code>social</code></td>
+            <td>object</td>
+            <td>Social metadata audit: url, status, name, ogSiteName, ogType, ogTitle, ogDescription, ogUrl, ogImage, ogImageAlt</td>
+          </tr>
+          
+          <tr>
+            <td><code>scores</code></td>
+            <td>object</td>
+            <td>Per-category scores, each with attributes (boolean results), score (0–100), correct (passing count), and all (total count)</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
     
 
     <!-- Citation -->

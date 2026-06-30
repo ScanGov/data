@@ -3,7 +3,7 @@
   "dataset": [
     {
       "title": "Status",
-      "description": "HTTP status code definitions and types for U.S. government website scans.",
+      "description": "HTTP status code definitions and types for websites ScanGov monitors.",
       "modified": "2026-06-30",
       "publisher": {
         "name": "ScanGov",

@@ -52,7 +52,7 @@
       "@context": "https://schema.org",
       "@type": "Dataset",
       "name": "Status",
-      "description": "HTTP status code definitions and types for U.S. government website scans.",
+      "description": "HTTP status code definitions and types for websites ScanGov monitors.",
       "url": "https://data.scangov.org/datasets/status/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "isAccessibleForFree": true,
@@ -198,7 +198,7 @@
             </ol>
           </nav>
           <h1 class="display-5" id="status">Status</h1>
-          <p class="lead fs-5">HTTP status code definitions and types for U.S. government website scans.</p>
+          <p class="lead fs-5">HTTP status code definitions and types for websites ScanGov monitors.</p>
           <ul class="small list-unstyled text-body-secondary font-monospace mt-3 mb-0">
             <li>File: status.json</li>
             <li>Type: .json</li>
@@ -251,43 +251,45 @@
     <!-- Data dictionary -->
     
     <h2 class="mt-4 mb-2" id="data-dictionary">Data dictionary</h2>
-    <table class="table table-sm table-bordered mb-5 small">
-      <caption class="visually-hidden">Data dictionary for Status</caption>
-      <thead>
-        <tr>
-          <th scope="col">Field</th>
-          <th scope="col">Type</th>
-          <th scope="col">Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        
-        <tr>
-          <td><code>code</code></td>
-          <td>number</td>
-          <td>HTTP status code</td>
-        </tr>
-        
-        <tr>
-          <td><code>label</code></td>
-          <td>string</td>
-          <td>Standard label for the status code</td>
-        </tr>
-        
-        <tr>
-          <td><code>type</code></td>
-          <td>string</td>
-          <td>Status type: active, redirect, or inaccessible</td>
-        </tr>
-        
-        <tr>
-          <td><code>description</code></td>
-          <td>string</td>
-          <td>Plain language description of the status code</td>
-        </tr>
-        
-      </tbody>
-    </table>
+    <div class="table-responsive">
+      <table class="table table-sm table-bordered mb-5 small">
+        <caption class="visually-hidden">Data dictionary for Status</caption>
+        <thead>
+          <tr>
+            <th scope="col">Field</th>
+            <th scope="col">Type</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td><code>code</code></td>
+            <td>number</td>
+            <td>HTTP status code</td>
+          </tr>
+          
+          <tr>
+            <td><code>label</code></td>
+            <td>string</td>
+            <td>Standard label for the status code</td>
+          </tr>
+          
+          <tr>
+            <td><code>type</code></td>
+            <td>string</td>
+            <td>Status type: active, redirect, or inaccessible</td>
+          </tr>
+          
+          <tr>
+            <td><code>description</code></td>
+            <td>string</td>
+            <td>Plain language description of the status code</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
     
 
     <!-- Citation -->

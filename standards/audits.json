@@ -28,10 +28,6 @@
             "url": "/21stcenturyidea"
           },
           {
-            "displayName": "Memorandum (M-23-22)",
-            "url": "/memorandum-m-23-22"
-          },
-          {
             "displayName": "The Web Robots Pages",
             "url": "/robots"
           }
@@ -96,7 +92,7 @@
         "impact": 2,
         "guidance": [
           {
-            "displayName": "Schema.org structured data",
+            "displayName": "Schema.org",
             "url": "/schema-org"
           }
         ],
@@ -2675,10 +2671,6 @@
           {
             "displayName": "U.S. Federal Website Standards",
             "url": "/federal-website-standards"
-          },
-          {
-            "displayName": "Memorandum (M-23-22)",
-            "url": "/memorandum-m-23-22"
           }
         ],
         "userStories": [
@@ -2720,10 +2712,6 @@
           {
             "displayName": "U.S. Federal Website Standards",
             "url": "/federal-website-standards"
-          },
-          {
-            "displayName": "Memorandum (M-23-22)",
-            "url": "/memorandum-m-23-22"
           }
         ],
         "userStories": [
@@ -2775,10 +2763,6 @@
             "url": "/federal-website-standards"
           },
           {
-            "displayName": "Memorandum (M-23-22)",
-            "url": "/memorandum-m-23-22"
-          },
-          {
             "displayName": "Plain Writing Act of 2010",
             "url": "/plain-writing-act"
           }
@@ -2817,10 +2801,6 @@
           {
             "displayName": "21st Century Integrated Digital Experience Act (IDEA)",
             "url": "/21stcenturyidea"
-          },
-          {
-            "displayName": "Memorandum (M-23-22)",
-            "url": "/memorandum-m-23-22"
           }
         ],
         "userStories": [
@@ -3397,10 +3377,6 @@
           {
             "displayName": "CISA Cybersecurity Performance Goals",
             "url": "/cybersecurity-performance-goals"
-          },
-          {
-            "displayName": "Memorandum (M-23-22)",
-            "url": "/memorandum-m-23-22"
           }
         ],
         "userStories": [
@@ -3608,10 +3584,6 @@
           {
             "displayName": "U.S. Federal Website Standards",
             "url": "/federal-website-standards"
-          },
-          {
-            "displayName": "Memorandum (M-23-22)",
-            "url": "/memorandum-m-23-22"
           }
         ],
         "userStories": [
