@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://data.scangov.org/changelog/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-09</lastmod>
   </url>
   <url>
     <loc>https://data.scangov.org/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-09</lastmod>
   </url>
   <url>
     <loc>https://data.scangov.org/search/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-09</lastmod>
   </url>
   <url>
     <loc>https://data.scangov.org/site-index/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-09</lastmod>
   </url>
   <url>
     <loc>https://data.scangov.org/datasets/status/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-09</lastmod>
   </url>
   <url>
     <loc>https://data.scangov.org/datasets/homepage-audits/</loc>
@@ -26,6 +26,6 @@
   </url>
   <url>
     <loc>https://data.scangov.org/datasets/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-09</lastmod>
   </url>
 </urlset>
