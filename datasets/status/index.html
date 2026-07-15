@@ -61,7 +61,7 @@
         "name": "ScanGov",
         "url": "https://scangov.com"
       },
-      "dateModified": "2026-07-14",
+      "dateModified": "2026-07-15",
       "distribution": [
         
         {
@@ -204,7 +204,7 @@
             <li>Type: .json</li>
             <li>Size: 2 KB</li>
             <li>License: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></li>
-            <li>Last updated: <time datetime="2026-07-14">July 14, 2026</time></li>
+            <li>Last updated: <time datetime="2026-07-15">July 15, 2026</time></li>
           </ul>
           <div class="mt-3">
             
@@ -643,8 +643,7 @@
   function updateButton() {
     const scrolled = document.documentElement.scrollTop > window.innerHeight * 0.3;
     const footerVisible = footer && footer.getBoundingClientRect().top < window.innerHeight;
-    const noticeVisible = !!document.getElementById('scan-notice');
-    const visible = scrolled && !footerVisible && !noticeVisible;
+    const visible = scrolled && !footerVisible;
     feedbackButton.classList.toggle('is-visible', visible);
     feedbackButton.setAttribute('aria-hidden', visible ? 'false' : 'true');
     feedbackButton.setAttribute('tabindex', visible ? '0' : '-1');
