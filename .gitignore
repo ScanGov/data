@@ -4,5 +4,6 @@ package-lock.json
 _site
 __pycache__
 
+# Claude Code local/generated content
+.claude/
 docs/plans/
-.claude
