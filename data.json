@@ -4,7 +4,7 @@
     {
       "title": "Status",
       "description": "HTTP status code definitions and types for websites ScanGov monitors.",
-      "modified": "2026-07-21",
+      "modified": "2026-07-24",
       "publisher": {
         "name": "ScanGov",
         "@type": "org:Organization"
