@@ -441,7 +441,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>The `hreflang` attribute helps search engines understand which language and region a webpage is targeting. This is useful when a website has multiple versions in different languages or for different regions. By using `hreflang`, the site can show the correct version of a page to users based on their language or location, improving their experience. It also helps search engines avoid showing the wrong language version in search results, leading to better SEO and user engagement.</p>"
+            "content": "<p>The <code>hreflang</code> attribute helps search engines understand which language and region a webpage is targeting. This is useful when a website has multiple versions in different languages or for different regions. By using <code>hreflang</code>, the site can show the correct version of a page to users based on their language or location, improving their experience. It also helps search engines avoid showing the wrong language version in search results, leading to better SEO and user engagement.</p>"
           },
           "links": {
             "title": "Links",
@@ -536,7 +536,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn how to match ARIA attributes to their roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-attr).</p>"
+            "content": "<p>Each ARIA <code>role</code> supports a specific subset of <code>aria-*</code> attributes. Mismatching these invalidates the <code>aria-*</code> attributes. <a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-allowed-attr\" target=\"_blank\">Learn how to match ARIA attributes to their roles</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -600,7 +600,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to make command elements more accessible](https://dequeuniversity.com/rules/axe/4.10/aria-command-name).</p>"
+            "content": "<p>When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. <a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-command-name\" target=\"_blank\">Learn how to make command elements more accessible</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -696,7 +696,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>ARIA dialog elements without accessible names may prevent screen readers users from discerning the purpose of these elements. [Learn how to make ARIA dialog elements more accessible](https://dequeuniversity.com/rules/axe/4.10/aria-dialog-name).</p>"
+            "content": "<p>ARIA dialog elements without accessible names may prevent screen readers users from discerning the purpose of these elements. <a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-dialog-name\" target=\"_blank\">Learn how to make ARIA dialog elements more accessible</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -728,7 +728,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Assistive technologies, like screen readers, work inconsistently when `aria-hidden=\"true\"` is set on the document `<body>`. [Learn how `aria-hidden` affects the document body](https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body).</p>"
+            "content": "<p>Assistive technologies, like screen readers, work inconsistently when <code>aria-hidden=\"true\"</code> is set on the document <code>&lt;body&gt;</code>. <a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body\" target=\"_blank\">Learn how <code>aria-hidden</code> affects the document body</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -760,7 +760,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn how `aria-hidden` affects focusable elements](https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus).</p>"
+            "content": "<p>Focusable descendents within an <code>[aria-hidden=\"true\"]</code> element prevent those interactive elements from being available to users of assistive technologies like screen readers. <a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus\" target=\"_blank\">Learn how <code>aria-hidden</code> affects focusable elements</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -824,7 +824,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>When a meter element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to name `meter` elements](https://dequeuniversity.com/rules/axe/4.10/aria-meter-name).</p>"
+            "content": "<p>When a meter element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. <a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-meter-name\" target=\"_blank\">Learn how to name <code>meter</code> elements</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -856,7 +856,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>When a `progressbar` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to label `progressbar` elements](https://dequeuniversity.com/rules/axe/4.10/aria-progressbar-name).</p>"
+            "content": "<p>When a <code>progressbar</code> element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. <a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-progressbar-name\" target=\"_blank\">Learn how to label <code>progressbar</code> elements</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -1048,7 +1048,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Adding `role=text` around a text node split by markup enables VoiceOver to treat it as one phrase, but the element's focusable descendents will not be announced.</p>"
+            "content": "<p>Adding <code>role=text</code> around a text node split by markup enables VoiceOver to treat it as one phrase, but the element's focusable descendents will not be announced.</p>"
           },
           "code": {
             "title": "Code",
@@ -1112,7 +1112,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>When a tooltip element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to name `tooltip` elements](https://dequeuniversity.com/rules/axe/4.10/aria-tooltip-name).</p>"
+            "content": "<p>When a tooltip element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. <a href=\"https://dequeuniversity.com/rules/axe/4.10/aria-tooltip-name\" target=\"_blank\">Learn how to name <code>tooltip</code> elements</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -1144,7 +1144,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>When a `treeitem` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>"
+            "content": "<p>When a <code>treeitem</code> element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers.</p>"
           },
           "code": {
             "title": "Code",
@@ -1240,7 +1240,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.10/button-name).</p>"
+            "content": "<p>When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. <a href=\"https://dequeuniversity.com/rules/axe/4.10/button-name\" target=\"_blank\">Learn how to make buttons more accessible</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -1304,7 +1304,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).</p>"
+            "content": "<p>Low-contrast text is difficult or impossible for many users to read. <a href=\"https://dequeuniversity.com/rules/axe/4.10/color-contrast\" target=\"_blank\">Learn how to provide sufficient color contrast</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -1336,7 +1336,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/definition-list).</p>"
+            "content": "<p>When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. <a href=\"https://dequeuniversity.com/rules/axe/4.10/definition-list\" target=\"_blank\">Learn how to structure definition lists correctly</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -1368,7 +1368,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.10/dlitem).</p>"
+            "content": "<p>Definition list items (<code>&lt;dt&gt;</code> and <code>&lt;dd&gt;</code>) must be wrapped in a parent <code>&lt;dl&gt;</code> element to ensure that screen readers can properly announce them. <a href=\"https://dequeuniversity.com/rules/axe/4.10/dlitem\" target=\"_blank\">Learn how to structure definition lists correctly</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -1436,7 +1436,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn how to fix duplicate ARIA IDs](https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria).</p>"
+            "content": "<p>The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. <a href=\"https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria\" target=\"_blank\">Learn how to fix duplicate ARIA IDs</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -1468,7 +1468,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels. [Learn how to use form labels](https://dequeuniversity.com/rules/axe/4.10/form-field-multiple-labels).</p>"
+            "content": "<p>Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels. <a href=\"https://dequeuniversity.com/rules/axe/4.10/form-field-multiple-labels\" target=\"_blank\">Learn how to use form labels</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -1568,7 +1568,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly.</p>"
+            "content": "<p>If a page doesn't specify a <code>lang</code> attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly.</p>"
           },
           "code": {
             "title": "Code",
@@ -1600,7 +1600,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn how to use the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-lang-valid).</p>"
+            "content": "<p>Specifying a valid <a href=\"https://www.w3.org/International/questions/qa-choosing-language-tags#question\" target=\"_blank\">BCP 47 language</a> helps screen readers announce text properly. <a href=\"https://dequeuniversity.com/rules/axe/4.10/html-lang-valid\" target=\"_blank\">Learn how to use the <code>lang</code> attribute</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -1764,7 +1764,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn about input image alt text](https://dequeuniversity.com/rules/axe/4.10/input-image-alt).</p>"
+            "content": "<p>When an image is being used as an <code>&lt;input&gt;</code> button, providing alternative text can help screen reader users understand the purpose of the button. <a href=\"https://dequeuniversity.com/rules/axe/4.10/input-image-alt\" target=\"_blank\">Learn about input image alt text</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -1832,7 +1832,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).</p>"
+            "content": "<p>Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. <a href=\"https://dequeuniversity.com/rules/axe/4.10/link-in-text-block\" target=\"_blank\">Learn how to make links distinguishable</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -1864,7 +1864,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).</p>"
+            "content": "<p>Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. <a href=\"https://dequeuniversity.com/rules/axe/4.10/link-name\" target=\"_blank\">Learn how to make links accessible</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -1932,7 +1932,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly.</p>"
+            "content": "<p>Screen readers require list items (<code>&lt;li&gt;</code>) to be contained within a parent <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code> or <code>&lt;menu&gt;</code> to be announced properly.</p>"
           },
           "code": {
             "title": "Code",
@@ -2028,7 +2028,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Screen readers cannot translate non-text content. Adding alternate text to `<object>` elements helps screen readers convey meaning to users.</p>"
+            "content": "<p>Screen readers cannot translate non-text content. Adding alternate text to <code>&lt;object&gt;</code> elements helps screen readers convey meaning to users.</p>"
           },
           "code": {
             "title": "Code",
@@ -2160,7 +2160,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>The summary attribute should describe the table structure, while `<caption>` should have the onscreen title. Accurate table mark-up helps users of screen readers.</p>"
+            "content": "<p>The summary attribute should describe the table structure, while <code>&lt;caption&gt;</code> should have the onscreen title. Accurate table mark-up helps users of screen readers.</p>"
           },
           "code": {
             "title": "Code",
@@ -2224,7 +2224,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users.</p>"
+            "content": "<p>Screen readers have features to make navigating tables easier. Ensuring <code>&lt;td&gt;</code> cells using the <code>[headers]</code> attribute only refer to other cells in the same table may improve the experience for screen reader users.</p>"
           },
           "code": {
             "title": "Code",
@@ -2288,7 +2288,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn how to use the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/valid-lang).</p>"
+            "content": "<p>Specifying a valid <a href=\"https://www.w3.org/International/questions/qa-choosing-language-tags#question\" target=\"_blank\">BCP 47 language</a> on elements helps ensure that text is pronounced correctly by a screen reader. <a href=\"https://dequeuniversity.com/rules/axe/4.10/valid-lang\" target=\"_blank\">Learn how to use the <code>lang</code> attribute</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -2480,7 +2480,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users.</p>"
+            "content": "<p>Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the <code>[colspan]</code> attribute may improve the experience for screen reader users.</p>"
           },
           "code": {
             "title": "Code",
@@ -2512,7 +2512,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users.</p>"
+            "content": "<p>Screen readers have features to make navigating tables easier. Ensuring that <code>&lt;td&gt;</code> elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users.</p>"
           },
           "code": {
             "title": "Code",
@@ -3425,7 +3425,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>security.txt is a text file located on the site root-level or `/.well-known/` directory that helps improve vulnerability disclosure by giving security researchers clear contact and reporting information.</p><p>security.txt is an accepted standard (<a href=\"https://www.rfc-editor.org/rfc/rfc9116\">RFC 9116</a>) by the <a href=\"https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force\">Internet Engineering Task Force</a>.</p>"
+            "content": "<p>security.txt is a text file located on the site root-level or <code>/.well-known/</code> directory that helps improve vulnerability disclosure by giving security researchers clear contact and reporting information.</p><p>security.txt is an accepted standard (<a href=\"https://www.rfc-editor.org/rfc/rfc9116\">RFC 9116</a>) by the <a href=\"https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force\">Internet Engineering Task Force</a>.</p>"
           },
           "code": {
             "title": "Code",
@@ -3467,7 +3467,7 @@
         "sections": {
           "about": {
             "title": "About",
-            "content": "<p>`X-Content-Type-Options` is a security header that:</p><ul><li>Prevents browsers from MIME-sniffing.</li><li>Ensures content is rendered as declared (e.g., no misinterpretation of file types).</li><li>Stops browsers from guessing content types, enhancing security.</li></ul>"
+            "content": "<p><code>X-Content-Type-Options</code> is a security header that:</p><ul><li>Prevents browsers from MIME-sniffing.</li><li>Ensures content is rendered as declared (e.g., no misinterpretation of file types).</li><li>Stops browsers from guessing content types, enhancing security.</li></ul>"
           },
           "code": {
             "title": "Code",
