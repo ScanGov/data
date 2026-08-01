@@ -6,8 +6,8 @@
     "description": "The request succeeded and the page loaded normally.",
     "scangovStatus": "Scan successful",
     "statusDescription": "We were able to fully scan your site.",
-    "problem": null,
-    "recommendation": null
+    "problem": "None.",
+    "recommendation": "None."
   },
   {
     "code": 301,
