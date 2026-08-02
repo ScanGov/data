@@ -53,7 +53,20 @@
 <link href="/css/data.css" rel="stylesheet">
 
     <script>
-        document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        (function () {
+            var syncTheme = function () {
+                var desired = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                if (document.documentElement.getAttribute('data-bs-theme') !== desired) {
+                    document.documentElement.setAttribute('data-bs-theme', desired);
+                }
+            };
+            syncTheme();
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', syncTheme);
+            new MutationObserver(syncTheme).observe(document.documentElement, {
+                attributes: true,
+                attributeFilter: ['data-bs-theme']
+            });
+        })();
     </script>
 </head>
 
@@ -190,7 +203,7 @@
             <h2 class="h5 card-title" id="status">Status</h2>
             <p class="card-text small">HTTP status code definitions and types for websites ScanGov monitors.</p>
             <p class="card-text">
-              <small class="text-body-secondary">Updated: <time datetime="2026-08-01">August 1, 2026</time></small>
+              <small class="text-body-secondary">Updated: <time datetime="2026-08-02">August 2, 2026</time></small>
             </p>
           </div>
           <div class="card-footer">
@@ -324,9 +337,6 @@
 <script src="/js/tablesort-vendor.js"></script>
 <script src="/js/tablesort-init.js"></script>
 <script>
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-    document.documentElement.setAttribute('data-bs-theme', e.matches ? 'dark' : 'light');
-  });
   const toggler = document.querySelector('button.navbar-toggler');
   if (toggler) {
     toggler.addEventListener('click', function() {
