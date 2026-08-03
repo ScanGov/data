@@ -16,5 +16,9 @@
   "dependencies": {
     "@11ty/font-awesome": "github:aaronhans/eleventy-plugin-font-awesome",
     "purgecss": "^7.0.2"
+  },
+  "overrides": {
+    "brace-expansion": "^1.1.18",
+    "postcss": "^8.5.25"
   }
 }
