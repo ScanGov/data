@@ -143,6 +143,28 @@
     "recommendationTechnical": "If this is planned maintenance, confirm it's temporary and communicated to users. If it's overload, investigate server capacity and traffic spikes."
   },
   {
+    "code": 997,
+    "label": "Crawl-delay too long",
+    "type": "inaccessible",
+    "description": "A non-standard code ScanGov uses when a site's robots.txt asks crawlers to wait longer between requests than ScanGov will (30 seconds). The site itself loaded normally.",
+    "scangovStatus": "Scan skipped",
+    "statusDescription": "We didn't scan your site because its robots.txt asks crawlers to wait longer than we can.",
+    "problem": "Your robots.txt sets a Crawl-delay above 30 seconds. ScanGov honours crawl-delay, and at that pace a scan can't finish, so the site is skipped and its content can't be verified here.",
+    "recommendation": "Ask whoever manages your robots.txt to lower the crawl-delay for good bots, or to leave it out for ScanGovBot. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendationTechnical": "Set \"Crawl-delay: 30\" or lower in the robots.txt group that applies to ScanGovBot, or add a \"User-agent: ScanGovBot\" group with no Crawl-delay directive. Rules in a specific ScanGovBot group take precedence over \"User-agent: *\"."
+  },
+  {
+    "code": 998,
+    "label": "Blocked by robots.txt",
+    "type": "inaccessible",
+    "description": "A non-standard code ScanGov uses when a site's robots.txt asks ScanGovBot not to crawl it. The site itself loaded normally.",
+    "scangovStatus": "Scan skipped",
+    "statusDescription": "We didn't scan your site because its robots.txt asked us not to.",
+    "problem": "Your robots.txt disallows ScanGovBot (or all crawlers). ScanGov honours that request and does not scan the site, so its content can't be verified or shown here until the file allows the bot.",
+    "recommendation": "If you want ScanGov to check your site, ask whoever manages your robots.txt to allow good bots. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendationTechnical": "Add a group to /robots.txt that allows ScanGovBot: \"User-agent: ScanGovBot\" followed by \"Allow: /\". A blanket \"User-agent: *\" / \"Disallow: /\" rule blocks ScanGovBot unless a more specific ScanGovBot group allows it."
+  },
+  {
     "code": 999,
     "label": "Request Denied",
     "type": "inaccessible",
