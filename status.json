@@ -7,7 +7,8 @@
     "scangovStatus": "Scan successful",
     "statusDescription": "We were able to fully scan your site.",
     "problem": "None.",
-    "recommendation": "None."
+    "recommendation": "None.",
+    "recommendationTechnical": "None."
   },
   {
     "code": 301,
@@ -17,7 +18,8 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "Links and search engines pointing to this URL land on a redirect instead of the final page, which can slow load times, dilute SEO signals, and cause automated scans that don't follow redirects to miss the real content.",
-    "recommendation": "Update internal links, sitemaps, and external references to point directly at the destination URL. Confirm the redirect is intentional and permanent, not a leftover from an old site migration."
+    "recommendation": "Point your links at the new address instead of the old one, and make sure the redirect is one you meant to set up.",
+    "recommendationTechnical": "Update internal links, sitemaps, and external references to point directly at the destination URL. Confirm the redirect is intentional and permanent, not a leftover from an old site migration."
   },
   {
     "code": 302,
@@ -27,7 +29,8 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "Search engines treat this as a temporary move, so the original URL keeps its indexing weight even though visitors are sent elsewhere. It's easy to leave a 302 in place long after the move became permanent.",
-    "recommendation": "If the move is permanent, switch to a 301 redirect. If it's genuinely temporary, confirm the destination is correct and remove the redirect once it's no longer needed."
+    "recommendation": "Decide whether this move is permanent. If it is, ask your web team to make it a permanent redirect. If it's temporary, remove it once you no longer need it.",
+    "recommendationTechnical": "If the move is permanent, switch to a 301 redirect. If it's genuinely temporary, confirm the destination is correct and remove the redirect once it's no longer needed."
   },
   {
     "code": 400,
@@ -37,7 +40,8 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "The server rejected the request outright, so the page never loads for visitors, search engines, or AI crawlers hitting this URL.",
-    "recommendation": "Check the URL for malformed query parameters or encoding issues, and review server logs for the exact validation error being triggered."
+    "recommendation": "Open the address in a browser and see if it works. If it doesn't, ask your web team to look at what's wrong with it.",
+    "recommendationTechnical": "Check the URL for malformed query parameters or encoding issues, and review server logs for the exact validation error being triggered."
   },
   {
     "code": 401,
@@ -47,7 +51,8 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "This page is locked behind a login, so it's invisible to the public, search engines, and AI tools \u2014 even if it's meant to be publicly available.",
-    "recommendation": "If the page should be public, remove the authentication requirement. If it's intentionally private, remove it from your sitemap and any public-facing links."
+    "recommendation": "Decide whether this page is meant to be public. If it is, ask your web team to remove the login requirement. If it isn't, take it out of your sitemap and off your public pages.",
+    "recommendationTechnical": "If the page should be public, remove the authentication requirement. If it's intentionally private, remove it from your sitemap and any public-facing links."
   },
   {
     "code": 403,
@@ -57,7 +62,8 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "The server actively blocked access, which may indicate misconfigured permissions, a firewall rule, or a bot-blocking tool that's also blocking legitimate crawlers (like <a href=\"https://scangov.com/bot\">ScanGovBot</a>).",
-    "recommendation": "Review server/firewall rules and any bot-protection service (e.g. a WAF or Cloudflare) to confirm search engines and monitoring tools aren't being blocked unintentionally."
+    "recommendation": "Something on your site is turning visitors away, and it's catching good bots too. Ask whoever manages your security settings to let good bots through. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendationTechnical": "Review server/firewall rules and any bot-protection service (e.g. a WAF or Cloudflare) to confirm search engines and monitoring tools aren't being blocked unintentionally. Allow the ScanGovBot user-agent, or allowlist 44.236.34.143."
   },
   {
     "code": 404,
@@ -67,7 +73,8 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "The page no longer exists at this address, creating a broken link for anyone who visits it, including from search results, bookmarks, or other sites linking here.",
-    "recommendation": "Restore the page at this URL, or set up a redirect to its new location or the closest relevant page. Update internal links and the sitemap to remove the dead URL."
+    "recommendation": "Put the page back, or send this address to wherever the content lives now. Then update any menus or links still pointing here.",
+    "recommendationTechnical": "Restore the page at this URL, or set up a redirect to its new location or the closest relevant page. Update internal links and the sitemap to remove the dead URL."
   },
   {
     "code": 408,
@@ -77,7 +84,8 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "The server took too long to respond, so the page failed to load \u2014 this can point to performance problems or an overloaded server.",
-    "recommendation": "Investigate server response times and resource usage. If timeouts are frequent, consider caching, scaling server resources, or optimizing slow backend queries."
+    "recommendation": "Your site is taking too long to answer. Ask your web team to look at why pages are slow.",
+    "recommendationTechnical": "Investigate server response times and resource usage. If timeouts are frequent, consider caching, scaling server resources, or optimizing slow backend queries."
   },
   {
     "code": 410,
@@ -87,7 +95,8 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "The page was intentionally and permanently removed, so anyone linking to it \u2014 including search engines \u2014 hits a dead end with no path forward.",
-    "recommendation": "If the content moved rather than disappeared, use a redirect instead of a 410. Otherwise, remove references to this URL from menus, sitemaps, and external links."
+    "recommendation": "If this content moved somewhere else, send this address there instead. If it's really gone, remove links to it from your menus and sitemap.",
+    "recommendationTechnical": "If the content moved rather than disappeared, use a redirect instead of a 410. Otherwise, remove references to this URL from menus, sitemaps, and external links."
   },
   {
     "code": 429,
@@ -97,7 +106,8 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "The server is rate-limiting requests to this URL, which can prevent monitoring tools, search engines, or real visitors from reliably reaching the page during busy periods.",
-    "recommendation": "Review and relax rate-limiting thresholds for legitimate traffic, including known crawlers, or allowlist the scanning/monitoring service's IP."
+    "recommendation": "Your site is turning away visitors for asking too often. Ask your web team to give good bots more room. Good bots already crawl slowly. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendationTechnical": "Review and relax rate-limiting thresholds for legitimate traffic, including known crawlers, or allowlist the scanning/monitoring service's IP (44.236.34.143 for ScanGovBot)."
   },
   {
     "code": 500,
@@ -107,7 +117,8 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "An unhandled error on the server prevented the page from loading at all, affecting every visitor who requests this URL.",
-    "recommendation": "Check server error logs for the underlying exception and fix the code or configuration issue causing the crash."
+    "recommendation": "Something broke on your site. Ask your web team to check the error logs and fix it.",
+    "recommendationTechnical": "Check server error logs for the underlying exception and fix the code or configuration issue causing the crash."
   },
   {
     "code": 502,
@@ -117,7 +128,8 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "A server acting as a proxy or gateway got an invalid response from an upstream server, so the page failed to load \u2014 often a sign of backend or infrastructure trouble.",
-    "recommendation": "Check the health of upstream/backend servers and the configuration of the proxy or load balancer sitting in front of them."
+    "recommendation": "One of the systems behind your site isn't responding. Ask your web team or hosting provider to check it.",
+    "recommendationTechnical": "Check the health of upstream/backend servers and the configuration of the proxy or load balancer sitting in front of them."
   },
   {
     "code": 503,
@@ -127,7 +139,8 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "The server can't currently handle the request, often due to maintenance or overload, so the page is temporarily unreachable.",
-    "recommendation": "If this is planned maintenance, confirm it's temporary and communicated to users. If it's overload, investigate server capacity and traffic spikes."
+    "recommendation": "Your site is down or too busy to answer. If this is planned maintenance, it should clear up on its own. If not, ask your hosting provider to look into it.",
+    "recommendationTechnical": "If this is planned maintenance, confirm it's temporary and communicated to users. If it's overload, investigate server capacity and traffic spikes."
   },
   {
     "code": 999,
@@ -137,6 +150,7 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "The site is actively blocking automated tools, including this scanner, so its content can't be verified or indexed by anyone using similar tools.",
-    "recommendation": "Review bot-blocking rules to allow legitimate crawlers and monitoring services, or confirm this restriction on this URL is intentional."
+    "recommendation": "Your site is blocking automated visitors on purpose, and that includes good bots. Ask whoever set that up to let good bots through. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendationTechnical": "Review bot-blocking rules to allow legitimate crawlers and monitoring services, or confirm this restriction on this URL is intentional. Allow the ScanGovBot user-agent, or allowlist 44.236.34.143."
   }
 ]
