@@ -50,7 +50,7 @@
     "description": "The requested resource requires authentication. The client must log in to access it.",
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
-    "problem": "This page is locked behind a login, so it's invisible to the public, search engines, and AI tools \u2014 even if it's meant to be publicly available.",
+    "problem": "This page is locked behind a login, so it's invisible to the public, search engines, and AI tools — even if it's meant to be publicly available.",
     "recommendation": "Decide whether this page is meant to be public. If it is, ask your web team to remove the login requirement. If it isn't, take it out of your sitemap and off your public pages.",
     "recommendationTechnical": "If the page should be public, remove the authentication requirement. If it's intentionally private, remove it from your sitemap and any public-facing links."
   },
@@ -83,7 +83,7 @@
     "description": "The server closed the connection because the request took too long to complete.",
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
-    "problem": "The server took too long to respond, so the page failed to load \u2014 this can point to performance problems or an overloaded server.",
+    "problem": "The server took too long to respond, so the page failed to load — this can point to performance problems or an overloaded server.",
     "recommendation": "Your site is taking too long to answer. Ask your web team to look at why pages are slow.",
     "recommendationTechnical": "Investigate server response times and resource usage. If timeouts are frequent, consider caching, scaling server resources, or optimizing slow backend queries."
   },
@@ -94,7 +94,7 @@
     "description": "The requested resource has been permanently removed and will not be available again.",
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
-    "problem": "The page was intentionally and permanently removed, so anyone linking to it \u2014 including search engines \u2014 hits a dead end with no path forward.",
+    "problem": "The page was intentionally and permanently removed, so anyone linking to it — including search engines — hits a dead end with no path forward.",
     "recommendation": "If this content moved somewhere else, send this address there instead. If it's really gone, remove links to it from your menus and sitemap.",
     "recommendationTechnical": "If the content moved rather than disappeared, use a redirect instead of a 410. Otherwise, remove references to this URL from menus, sitemaps, and external links."
   },
@@ -127,7 +127,7 @@
     "description": "The server received an invalid response from another server while processing the request.",
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
-    "problem": "A server acting as a proxy or gateway got an invalid response from an upstream server, so the page failed to load \u2014 often a sign of backend or infrastructure trouble.",
+    "problem": "A server acting as a proxy or gateway got an invalid response from an upstream server, so the page failed to load — often a sign of backend or infrastructure trouble.",
     "recommendation": "One of the systems behind your site isn't responding. Ask your web team or hosting provider to check it.",
     "recommendationTechnical": "Check the health of upstream/backend servers and the configuration of the proxy or load balancer sitting in front of them."
   },
@@ -141,6 +141,17 @@
     "problem": "The server can't currently handle the request, often due to maintenance or overload, so the page is temporarily unreachable.",
     "recommendation": "Your site is down or too busy to answer. If this is planned maintenance, it should clear up on its own. If not, ask your hosting provider to look into it.",
     "recommendationTechnical": "If this is planned maintenance, confirm it's temporary and communicated to users. If it's overload, investigate server capacity and traffic spikes."
+  },
+  {
+    "code": 996,
+    "label": "Challenge page",
+    "type": "inaccessible",
+    "description": "A non-standard code ScanGov uses when a site answers with a captcha or \"checking your browser\" page instead of the page that was asked for. A person with a browser usually gets through; an identified bot does not.",
+    "scangovStatus": "Scan blocked",
+    "statusDescription": "We couldn't scan your site because it showed our bot a captcha or browser check instead of the page.",
+    "problem": "A bot-protection service in front of your site (a CDN, firewall or hosting feature) is challenging visitors it doesn't recognize. ScanGovBot identifies itself and follows robots.txt but cannot solve challenges, so the site's content can't be verified or shown here, and other good bots are probably being turned away too.",
+    "recommendation": "Ask whoever manages your hosting, CDN or firewall to let good bots through by name instead of challenging every unknown visitor. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendationTechnical": "Allow-list the ScanGovBot user-agent (or 44.236.34.143) in your bot-management rules so it is not served a challenge (Cloudflare: a WAF custom rule or Bot Fight Mode exception; SiteGround: the anti-bot AI setting; Imperva: a bot policy exception). Prefer rate limiting to challenging for automated traffic that identifies itself."
   },
   {
     "code": 997,
