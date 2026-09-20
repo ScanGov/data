@@ -143,6 +143,17 @@
     "recommendationTechnical": "If this is planned maintenance, confirm it's temporary and communicated to users. If it's overload, investigate server capacity and traffic spikes."
   },
   {
+    "code": 995,
+    "label": "No page content",
+    "type": "inaccessible",
+    "description": "The server answered the request, but the page it returned had no content for the scanner to read.",
+    "scangovStatus": "Scan blocked",
+    "statusDescription": "We couldn't fully scan your site because it responded without any page content.",
+    "problem": "The server returned a success status, but the page had no readable content. That usually means a bot-protection layer (a CDN, firewall, or hosting feature) served an empty or interstitial page to a visitor it didn't recognize, including <a href=\"https://scangov.com/bot\">ScanGovBot</a>. Search engines and AI tools that hit the same wall see nothing either, so the site can't be evaluated or indexed by them.",
+    "recommendation": "Something on your site is serving an empty page to good bots. Ask whoever manages your security settings to let good bots through. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendationTechnical": "Check your bot-protection or CDN rules for responses that return 200 with a challenge, interstitial, or empty body. Allow the ScanGovBot user-agent, or allowlist 44.236.34.143, and confirm the homepage HTML is returned to non-browser clients."
+  },
+  {
     "code": 996,
     "label": "Challenge page",
     "type": "inaccessible",
