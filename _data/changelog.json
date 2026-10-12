@@ -10,5 +10,11 @@
     "date": "2026-06-24",
     "displayDate": "June 23, 2026",
     "note": "Datasets updated"
+  },
+  {
+    "timestamp": "1791850000000",
+    "date": "2026-10-11",
+    "displayDate": "October 11, 2026",
+    "note": "Readability is now its own topic in audits.json. The reading level check moved out of usability and was renamed reading-level; guidance.json topics updated to match."
   }
 ]

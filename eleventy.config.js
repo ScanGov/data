@@ -62,8 +62,9 @@ export default async function (eleventyConfig) {
       changelog = JSON.parse(fs.readFileSync(changelogPath, 'utf8'))
     }
 
-    const lastEntry = changelog[changelog.length - 1]
-    if (!lastEntry || lastEntry.timestamp !== updatedTime) {
+    // Hand-written entries (for example a standards change) may follow the
+    // last dataset update, so look for the timestamp anywhere, not just last.
+    if (!changelog.some((entry) => entry.timestamp === updatedTime)) {
       const date = new Date(parseInt(updatedTime))
       changelog.push({
         timestamp: updatedTime,
