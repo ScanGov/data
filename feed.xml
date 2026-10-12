@@ -5,12 +5,20 @@
   <link href="https://data.scangov.org/feed.xml" rel="self"/>
   <link href="https://data.scangov.org/"/>
   
-  <updated>2026-06-24T00:00:00Z</updated>
+  <updated>2026-10-11T00:00:00Z</updated>
   <id>https://data.scangov.org/</id>
   <author>
     <name>ScanGov</name>
   </author>
   
+  
+  <entry>
+    <title>Readability is now its own topic in audits.json. The reading level check moved out of usability and was renamed reading-level; guidance.json topics updated to match. — October 11, 2026</title>
+    <link href="https://data.scangov.org/changelog/"/>
+    <id>https://data.scangov.org/changelog/#1791850000000</id>
+    <updated>2026-10-11T00:00:00Z</updated>
+    <content type="html">Datasets updated on October 11, 2026.&#10;&lt;a href="https://data.scangov.org/datasets/status/"&gt;Status&lt;/a&gt;, &lt;a href="https://data.scangov.org/datasets/homepage-audits/"&gt;Homepage Audits&lt;/a&gt;</content>
+  </entry>
   
   <entry>
     <title>Datasets updated — June 23, 2026</title>

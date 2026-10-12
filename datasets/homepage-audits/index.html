@@ -314,67 +314,61 @@
           <tr>
             <td><code>overallScoreCount</code></td>
             <td>number</td>
-            <td>Total number of checks run</td>
+            <td>Number of checks that passed</td>
           </tr>
           
           <tr>
             <td><code>overallPossibleScore</code></td>
             <td>number</td>
-            <td>Number of checks that passed</td>
+            <td>Total number of checks run</td>
           </tr>
           
           <tr>
-            <td><code>aifriendly</code></td>
+            <td><code>botability</code></td>
             <td>object</td>
-            <td>AI-friendliness audit: url, status, name, crawlable, text-content</td>
+            <td>Botability results, one boolean per check: crawlable, text-content, schema-government-organization, status, xml, valid, allowed, sitemap-robots, canonical, link-text, hreflang</td>
           </tr>
           
           <tr>
             <td><code>accessibility</code></td>
             <td>object</td>
-            <td>Accessibility audit: url, status, name, a11y-best-practices, a11y-aria, a11y-audio-video, a11y-color-contrast, hidden, a11y-language, a11y-names-labels, a11y-navigation, a11y-tables-lists</td>
+            <td>Accessibility results, one boolean per Lighthouse accessibility audit (aria-*, image-alt, color-contrast, html-has-lang, etc.) plus image-aspect-ratio, doctype, charset</td>
           </tr>
           
           <tr>
-            <td><code>content</code></td>
+            <td><code>usability</code></td>
             <td>object</td>
-            <td>Content audit: url, status, name, title, description, viewport, image_aspect_ratio, html_lang_valid, zooming-scaling, doctype, charset</td>
-          </tr>
-          
-          <tr>
-            <td><code>domain</code></td>
-            <td>object</td>
-            <td>Domain audit: url, status, name, https, www, dotgov</td>
-          </tr>
-          
-          <tr>
-            <td><code>performance</code></td>
-            <td>object</td>
-            <td>Performance audit: url, status, name, cls, fcp, inp, lcp, ttfb</td>
-          </tr>
-          
-          <tr>
-            <td><code>seo</code></td>
-            <td>object</td>
-            <td>SEO audit: url, status, name, xml, valid, allowed, sitemap-robots, canonical, link-text, hreflang</td>
+            <td>Usability results, one boolean per check: title, description, viewport, www, cls, fcp, inp, lcp, ttfb, ogsitename, ogtype, ogtitle, ogdescription, ogurl, ogimage, ogimagealt</td>
           </tr>
           
           <tr>
             <td><code>security</code></td>
             <td>object</td>
-            <td>Security audit: url, status, name, csp, hsts, securityTxt, xContentTypeOptions, errors_in_console, clickjacking_mitigation, paste_preventing_inputs</td>
+            <td>Security results, one boolean per check: csp, hsts, securitytxt, xcontenttypeoptions, errors-in-console, clickjacking-mitigation, paste-preventing-inputs, https, dotgov</td>
           </tr>
           
           <tr>
-            <td><code>social</code></td>
+            <td><code>readability</code></td>
             <td>object</td>
-            <td>Social metadata audit: url, status, name, ogSiteName, ogType, ogTitle, ogDescription, ogUrl, ogImage, ogImageAlt</td>
+            <td>Readability results, one boolean per check: reading-level (rounded Automated Readability Index of 8 or below)</td>
+          </tr>
+          
+          <tr>
+            <td><code>ari</code></td>
+            <td>number</td>
+            <td>Automated Readability Index of the homepage text (U.S. grade level); absent when the page is not in English or has no measurable text</td>
+          </tr>
+          
+          <tr>
+            <td><code>fk</code></td>
+            <td>number</td>
+            <td>Flesch-Kincaid grade level of the homepage text; absent in the same cases as ari</td>
           </tr>
           
           <tr>
             <td><code>scores</code></td>
             <td>object</td>
-            <td>Per-category scores, each with attributes (boolean results), score (0–100), correct (passing count), and all (total count)</td>
+            <td>Per-topic scores (botability, accessibility, usability, security, readability), each with attributes (boolean results), score (0–100), correct (passing count), and all (total count)</td>
           </tr>
           
         </tbody>

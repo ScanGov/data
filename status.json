@@ -143,6 +143,28 @@
     "recommendationTechnical": "If this is planned maintenance, confirm it's temporary and communicated to users. If it's overload, investigate server capacity and traffic spikes."
   },
   {
+    "code": 993,
+    "label": "Certificate error",
+    "type": "inaccessible",
+    "description": "A non-standard code ScanGov uses when a site's security certificate fails validation, so no page can be loaded over HTTPS.",
+    "scangovStatus": "Scan failed",
+    "statusDescription": "We couldn't scan your site because its security certificate didn't pass validation.",
+    "problem": "The site's HTTPS certificate is expired, issued for a different host name, or signed by an authority browsers don't trust. Browsers show a full-page security warning instead of the site, and automated tools, including <a href=\"https://scangov.com/bot\">ScanGovBot</a>, refuse the connection. Until the certificate is fixed, most users can't reach the site at all.",
+    "recommendation": "Your site's security certificate isn't valid. Ask whoever manages your hosting to renew or reissue it, and check that it covers every host name people use to reach your site, with and without www.",
+    "recommendationTechnical": "Check the certificate chain with a tool such as the SSL Labs server test. Common causes are an expired certificate, a missing intermediate certificate, or a certificate whose subject alternative names don't include the requested host. Renew or reissue it, confirm the full chain is served, and redirect every host name to the one the certificate covers."
+  },
+  {
+    "code": 994,
+    "label": "Page failed to load",
+    "type": "inaccessible",
+    "description": "A non-standard code ScanGov uses when the server accepted the request but the page never finished loading or never displayed any content.",
+    "scangovStatus": "Scan failed",
+    "statusDescription": "We couldn't scan your site because the page never finished loading in our browser.",
+    "problem": "The server accepted the connection, but the page didn't display any content within the time allowed, or it stopped responding partway through. That can be a page that depends on a script or resource that never arrives, a server that stalls under load, or protection that quietly withholds the page from automated tools, including <a href=\"https://scangov.com/bot\">ScanGovBot</a>. Users on slow connections or older devices are likely to hit the same wall.",
+    "recommendation": "Your home page didn't load in our browser. Ask your web team to open it in a fresh browser session and watch for a blank screen, a spinner that never stops, or errors in the browser console.",
+    "recommendationTechnical": "Load the page in a clean browser profile and in a headless browser from outside your network. Check for render-blocking scripts or stylesheets that time out, oversized images that delay first paint, and firewall or CDN rules that stall non-browser clients. ScanGov scans from 44.236.34.143 and announces itself as ScanGovBot."
+  },
+  {
     "code": 995,
     "label": "No page content",
     "type": "inaccessible",
