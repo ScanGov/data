@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "check": "node scripts/check-standards.js",
     "build": "npx @11ty/eleventy --quiet",
     "start": "npx @11ty/eleventy --serve --quiet",
     "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy"

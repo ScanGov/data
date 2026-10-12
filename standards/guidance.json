@@ -8,7 +8,8 @@
       "accessibility",
       "usability",
       "botability",
-      "security"
+      "security",
+      "readability"
     ],
     "standards": [
       {
@@ -93,7 +94,7 @@
     "featured": true,
     "description": "Measures text reading difficulty levels.",
     "topics": [
-      "usability"
+      "readability"
     ],
     "about": {
       "title": "About",
@@ -112,8 +113,8 @@
     "audio": "https://standards.scangov.org/assets/audio/readability.mp3",
     "standards": [
       {
-        "displayName": "Readability",
-        "url": "/readability"
+        "displayName": "Reading level",
+        "url": "/reading-level"
       }
     ]
   },
@@ -162,7 +163,8 @@
     "topics": [
       "accessibility",
       "usability",
-      "botability"
+      "botability",
+      "readability"
     ],
     "standards": [
       {
@@ -195,7 +197,7 @@
     "featured": true,
     "description": "Measure how hard text is to read.",
     "topics": [
-      "usability"
+      "readability"
     ],
     "about": {
       "title": "About",
@@ -210,8 +212,8 @@
     "audio": "https://standards.scangov.org/assets/audio/readability.mp3",
     "standards": [
       {
-        "displayName": "Readability",
-        "url": "/readability"
+        "displayName": "Reading level",
+        "url": "/reading-level"
       }
     ]
   },
@@ -437,12 +439,12 @@
     "featured": true,
     "description": "Mandates government documents use simple language.",
     "topics": [
-      "usability"
+      "readability"
     ],
     "standards": [
       {
-        "displayName": "Readability",
-        "url": "/readability"
+        "displayName": "Reading level",
+        "url": "/reading-level"
       }
     ],
     "about": {

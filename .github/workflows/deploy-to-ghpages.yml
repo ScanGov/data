@@ -34,6 +34,7 @@ jobs:
           key: ${{ runner.os }}-eleventy-fetch-cache
 
       - run: npm install
+      - run: node scripts/check-standards.js
       - run: npm run build
       - run: node scripts/check-sitemap-completeness.js
 
