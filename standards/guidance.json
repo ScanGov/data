@@ -193,7 +193,7 @@
   },
   {
     "key": "flesch-kincaid",
-    "displayName": "Flesch-Kincaid (FK)",
+    "displayName": "Flesch–Kincaid readability tests",
     "featured": true,
     "description": "Measure how hard text is to read.",
     "topics": [
@@ -201,7 +201,7 @@
     ],
     "about": {
       "title": "About",
-      "content": "<p>The Flesch-Kincaid tests measure how easy or hard text is to read. There are two versions: one gives a reading ease score (higher numbers mean easier reading), and another gives a grade level (like 8th grade or 12th grade). The tests look at sentence length and word length - shorter sentences and shorter words make text easier to read. Schools, the military, and even insurance companies use these tests to make sure their writing is clear and understandable.</p>"
+      "content": "<p>The Flesch-Kincaid tests measure how easy or hard text is to read. There are two versions: one gives a reading ease score (higher numbers mean easier reading), and another gives a grade level (like 8th grade or 12th grade). The tests look at sentence length and word length - shorter sentences and shorter words make text easier to read. Schools, the military, and even insurance companies use these tests to make sure their writing is clear and understandable.</p><div class=\"table-responsive\"><table class=\"table table-bordered table-hover shadow\"><thead><tr><th>Reading ease score</th><th>Grade level</th><th>What it means</th><th>Example</th></tr></thead><tbody><tr><td>100–90</td><td>5th grade</td><td>Very easy. An average 11-year-old can understand it.</td><td>\"The cat sat on the mat.\" scores 116, above the scale</td></tr><tr><td>90–80</td><td>6th grade</td><td>Easy. Conversational English for consumers.</td><td></td></tr><tr><td>80–70</td><td>7th grade</td><td>Fairly easy.</td><td></td></tr><tr><td>70–60</td><td>8th–9th grade</td><td>Plain English. 13- to 15-year-olds can understand it.</td><td>Reader's Digest scores about 65</td></tr><tr><td>60–50</td><td>10th–12th grade</td><td>Fairly difficult.</td><td>Time magazine scores about 52</td></tr><tr><td>50–30</td><td>College</td><td>Difficult.</td><td>Harvard Law Review scores in the low 30s</td></tr><tr><td>30–10</td><td>College graduate</td><td>Very difficult. Best understood by university graduates.</td><td></td></tr><tr><td>10–0</td><td>Professional</td><td>Extremely difficult. Best understood by university graduates.</td><td></td></tr></tbody></table></div>"
     },
     "links": [
       {
