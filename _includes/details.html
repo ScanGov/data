@@ -5,8 +5,8 @@
 
   Single source of truth, maintained in https://github.com/ScanGov/components
   and copied into each site repo's _includes/ (scangov, standards,
-  scangov-com, docs, data). Only scangov sets `profile`/`domain` today, so
-  this is a no-op everywhere else - kept in sync for file parity, same as
+  scangov-com, docs, data). Only scangov sets `profile`/`domain` today, so this is
+  a no-op everywhere else - kept in sync for file parity, same as
   actions.html.
 
   Usage: include directly below the page's <h1>:
@@ -78,7 +78,7 @@
     {% if site.url == 'https://scangov.org' %}
     <li>
         Last scan:
-        <span id="updated">{{ updates }}</span>
+        <span id="updated">{% if domain.time %}{{ domain.time | standardFormatDate }}{% else %}{{ updates }}{% endif %}</span>
         {% set infoHref = "https://docs.scangov.org/scans/" %}
         {% set infoLabel = "Last scan" %}
         {% set infoDescription = "How often ScanGov scans this site." %}
