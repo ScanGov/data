@@ -23,7 +23,7 @@
           <div class="mt-3">
             {% for f in dataset.files %}
             <a href="{{ f.downloadUrl }}" download="{{ f.name }}" class="btn btn-primary">
-              <i class="fa-solid fa-download me-2"></i>Download .{{ f.type }}
+              <i class="fa-solid fa-download"></i>Download .{{ f.type }}
             </a>
             {% endfor %}
           </div>
