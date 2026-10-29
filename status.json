@@ -62,7 +62,7 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "The server actively blocked access, which may indicate misconfigured permissions, a firewall rule, or a bot-blocking tool that's also blocking legitimate crawlers (like <a href=\"https://scangov.com/bot\">ScanGovBot</a>).",
-    "recommendation": "Something on your site is turning visitors away, and it's catching good bots too. Ask whoever manages your security settings to let good bots through. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendation": "Something on your site is turning visitors away, and it's catching good bots too. Ask whoever manages your security settings to let good bots through. <a href=\"https://scangov.com/bot\">Learn more</a> about what to allow.",
     "recommendationTechnical": "Review server/firewall rules and any bot-protection service (e.g. a WAF or Cloudflare) to confirm search engines and monitoring tools aren't being blocked unintentionally. Allow the ScanGovBot user-agent, or allowlist 44.236.34.143."
   },
   {
@@ -106,7 +106,7 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "The server is rate-limiting requests to this URL, which can prevent monitoring tools, search engines, or real visitors from reliably reaching the page during busy periods.",
-    "recommendation": "Your site is turning away visitors for asking too often. Ask your web team to give good bots more room. Good bots already crawl slowly. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendation": "Your site is turning away visitors for asking too often. Ask your web team to give good bots more room. Good bots already crawl slowly. <a href=\"https://scangov.com/bot\">Learn more</a> about what to allow.",
     "recommendationTechnical": "Review and relax rate-limiting thresholds for legitimate traffic, including known crawlers, or allowlist the scanning/monitoring service's IP (44.236.34.143 for ScanGovBot)."
   },
   {
@@ -172,7 +172,7 @@
     "scangovStatus": "Scan blocked",
     "statusDescription": "We couldn't fully scan your site because it responded without any page content.",
     "problem": "The server returned a success status, but the page had no readable content. That usually means a bot-protection layer (a CDN, firewall, or hosting feature) served an empty or interstitial page to a visitor it didn't recognize, including <a href=\"https://scangov.com/bot\">ScanGovBot</a>. Search engines and AI tools that hit the same wall see nothing either, so the site can't be evaluated or indexed by them.",
-    "recommendation": "Something on your site is serving an empty page to good bots. Ask whoever manages your security settings to let good bots through. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendation": "Something on your site is serving an empty page to good bots. Ask whoever manages your security settings to let good bots through. <a href=\"https://scangov.com/bot\">Learn more</a> about what to allow.",
     "recommendationTechnical": "Check your bot-protection or CDN rules for responses that return 200 with a challenge, interstitial, or empty body. Allow the ScanGovBot user-agent, or allowlist 44.236.34.143, and confirm the homepage HTML is returned to non-browser clients."
   },
   {
@@ -183,7 +183,7 @@
     "scangovStatus": "Scan blocked",
     "statusDescription": "We couldn't scan your site because it showed our bot a captcha or browser check instead of the page.",
     "problem": "A bot-protection service in front of your site (a CDN, firewall or hosting feature) is challenging visitors it doesn't recognize. ScanGovBot identifies itself and follows robots.txt but cannot solve challenges, so the site's content can't be verified or shown here, and other good bots are probably being turned away too.",
-    "recommendation": "Ask whoever manages your hosting, CDN or firewall to let good bots through by name instead of challenging every unknown visitor. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendation": "Ask whoever manages your hosting, CDN or firewall to let good bots through by name instead of challenging every unknown visitor. <a href=\"https://scangov.com/bot\">Learn more</a> about what to allow.",
     "recommendationTechnical": "Allow-list the ScanGovBot user-agent (or 44.236.34.143) in your bot-management rules so it is not served a challenge (Cloudflare: a WAF custom rule or Bot Fight Mode exception; SiteGround: the anti-bot AI setting; Imperva: a bot policy exception). Prefer rate limiting to challenging for automated traffic that identifies itself."
   },
   {
@@ -194,7 +194,7 @@
     "scangovStatus": "Scan skipped",
     "statusDescription": "We didn't scan your site because its robots.txt asks crawlers to wait longer than we can.",
     "problem": "Your robots.txt sets a Crawl-delay above 30 seconds. ScanGov honours crawl-delay, and at that pace a scan can't finish, so the site is skipped and its content can't be verified here.",
-    "recommendation": "Ask whoever manages your robots.txt to lower the crawl-delay for good bots, or to leave it out for ScanGovBot. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendation": "Ask whoever manages your robots.txt to lower the crawl-delay for good bots, or to leave it out for ScanGovBot. <a href=\"https://scangov.com/bot\">Learn more</a> about what to allow.",
     "recommendationTechnical": "Set \"Crawl-delay: 30\" or lower in the robots.txt group that applies to ScanGovBot, or add a \"User-agent: ScanGovBot\" group with no Crawl-delay directive. Rules in a specific ScanGovBot group take precedence over \"User-agent: *\"."
   },
   {
@@ -205,7 +205,7 @@
     "scangovStatus": "Scan skipped",
     "statusDescription": "We didn't scan your site because its robots.txt asked us not to.",
     "problem": "Your robots.txt disallows ScanGovBot (or all crawlers). ScanGov honours that request and does not scan the site, so its content can't be verified or shown here until the file allows the bot.",
-    "recommendation": "If you want ScanGov to check your site, ask whoever manages your robots.txt to allow good bots. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendation": "If you want ScanGov to scan your site, ask whoever manages your robots.txt to allow good bots. <a href=\"https://scangov.com/bot\">Learn more</a> about what to allow.",
     "recommendationTechnical": "Add a group to /robots.txt that allows ScanGovBot: \"User-agent: ScanGovBot\" followed by \"Allow: /\". A blanket \"User-agent: *\" / \"Disallow: /\" rule blocks ScanGovBot unless a more specific ScanGovBot group allows it."
   },
   {
@@ -216,7 +216,7 @@
     "scangovStatus": "Scan failed",
     "statusDescription": "We weren't able to fully scan your site.",
     "problem": "The site is actively blocking automated tools, including this scanner, so its content can't be verified or indexed by anyone using similar tools.",
-    "recommendation": "Your site is blocking automated visitors on purpose, and that includes good bots. Ask whoever set that up to let good bots through. See <a href=\"https://scangov.com/bot\">ScanGovBot</a> for what to allow.",
+    "recommendation": "Your site is blocking automated visitors on purpose, and that includes good bots. Ask whoever set that up to let good bots through. <a href=\"https://scangov.com/bot\">Learn more</a> about what to allow.",
     "recommendationTechnical": "Review bot-blocking rules to allow legitimate crawlers and monitoring services, or confirm this restriction on this URL is intentional. Allow the ScanGovBot user-agent, or allowlist 44.236.34.143."
   }
 ]
