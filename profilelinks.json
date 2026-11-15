@@ -1,0 +1,17 @@
+{
+  "items": [
+    {"key": "dashboard", "title": "Dashboard", "icon": "gauge", "href": {"my": "/profile/{slug}/overview", "scangov": "/profile/{slug}/overall/", "scangov-org": "/org/{slug}/"}},
+    {"key": "pages", "title": "Pages", "icon": "file", "count": "pages", "href": {"my": "/profile/{slug}/allurls", "scangov": "/profile/{slug}/details/?attr=pages"}, "alsoActive": ["/profile/{slug}/page"]},
+    {"key": "tasklist", "title": "Tasklist", "icon": "square-check", "count": "tasks", "href": {"my": "/profile/{slug}/tasklist"}},
+    {"key": "topics", "type": "topics", "href": {"my": "/profile/{slug}/details?attr={topic}", "scangov": "/profile/{slug}/details/?attr={topic}", "scangov-org": "/org/{slug}/?attr={topic}"}},
+    {"key": "status", "title": "Status", "icon": "circle-dot", "dot": "status", "href": {"my": "/profile/{slug}/status", "scangov": "/profile/{slug}/details/?attr=status"}},
+    {"key": "brokenlinks", "title": "Broken links", "icon": "link-slash", "count": "brokenlinks", "href": {"my": "/profile/{slug}/brokenlinks?tab=confirmed"}},
+    {"key": "scans", "title": "Scans", "icon": "bars-progress", "href": {"my": "/profile/{slug}/scans"}},
+    {"key": "urls", "title": "URLs", "icon": "link", "href": {"my": "/profile/{slug}/urlset"}},
+    {"key": "share", "title": "Share", "icon": "share-from-square", "href": {"my": "/profile/{slug}/share"}},
+    {"key": "pulse", "title": "Pulse", "icon": "wave-square", "href": {"my": "/profile/{slug}/pulse", "scangov": "/profile/{slug}/pulse/", "scangov-org": "/org/{slug}/pulse/"}},
+    {"key": "changelog", "title": "Changelog", "icon": "timeline", "href": {"my": "/profile/{slug}/changelog", "scangov": "/profile/{slug}/changelog/"}},
+    {"key": "settings", "title": "Settings", "icon": "gears", "href": {"my": "/profile/{slug}/settings"}},
+    {"key": "site", "title": "Site", "icon": "up-right-from-square", "external": true, "href": {"my": "https://{domain}", "scangov": "{redirect}"}}
+  ]
+}
